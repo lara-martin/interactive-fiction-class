@@ -6,13 +6,13 @@ caption: Zork, an early intractive fiction game released in 1977.
 title: Play Text-Adventure Games
 type: in-class
 active_tab: homework
-release_date: 2022-01-13
-due_date: 2022-01-17 23:59:00EST
+release_date: 2024-01-18
+due_date: 2024-01-19 13:45:00EST
 materials:
     - 
-        name: Sentient Beings text adventure game
-        url: https://grizel.itch.io/sentient-beings
-submission_link: https://www.gradescope.com/courses/354158/assignments/1768477/
+        name: Text Adventure Games by Grizel
+        url: https://grizel.itch.io/
+submission_link: https://www.gradescope.com/courses/704268/assignments/3958998
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -56,31 +56,31 @@ The materials that you will need for this in-class activity are:
 In Class Activity: Play Text Adventure Games
 =============================================================
 
-Today in class you will play a text-adventure games in groups of 2-5 people.  We are going to play this game:
+Today in class you will play a text adventure game in groups of 2-5 people.  You can pick a game from this list:
 
 
-1. [Sentient Beings](https://grizel.itch.io/sentient-beings).  This is a text adventure game in the style of classic games like [Zork](http://textadventures.co.uk/games/view/5zyoqrsugeopel3ffhz_vq/zork) and other [Infocom games](https://en.wikipedia.org/wiki/Classic_Text_Adventure_Masterpieces_of_Infocom).  
+1. [Text Adventure Games by Grizel](https://grizel.itch.io/).  Grizel writes text adventure games in the style of classic games like [Zork](http://textadventures.co.uk/games/view/5zyoqrsugeopel3ffhz_vq/zork) and other [Infocom games](https://en.wikipedia.org/wiki/Classic_Text_Adventure_Masterpieces_of_Infocom) using a platform called [Adventuron](https://adventuron.io).  She has a lot of very lovely games, including 
+* [Snowhaven](https://grizel.itch.io/snowhaven) - a quiet, contemplative game with an optional sinister variant (let me know if you want the password for the sinister version)
+* [Reflections](https://grizel.itch.io/reflections) and [Midsummer Eve](https://grizel.itch.io/midsummer) - child-friendly games meant to introduce a new generation to the text adventure genre 
+* [Sentient Beings](https://grizel.itch.io/sentient-beings) - an exploration game set on another planet 
 
-<!--
-1. [Bronze](http://iplayif.com/?story=http://www.ifarchive.org/if-archive/games/zcode/Bronze.zblorb).  This is a text adventure game in the style of classic games like [Zork](http://textadventures.co.uk/games/view/5zyoqrsugeopel3ffhz_vq/zork) and other [Infocom games](https://en.wikipedia.org/wiki/Classic_Text_Adventure_Masterpieces_of_Infocom).  
-
-2. [AI Dungeon 2](https://colab.sandbox.google.com/github/nickwalton/AIDungeon/blob/master/AIDungeon_2.ipynb). This is a modern a machine-generated text adventure.  It uses a neural network based language model called [GPT-2](https://openai.com/blog/better-language-models/).
-
-## Bronze: A Classic Text Adventure
-
-The parser for Bronze has a limited vocabulary.  This cheatsheet should guide to what commands are allowable in text adventure games:
--->
-
-Sentient Beings won the ["Text Adventure Literacy Jam"](https://itch.io/jam/talp) which is designed to introduce younger people to text-based adventure games.   Helpfully, the game will offer you a tutorial mode.  If you enable it then, the game will display a bunch of userful hints about what commands you can use at each location in the game.
+Grizel won the ["Text Adventure Literacy Jam"](https://itch.io/jam/talp) which is designed to introduce younger people to text-based adventure games.   Helpfully, her games will offer you a tutorial mode.  If you enable the tutorial mode then her games will display a bunch of userful hints about what commands you can use at each location in the game.
 
 ### What to do
 
-1. After the game asks for your name, and whether you want the tutorial model, please issue the command **TSTART**.  Doing so will start a log of your game transcript. Once you're done playing, then type **TSTOP** and the trascript will be downloaded to your Downloads folder.
-2. Please submit your game transcript to [Gradescope]({{page.submission_link}}) by {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
+1. After the game asks whether you want the tutorial model, please issue the command **TSTART**.  Doing so will start a log of your game transcript. Once you're done playing, then type **TSTOP** and the trascript will be downloaded to your Downloads folder (be sure to click OK if your computer prompts you to allow a download).
+2. While you're playing, you should draw a map of the locations and items in the game.
+3. Please submit your game transcript and your map to [Gradescope]({{page.submission_link}}) by {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}.   We will also ask you to answer these questions
+* What game did you play?
+* Was this your first time playing a classic text adventure game?
+* What commands did you try that didn’t work?
+* How far did you get in the game?
+* How does this experience differ from reading a non-interactive story?
+* How do you think AI could be used to enhance this kind of gaming experience?
 
 ## Cheatsheet
 
-The parser for text adventure games typically  has a limited vocabulary.  This cheatsheet should guide to what commands are allowable in text adventure games:
+The parser for text adventure games typically has a limited vocabulary.  This cheatsheet should guide to what commands are allowable in text adventure games:
 
 <center>
 <img src="play-if-card.png" class="img-responsive"/>
