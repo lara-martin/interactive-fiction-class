@@ -125,7 +125,7 @@ By the end of the course, you will be able to...
 There is no textbook for this course, but you will be required to puchase a varitey of materials including games, software, and API credits. If any of these are prohibitively expensive for your budget, please let the instructor know.
 
 #### Materials 
-* [ChatGPT Plus subcription](http://chat.openai.com) - $20/month
+* [ChatGPT Plus subscription](https://chatgpt.com/#pricing) - $20/month (~$80 for the semester)
 <!--: [Midjourney subscription](https://www.midjourney.com/home) - $10/month -->
 
 #### Games
@@ -157,7 +157,7 @@ Books
 | Knowledge Checks | 15% | 5% |
 | Paper Presentations | - | 10% |
 
-
+### Assignment Descriptions
 **Knowledge Checks**
 : These checks are in place to see how well you all are understanding the material as the course goes. These might look like clicker questions (using Poll Everywhere), "minute" questions to get you to think about the topic of the day, or a small in-class assignment. These will not be graded for accuracy, just whether or not you did them.
 If you cannot attend a lecture for any reason, you can make up the "minute" questions or assignments in your own time. They will be posted either on Blackboard or the course website (this website).
