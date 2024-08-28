@@ -9,7 +9,7 @@
       title: Intro to the class, Interactive Fiction, and Automated Story Generation 
       video: 
       length: 
-      slides: slides/1_text-adventure-games.pdf
+      #slides: slides/1_text-adventure-games.pdf
       readings:
         -
           title: A Systematic Survey of Text Worlds as Embodied Natural Language Environments
@@ -50,7 +50,7 @@
   lessons:
     - 
       title: Neural Language Models + Transformers
-      slides: https://drive.google.com/file/d/1l0tzQmJoAcX7TOoq9mU8gnHDh8Cubz8i/view?usp=sharing
+      #slides: https://drive.google.com/file/d/1l0tzQmJoAcX7TOoq9mU8gnHDh8Cubz8i/view?usp=sharing
       guest_speaker: 
       guest_url: 
       video: 
@@ -89,7 +89,7 @@
       title: Transformers, Continued
       guest_speaker: 
       guest_url: 
-      slides: https://drive.google.com/file/d/1l0tzQmJoAcX7TOoq9mU8gnHDh8Cubz8i/view?usp=sharing
+      #slides: https://drive.google.com/file/d/1l0tzQmJoAcX7TOoq9mU8gnHDh8Cubz8i/view?usp=sharing
       video: 
       length:
       readings:
@@ -137,7 +137,7 @@
     - 
       title: Neural Story Generation + Module 1 Paper Presentations
       guest_speaker:
-      slides: https://docs.google.com/presentation/d/1qFjLt5DZ2aH9e4Eu0Bx1XoSjtiF1iQdKx4xDxxsy-fg/edit?usp=sharing
+      #slides: https://docs.google.com/presentation/d/1qFjLt5DZ2aH9e4Eu0Bx1XoSjtiF1iQdKx4xDxxsy-fg/edit?usp=sharing
       video: 
       length:
       readings:
@@ -179,7 +179,7 @@
   lessons:
     - 
       title: Scripts and Events
-      slides: https://drive.google.com/file/d/15NY1bEg6ZZg5e3Ny0PIWvZNRpANAnInv/view?usp=sharing
+      #slides: https://drive.google.com/file/d/15NY1bEg6ZZg5e3Ny0PIWvZNRpANAnInv/view?usp=sharing
       video: 
       length:
       readings:
@@ -215,7 +215,7 @@
       title: Understanding Procedures
       video: 
       length:
-      slides: https://docs.google.com/presentation/d/105BQYe7jyp5zSlVXORG1aJugOosUvcqk
+      #slides: https://docs.google.com/presentation/d/105BQYe7jyp5zSlVXORG1aJugOosUvcqk
       readings:
         -
           title: Implicit Representations of Meaning in Neural Language Models
@@ -240,7 +240,7 @@
       
     - 
       title: Guided Story Generation
-      slides: https://drive.google.com/file/d/1UH23icbixj0fvwjPh7U99MS6CUriMAYy/view?usp=sharing
+      #slides: https://drive.google.com/file/d/1UH23icbixj0fvwjPh7U99MS6CUriMAYy/view?usp=sharing
       video: 
       length:
       readings:
@@ -266,7 +266,7 @@
           url: https://aclanthology.org/N16-1098/          
     -
       title: Story Ending Prediction (Story Cloze Test) + Module 2 Paper Presentations
-      slides: https://drive.google.com/file/d/1J5Z4Q7GwFD-T9R_amZOX6bxEq2oj0pxY/view?usp=sharing
+      #slides: https://drive.google.com/file/d/1J5Z4Q7GwFD-T9R_amZOX6bxEq2oj0pxY/view?usp=sharing
       video: 
       length:
       presentations:
@@ -296,7 +296,7 @@
   lessons:
     - 
       title: Search
-      slides: slides/Search-and-Planning.pdf
+      #slides: slides/Search-and-Planning.pdf
       video: 
       length:
       optional:
@@ -310,7 +310,7 @@
           presenters: "Josh Ludan & Young-Min Cho"       
     - 
       title: Classical Planning
-      slides: slides/Search-and-Planning.pdf
+      #slides: slides/Search-and-Planning.pdf
       video: 
       length:
       readings:     
@@ -330,7 +330,7 @@
       title: Story Planning + Drama Management
       video: 
       length:
-      slides: slides/Sabre.pdf
+      #slides: slides/Sabre.pdf
       optional:
         -
           title: Camelot Virtual Environment
@@ -421,7 +421,7 @@
   lessons:
     -
       title: Commonsense Reasoning
-      slides: slides/Commonsense-Reasoning.pdf
+      #slides: slides/Commonsense-Reasoning.pdf
       video: 
       length:
       readings:
@@ -452,7 +452,7 @@
           url: https://leaderboard.allenai.org
     -
       title: Knowledge Representations + Schemata
-      slides: slides/CIS700-KnowledgeBases.pdf
+      #slides: slides/CIS700-KnowledgeBases.pdf
       video: 
       length:
       readings:
@@ -493,7 +493,7 @@
       guest_speaker: 
       guest_url: 
       readings:
-      slides: slides/CIS700-Recap-Ontologies.pdf
+      #slides: slides/CIS700-Recap-Ontologies.pdf
       video: 
       length:
       readings:
@@ -538,7 +538,7 @@
   lessons:
     -
       title: Intro to Dialogue + Dialogue for Interactive Fiction
-      slides: https://docs.google.com/presentation/d/1RLeEDymHWpMheNZwO7tgOWEc0t-tm7uUEXWjInEIycQ/edit?usp=sharing
+      #slides: https://docs.google.com/presentation/d/1RLeEDymHWpMheNZwO7tgOWEc0t-tm7uUEXWjInEIycQ/edit?usp=sharing
       video: 
       length:
       readings:
@@ -626,7 +626,7 @@
       title: Reinforcement Learning for Playing Interactive Fiction 
       guest_speaker: 
       guest_url: 
-      slides: https://drive.google.com/file/d/1hAJULY3V4unuk2wA-DT4-1qx-kkT8-2k/view?usp=sharing
+      #slides: https://drive.google.com/file/d/1hAJULY3V4unuk2wA-DT4-1qx-kkT8-2k/view?usp=sharing
       video: 
       length:
       readings:
@@ -652,7 +652,7 @@
           url: https://papers.neurips.cc/paper/2018/hash/645098b086d2f9e1e0e939c27f9f2d6f-Abstract.html
     -
       title: Mixed Methods
-      slides: slides/22-04-07_Mixed-Methods.pdf
+      #slides: slides/22-04-07_Mixed-Methods.pdf
       video: 
       length:
       readings:
@@ -663,7 +663,7 @@
     -
       title: Theory of Mind and Intent in Procedural Agents
       guest_speaker: 
-      slides: slides/22-04-12_Jon-May_Theory-of-Mind.pptx
+      #slides: slides/22-04-12_Jon-May_Theory-of-Mind.pptx
       guest_url: 
       video: 
       length:
@@ -692,7 +692,7 @@
       title: Story Evaluation + Module 6 Paper Presentations
       guest_speaker: 
       guest_url: 
-      slides: slides/22-04-14_Elizabeth-Clark_Evaluation-for-Story-Generation.pdf
+      #slides: slides/22-04-14_Elizabeth-Clark_Evaluation-for-Story-Generation.pdf
       video: 
       length:
       readings:
@@ -778,7 +778,7 @@
       title: Visual Storytelling
       guest_speaker: 
       guest_url: 
-      slides: slides/22-04-19_Kenneth-Huang_VIST.pdf
+      #slides: slides/22-04-19_Kenneth-Huang_VIST.pdf
       video: 
       length:
       readings:
