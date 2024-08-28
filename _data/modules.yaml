@@ -1,7 +1,7 @@
 -
   module_number: 0
-  start_date: 2024-01-18
-  end_date: 2024-01-30
+  start_date: 2024-08-29
+  end_date: 2024-08-29
   title: Introduction to IF and Automated Story Generation
   description: Welcome to the class! In this introductory module, you will become acquainted with interactive fiction (since you're probably too young to know what it is) and learn about the field of automated story generation (since it's a small subfield of AI and you probably haven't heard of it). You'll even get a chance to make your own mini interactive fiction game the old-school way!
   lessons:
@@ -39,12 +39,12 @@
       title: "Homework 1: Build a Text-Adventure Game"
       url: text-adventure-game/text-adventure-game.html
       percentage: 5%
-      due_date: 2024-01-30
+      due_date: 2024-08-29
 
 -
   module_number: 1
-  start_date: 2024-01-18
-  end_date: 2024-01-31
+  start_date: 2024-09-03
+  end_date: 2024-09-12
   title: Large Language Models
   description: With large language models becoming more popular within Natural Language Processing/Generation (NLP/NLG), automated story generation researchers realized how much easier it is to generate text. (And this also helped NLP researchers get interested in story generation!) Here, you'll learn about neural language models, particularly the transformer, how to work with them, and how they are used to generate stories.
   lessons:
@@ -127,7 +127,7 @@
       length:
       readings:
         -
-          title: "[GPT-3 paper] Language Models are Few-Shot Learners:
+          title: "[GPT-3 paper] Language Models are Few-Shot Learners"
           url: https://papers.nips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html
           authors: Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, et al.
         -
@@ -172,8 +172,8 @@
 
 -
   module_number: 2
-  start_date: 2024-02-01
-  end_date: 2021-02-10
+  start_date: 2024-09-17
+  end_date: 2024-09-26
   title: Scripts and Story Structure
   description: Scripts can be considered the backbone of storytelling. They help us fill in the gaps of knowledge that we would otherwise be missing from reading a story, and they help us reason about why events happen and what order they happen in. This Module will teach you about scripts, causal chains, and events. We'll also look at how people have been using these techniques in the age of the neural network.
   lessons:
@@ -283,8 +283,8 @@
 
 -
   module_number: 3
-  start_date: 2024-02-15
-  end_date: 2024-02-28
+  start_date: 2024-10-01
+  end_date: 2024-10-10
   title: Search and Planning
   description: 
   hw:
@@ -414,8 +414,8 @@
           url: 
 -
   module_number: 4
-  start_date: 2024-03-01
-  end_date: 2024-03-22
+  start_date: 2024-10-15
+  end_date: 2024-10-29
   title: Commonsense Reasoning + Schemas
   description:
   lessons:
@@ -531,8 +531,8 @@
       url: schemas/schemas.html
 -
   module_number: 5
-  start_date: 2024-03-24
-  end_date: 2024-04-04
+  start_date: 2024-10-31
+  end_date: 2024-11-07
   title: Dialog + Characters
   description: 
   lessons:
@@ -617,8 +617,8 @@
 
 -
   module_number: 6
-  start_date: 2024-04-05
-  end_date: 2024-04-26
+  start_date: 2024-11-12
+  end_date: 2024-12-10
   title: Bonus Lessons!
   description:
   lessons:
