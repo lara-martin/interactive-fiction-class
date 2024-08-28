@@ -76,11 +76,11 @@ First day of class is Thursday, January 13, 2022 at 1:45pm-3:15pm Eastern. It wi
 ## Fall 2024
 
 ### Prerequisites 
-: At least one of the following courses if you are an undergrad:
+At least one of the following courses if you are an undergrad:
 : CMSC 341 or CMSC 341H
 
 ### Course Description
-: We know now that artificial intelligence (AI) can play chess, Go, or even Starcraft, but can AI play text adventure games (also known as interactive fiction)? What about roleplaying games like Dungeons & Dragons? In this course, we will be looking at the subfields of automated story generation (teaching computers to tell stories), interactive fiction (teaching computers to play through stories), and their intersection (teaching computers to tell and then play through the stories). This class will teach you about computational creativity and help develop your skills in natural language processing and cognitive modeling. 
+We know now that artificial intelligence (AI) can play chess, Go, or even Starcraft, but can AI play text adventure games (also known as interactive fiction)? What about roleplaying games like Dungeons & Dragons? In this course, we will be looking at the subfields of automated story generation (teaching computers to tell stories), interactive fiction (teaching computers to play through stories), and their intersection (teaching computers to tell and then play through the stories). This class will teach you about computational creativity and help develop your skills in natural language processing and cognitive modeling. 
 
 ### Learning Objectives
 By the end of the course, you will be able to...
@@ -111,8 +111,8 @@ By the end of the course, you will be able to...
 : [vnunna1@umbc.edu](mailto:vnunna1@umbc.edu)
 
 **Office Hours**
-: Lara - Thursdays from 3:15-5pm in ITE 216
-: Vineeth - 
+: Lara - Thursdays from 3:15-5pm in ITE 216 or [by appointment](https://calendly.com/laramar/schedule)
+: Vineeth - [by appointment](mailto:vnunna1@umbc.edu) (grading questions only)
 
 ### Logistics
 **Time and Place**
@@ -122,16 +122,16 @@ By the end of the course, you will be able to...
 : Final project presentations will be held on December 12th from 10:30am - 12:30pm in Sondheim 110
 
 ### Course Materials
-: There is no textbook for this course, but you will be required to puchase a varitey of materials including games, software, and API credits. If any of these are prohibitively expensive for your budget, please let the instructor know.
+There is no textbook for this course, but you will be required to puchase a varitey of materials including games, software, and API credits. If any of these are prohibitively expensive for your budget, please let the instructor know.
+
+#### Materials 
+* [ChatGPT Plus subcription](http://chat.openai.com) - $20/month
+<!--: [Midjourney subscription](https://www.midjourney.com/home) - $10/month -->
 
 #### Games
 <!-- : [Labyrinth The Adventure Game](https://www.amazon.com/Jim-Hensons-Labyrinth-Adv-Game/dp/1916011551/) - $35 on Amazon -->
-: [Action Castle](http://www.memento-mori.com/pdf/parsely-preview-n-play-edition) - Free (you can optionally buy it in the rad [Parsley book in print](http://www.memento-mori.com/books/parsely-book) or [PDF](http://www.memento-mori.com/pdf/parsely-pdf)) - $20-30
-: Optional: [Dungeon Master's Guide - Dungeons & Dragons 5th edition Core Rulebook](https://www.amazon.com/Dungeons-Dragons-Dungeon-Rulebook-Roleplaying/dp/0786965622/) by Wizards of the Coast - $31
-
-#### Materials 
-: [ChatGPT Plus subcription](http://chat.openai.com) - $20/month
-<!--: [Midjourney subscription](https://www.midjourney.com/home) - $10/month -->
+* [Action Castle](http://www.memento-mori.com/pdf/parsely-preview-n-play-edition) - Free (you can optionally buy it in the rad [Parsley book in print](http://www.memento-mori.com/books/parsely-book) or [PDF](http://www.memento-mori.com/pdf/parsely-pdf)) - $20-30
+* Optional: [Dungeon Master's Guide - Dungeons & Dragons 5th edition Core Rulebook](https://www.amazon.com/Dungeons-Dragons-Dungeon-Rulebook-Roleplaying/dp/0786965622/) by Wizards of the Coast - $31
 
 
 <!--
@@ -168,14 +168,15 @@ Your two lowest grade class knowledge checks (i.e., incomplete or missing submis
 
 ### Class Policies
 #### Collaboration Policy
-: Unless otherwise noted, you ARE allowed to work in pairs on the homework assignments, and teams of 3-5 for the final project.
+Unless otherwise noted, you ARE allowed to work in pairs on the homework assignments, and teams of 3-5 for the final project.
 
 #### Late Day Policy
-: Each student has five free "late days".  Homeworks can be submitted at most two days late.  If you are out of late days, then you will not be able to get credit for subsequent late assignments. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays.  You do not need to ask permission to use your late days.  No additional late days are granted. **Late days only apply to the homeworks. They cannot be used on the last deadline for the final project, which must be finished by the final day of class.  Late days may not be used for paper presentations.**
+Each student has five free "late days".  Homeworks can be submitted at most two days late.  If you are out of late days, then you will not be able to get credit for subsequent late assignments. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays.  You do not need to ask permission to use your late days.  No additional late days are granted. **Late days only apply to the homeworks. They cannot be used on the last deadline for the final project, which must be finished by the final day of class.  Late days may not be used for paper presentations.**
 
 #### Academic Integrity
-: If you are struggling because of the material or having difficulties completing the assignments on time, please [reach out to Dr. Martin](mailto:laramar@umbc.edu) rather than copying another student or looking up answers online. We can come up with a solution to help you out before you feel like you need to resort to cheating.
-: I care a lot about the students who take my classes, and that also means that I take cheating very seriously. Plagiarism or any sort of cheating is not tolerated in this class. All work submitted must be your own (or, if permitted, with partners---see [Collaoration Policy](#collaboration-policy). If you are allowed external sources on an assignment, please be sure to cite your source! This includes Large Language Models (LLMs): Please see [the next section](#generative-ai) for our policy specific to ChatGPT and other generative AI. Remember, reusing your own work from a different class is not permitted; this is self-plagiarism. If you are suspected of cheating, plagiarism, or other forms of academic dishonesty, your case will be brought to the attention of the Undergraduate Academic Conduct Committee or Graduate Council Grievance Committee and may result in an F in the course, depending on the Committee’s decision. **Your first offense will result in at least a 0 (zero) on the assignment.** If you would like more information on what constitutes as academic dishonesty, please consult [https://academicconduct.umbc.edu/](https://academicconduct.umbc.edu/).
+If you are struggling because of the material or having difficulties completing the assignments on time, please [reach out to Dr. Martin](mailto:laramar@umbc.edu) rather than copying another student or looking up answers online. We can come up with a solution to help you out before you feel like you need to resort to cheating.
+
+I care a lot about the students who take my classes, and that also means that I take cheating very seriously. Plagiarism or any sort of cheating is not tolerated in this class. All work submitted must be your own (or, if permitted, with partners---see [Collaoration Policy](#collaboration-policy). If you are allowed external sources on an assignment, please be sure to cite your source! This includes Large Language Models (LLMs): Please see [the next section](#generative-ai) for our policy specific to ChatGPT and other generative AI. Remember, reusing your own work from a different class is not permitted; this is self-plagiarism. If you are suspected of cheating, plagiarism, or other forms of academic dishonesty, your case will be brought to the attention of the Undergraduate Academic Conduct Committee or Graduate Council Grievance Committee and may result in an F in the course, depending on the Committee’s decision. **Your first offense will result in at least a 0 (zero) on the assignment.** If you would like more information on what constitutes as academic dishonesty, please consult [https://academicconduct.umbc.edu/](https://academicconduct.umbc.edu/).
 
 #### LLMs/"Generative AI"
 This course is centered around text generation, and we will be using GPT for a large portion of it. That said, any time that you use a large language model (LLM) for an assignment you must provide (1) the exact prompt that you used and (2) the original, unedited generation.
