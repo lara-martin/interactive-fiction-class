@@ -125,7 +125,7 @@ By the end of the course, you will be able to...
 There is no textbook for this course, but you will be required to puchase a varitey of materials including games, software, and API credits. If any of these are prohibitively expensive for your budget, please let the instructor know.
 
 #### Materials 
-* [ChatGPT Plus subscription](https://chatgpt.com/#pricing) - $20 /month (~$80 for the semester)
+* [ChatGPT Plus subscription](https://chatgpt.com/#pricing) - <span>$</span>20/month (~$80 for the semester)
 <!--: [Midjourney subscription](https://www.midjourney.com/home) - $10/month -->
 
 #### Games
