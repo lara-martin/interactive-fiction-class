@@ -7,7 +7,7 @@ type: Homework
 number: 2
 group_size: 5
 active_tab: homework
-release_date: 2024-02-11
+release_date: 2024-09-11
 due_date: 2024-02-20 13:45:00EST
 materials:
     - 
