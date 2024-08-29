@@ -240,7 +240,7 @@ You should submit a link to a Github repository which contains the following:
 4. A text file called `README.md` containing a short paragraph describing your game, and why you picked that topic.
 5. An image showing the directed graph for your game. 
 
-Submissions should be done on [Gradescope]({{page.submission_link}}).
+Submissions should be done on [Blackboard]({{page.submission_link}}).
 
 ## Grading
 <div class="alert alert-warning" markdown="1">
