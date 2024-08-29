@@ -125,8 +125,9 @@ By the end of the course, you will be able to...
 There is no textbook for this course, but you will be required to puchase a variety of materials including games, software, and API credits. If any of these are prohibitively expensive for your budget, please let the instructor know.
 
 #### Materials 
-* [ChatGPT Plus subscription](https://chatgpt.com/#pricing) - <span>$</span>20/month (~$80 for the semester)
-  * The subscription is preferred, but if you cannot afford this, you can use GPT-4o mini and the free trial of GPT-4/GPT-4o. 
+* [OpenAI API account](https://platform.openai.com/api-keys) - Pay-as-you-go
+  * Please do not sign up for the ChatGPT Plus subscription since you do not get access to the API with it.
+  * If you cannot afford GPT-4/GPT-4o, you can use GPT-4o mini for free but the quality will most likely be lower. 
 <!--: [Midjourney subscription](https://www.midjourney.com/home) - $10/month -->
 
 #### Games
