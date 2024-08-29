@@ -6,13 +6,7 @@
       title: Play a text adventure game
       url: play-text-adventures/play-text-adventures.html
 
--
-  date: 2024-09-02
-  type: deadline
-  homework_due:   
-    -
-      title: "HW1: Build a Text-Adventure Game (5%)"
-      url: text-adventure-game/text-adventure-game.html
+
 
 -
   date: 2024-09-03
@@ -35,7 +29,13 @@
     -
       title: Create Data for Intent Detection
       url: intent-detection/intent-detection.html
-
+-
+  date: 2024-09-09
+  type: deadline
+  homework_due:   
+    -
+      title: "HW1: Build a Text-Adventure Game (5%)"
+      url: text-adventure-game/text-adventure-game.html
 -
   date: 2024-09-10
   title: Pretraining/Prompting
