@@ -145,6 +145,7 @@ Books
 
 ### Grading
 
+<table class="zui-table">
 | Assignment | 491 (undergrad) | 691 (grad) |
 |------------|-----------------|------------|
 | Homework 1 | 5% | 5% |
@@ -156,6 +157,7 @@ Books
 | Project | 30% | 30% |
 | Knowledge Checks | 15% | 5% |
 | Paper Presentations | - | 10% |
+</table>
 
 ### Assignment Descriptions
 **Knowledge Checks**
