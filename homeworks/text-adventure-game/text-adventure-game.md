@@ -18,7 +18,7 @@ materials:
         url: http://www.memento-mori.com/pdf/parsely-preview-n-play-edition
     - 
         name: Text from Action Castle  
-        url: https://raw.githubusercontent.com/interactive-fiction-class/interactive-fiction-class.github.io/master/homeworks/text-adventure-game/action_castle_text.txt
+        url: https://raw.githubusercontent.com/lara-martin/interactive-fiction-class/master/homeworks/text-adventure-game/action_castle_text.txt
 submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7097981_1?courseId=_82444_1&gradeitemView=details&gradebookCategoryId=_24131213_1&assessmentSubtype=Assignment
 readings:
     -
