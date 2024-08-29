@@ -43,7 +43,7 @@
   activities: 
     -
       title: Intent Determination with GPT-3
-      url: intent-detection-2/intent-detection-2.html
+      url: #intent-detection-2/intent-detection-2.html
 
 -
   date: 2024-09-11
@@ -62,7 +62,7 @@
   homework_due:
     -
       title: "HW2: Generating Descriptions (10%)"
-      url: generating-descriptions/generating-descriptions.html
+      url: #generating-descriptions/generating-descriptions.html
 
 -
   date: 2024-09-17
@@ -90,7 +90,7 @@
   homework_due:
     -
       title: "HW3: Plot Graph Generation HW (10%)"
-      url: plots/plots.html
+      url: #plots/plots.html
 
 -
   date: 2024-10-01
@@ -98,7 +98,7 @@
   activities:
     -
       title: Search Algorithms for Action Castle
-      url: search/action-castle-search.html
+      url: #search/action-castle-search.html
    
 -
   date: 2024-10-03
@@ -106,7 +106,7 @@
   activities:
     -
       title: Planning and PDDL
-      url: planning/planning-and-pddl.html
+      url: #planning/planning-and-pddl.html
 -
   date: 2024-10-07
   type: deadline
@@ -139,15 +139,7 @@
   homework_due:
     -
       title: "HW4 Planning: Convert WikiHow to PDDL (10%)"
-      url: planning/planning.html      
-
--
-  date: 2024-10
-  type: deadline
-  homework_due:   
-    -
-      title: Paper Summaries 2
-      url: https://www.gradescope.com/courses/354158/assignments/1882460
+      url: #planning/planning.html
       
 -
   date: 2024-10-22
@@ -159,7 +151,7 @@
   homework_due:   
     -
       title: Final Project Milestone 1&colon; Proposal + Lightning Talk (5%)
-      url: project-proposal/project-proposal.html
+      url: #project-proposal/project-proposal.html
 
 -
   date: 2024-10-24
@@ -177,7 +169,7 @@
   activities:
     -
       title: Train GPT-3 to Perform Dialogue for NPCs
-      url: dialogue/light-dialogue.html
+      url: #dialogue/light-dialogue.html
   
 -
   date: 2024-11-04
@@ -185,7 +177,7 @@
   homework_due:
     -
       title: "HW5 Schemas: COMET-ATOMIC Schema (10%)"
-      url: schemas/schemas.html
+      url: #schemas/schemas.html
       
 -
   date: 2024-11-06
@@ -198,19 +190,12 @@
   activities:
     -
       title: Characters and Quests
-      url: dialogue-2/quests.html
+      url: #dialogue-2/quests.html
 
 -
   date: 2024-11-07
   title: Module 5 Paper Presentations
-  
--
-  date: 2024-11-11
-  type: deadline
-  homework_due:   
-    -
-      title: Paper Summaries 3
-      url: https://www.gradescope.com/courses/354158/assignments/1937440
+
       
 -
   date: 2024-11-11
@@ -218,7 +203,7 @@
   homework_due:
     - 
       title: Final Project Milestone 2&colon; Progress Report (Lit Review &amp; Baselines) (5%)
-      url: progress-report1/pr1.html
+      url: #progress-report1/pr1.html
 
 -
   date: 2024-11-12
@@ -234,7 +219,7 @@
   homework_due: 
     - 
       title: "HW6 Dialog: Alexa Action-Castle (10%)"
-      url:  alexa_action_castle/alexa-action-castle.html
+      url: # alexa_action_castle/alexa-action-castle.html
 
 -
   date: 2024-11-19
@@ -251,15 +236,8 @@
   homework_due:
     - 
       title: Final Project Milestone 3&colon; Final Report Draft (5%)
-      url: progress-report2/pr2.html
-      
--
-  date: 2024
-  type: deadline
-  homework_due:
-    - 
-      title: Paper Summaries 4
-      url: https://www.gradescope.com/courses/354158/assignments/1945221
+      url: #progress-report2/pr2.html
+
 
 -
   date: 2024-11-26
@@ -279,11 +257,9 @@
   type: deadline
   homework_due: 
     - 
-      title: Final Project Milestone 4&colon; Final Report (20%)
-      url: project-final-submission/project-final.html
-    - 
-      title: Video Presentation Submission Due
-      url: 
+      title: Final Project Milestone 4&colon; Final Submission
+      url: #project-final-submission/project-final.html
+
 
 -
   date: 2024-12-05
