@@ -122,7 +122,7 @@ By the end of the course, you will be able to...
 : Final project presentations will be held on December 12th from 10:30am - 12:30pm in Sondheim 110
 
 ### Course Materials
-There is no textbook for this course, but you will be required to puchase a varitey of materials including games, software, and API credits. If any of these are prohibitively expensive for your budget, please let the instructor know.
+There is no textbook for this course, but you will be required to puchase a variety of materials including games, software, and API credits. If any of these are prohibitively expensive for your budget, please let the instructor know.
 
 #### Materials 
 * [ChatGPT Plus subscription](https://chatgpt.com/#pricing) - <span>$</span>20/month (~$80 for the semester)
