@@ -146,17 +146,24 @@ Books
 ### Grading
 
 <table class="zui-table">
-| Assignment | 491 (undergrad) | 691 (grad) |
-|------------|-----------------|------------|
-| Homework 1 | 5% | 5% |
-| Homework 2 | 10% | 10% |
-| Homework 3 | 10% | 10% |
-| Homework 4 | 10% | 10% |
-| Homework 5 | 10% | 10% |
-| Homework 6 | 10% | 10% |
-| Project | 30% | 30% |
-| Knowledge Checks | 15% | 5% |
-| Paper Presentations | - | 10% |
+  <thead>
+    <tr>
+      <th>Assignment</th> 
+      <th>491 (undergrad)</th>
+      <th>691 (grad)</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr> <td>Homework 1</td> <td> 5% </td><td> 5% </td></tr>
+  <tr> <td>Homework 2</td> <td> 10% </td><td> 10% </td></tr>
+  <tr> <td>Homework 3</td> <td> 10% </td><td> 10% </td></tr>
+  <tr> <td>Homework 4</td> <td> 10% </td><td> 10% </td></tr>
+  <tr> <td>Homework 5</td> <td> 10% </td><td> 10% </td></tr> 
+  <tr> <td>Homework 6</td> <td> 10% </td><td> 10% </td></tr>
+  <tr> <td>Project</td> <td> 30% </td><td> 30% </td></tr>
+  <tr> <td>Knowledge Checks</td> <td> 15% </td><td> 5% </td></tr>
+  <tr> <td>Paper Presentation</td> <td> - </td><td> 10% </td></tr>
+    </tbody>
 </table>
 
 ### Assignment Descriptions
