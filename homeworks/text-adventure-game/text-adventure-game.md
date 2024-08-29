@@ -7,19 +7,19 @@ title: Build a Text-Adventure Game
 type: Homework
 number: 1
 active_tab: homework
-release_date: 2024-01-22
-due_date: 2024-01-30 13:45:00EST
+release_date: 2024-08-29
+due_date: 2024-09-09 23:59:00EST
 materials:
     - 
         name: Text Adventure Game starter code (Zip file)
-        url: https://www.cis.upenn.edu/~ccb/teaching/2024sp/CIS-7000.zip
+        url: https://github.com/lara-martin/interactive-fiction-class/raw/master/homeworks/text-adventure-game/IF-Class-HW1.zip
     - 
         name: Parsely&colon; Preview n' Play Edition (this contains the Action Castle game).  
         url: http://www.memento-mori.com/pdf/parsely-preview-n-play-edition
     - 
         name: Text from Action Castle  
         url: https://raw.githubusercontent.com/interactive-fiction-class/interactive-fiction-class.github.io/master/homeworks/text-adventure-game/action_castle_text.txt
-submission_link: https://www.gradescope.com/courses/704268/assignments/3980065/
+submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7097981_1?courseId=_82444_1&gradeitemView=details&gradebookCategoryId=_24131213_1&assessmentSubtype=Assignment
 readings:
     -
       title: Adventuron Classroom
@@ -91,8 +91,8 @@ First download the zip file, then create a virtual environment and install
 the dependencies.
 
 ```
-$ unzip CIS-7000.zip
-$ cd CIS-7000/HW1/
+$ unzip IF-Class-HW1.zip
+$ cd IF-Class/HW1/
 $ python3 -mvenv venv
 $ source venv/bin/activate
 (venv) $ pip install .
@@ -105,7 +105,7 @@ The best way to ensure a good experience with VSCode is to launch it from the
 project directory with your virtual environment already enabled.
 
 ```
-$ cd path/to/homework/CIS-7000/HW1/
+$ cd path/to/homework/IF-Class/HW1/
 $ source venv/bin/activate
 (venv) $ code .
 ```
