@@ -126,6 +126,7 @@ There is no textbook for this course, but you will be required to puchase a vari
 
 #### Materials 
 * [ChatGPT Plus subscription](https://chatgpt.com/#pricing) - <span>$</span>20/month (~$80 for the semester)
+  * The subscription is preferred, but if you cannot afford this, you can use GPT-4o mini and the free trial of GPT-4/GPT-4o. 
 <!--: [Midjourney subscription](https://www.midjourney.com/home) - $10/month -->
 
 #### Games
