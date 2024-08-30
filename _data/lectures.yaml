@@ -1,7 +1,6 @@
 -
   date: 2024-08-29
   title: Intro to the class, Interactive Fiction, and Automated Story Generation
-  slides: slides/lecture-1_ text-adventure-games.pdf
   activities: 
     -
       title: Play a text adventure game
