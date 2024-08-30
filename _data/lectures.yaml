@@ -1,10 +1,10 @@
 -
   date: 2024-08-29
   title: Intro to the class, Interactive Fiction, and Automated Story Generation
-  activities: 
-    -
-      title: Play a text adventure game
-      url: play-text-adventures/play-text-adventures.html
+  #activities: 
+  #  -
+  #    title: Play a text adventure game
+  #    url: play-text-adventures/play-text-adventures.html
 
 
 
@@ -25,10 +25,10 @@
 -
   date: 2024-09-05
   title: Transformers, Continued
-  activities:
-    -
-      title: Create Data for Intent Detection
-      url: intent-detection/intent-detection.html
+  #activities:
+  #  -
+  #    title: Create Data for Intent Detection
+  #    url: intent-detection/intent-detection.html
 -
   date: 2024-09-09
   type: deadline
@@ -39,10 +39,10 @@
 -
   date: 2024-09-10
   title: Pretraining/Prompting
-  activities: 
-    -
-      title: Intent Determination with GPT-3
-      url: #intent-detection-2/intent-detection-2.html
+  #activities: 
+  #  -
+  #    title: Intent Determination with GPT-3
+  #    url: intent-detection-2/intent-detection-2.html
 
 -
   date: 2024-09-11
@@ -66,10 +66,10 @@
 -
   date: 2024-09-17
   title: Scripts and Events
-  activities:
-    -
-      title: Make Your Own Mini Script
-      url: script_making.html
+  #activities:
+  #  -
+  #    title: Make Your Own Mini Script
+  #    url: script_making.html
  
 -
   date: 2024-09-19
@@ -94,25 +94,18 @@
 -
   date: 2024-10-01
   title: Search
-  activities:
-    -
-      title: Search Algorithms for Action Castle
-      url: #search/action-castle-search.html
+  #activities:
+  #  -
+  #    title: Search Algorithms for Action Castle
+  #    url: search/action-castle-search.html
    
 -
   date: 2024-10-03
   title: Classical Planning
-  activities:
-    -
-      title: Planning and PDDL
-      url: #planning/planning-and-pddl.html
--
-  date: 2024-10-07
-  type: deadline
-  homework_due:   
-    -
-      title: Paper Summaries 1
-      url: https://www.gradescope.com/courses/354158/assignments/1836304
+  #activities:
+  #  -
+  #    title: Planning and PDDL
+  #    url: planning/planning-and-pddl.html
 
 -
   date: 2024-10-08
@@ -131,10 +124,10 @@
   date: 2024-10-21
   type: deadline
   title: Knowledge Representations + Schemata
-  activities: 
-    -
-      title: WordNet Schemas
-      url: schemas/schemas.html
+  #activities: 
+  #  -
+  #    title: WordNet Schemas
+  #    url: schemas/schemas.html
   homework_due:
     -
       title: "HW4 Planning: Convert WikiHow to PDDL (10%)"
@@ -165,10 +158,10 @@
 -
   date: 2024-10-31
   title: Intro to Dialogue + Dialogue for Interactive Fiction
-  activities:
-    -
-      title: Train GPT-3 to Perform Dialogue for NPCs
-      url: #dialogue/light-dialogue.html
+  #activities:
+  #  -
+  #    title: Train GPT-3 to Perform Dialogue for NPCs
+  #    url: dialogue/light-dialogue.html
   
 -
   date: 2024-11-04
@@ -186,10 +179,10 @@
 -
   date: 2024-11-05
   title: Character-Based Generation
-  activities:
-    -
-      title: Characters and Quests
-      url: #dialogue-2/quests.html
+  #activities:
+  #  -
+  #    title: Characters and Quests
+  #    url: dialogue-2/quests.html
 
 -
   date: 2024-11-07
