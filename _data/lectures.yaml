@@ -10,7 +10,7 @@
 
 -
   date: 2024-09-03
-  title: Neural Language Models + Transformers
+  title: Neural Language Models + Attention
 
 -
   date: 2024-09-04
@@ -24,7 +24,7 @@
 
 -
   date: 2024-09-05
-  title: Transformers, Continued
+  title: Transformers
   #activities:
   #  -
   #    title: Create Data for Intent Detection
@@ -119,11 +119,13 @@
   date: 2024-10-15
   title: Commonsense Reasoning
 
-      
+-
+  date: 2024-10-17
+  title: Knowledge Representations + Schemata
+     
 -
   date: 2024-10-21
   type: deadline
-  title: Knowledge Representations + Schemata
   #activities: 
   #  -
   #    title: WordNet Schemas
