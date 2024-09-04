@@ -137,7 +137,7 @@
           url: https://arxiv.org/abs/2107.13586
           authors: Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, Graham Neubig
         -
-          title "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
+          title: "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
           url: https://papers.neurips.cc/paper_files/paper/2022/hash/9d5609613524ecf4f15af0f7b31abca4-Abstract-Conference.html
           authors: Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter, Fei Xia, Ed Chi, Quoc Le, Denny Zhou
     - 
