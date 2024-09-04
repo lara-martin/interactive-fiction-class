@@ -523,7 +523,7 @@
           authors: Lei Shi and Rada Mihalcea
           url: https://web.eecs.umich.edu/~mihalcea/papers/shi.cicling05.pdf
     -
-      title: Midsemester Recap + Ontologies
+      title: Storytelling with Ontologies + Midsemester Recap
       guest_speaker: 
       guest_url: 
       readings:
@@ -532,9 +532,9 @@
       length:
       readings:
         -
-          title: The Rich Event Ontology
-          url: https://aclanthology.org/W17-2712/
-          authors: Susan Brown, Claire Bonial, Leo Obrst, Martha Palmer      
+          title: "FIREBALL: A Dataset of Dungeons and Dragons Actual-Play with Structured Game State Information"
+          url: https://aclanthology.org/2023.acl-long.229/
+          authors: Andrew Zhu, Karmanya Aggarwal, Alexander Feng, Lara J. Martin, Chris Callison-Burch 
     -
       title: Module 4 Paper Presentations
       video: 
@@ -611,6 +611,9 @@
       video: 
       length:
       readings:
+        -
+          title: "Dungeons and Dragons as a Dialogue Challenge for Artificial Intelligence"
+          authors: Chris Callison-Burch, Gaurav Singh Tomar, Lara J. Martin, Daphne Ippolito, Suma Bailis, David Reitter
         -
           title: "Deep Dungeons and Dragons: Learning Character-Action Interactions from Role-Playing Game Transcripts"
           authors: Annie Louis, Charles Sutton

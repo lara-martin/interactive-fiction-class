@@ -116,11 +116,11 @@
           
 -
   date: 2024-10-15
-  title: Commonsense Reasoning
+  title: LLM-based Story Planning
 
 -
   date: 2024-10-17
-  title: Knowledge Representations + Schemata
+  title: Commonsense Reasoning
      
 -
   date: 2024-10-21
@@ -131,12 +131,12 @@
   #    url: schemas/schemas.html
   homework_due:
     -
-      title: "HW4 Planning: Convert WikiHow to PDDL (10%)"
+      title: #"HW4 Planning: Convert WikiHow to PDDL (10%)"
       url: #planning/planning.html
       
 -
   date: 2024-10-22
-  title: Midsemester Recap + Ontologies
+  title: Knowledge Representations + Schemata
 
 -
   date: 2024-10
@@ -146,19 +146,15 @@
       title: Final Project Milestone 1&colon; Proposal + Lightning Talk
       url: #project-proposal/project-proposal.html
 
--
-  date: 2024-10-24
-  title: Final Project Lightning Talks
-
 
   
 -
   date: 2024-10-29
-  title: Module 4 Paper Presentations
+  title: Storytelling with Ontologies + Midsemester Recap
 
 -
   date: 2024-10-31
-  title: Intro to Dialogue + Dialogue for Interactive Fiction
+  title: Intro to Dialogue + Dialogue for Interactive Fiction + Module 4 Paper Presentations
   #activities:
   #  -
   #    title: Train GPT-3 to Perform Dialogue for NPCs
@@ -219,6 +215,8 @@
 #Theory of Mind and Intent in Procedural Agents
 #Story Evaluation
 #Visual Storytelling
+#Collaborative storytelling
+#RL for story generation
 -
   date: 2024-11-19
   title: 
