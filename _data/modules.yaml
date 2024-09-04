@@ -59,17 +59,9 @@
       length:
       readings:
         -
-          title: "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"
-          url: https://dl.acm.org/doi/10.1145/3442188.3445922
-          authors: Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, Margaret Mitchell
-        -
-          title: "[GPT-2 paper] Language Models are Unsupervised Multitask Learners"
-          url: https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf
-          authors: Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever
-        -
-          title: "[Transformer paper] Attention is All You Need"
-          url: https://papers.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
-          authors: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin
+          title: The Curious Case of Neural Text Degeneration
+          url: https://openreview.net/pdf?id=rygGQyrFvH
+          authors: Ari Holtzman, Jan Buys, Li Du, Maxwell Forbes, Yejin Choi        
         -
           title: "Sequence to Sequence Learning with Neural Networks"
           url: https://proceedings.neurips.cc/paper/2014/file/a14ac55a4f27472c5d894ec1c3c743d2-Paper.pdf
@@ -77,7 +69,11 @@
         -
           title: "Generating Sequences With Recurrent Neural Networks"
           url: https://arxiv.org/abs/1308.0850
-          authors: Alex Graves          
+          authors: Alex Graves
+        -
+          title: "[word2vec paper] Efficient Estimation of Word Representations in Vector Space"
+          authors: Tomas Mikolov, Kai Chen, Greg Corrado, Jeffrey Dean
+          url: https://arxiv.org/abs/1301.3781          
       optional:
         -
           title: Tay, Microsoft's AI chatbot, gets a crash course in racism from Twitter
@@ -96,17 +92,21 @@
       length:
       readings:
         -
-          title: The Curious Case of Neural Text Degeneration
-          url: https://openreview.net/pdf?id=rygGQyrFvH
-          authors: Ari Holtzman, Jan Buys, Li Du, Maxwell Forbes, Yejin Choi
+          title: "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"
+          url: https://dl.acm.org/doi/10.1145/3442188.3445922
+          authors: Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, Margaret Mitchell
+        -
+          title: "[Transformer paper] Attention is All You Need"
+          url: https://papers.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
+          authors: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin      
+        -
+          title: "[GPT-2 paper] Language Models are Unsupervised Multitask Learners"
+          url: https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf
+          authors: Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever          
         -
           title: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
           authors: Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova
           url: https://aclanthology.org/N19-1423/
-        -
-          title: "[word2vec paper] Efficient Estimation of Word Representations in Vector Space"
-          authors: Tomas Mikolov, Kai Chen, Greg Corrado, Jeffrey Dean
-          url: https://arxiv.org/abs/1301.3781
         -
           title: "[T5 paper] Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"
           url: https://arxiv.org/abs/1910.10683
@@ -135,7 +135,11 @@
         -
           title: "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing"
           url: https://arxiv.org/abs/2107.13586
-          authors: Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, Graham Neubig      
+          authors: Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, Graham Neubig
+        -
+          title "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
+          url: https://papers.neurips.cc/paper_files/paper/2022/hash/9d5609613524ecf4f15af0f7b31abca4-Abstract-Conference.html
+          authors: Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter, Fei Xia, Ed Chi, Quoc Le, Denny Zhou
     - 
       title: Intro to Neural Story Generation + Module 1 Paper Presentations
       guest_speaker:
@@ -168,9 +172,9 @@
   hw:
     -
       title: "Homework 2: Generating Descriptions"
-      url: generating-descriptions/generating-descriptions.html
+      url: #generating-descriptions/generating-descriptions.html
       percentage: 10%
-      due_date: 2024-01-31
+      due_date: #2024-01-31
 
 -
   module_number: 2
@@ -212,7 +216,11 @@
         -
           title: Fiction, Non-Factuals, and the Principle of Minimal Departure
           url: https://www.sciencedirect.com/science/article/pii/0304422X80900303
-          authors: Marie-Laure Ryan          
+          authors: Marie-Laure Ryan
+        -
+          title: "Event Causality Is Key to Computational Story Understanding"
+          url:    https://aclanthology.org/2024.naacl-long.191/
+          authors: Yidan Sun, Qin Chao, Boyang Li 
     - 
       title: Understanding Procedures
       video: 
@@ -280,8 +288,8 @@
     -
       title: "Homework 3: Plot Graph Generation"
       percentage: 10%
-      due_date: 2024-02-15
-      url: plots/plots.html
+      due_date: #2024-02-15
+      url: #plots/plots.html
 
 -
   module_number: 3
@@ -293,8 +301,8 @@
     -
       title: "Homework 4: Convert WikiHow to PDDL"
       percentage: 10%
-      due_date: 2024-03-03
-      url: planning/planning.html
+      due_date: #2024-03-03
+      url: #planning/planning.html
   lessons:
     - 
       title: Search
@@ -340,6 +348,9 @@
           authors: Narrative Intelligence Lab at the University of Kentucky
       readings:
         -
+          title: The Story So Far on Narrative Planning
+          authors: Rogelio Cardona-Rivera, Arnav Jhala, Julie Porteous, R. Michael Young
+        -
           title: Story-Telling as Planning and Learning
           authors: Michael Lebowitz
           url: https://www.sciencedirect.com/science/article/pii/0304422X85900154
@@ -379,6 +390,27 @@
           title: "Multi-Agent Narrative Experience Management as Story Graph Pruning"
           authors: Stephen G. Ware, Edward T. Garcia, Alireza Shirvani, Rachelyn Farrell
           url: http://cs.uky.edu/~sgware/reading/papers/ware2019multi.pdf
+    -
+      title: LLM-based Story Planning
+      readings:
+        -
+          title: "StoryVerse: Towards Co-authoring Dynamic Plot with LLM-based Character Simulation via Narrative Planning"
+          url: https://dl.acm.org/doi/10.1145/3649921.3656987
+          authors: Yi Wang, Qian Zhou, David Ledo
+        -
+          title: "Little Red Riding Hood Goes Around the Globe: Crosslingual Story Planning and Generation with Large Language Models"
+          url: https://aclanthology.org/2024.lrec-main.929/
+          authors: Evgeniia Razumovskaia, Joshua Maynez, Annie Louis, Mirella Lapata, Shashi Narayan
+        -
+          title: "Does Robin Hood Use a Lightsaber?: Automated Planning for Storytelling"
+          url: https://ojs.aaai.org/index.php/AAAI/article/view/30411
+          authors: Nisha Simon
+        -
+          title: "Neural Story Planning"
+          url: https://openreview.net/forum?id=cLBEKlu5WZK
+          authors: Anbang Ye, Christopher Cui, Taiwei Shi, Mark O. Riedl
+          
+          
     -
       title: Façade Playthrough + Module 3 Paper Presentations
       video: 
@@ -529,8 +561,8 @@
     -
       title: "Homework 5: COMET-ATOMIC Schema"
       percentage: 10%
-      due_date: 2024-03-21
-      url: schemas/schemas.html
+      due_date: 
+      url: #schemas/schemas.html
 -
   module_number: 5
   start_date: 2024-10-31
@@ -612,9 +644,9 @@
       
   hw:
     -
-      title: "Homework 6: "
+      title: "Homework 6: Character-based Story Generation"
       percentage: 10%
-      due_date: 2024
+      due_date: 
       url: 
 
 -
@@ -663,6 +695,9 @@
           authors: Lara J. Martin
           url: https://smartech.gatech.edu/handle/1853/64643
     -
+      title: Peiqi "Patrick" Sui
+      guest_speaker: Peiqi "Patrick" Sui          
+    -
       title: Theory of Mind and Intent in Procedural Agents
       guest_speaker: 
       #slides: slides/22-04-12_Jon-May_Theory-of-Mind.pptx
@@ -691,13 +726,17 @@
           url: https://laramartin.net/pub/Martin_ICIDS2016.pdf
           authors: Lara J. Martin, Brent Harrison, and Mark O. Riedl
     -
-      title: Story Evaluation + Module 6 Paper Presentations
+      title: Story Evaluation 
       guest_speaker: 
       guest_url: 
       #slides: slides/22-04-14_Elizabeth-Clark_Evaluation-for-Story-Generation.pdf
       video: 
       length:
       readings:
+        -
+          title: "Do Language Models Enjoy Their Own Stories? Prompting Large Language Models for Automatic Story Evaluation"
+          authors: Cyril Chhun, Fabian M. Suchanek, Chloé Clavel
+          url: http://arxiv.org/abs/2405.13769
         -
           title: "Evaluation of Text Generation: A Survey"
           authors: Asli Celikyilmaz, Elizabeth Clark, Jianfeng Gao
@@ -777,7 +816,7 @@
       presentations:
  
     -
-      title: Visual Storytelling
+      title: Visual Storytelling + Module 6 Paper Presentations
       guest_speaker: 
       guest_url: 
       #slides: slides/22-04-19_Kenneth-Huang_VIST.pdf

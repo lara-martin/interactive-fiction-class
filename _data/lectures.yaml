@@ -143,7 +143,7 @@
   type: deadline
   homework_due:   
     -
-      title: Final Project Milestone 1&colon; Proposal + Lightning Talk (5%)
+      title: Final Project Milestone 1&colon; Proposal + Lightning Talk
       url: #project-proposal/project-proposal.html
 
 -
@@ -195,46 +195,51 @@
   type: deadline
   homework_due:
     - 
-      title: Final Project Milestone 2&colon; Progress Report (Lit Review &amp; Baselines) (5%)
+      title: Final Project Milestone 2&colon; Progress Report (Lit Review &amp; Baselines)
       url: #progress-report1/pr1.html
 
 -
   date: 2024-11-12
-  title: Reinforcement Learning for Playing Interactive Fiction
+  title: 
 
 -
   date: 2024-11-14
-  title: Neurosymbolic Story Generation
+  title: Peiqi "Patrick" Sui
+  
 
 -
   date: 2024-11-18
   type: deadline
   homework_due: 
     - 
-      title: 
+      title: HW6
       url: 
-
+#Reinforcement Learning for Playing Interactive Fiction
+#Neurosymbolic Story Generation
+#Theory of Mind and Intent in Procedural Agents
+#Story Evaluation
+#Visual Storytelling
 -
   date: 2024-11-19
-  title: Theory of Mind and Intent in Procedural Agents
+  title: 
 
 
 -
   date: 2024-11-21
-  title: Story Evaluation + Module 6 Paper Presentations
+  title:  + Module 6 Paper Presentations
 
 -
   date: 2024-11-25
   type: deadline
   homework_due:
     - 
-      title: Final Project Milestone 3&colon; Final Report Draft (5%)
+      title: Final Project Milestone 3&colon; Final Report Draft
       url: #progress-report2/pr2.html
 
 
 -
   date: 2024-11-26
-  title: Visual Storytelling
+  title: 
 
 -
   date: 2024-11-28
