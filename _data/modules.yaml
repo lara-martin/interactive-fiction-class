@@ -86,7 +86,8 @@
     - 
       title: Transformers
       guest_speaker: 
-      guest_url: 
+      guest_url:
+      slides: slides/lecture-03_transformers.pdf 
       #slides: https://drive.google.com/file/d/1l0tzQmJoAcX7TOoq9mU8gnHDh8Cubz8i/view?usp=sharing
       video: 
       length:
@@ -122,7 +123,7 @@
           url: https://web.stanford.edu/~jurafsky/slp3/6.pdf
           authors: Daniel Jurafsky, James H. Martin
     - 
-      title: Pretraining/Prompting
+      title: Decoding + Pretraining/Prompting
       guest_speaker: 
       guest_url: 
       video: 

@@ -38,7 +38,7 @@
       url: text-adventure-game/text-adventure-game.html
 -
   date: 2024-09-10
-  title: Pretraining/Prompting
+  title: Decoding + Pretraining/Prompting
   #activities: 
   #  -
   #    title: Intent Determination with GPT-3
