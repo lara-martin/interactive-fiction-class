@@ -165,11 +165,7 @@
           title: AI Dungeon (game)
           url: https://play.aidungeon.io/
           authors: Nick Walton/Latitude
-      presentations:
-        -
-          title: 
-          url: 
-          presenters:         
+      
   hw:
     -
       title: "Homework 2: Generating Descriptions"
@@ -280,11 +276,7 @@
       #slides: https://drive.google.com/file/d/1J5Z4Q7GwFD-T9R_amZOX6bxEq2oj0pxY/view?usp=sharing
       video: 
       length:
-      presentations:
-        -
-          title: 
-          url: 
-          presenters: 
+
   hw:
     -
       title: "Homework 3: Plot Graph Generation"
@@ -442,11 +434,7 @@
           title: "PLOTTO: A New Method of Plot Suggestion for Writers of Creative Fiction"
           url: http://garykac.github.io/plotto/
           authors: William Wallace Cook 
-      presentations:
-        -
-          presenters:
-          title: 
-          url: 
+
 -
   module_number: 4
   start_date: 2024-10-15
@@ -551,11 +539,7 @@
           title: Stanford Natural Language Inference (SNLI) Corpus
           url: https://nlp.stanford.edu/projects/snli/
           authors: "Samuel R. Bowman, Gabor Angeli, Christopher Potts, and Christopher D. Manning"
-      presentations:
-        -
-          presenters: 
-          title: 
-          url: 
+
         
 
   hw:
@@ -645,7 +629,7 @@
           title: "ChatEval: A Tool for Chatbot Evaluation"
           authors: "Joao Sedoc, Daphne Ippolito, Arun Kirubarajan, Jai Thirani, Lyle Ungar, Chris Callison-Burch"
           url: https://aclanthology.org/N19-4011/
-      presentations:
+
       
   hw:
     -
@@ -821,7 +805,7 @@
       presentations:
  
     -
-      title: Visual Storytelling + Module 6 Paper Presentations
+      title: Visual Storytelling
       guest_speaker: 
       guest_url: 
       #slides: slides/22-04-19_Kenneth-Huang_VIST.pdf

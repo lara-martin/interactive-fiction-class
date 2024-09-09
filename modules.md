@@ -54,9 +54,10 @@ No homework for this module.
 {% if lesson.guest_speaker2 %} and <a href="{{ lesson.guest_url2 }}">{{lesson.guest_speaker2}}</a>{% endif %}
 
 {% if lesson.title contains "Paper Presentations" %}
+{{lesson.title}}
 {% capture pres %} {{site.data.presentations | where: "module_num", module.module_number}}{% endcapture %}
 {% for p in pres.presenters %}
-*  <i><a href="{{ p.url }}">{{ p.title }}</a></i> - presented by {{ p.presenters }}
+*  <i><a href="{{ p.link }}">{{ p.paper }}</a></i> - presented by {{ p.name }}
 {% endfor %}
 {% endif %}
 
