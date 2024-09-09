@@ -1,0 +1,175 @@
+- module_num: 1
+  presenters:
+    - 
+      name: Pavan Sanjana Cirruguri 
+      paper: Attention is All You Need
+      authors: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin
+      link: https://papers.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
+      year: 2017
+      slides:      
+    - 
+      name: Rohith Mada 
+      paper: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
+      authors: Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu
+      link: https://jmlr.org/papers/volume21/20-074/20-074.pdf
+      year: 2020
+      slides:
+    - 
+      name: Varun Magotra 
+      paper: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+      authors: Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova
+      link: https://aclanthology.org/N19-1423/
+      year: 2019
+      slides:      
+    - 
+      name: Sukhbir Singh Sardar 
+      paper: Green AI
+      authors: Roy Schwartz, Jesse Dodge, Noah A. Smith, Oren Etzioni
+      link: https://arxiv.org/abs/1907.10597
+      year: 2019
+      slides:
+    - 
+      name: Sri Samadarsini Vemulapalli 
+      paper: "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"
+      authors: Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, Margaret Mitchell
+      link: https://dl.acm.org/doi/10.1145/3442188.3445922
+      year: 2021
+      slides:
+
+      
+- module_num: 2
+  presenters:
+    - 
+      name: Patty Delafuente 
+      paper: Controllable Neural Story Plot Generation via Reward Shaping
+      authors: Pradyumna Tambwekar, Murtaza Dhuliawala, Lara J. Martin, Animesh Mehta, Brent Harrison, Mark O. Riedl
+      link: https://www.ijcai.org/proceedings/2019/829
+      year: 2019
+      slides:
+    - 
+      name: Pooja Guttal 
+      paper: What do Large Language Models Learn about Scripts?
+      authors:  Abhilasha Sancheti, Rachel Rudinger
+      link: https://aclanthology.org/2022.starsem-1.1/
+      year: 2022
+      slides:     
+    - 
+      name: Arya Honraopatil 
+      paper: Implicit Representations of Meaning in Neural Language Models
+      authors: Belinda Z. Li, Maxwell Nye, Jacob Andreas
+      link: https://aclanthology.org/2021.acl-long.143/
+      slides:
+    - 
+      name: Keerthi Sree Kopparaju
+      paper: Reasoning about Goals, Steps, and Temporal Ordering with WikiHow
+      authors: Li Zhang, Qing Lyu, Chris Callison-Burch
+      link: https://aclanthology.org/2020.emnlp-main.374/
+      year: 2020
+      slides:
+    - 
+      name: Hanuma Sashank Samudrala 
+      paper: Enhanced Story Representation by ConceptNet for Predicting Story Endings
+      authors: Shanshan Huang, Kenny Q. Zhu, Qianzi Liao, Libin Shen, Yinggong Zhao
+      link: https://dl.acm.org/doi/abs/10.1145/3340531.3417466
+      year: 2020
+      slides:
+      
+- module_num: 3
+  presenters:
+    - 
+      name: Ashish Athimamula 
+      paper: "Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents"
+      authors: Wenlong Huang, Pieter Abbeel, Deepak Pathak, Igor Mordatch
+      year: 2022
+      link: https://proceedings.mlr.press/v162/huang22a
+      slides: 
+    - 
+      name: Shawn Bray 
+      paper: Neural Story Planning
+      authors: Anbang Ye, Christopher Zhang Cui, Taiwei Shi, Mark Riedl
+      link: https://openreview.net/forum?id=cLBEKlu5WZK
+      year: 2023
+      slides:                   
+    - 
+      name: Vishwanth Reddy Jakka 
+      paper: "Little Red Riding Hood Goes Around the Globe: Crosslingual Story Planning and Generation with Large Language Models"
+      authors: Evgeniia Razumovskaia, Joshua Maynez, Annie Louis, Mirella Lapata, Shashi Narayan
+      link: https://aclanthology.org/2024.lrec-main.929/
+      year: 2024
+      slides:
+    - 
+      name: Sathvik Reddy Musku 
+      paper: "StoryVerse: Towards Co-authoring Dynamic Plot with LLM-based Character Simulation via Narrative Planning"
+      authors: Yi Wang, Qian Zhou, David Ledo
+      link: https://dl.acm.org/doi/10.1145/3649921.3656987
+      year: 2024
+      slides:
+      
+- module_num: 4
+  presenters:
+    - 
+      name: Lalith Avinash Donkina 
+      paper: Playing Text-Adventure Games with Graph-Based Deep Reinforcement Learning
+      authors: Prithviraj Ammanabrolu, Mark Riedl
+      link: https://aclanthology.org/N19-1358
+      year: 2019
+      slides:
+    - 
+      name: Venkata Kanduri 
+      paper: "ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning" 
+      authors: Maarten Sap, Ronan Le Bras, Emily Allaway, Chandra Bhagavatula, Nicholas Lourie, Hannah Rashkin, Brendan Roof, Noah A. Smith, Yejin Choi
+      link: https://ojs.aaai.org//index.php/AAAI/article/view/4160
+      year: 2019
+      slides:
+    - 
+      name: Josh Li 
+      paper: "NaturalLI: Natural Logic Inference for Common Sense Reasoning"
+      authors: Gabor Angeli, Chris Manning
+      link: https://aclanthology.org/D14-1059/
+      year: 2014
+      slides:
+    - 
+      name: Reece Robertson 
+      paper: "Common Sense Reasoning – From Cyc to Intelligent Assistant"
+      authors: Kathy Panton, Cynthia Matuszek, Douglas Lenat, Dave Schneider, Michael Witbrock, Nick Siegel, Blake Shepard
+      link: https://www.csee.umbc.edu/courses/graduate/691/spring13/01/papers/FromCycToIntelligentAssistant-IJHCS-LNAI3864.pdf
+      year: 2006
+      slides:
+    -
+      name: Saksham Kumar Sharma
+      paper: "BERALL: Towards Generating Retrieval-augmented State-based Interactive Fiction Games"
+      authors: Rachel Chambers, Naomi Tack, Eliot Pearson, Lara J. Martin, Francis Ferraro
+      year: 2024
+      link: https://wordplay-workshop.github.io/pdfs/21.pdf
+      slides: 
+      
+- module_num: 5
+  presenters:
+    - 
+      name: Srinivas Badiga 
+      paper: "ChatEval: A Tool for Chatbot Evaluation"
+      authors: João Sedoc, Daphne Ippolito, Arun Kirubarajan, Jai Thirani, Lyle Ungar, Chris Callison-Burch
+      link: https://aclanthology.org/N19-4011/
+      year: 2019
+      slides:
+    - 
+      name: Tristan Galcik 
+      paper: "Deep Dungeons and Dragons: Learning Character-Action Interactions from Role-Playing Game Transcripts"
+      authors: 
+      link: https://aclanthology.org/N18-2111/
+      year: 2018
+      slides:
+    - 
+      name: Dayakar Reddy Kadasani 
+      paper: Recipes for Building an Open-Domain Chatbot
+      authors: Stephen Roller, Emily Dinan, Naman Goyal, Da Ju, Mary Williamson, Yinhan Liu, Jing Xu, Myle Ott, Eric Michael Smith, Y-Lan Boureau, Jason Weston
+      link: https://aclanthology.org/2021.eacl-main.24/
+      year: 2021
+      slides:
+    - 
+      name: Maitri Mistry 
+      paper: A Neural Conversational Model
+      authors: Oriol Vinyals, Quoc Le
+      year: 2015
+      link: https://arxiv.org/abs/1506.05869
+      slides:                                      

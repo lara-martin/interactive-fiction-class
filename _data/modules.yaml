@@ -110,7 +110,7 @@
           url: https://aclanthology.org/N19-1423/
         -
           title: "[T5 paper] Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"
-          url: https://arxiv.org/abs/1910.10683
+          url: https://jmlr.org/papers/volume21/20-074/20-074.pdf
           authors: Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu          
       optional:
         -
@@ -213,7 +213,7 @@
         -
           title: "What do Large Language Models Learn about Scripts?"
           authors: Abhilasha Sancheti, Rachel Rudinger
-          url: https://arxiv.org/abs/2112.13834
+          url: https://aclanthology.org/2022.starsem-1.1/
         -
           title: Fiction, Non-Factuals, and the Principle of Minimal Departure
           url: https://www.sciencedirect.com/science/article/pii/0304422X80900303
@@ -615,6 +615,7 @@
         -
           title: "Dungeons and Dragons as a Dialogue Challenge for Artificial Intelligence"
           authors: Chris Callison-Burch, Gaurav Singh Tomar, Lara J. Martin, Daphne Ippolito, Suma Bailis, David Reitter
+          url: https://aclanthology.org/2022.emnlp-main.637/
         -
           title: "Deep Dungeons and Dragons: Learning Character-Action Interactions from Role-Playing Game Transcripts"
           authors: Annie Louis, Charles Sutton
@@ -643,7 +644,7 @@
         -
           title: "ChatEval: A Tool for Chatbot Evaluation"
           authors: "Joao Sedoc, Daphne Ippolito, Arun Kirubarajan, Jai Thirani, Lyle Ungar, Chris Callison-Burch"
-          url: https://www.cis.upenn.edu/~ccb/publications/chateval-demo.pdf
+          url: https://aclanthology.org/N19-4011/
       presentations:
       
   hw:
