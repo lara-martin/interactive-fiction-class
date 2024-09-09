@@ -110,7 +110,7 @@ $ source venv/bin/activate
 (venv) $ code .
 ```
 
-You will need to start your virtual environment (`source venv/bin/activate`) every time that you open up VSCode.
+Note: You will need to start your virtual environment (`source venv/bin/activate`) every time that you open up VSCode.
 
 If the `code` command does not work, open VSCode's command pallet (command+shift+p)
 and type `shell command`. VSCode should then show an option for installing
@@ -131,7 +131,7 @@ After you have downloaded the code, started your virutal envionment and launched
 
 
 
-### Visualizition module
+### Visualization module
 
 Our starter code includes a vizualize tool `text_adventure_games.viz` which will allow you to view your game map as a directed graph.  To use this, you will also need to install graphviz. There is both the graphviz app and the graphviz python library, which is a wrapper for the app. You can find instructions on how to install graphviz from their website here: [graphviz.org/download/](https://graphviz.org/download/)
 
