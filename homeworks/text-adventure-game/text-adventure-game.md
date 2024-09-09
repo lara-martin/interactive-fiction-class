@@ -70,6 +70,12 @@ You can download the materials for this assignment here:
 </div>
 {% endif %}
 
+<div class="alert alert-info">
+Submission link:
+<a href="{{page.submission_link}}">{{ page.submission_link }}</a>
+
+</div>
+
 
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
@@ -77,9 +83,7 @@ You can download the materials for this assignment here:
 
 ## Instructions
 
-In this homework assignment, you will write your own classic text adventure game.  This homework can be completed in groups of up to 5 people.  You will implement two text adventure games.  One will be a re-implementation of the __Action Castle__ game, and one will be a game that you design yourself. The game that you design can be on any topic, or can tell any story of your choice.  We will play the games that you design during class, and part of your grade will be awarded based on how creative/exciting your classmates think your game is.
-
-If your team has more than 2 members, you complete extensions to keep the amount of work comparable to smaller teams. 
+In this homework assignment, you will write your own classic text adventure game.  This homework can be completed in groups of up to 5 people.  You will implement two text adventure games.  One will be a re-implementation of the __Action Castle__ game, and one will be a game that you design yourself. The game that you design can be on any topic, or can tell any story of your choice.
 
 ### Using our Starter code
 
