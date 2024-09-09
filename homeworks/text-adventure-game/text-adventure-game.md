@@ -110,6 +110,8 @@ $ source venv/bin/activate
 (venv) $ code .
 ```
 
+You will need to start your virtual environment (`source venv/bin/activate`) every time that you open up VSCode.
+
 If the `code` command does not work, open VSCode's command pallet (command+shift+p)
 and type `shell command`. VSCode should then show an option for installing
 'code' in your PATH.
@@ -133,6 +135,7 @@ After you have downloaded the code, started your virutal envionment and launched
 
 Our starter code includes a vizualize tool `text_adventure_games.viz` which will allow you to view your game map as a directed graph.  To use this, you will also need to install graphviz. There is both the graphviz app and the graphviz python library, which is a wrapper for the app. You can find instructions on how to install graphviz from their website here: [graphviz.org/download/](https://graphviz.org/download/)
 
+One easy way to install graphviz to is run `pip install graphviz` in the terminal of VSCode **after you have activated your environment**. Also, be sure that when you run the game, you have the `env` python kernel selected.
 
 
 ### Task 1: Implement Action Castle
@@ -178,7 +181,7 @@ Your game should include all of the following:
 * At least one "puzzle" where there are certain preconditions that must be met before the player can make forward progress.  This could be an Action or a Block.
 * At least one "win" state and at least one "lose" state.
 
-A fun example of a tiny game with very 3 locations and 3 items is the "Flaming Goat" game in Jared A. Sorensen's [Parsley book](http://www.memento-mori.com/pdf/parsely-pdf).  I played it with my son when he was 6 year old, and it cracked him up.
+A fun example of a tiny game with very 3 locations and 3 items is the "Flaming Goat" game in Jared A. Sorensen's [Parsley book](http://www.memento-mori.com/pdf/parsely-pdf). 
 
 Optionally, you can think about adding other elements to your game, like:
 * Scoring
@@ -208,27 +211,8 @@ What kind of game should you make?  It's up to you! Be creative!  For inspiratio
 
 
 <div class="alert alert-warning" markdown="1">
-__Tip:__ I recommend drawing out on your game on [graph paper](http://print-graph-paper.com/) before you get started.
+__Tip:__ I recommend drawing out your game on [graph paper](http://print-graph-paper.com/) before you get started.
 </div>
-
-
-## Extensions
-
-If your team has more than 2 members, you should implement one extension per team member beyond 2.  Here are some ideas:
-
-* Write code to export our Python classes into the [Adventuron format](https://adventuron.io/) so that they can be compiled and played on itch.io.
-* Create a web server for running the games.  
-* Convert the game into a multiplayer game.
-* Create Item subclasses that can act as containers and surfaces, and add Actions for "put in" and "put on".  For example, a bottle can contain wine or a table could have items on it.
-* Incorporate time into the game.  For instance, in Action Castle, there is a rule that says:
->  Each turn spent in the Dungeon causes the ghost to drift closer and closer. If not defeated within three turns, the ghost reaches out a skeletal hand and drains the player’s life force.
-* Implement hit points and combat.  At the moment our Attack action immediately knocks the victim out, without giving them a chance to fight back.
-* Add random tables to your game, similar to the tables that are found in the Labyrinth game.
-* Add magic to the game, allowing for wizards who can cast spells.
-
-Other extensions are possible.  Run your extension ideas by us on Ed Stem.
-
-For some extensions, you may need to modify the base code.  That's fine!  You can submit a zip file with the full package. 
 
 ## What to submit
 
