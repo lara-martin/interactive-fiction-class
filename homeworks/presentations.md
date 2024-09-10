@@ -29,6 +29,10 @@ You can download the materials for this assignment here:
 {{page.title}}
 =============================================================
 
+This assignment is to measure your ability to...
+* critically read academic papers
+* apply techniques and methods mentioned in the paper to other scenarios
+
 # Instructions
 
 Once you are assigned a paper, you will be told the approximate date when your presentation will be. (Since the lecture material moves around as the course progresses, the presentation dates might move as well.)
