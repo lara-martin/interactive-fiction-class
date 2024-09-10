@@ -39,7 +39,7 @@ Your talk should include:
 - a summary of the paper,
 - what the strengths of the paper are,
 - what the weaknesses of the paper are, and
-- how it relates to story generation and interactive fiction playing or generation
+- how it relates to story generation and interactive fiction playing/generation
    - if it's not about either, how could it be used for making stories or interactive fiction?
    - if it's about story generation, how could it be used for creating or playing interactive fiction?
    - if it's about interactive fiction, how could it be used for story generation?
