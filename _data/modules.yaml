@@ -146,6 +146,10 @@
           title: "What is Prompting, Really?"
           url: https://korymathewson.com/what-is-prompting/
           authors: Kory Mathewson
+        -
+          title: AI Weirdness (Newsletter)
+          url: https://www.aiweirdness.com/
+          authors: Janelle Shane          
     - 
       title: Intro to Neural Story Generation + Module 1 Paper Presentations
       guest_speaker:

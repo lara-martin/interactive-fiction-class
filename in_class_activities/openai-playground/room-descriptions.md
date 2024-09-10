@@ -116,7 +116,7 @@ The materials that you will need for this in-class activity are:
 In Class Activity: Using GPT to Write Descriptions for Text Adventure Game Rooms
 =============================================================
 
-Today in class you will get an introduction to the OpenAI Developer's Playground. You can work on this activity by yourself or in pairs.  
+Today in class you will get an introduction to the OpenAI Developer's Playground. You can work on this activity by yourself or in pairs.  You're welcome to use GPT-4o-mini since it is currently free to use.
 
 
 ## Developer Playground
