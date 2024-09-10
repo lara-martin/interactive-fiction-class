@@ -116,16 +116,21 @@ The materials that you will need for this in-class activity are:
 In Class Activity: Using GPT to Write Descriptions for Text Adventure Game Rooms
 =============================================================
 
-Today in class you will get an introduction to the OpenAI Developer's Playground. You can work on this activity by yourself or in pairs.  You're welcome to use GPT-4o-mini since it is currently free to use.
+Today in class you will get an introduction to the OpenAI's Playground. You can work on this activity by yourself or in pairs.  You're welcome to use GPT-4o-mini since it is currently free to use.
 
 
-## Developer Playground
+
+## Playground
+
+<div class="alert alert-info">
+Before you can run the model in the Playground, you will need to have an API key created!
+</div>
 
 We will start by looking into different ways of prompting in order to write evocative descriptions for the location and items in your text adventure games.  To do so we'll start with using the Chat model in the Playground.  Here you'll see several things:
- * __System__: This contains instructions on how you'd like GPT-4 to behave.  By default, its instructions are "You are a helpful assistant".
+ * __System__: This contains instructions on how you'd like GPT-4o-mini to behave.  By default, its instructions are "You are a helpful assistant".
  * __User__: This is a field where you can type in input to the system, similar to how you would on the ChatGPT website.
  * __Submit__: This button sends your input to the system and causes it to generate a response.
- * __Model__: This drop down menu lets you pick which chat model you'd like to use.  By default you'll see `gpt-4` and `gpt-3.5-turbo`.
+ * __Model__: This drop down menu lets you pick which chat model you'd like to use.
  * __Model Settings__: You'l see a variety of model settings that you can adjust, including *Temperature*, *Maximum length*, *Stop sequences*, *Top P*, *Frequency penalty* and *Presence penalty*.  You can mouse over them to see what they each mean.  For now, we'll keep the defaults for all of them except for increasing the maximum length (which you can set to a higher value like 1000).
 
 Current LLMs like ChatGPT have been fine-tuned to follow instructions.  This means that we can give them instructions in English, and they do a fairly good job of interpreting and following our instructions.  
@@ -192,19 +197,8 @@ Let's try doing some prompt engineering to create a good prompt for the task of 
 
 
 <center>
-<img src="openai-playground-narrator-fairy-tale.png" class="img-responsive"/>
+<img src="playground-description.png" class="img-responsive"/>
 </center>
-
-I started with that as my base prompt, and then tried several different variants "on in the style of".  I tried:
-* [Fairy tales](https://platform.openai.com/playground/p/2jM9QdXuszV6TxCX1qnC8CG7?model=gpt-4&mode=chat)
-* [Young adult dystopian novels](https://platform.openai.com/playground/p/6bD91MKXc7ubjuExUBIvP9bh?model=gpt-4&mode=chat)
-* [William Shakespeare](https://platform.openai.com/playground/p/t0lV1xHypInEw8u7Q2lRcRgS?model=gpt-4&mode=chat)
-* [Jane Austen](https://platform.openai.com/playground/p/4t8RSLLAFsdW7ahg142Nqdv3?model=gpt-4&mode=chat)
-* [Edgar Allan Poe](https://platform.openai.com/playground/p/XSLDtx5PR6L9k8Pg7nqhRJoy?model=gpt-4&mode=chat)
-* [Donald Trump](https://platform.openai.com/playground/p/nADAUfp1s7RpgJVFoXOXFjLq?model=gpt-4&mode=chat)
-* [Samuel L Jackson's character from Pulp Fiction, complete with f-bombs](https://platform.openai.com/playground/p/sXxBUFpA41k5h5DcYoOEYEE2?model=gpt-4&mode=chat)
-
-
 
 ### What to do
 
@@ -215,19 +209,6 @@ Try to create interesting variation in the narration.   You can do this by chang
 You should test your prompts on several turns in a text adventure game. You can use Action Castle for the game, or you can use your own game.  Your playground should have a __User__ input (the user's command like "get pole"), followed by an __Assistant__ turn where you paste in the basic game output for the user turn, and another  __Assistant__ turn which you should generate by clicking on the "Submit button"
 
 [Here are the first few turns of Action Castle](action_castle.txt) for you to copy and paste into the Playground (feel free to use your own game instead).  For the next homework assignment, you’ll use the API, rather than copying and pasting into the playground.  Using the OpenAI playground is a good way to do your prompt engineering.  Once you find a good system prompt, then you can implement it in code via the API.
-
-
-
-### Hints
-
-Check out some of the links at the bottom of the page which give guidance to dungeon masters on how to write evocative text for games.
-
-Here's a cool experiment from a text generation system called sudowrite that shows off some of the sensory aspects of things that you could encourage GPT to descirbe. 
-
-<center>
-<img src="sudowrite.png" class="img-responsive"/>
-</center>
-
 
 
 

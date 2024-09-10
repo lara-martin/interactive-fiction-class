@@ -37,6 +37,7 @@
     -
       title: Generating Room Descriptions
       url: openai-playground/room-descriptions.html
+
 -
   date: 2024-09-11
   type: deadline
@@ -52,46 +53,45 @@
 
 -
   date: 2024-09-12
-  title: Neural Story Generation + Module 1 Paper Presentations
+  title: 
 
--
-  date: 2024-09-16
-  type: deadline
-  homework_due:
-    -
-      title: "HW2: Generating Descriptions (10%)"
-      url: #generating-descriptions/generating-descriptions.html
+
 
 -
   date: 2024-09-17
+  title: Neural Story Generation + Module 1 Paper Presentations
+ 
+-
+  date: 2024-09-19
   title: Scripts and Events
   #activities:
   #  -
   #    title: Make Your Own Mini Script
   #    url: script_making.html
- 
--
-  date: 2024-09-19
-  title: Understanding Procedures
 
 -
   date: 2024-09-24
-  title: Guided Story Generation
+  title: Understanding Procedures
 
 -
   date: 2024-09-26
-  title: Story Ending Prediction (Story Cloze Test) + Module 2 Paper Presentations
-
+  title: Guided Story Generation
+  
 -
   date: 2024-09-30
   type: deadline
   homework_due:
     -
-      title: "HW3: Plot Graph Generation HW (10%)"
-      url: #plots/plots.html
+      title: "HW2: Generating Descriptions (10%)"
+      url: #generating-descriptions/generating-descriptions.html  
+
 
 -
   date: 2024-10-01
+  title: Story Ending Prediction (Story Cloze Test) + Module 2 Paper Presentations
+  
+-
+  date: 2024-10-03
   title: Search
   #activities:
   #  -
@@ -99,7 +99,7 @@
   #    url: search/action-castle-search.html
    
 -
-  date: 2024-10-03
+  date: 2024-10-08
   title: Classical Planning
   #activities:
   #  -
@@ -107,36 +107,42 @@
   #    url: planning/planning-and-pddl.html
 
 -
-  date: 2024-10-08
-  title: Story Planning + Drama Management
--
   date: 2024-10-10
-  title: Façade Playthrough + Module 3 Paper Presentations
+  title: Story Planning + Drama Management
 
           
 -
   date: 2024-10-15
-  title: LLM-based Story Planning
+  title: Façade Playthrough + Module 3 Paper Presentations
+  
 
 -
   date: 2024-10-17
-  title: Commonsense Reasoning
+  title: LLM-based Story Planning
      
 -
-  date: 2024-10-21
-  type: deadline
+  #date: 2024-10-21
+  #type: deadline
   #activities: 
   #  -
   #    title: WordNet Schemas
   #    url: schemas/schemas.html
+  #homework_due:
+  #  -
+  #    title: "HW4 Planning: Convert WikiHow to PDDL (10%)"
+  #    url: planning/planning.html
+
+-
+  date: 2024-10-21
+  type: deadline
   homework_due:
     -
-      title: #"HW4 Planning: Convert WikiHow to PDDL (10%)"
-      url: #planning/planning.html
-      
+      title: "HW3: Plot Graph Generation HW (10%)"
+      url: #plots/plots.html  
+    
 -
   date: 2024-10-22
-  title: Knowledge Representations + Schemata
+  title: Commonsense Reasoning
 
 -
   date: 2024-10
@@ -150,15 +156,11 @@
   
 -
   date: 2024-10-29
-  title: Storytelling with Ontologies + Midsemester Recap
+  title: Knowledge Representations + Schemata
 
 -
   date: 2024-10-31
-  title: Intro to Dialogue + Dialogue for Interactive Fiction + Module 4 Paper Presentations
-  #activities:
-  #  -
-  #    title: Train GPT-3 to Perform Dialogue for NPCs
-  #    url: dialogue/light-dialogue.html
+  title: Storytelling with Ontologies + Midsemester Recap
   
 -
   date: 2024-11-04
@@ -175,16 +177,19 @@
 
 -
   date: 2024-11-05
+  title: Intro to Dialogue + Dialogue for Interactive Fiction + Module 4 Paper Presentations
+  #activities:
+  #  -
+  #    title: Train GPT-3 to Perform Dialogue for NPCs
+  #    url: dialogue/light-dialogue.html
+
+-
+  date: 2024-11-07
   title: Character-Based Generation
   #activities:
   #  -
   #    title: Characters and Quests
   #    url: dialogue-2/quests.html
-
--
-  date: 2024-11-07
-  title: Module 5 Paper Presentations
-
       
 -
   date: 2024-11-11
@@ -196,7 +201,7 @@
 
 -
   date: 2024-11-12
-  title: 
+  title: Module 5 Paper Presentations
 
 -
   date: 2024-11-14

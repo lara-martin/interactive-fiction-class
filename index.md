@@ -5,15 +5,6 @@ img: heroes_journey.png
 active_tab: main_page 
 ---
 
-<!--
-<div class="alert alert-warning" markdown="1">
-Want to join the class, but didn't attend the first lecture? Here are the steps to follow:
-1. [Get a permit by signing yourself up for CIS 700-001 via the waitlist system](https://forms.cis.upenn.edu/waitlist/index.php).  
-2. [Do the for-credit in-class assignment from the first lecture](http://interactive-fiction-class.org/in_class_activities/play-text-adventures/play-text-adventures.html).
-3. [Listen to recording of the first lecture](https://upenn.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=8b5f2734-0738-4f52-90f5-ab3c01236b7c) and [look over the slides](http://interactive-fiction-class.org/slides/text-adventure-games.pdf).
-4. [Complete the first homework assignment before class on Thursday](http://interactive-fiction-class.org/homeworks/text-adventure-game/text-adventure-game.html).
-</div>
--->
 
 <!--
 <div class="alert alert-success" markdown="1">
@@ -175,7 +166,7 @@ If you cannot attend a lecture for any reason, you can make up the "minute" ques
 Your two lowest grade class knowledge checks (i.e., incomplete or missing submissions) will be dropped.
 
 **Paper Presentations (Grad students only)**
-: Over the course of the semester, each student must prepare one or more 10-15 minute presentations on a research paper relevant to the course. Since these presentation will be a substantial component of the learning experience in the class, slides must be prepared and emailed to us at least 72 hours in advance of the lecture they will be presented in (e.g., by 3PM on the Monday before the presenation date), so that we can provide feedback on them. Failure to send us the slides ahead of time will result in a grade penalty on the presentation. 
+: Over the course of the semester, each student must prepare one 8-minute presentation on a research paper relevant to the course. Since these presentation will be a substantial component of the learning experience in the class, slides must be prepared and emailed to us by 3PM the day before the presenation date.
 
 ### Class Policies
 #### Collaboration Policy
