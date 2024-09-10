@@ -249,10 +249,10 @@ One problem with these elaborations is that they aren’t currently objects in t
 
 ## What to submit
 
-You should upload a few of your best prompts and your worst prompts (according to your own judgement) and their outputs from Part 1 to [the Blackboard assignment]({{ page.submission_link }}), plus publicly shared links to your developer playgrounds for each of your prompts that demonstrate its outputs.
+You should upload a few of your best prompts and your worst prompts (according to your own judgement of the output) and their outputs from Part 1 to [the Blackboard assignment]({{ page.submission_link }}), plus publicly shared links to your developer playgrounds for each of your prompts that demonstrate its outputs.
 
 Also, you should:
-1. Explain why you like the "best" ones that you picked.
+1. Explain why you like the "best" ones that you picked. Why do you think that prompt did well?
 2. Analyze these outputs using the description for Part 2.
 
 
