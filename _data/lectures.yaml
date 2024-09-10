@@ -29,21 +29,21 @@
   #  -
   #    title: Create Data for Intent Detection
   #    url: intent-detection/intent-detection.html
+
 -
-  date: 2024-09-09
+  date: 2024-09-10
+  title: Output
+  activities: 
+    -
+      title: Generating Room Descriptions
+      url: openai-playground/room-descriptions.html
+-
+  date: 2024-09-11
   type: deadline
   homework_due:   
     -
       title: "HW1: Build a Text-Adventure Game (5%)"
       url: text-adventure-game/text-adventure-game.html
--
-  date: 2024-09-10
-  title: Decoding + Pretraining/Prompting
-  #activities: 
-  #  -
-  #    title: Intent Determination with GPT-3
-  #    url: intent-detection-2/intent-detection-2.html
-
 -
   date: 2024-09-11
   title: Last day to drop without a W

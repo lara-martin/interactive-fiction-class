@@ -40,7 +40,7 @@
       title: "Homework 1: Build a Text-Adventure Game"
       url: text-adventure-game/text-adventure-game.html
       percentage: 5%
-      due_date: 2024-09-09
+      due_date: 2024-09-11
 
 -
   module_number: 1
@@ -123,7 +123,7 @@
           url: https://web.stanford.edu/~jurafsky/slp3/6.pdf
           authors: Daniel Jurafsky, James H. Martin
     - 
-      title: Decoding + Pretraining/Prompting
+      title: Output
       guest_speaker: 
       guest_url: 
       video: 
@@ -141,6 +141,11 @@
           title: "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
           url: https://papers.neurips.cc/paper_files/paper/2022/hash/9d5609613524ecf4f15af0f7b31abca4-Abstract-Conference.html
           authors: Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter, Fei Xia, Ed Chi, Quoc Le, Denny Zhou
+      optional:
+        -
+          title: "What is Prompting, Really?"
+          url: https://korymathewson.com/what-is-prompting/
+          authors: Kory Mathewson
     - 
       title: Intro to Neural Story Generation + Module 1 Paper Presentations
       guest_speaker:
