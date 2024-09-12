@@ -57,11 +57,7 @@
       guest_url: 
       video: 
       length:
-      readings:
-        -
-          title: The Curious Case of Neural Text Degeneration
-          url: https://openreview.net/pdf?id=rygGQyrFvH
-          authors: Ari Holtzman, Jan Buys, Li Du, Maxwell Forbes, Yejin Choi        
+      readings:       
         -
           title: "Sequence to Sequence Learning with Neural Networks"
           url: https://proceedings.neurips.cc/paper/2014/file/a14ac55a4f27472c5d894ec1c3c743d2-Paper.pdf
@@ -69,11 +65,7 @@
         -
           title: "Generating Sequences With Recurrent Neural Networks"
           url: https://arxiv.org/abs/1308.0850
-          authors: Alex Graves
-        -
-          title: "[word2vec paper] Efficient Estimation of Word Representations in Vector Space"
-          authors: Tomas Mikolov, Kai Chen, Greg Corrado, Jeffrey Dean
-          url: https://arxiv.org/abs/1301.3781          
+          authors: Alex Graves        
       optional:
         -
           title: Tay, Microsoft's AI chatbot, gets a crash course in racism from Twitter
@@ -103,15 +95,11 @@
         -
           title: "[GPT-2 paper] Language Models are Unsupervised Multitask Learners"
           url: https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf
-          authors: Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever          
+          authors: Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever    
         -
-          title: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
-          authors: Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova
-          url: https://aclanthology.org/N19-1423/
-        -
-          title: "[T5 paper] Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"
-          url: https://jmlr.org/papers/volume21/20-074/20-074.pdf
-          authors: Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu          
+          title: Green AI
+          url: https://arxiv.org/abs/1907.10597
+          authors: Roy Schwartz, Jesse Dodge, Noah A. Smith, Oren Etzioni                   
       optional:
         -
           title: "A Bit of Fry & Laurie: Concerning Language"
@@ -130,6 +118,10 @@
       video: 
       length:
       readings:
+        -
+          title: The Curious Case of Neural Text Degeneration
+          url: https://openreview.net/pdf?id=rygGQyrFvH
+          authors: Ari Holtzman, Jan Buys, Li Du, Maxwell Forbes, Yejin Choi       
         -
           title: "[GPT-3 paper] Language Models are Few-Shot Learners"
           url: https://papers.nips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html
@@ -150,7 +142,29 @@
         -
           title: AI Weirdness (Newsletter)
           url: https://www.aiweirdness.com/
-          authors: Janelle Shane          
+          authors: Janelle Shane
+    -
+      title: Foundation Models + Word Embeddings
+      slides: slides/lecture-05_foundation-models.pdf
+      readings:
+        -
+          title: "[word2vec paper] Efficient Estimation of Word Representations in Vector Space"
+          authors: Tomas Mikolov, Kai Chen, Greg Corrado, Jeffrey Dean
+          url: https://arxiv.org/abs/1301.3781      
+        -
+          title: "[FastText paper] Enriching Word Vectors with Subword Information"
+          authors: Piotr Bojanowski, Edouard Grave, Armand Joulin, Tomas Mikolov
+          url: https://aclanthology.org/Q17-1010/
+        -
+          title: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+          authors: Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova
+          url: https://aclanthology.org/N19-1423/
+        -
+          title: "[T5 paper] Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"
+          url: https://jmlr.org/papers/volume21/20-074/20-074.pdf
+          authors: Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu          
+
+          
     - 
       title: Intro to Neural Story Generation + Module 1 Paper Presentations
       guest_speaker:
@@ -165,11 +179,7 @@
         -
           title: Do Massively Pretrained Language Models Make Better Storytellers?
           authors: Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning
-          url: https://aclanthology.org/K19-1079/   
-        -
-          title: Green AI
-          url: https://arxiv.org/abs/1907.10597
-          authors: Roy Schwartz, Jesse Dodge, Noah A. Smith, Oren Etzioni          
+          url: https://aclanthology.org/K19-1079/          
       optional:
         -
           title: AI Dungeon (game)
