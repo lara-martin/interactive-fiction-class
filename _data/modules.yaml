@@ -705,7 +705,14 @@
           url: https://smartech.gatech.edu/handle/1853/64643
     -
       title: Peiqi "Patrick" Sui
-      guest_speaker: Peiqi "Patrick" Sui          
+      guest_speaker: Peiqi "Patrick" Sui
+      guest_url:
+      readings:
+        -
+          title: "Confabulation: The Surprising Value of Large Language Model Hallucinations"
+          authors: Peiqi Sui, Eamon Duede, Sophie Wu, Richard So
+          url: https://aclanthology.org/2024.acl-long.770/
+              
     -
       title: Theory of Mind and Intent in Procedural Agents
       guest_speaker: 
@@ -852,3 +859,22 @@
           title: "Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books"
           authors: Yukun Zhu, Ryan Kiros, Richard Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba, and Sanja Fidler
           url: https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zhu_Aligning_Books_and_ICCV_2015_paper.pdf
+    -
+      title: Co-creating Storytelling Machines
+      guest_speaker: Kory Mathewson
+      guest_url: https://korymathewson.com/
+      slides: 
+      readings:
+        -
+          title: "A Robot Walks into a Bar: Can Language Models Serve as Creativity SupportTools for Comedy? An Evaluation of LLMs’ Humour Alignment with Comedians"
+          authors: Piotr Mirowski, Juliette Love, Kory Mathewson, Shakir Mohamed
+          url: https://dl.acm.org/doi/abs/10.1145/3630106.3658993
+        -
+          title: "Communicative capital: a key resource for human–machine shared agency and collaborative capacity"
+          authors: Kory W. Mathewson, Adam S.R. Parker, Craig Sherstan, Ann L. Edwards, Richard S. Sutton, Patrick M. Pilarski
+          url: https://link.springer.com/article/10.1007/s00521-022-07948-1
+        -
+          title: "Co-writing screenplays and theatre scripts with language models: Evaluation by industry professionals"
+          authors: Piotr Mirowski, Kory W. Mathewson, Jaylen Pittman, Richard Evans
+          url: https://dl.acm.org/doi/full/10.1145/3544548.3581225
+          
