@@ -53,9 +53,16 @@ No homework for this module.
 {% if lesson.guest_speaker %} Guest Lecturer: <a href="{{ lesson.guest_url }}">{{lesson.guest_speaker}}</a>{% endif %}
 {% if lesson.guest_speaker2 %} and <a href="{{ lesson.guest_url2 }}">{{lesson.guest_speaker2}}</a>{% endif %}
 
+
+
 {% if lesson.title contains "Paper Presentations" %}
-{{lesson.title}}
-{{lesson.module_num}}
+{% for pres in lesson.presentations %}
+*  <i><a href="{{ pres.link }}">{{ pres.paper }}</a></i> - presented by {{ pres.name }}
+{% endfor %}
+
+
+<!--{{lesson.title}}
+{{module.module_number}}
 {% assign pres = site.data.presentations | group_by: "module_num" %}
 {% for p in pres %}
 {% if module.module_number == p.name %}
@@ -63,7 +70,8 @@ No homework for this module.
 *  <i><a href="{{ pres_item.link }}">{{ pres_item.paper }}</a></i> - presented by {{ pres_item.name }}
 {% endfor %}
 {% endif %}
-{% endfor %}
+{% endfor %}-->
+
 {% endif %}
 
 

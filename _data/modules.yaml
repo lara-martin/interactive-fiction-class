@@ -185,6 +185,34 @@
           title: AI Dungeon (game)
           url: https://play.aidungeon.io/
           authors: Nick Walton/Latitude
+      presentations:
+        - 
+          name: Pavan Sanjana Cirruguri 
+          paper: Attention is All You Need
+          authors: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin
+          link: https://papers.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
+          year: 2017      
+        - 
+          name: Rohith Mada 
+          paper: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
+          authors: Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu
+          link: https://jmlr.org/papers/volume21/20-074/20-074.pdf
+          year: 2020
+          slides:
+        - 
+          name: Varun Magotra 
+          paper: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+          authors: Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova
+          link: https://aclanthology.org/N19-1423/
+          year: 2019
+          slides:      
+        - 
+          name: Sukhbir Singh Sardar 
+          paper: Green AI
+          authors: Roy Schwartz, Jesse Dodge, Noah A. Smith, Oren Etzioni
+          link: https://arxiv.org/abs/1907.10597
+          year: 2019
+          slides:    
       
   hw:
     -
