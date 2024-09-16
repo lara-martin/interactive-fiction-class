@@ -55,6 +55,8 @@ No homework for this module.
 
 {% if lesson.title contains "Paper Presentations" %}
 {{lesson.title}}
+{{module.module_number}}
+{{lesson.module_num}}
 {% capture pres %} {{site.data.presentations | where: "module_num", module.module_number}}{% endcapture %}
 {% for p in pres.presenters %}
 *  <i><a href="{{ p.link }}">{{ p.paper }}</a></i> - presented by {{ p.name }}
