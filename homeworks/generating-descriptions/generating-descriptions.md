@@ -103,7 +103,7 @@ OpenAI has several different chat models.  You will probably see `gpt-4o` and `g
 * The context length (how long each message can be, and how many messages of history the conversation can have)
 * The number of model parameters (larger number of model parameters tend to result in higher quality output)
 * The speed of the model (`gpt-3.5-turbo` generates output more quickly)
-* The cost of the model (`gpt-4` is more [expensive](https://openai.com/pricing))
+* The cost of the model (`gpt-4o` is more [expensive](https://openai.com/pricing))
 
 
 ## Prompt Design
