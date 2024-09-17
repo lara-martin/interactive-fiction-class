@@ -11,35 +11,35 @@ release_date: 2024-09-16
 materials:
    -
      name: hw2.ipynb
-     url: {{ site.baseurl }}/homeworks/generating-descriptions/hw2.ipynb
+     url: interactive-fiction-class/homeworks/generating-descriptions/hw2.ipynb
 due_date: 2024-10-07 23:59:00EST
 submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7129306_1?courseId=_82444_1&gradeitemView=details
 readings:
-- 
-   title: OpenAI API Documentation
-   url: https://platform.openai.com/docs/overview
-   type: documentation
--
-   title: Language Models are Few-Shot Learners
-   authors: Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei
-   venue: NeurIPs
-   year: 2020
-   type: paper
-   url: https://arxiv.org/abs/2005.14165
--
-   title: Learning to Speak and Act in a Fantasy Text Adventure Game
-   authors: Jack Urbanek, Angela Fan, Siddharth Karamcheti, Saachi Jain, Samuel Humeau, Emily Dinan, Tim Rocktäschel, Douwe Kiela, Arthur Szlam, Jason Weston
-   venue: EMNLP
-   year: 2019
-   type: paper
-   url: https://arxiv.org/pdf/1903.03094.pdf
--
-   title: Generating Interactive Worlds with Text
-   authors: Angela Fan, Jack Urbanek, Pratik Ringshia, Emily Dinan, Emma Qian, Siddharth Karamcheti, Shrimai Prabhumoye, Douwe Kiela, Tim Rocktaschel, Arthur Szlam, Jason Weston
-   venue: AAAI
-   year: 2019
-   type: paper
-   url: https://arxiv.org/abs/1911.09194
+  - 
+    title: OpenAI API Documentation
+    url: https://platform.openai.com/docs/overview
+    type: documentation
+  -
+    title: Language Models are Few-Shot Learners
+    authors: Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei
+    venue: NeurIPs
+    year: 2020
+    type: paper
+    url: https://arxiv.org/abs/2005.14165
+  -
+    title: Learning to Speak and Act in a Fantasy Text Adventure Game
+    authors: Jack Urbanek, Angela Fan, Siddharth Karamcheti, Saachi Jain, Samuel Humeau, Emily Dinan, Tim Rocktäschel, Douwe Kiela, Arthur Szlam, Jason Weston
+    venue: EMNLP
+    year: 2019
+    type: paper
+    url: https://arxiv.org/pdf/1903.03094.pdf
+  -
+    title: Generating Interactive Worlds with Text
+    authors: Angela Fan, Jack Urbanek, Pratik Ringshia, Emily Dinan, Emma Qian, Siddharth Karamcheti, Shrimai Prabhumoye, Douwe Kiela, Tim Rocktaschel, Arthur Szlam, Jason Weston
+    venue: AAAI
+    year: 2019
+    type: paper
+    url: https://arxiv.org/abs/1911.09194
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -84,7 +84,7 @@ You can download the materials for this assignment here:
 =============================================================
 
 In this homework, we're going to use OpenAI's API to generate text adventure game components automatically.
-Starting with the [prompting ideas from class](https://laramartin.net/interactive-fiction-class/slides/lecture-04_output.pdf) and [generating descriptions using the Playground](https://laramartin.net/interactive-fiction-class/in_class_activities/openai-playground/room-descriptions.html), we'll show how to finetune models to perform specific tasks, with a focus on our text adventure games from HW1. 
+Starting with the [prompting ideas from class](https://laramartin.net/interactive-fiction-class/slides/lecture-04_output.pdf) and [generating descriptions using the Playground](https://laramartin.net/interactive-fiction-class/in_class_activities/openai-playground/room-descriptions.html), we'll show how to finetune models to perform specific tasks. In particular, you will generate room descriptions and item properties for text adventure games. 
 
 ## Learning Objectives
 For this assignment, we will check your ability to:
@@ -108,7 +108,7 @@ OpenAI has several different chat models.  You will probably see `gpt-4o` and `g
 
 ## Prompt Design
 
-In addition to writing awesome reviews of your professors, you can design prompts to get GPT to do all sorts of suprising things.  For instance, GPT-3/4 can perform [few-shot learning](https://arxiv.org/abs/2005.14165).  Given a few examples of a task, it can learn a pattern very quickly and then be used for classification tasks.  It often times helps to tell the model what you want it to do. 
+You can design prompts to get GPT to do all sorts of suprising things.  For instance, GPT-3/4 can perform [few-shot learning](https://arxiv.org/abs/2005.14165).  Given a few examples of a task, it can "learn" a pattern very quickly and then be used for classification tasks.  It often times helps to tell the model what you want it to do. Use some of the tips and tricks we [talked about in class](https://laramartin.net/interactive-fiction-class/slides/lecture-04_output.pdf).
 
 
 ## Fine-Tuning
