@@ -216,10 +216,10 @@
       
   hw:
     -
-      title: "Homework 2: Generating Descriptions"
-      url: #generating-descriptions/generating-descriptions.html
+      title: "Homework 2: Prompting and Fine-tuning"
+      url: generating-descriptions/generating-descriptions.html
       percentage: 10%
-      due_date: #2024-01-31
+      due_date: 2024-10-07
 
 -
   module_number: 2

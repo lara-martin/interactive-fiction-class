@@ -3,7 +3,7 @@ layout: default
 img: scribe.png
 img_link: https://parl.ai/projects/light/
 caption: Automatically write descriptions for text adventure games
-title: Generating Descriptions
+title: Prompting and Fine-tuning
 type: Homework
 number: 2
 active_tab: homework

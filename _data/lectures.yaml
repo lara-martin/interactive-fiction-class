@@ -77,13 +77,7 @@
   date: 2024-09-26
   title: Guided Story Generation
   
--
-  date: 2024-09-30
-  type: deadline
-  homework_due:
-    -
-      title: "HW2: Generating Descriptions (10%)"
-      url: #generating-descriptions/generating-descriptions.html  
+ 
 
 
 -
@@ -97,6 +91,14 @@
   #  -
   #    title: Search Algorithms for Action Castle
   #    url: search/action-castle-search.html
+ 
+-
+  date: 2024-10-07
+  type: deadline
+  homework_due:
+    -
+      title: "HW2: Prompting and Fine-tuning (10%)"
+      url: generating-descriptions/generating-descriptions.html 
    
 -
   date: 2024-10-08
