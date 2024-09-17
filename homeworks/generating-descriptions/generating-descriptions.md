@@ -138,7 +138,7 @@ In addition to working your way through the Colab Notebook, I recommend reading 
 
 ## What to submit
 
-You should submit your completed Colab Notebook to [Blackboard]({page.submission_link}).  You can work in pairs.
+You should submit your completed Colab Notebook to [Blackboard]({{page.submission_link}}).  You can work in pairs.
 
 # Grading
 <div class="alert alert-warning" markdown="1">
