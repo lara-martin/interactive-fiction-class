@@ -7,17 +7,17 @@ title: Generating Descriptions
 type: Homework
 number: 2
 active_tab: homework
-release_date: 2022-01-24
-due_date: 2022-01-31 23:59:00EST
+release_date: 2024-09-16
 materials:
-    - 
-      name: 
-      url: 
-submission_link: https://www.gradescope.com/courses/354158/assignments/1798030/
+   -
+      name: hw2.ipynb
+      url: /homeworks/generating-descriptions/hw2.ipynb
+due_date: 2024-10-07 23:59:00EST
+submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7129306_1?courseId=_82444_1&gradeitemView=details
 readings:
 - 
    title: OpenAI API Documentation
-   url: https://beta.openai.com/docs/introduction
+   url: https://platform.openai.com/docs/overview
    type: documentation
 -
    title: Language Models are Few-Shot Learners
@@ -83,62 +83,23 @@ You can download the materials for this assignment here:
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
 
-In this homework we're going to use Open AI to try to generate text adventure games automatically. Here's a conversation from 1992 on Usenet (a precursor to Reddit) assessing the feasibility of the idea, and forecasting when it might be possible:
+In this homework, we're going to use OpenAI's API to generate text adventure game components automatically.
+Starting with the [prompting ideas from class](https://laramartin.net/interactive-fiction-class/slides/lecture-04_output.pdf) and [generating descriptions using the Playground](https://laramartin.net/interactive-fiction-class/in_class_activities/openai-playground/room-descriptions.html), we'll show how to finetune models to perform specific tasks, with a focus on our text adventure games from HW1. 
 
-```
-From: goetz@acsu.buffalo.edu (Phil Goetz)
-Subject: Re: Adventure generators (skippable)
-Newsgroups: rec.arts.int-fiction
-Date: 29 Oct 92 04:40:05 GMT
-Sender: nntp@acsu.buffalo.edu
-Organization: State University of New York at Buffalo/Comp Sci
-
-Morpheus Nosferatu wrote:
-> Has anyone ever worked on, or even heard of, an adventure generator?
->
-> I’m not talking about an adventure design language like TADS or Alan,
-> but rather a stand-alone adventure generator that produces complete
-> adventures, where the user need only give a minimal degree of input,
-> such as the level of complexity, type of adventure (mystery, treasure
-> hunt, etc.), size of adventure, and so forth?
-> ...
-> But as anyone ever heard of someone trying to come up with a generator
-> which would produce infocom-style text adventures? I can just imagine
-> what kind of limitations it would have, but I’m curious to know if
-> anyone has tried this, and if so what degree of success they’ve had.
-
-No. The generator you speak of is not written, not being written,
-and not anywhere on the horizon. In 50 years, maybe. In 20,
-definitely not. The problem of writing interesting stories, which
-adhere to someone’s definition of a plot (with goal explanations,
-conflict, resolution, complication, climax, etc., all occuring at
-appropriate intervals) is very hard, and I don’t expect a solution
-soon. But the problem of writing clever puzzles involves much greater
-creativity, and I have seen NO evidence that ANYBODY has a clue in
-these creativity issues; the most you will find in the field are a
-few vague theories of creativity.
-This problem is what Stuart Shapiro calls "AI-complete": Solving it
-would be equivalent to solving all the other problems of AI.
-Phil
-```
-
-Phil Goetz predicted that it wouldn't be possible in 2012, but might be possible some decades after that.  Well, here we are 30 years after his prediction.  Can an AI system design a text adventure now? 
-
-
-In this homework, you will use the OpenAI API for the first time.  We'll get you started by introducing you to the playground and introducing the notion of prompt design.  Then we'll show how to fine-tune the models to perform specific tasks, with a focus on our text adventure games from HW1. 
+## Learning Objectives
+For this assignment, we will check your ability to:
+* Use the OpenAI API for few-shot prompting GPT models
+* Use the OpenAI API for finetuning GPT early models
+* Setup data for finetuning
+* Compare early finetuned output to modern few-shot output
 
 ## Getting Started with the OpenAI API
 
-You have been granted access to the [OpenAI API](https://openai.com), which lets you use GPT-3 a large, transformer-based language model like the ones that we learned about in lecture.  For the first part of the assignment, we'll get warmed up by playing with the OpenAI API via its interactive [Playground](https://platform.openai.com/playground) website.  Later we'll see how to integrate it directly into our code. 
-
-First, switch into the "Chat" mode in the upper left.  Next let's take a look at the different fields: 
-* System - this is a description of how you'd like the system to behave
-* User - this the label for your input into the system.  You can type something in and and then press "submit".
-* Assistant - this is the label for the system's output messages that are based on your output.
+If you haven't already done so, please complete the in-class activity on [Generating Room Descriptions](https://laramartin.net/interactive-fiction-class/in_class_activities/openai-playground/room-descriptions.html). This will give you a good idea of how the model should be prompted without dealing with the API.
 
 ### Models
 
-OpenAI has several different chat models.  You will probably see `gpt-3.5-turbo` and `gpt-4`.  These differ from each other in several dimensions:
+OpenAI has several different chat models.  You will probably see `gpt-4o` and `gpt-4o-mini`, but there are older models like `gpt-3.5-turbo` and `davinci-002` (GPT-3).  These differ from each other in several dimensions:
 * The context length (how long each message can be, and how many messages of history the conversation can have)
 * The number of model parameters (larger number of model parameters tend to result in higher quality output)
 * The speed of the model (`gpt-3.5-turbo` generates output more quickly)
@@ -149,111 +110,12 @@ OpenAI has several different chat models.  You will probably see `gpt-3.5-turbo`
 
 In addition to writing awesome reviews of your professors, you can design prompts to get GPT-3 to do all sorts of suprising things.  For instance, GPT-3 can perform [few-shot learning](https://arxiv.org/abs/2005.14165).  Given a few examples of a task, it can learn a pattern very quickly and then be used for classification tasks.  It often times helps to tell the model what you want it to do. 
 
-Here's an example: in our text adventure games when we add a connection from one location to another, we add it in a certain direction (graveyard - West - tomb).  We'd like to add the inverse connection as well (tomb - East - graveyard).  Let's design a prompt to automatically get the opposite direction.  We could give it an instruction and two examples:
-
-
-System prompt:
-```
-Given a direction, output the reverse of that direction: 
-```
-
-User input:
-```
-In
-```
-
-System output:
-```
-Ni
-```
-
-Ooops!  Let's try deleting that and regenerating.  OK, now it generates `Out`.  This is an example of zero-shot learning. 
-
-
-It will then generate "West".  Input "Ascend" it will generate "Descend".  I
-Input "Go in through the Gate" and it will generate "Exit the Gate".
-
-You can use the playground to create code based on a prompt that you can then use in your Python projects.  Click on the "View Code" button, and you'll get some code that you can convert into a Python function that takes a direction as input and returns the reverse direction.  For example: 
-
-
-```python
-
-from openai import OpenAI
-client = OpenAI()
-
-response = client.chat.completions.create(
-  model="gpt-3.5-turbo",
-  messages=[
-    {
-      "role": "system",
-      "content": "Given a direction, output the reverse of that direction."
-    },
-    {
-      "role": "user",
-      "content": "In"
-    },
-    {
-      "role": "assistant",
-      "content": "Out"
-    }
-  ],
-  temperature=1,
-  max_tokens=256,
-  top_p=1,
-  frequency_penalty=0,
-  presence_penalty=0
-)
-
-return response['choices'][0]['text']
-```
-
-In addition to few shot learning, GPT-3 and other large language models do a pretty remarkable job in "zero-shot" scenarios.  You can give them instructions in natural language and often times, the produce remarkable examples.
-
-If you input the prompt
-> Generate 3 ideas for text adventure games.  Give the name of each game, and its setting.  Describe the game in a few sentences.  Give examples of puzzles that the player must solve, along with their solutions.
-
-It outputs
-
->1. "The Lost Tomb of Pharaohs"
->
->In this game, the player must explore an ancient tomb in order to find the treasure that is hidden inside. Along the way, they must solve puzzles and overcome obstacles in order to progress.
->
->Some examples of puzzles that the player might encounter include: 
->- Finding a way to cross a chasm
->- Opening a locked door
->- Figuring out how to activate a mechanism
->
->The solution to each puzzle is usually hidden somewhere in the environment, and the player must use their wits and intuition to figure it out.
->
->2. "The Haunted Mansion"
->
->In this game, the player must explore a haunted house in order to find out what happened to the previous inhabitants. Along the way, they must solve puzzles and overcome obstacles in order to progress.
->
->Some examples of puzzles that the player might encounter include: 
->- Finding a way to open a locked door
->- Figuring out how to disable a trap
->- Solving a puzzle box
->
->The solution to each puzzle is usually hidden somewhere in the environment, and the player must use their wits and intuition to figure it out.
->
->3. "The Secret of the Crystal Cave"
->
->In this game, the player must explore a dark and foreboding cave in order to find a magical crystal. Along the way, they must solve puzzles and overcome obstacles in order to progress.
->
->Some examples of puzzles that the player might encounter include: 
->- Finding a way to cross a chasm
->- Opening a locked door
->- Figuring out how to activate a mechanism
->
->The solution to each puzzle is usually hidden somewhere in the environment, and the player must use their wits and intuition to figure it out.
-
-Not bad!  Probably with a bit more prompt engineering or with one or two examples, we could get it to generate high quality game ideas.
 
 
 
 ## Fine-Tuning
 
-Next, we'll take a look at how to [fine-tune the OpenAI models](https://beta.openai.com/docs/guides/fine-tuning) to perform a specific task.  You can use few-shot learning when you have a few dozen training example, and you can use fine-tuning when you have several hundred examples. When we have a few hundred training examples, then it's not possible to fit them all into a prompt, since GPT-3 has a limit of 2048 tokens in the prompt.  
+Next, we'll take a look at how to [fine-tune the OpenAI models](https://platform.openai.com/docs/guides/fine-tuning) to perform a specific task.  You can use few-shot learning when you have a few dozen training example, and you can use fine-tuning when you have several hundred examples. When we have a few hundred training examples, then it's not possible to fit them all into a prompt, since GPT-3 has a limit of 2048 tokens in the prompt.  
 
 For your homework, you'll fine-tune GPT-3 to generate different parts of text adventure games.  Specifically we'll train GPT-3 to
 1. Generate descriptions of locations
@@ -263,22 +125,22 @@ For your homework, you'll fine-tune GPT-3 to generate different parts of text ad
 
 ### Data
 
-We are going to use a text adventure that was developed by Facebook AI Research for their paper [Learning to Speak and Act in a Fantasy Text Adventure Game](https://arxiv.org/abs/1903.03094).
+We are going to use a text adventure that was developed by Facebook AI Research for their paper [Learning to Speak and Act in a Fantasy Text Adventure Game](https://aclanthology.org/D19-1062/).
 
 Here's the paper's abstract:
 
-> We introduce a large-scale crowdsourced text adventure game as a research platform for studying grounded dialogue. In it, agents can perceive, emote, and act while conducting dialogue with other agents. Models and humans can both act as characters within the game. We describe the results of training state-of-the-art generative and retrieval models in this setting. We show that in addition to using past dialogue, these models are able to effectively use the state of the underlying world to condition their predictions. In particular, we show that grounding on the details of the local environment, including location descriptions, and the objects (and their affordances) and characters (and their previous actions) present within it allows better predictions of agent behavior and dialogue. We analyze the ingredients necessary for successful grounding in this setting, and how each of these factors relate to agents that can talk and act successfully.
+> We introduce a large-scale crowdsourced text adventure game as a research platform for studying grounded dialogue. In it, agents can perceive, emote, and act whilst conducting dialogue with other agents. Models and humans can both act as characters within the game. We describe the results of training state-of-the-art generative and retrieval models in this setting. We show that in addition to using past dialogue, these models are able to effectively use the state of the underlying world to condition their predictions. In particular, we show that grounding on the details of the local environment, including location descriptions, and the objects (and their affordances) and characters (and their previous actions) present within it allows better predictions of agent behavior and dialogue. We analyze the ingredients necessary for successful grounding in this setting, and how each of these factors relate to agents that can talk and act successfully.
 
 Their data is called the LIGHT dataset (Learning in Interactive Games with Humans and Text).  It contains 663 locations, 3462 objects and 1755 characters.  I have divided this data into training/dev/test splits.  We will use this data to fine-tune GPT-3 to generate descriptions of rooms and items.
 
 
 ### Colab Notebook
 
-I have written a [Colab Notebook for Fine-Tuning OpenAI on LIGHT Enviroment Data](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/generating-descriptions/Fine_Tune_OpenAI_on_LIGHT_Text_Adventures.ipynb).  The notebook shows you how to fine-tune GPT-3 to generate descriptions.  You then will implement code to fine-tune it for several other tasks.  
+Here is a [Colab Notebook for Fine-Tuning OpenAI on LIGHT Enviroment Data](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/generating-descriptions/Fine_Tune_OpenAI_on_LIGHT_Text_Adventures.ipynb).  The notebook shows you how to fine-tune GPT-3 to generate descriptions.  You then will implement code to fine-tune it for several other tasks.  
 
 *Remember to make a copy of the notebook into your own Drive by choosing "Save a Copy in Drive" from Colab's "File" menu.*
 
-In addition to working your way through my Colab Notebook, I recommend reading the [OpenAI documentation](https://beta.openai.com/docs/), and trying the examples in the Playground.
+In addition to working your way through my Colab Notebook, I recommend reading the [OpenAI documentation](https://platform.openai.com/docs/overview), and trying the examples in the Playground.
 
 ## What to submit
 
@@ -288,13 +150,23 @@ Please submit the following:
 3. A zip file with all training data files that you used to fine-tune your models
 4. A PDF writeup that explains what you did in this homework.  You should say whether or not you think it's now feasible to fully generate text adventure games with AI.  What other pieces would you need to implement, in addition to what you did in this homework? Here's an [example writeup](example_writeup.pdf) that is roughly the level of quality that we expect.
 
-You should submit your completed homework to [Gradescope]({page.submission_link}).  You can work in pairs.  Only one partner should submit - be sure to specify who your partner was when you make your submission. 
+You should submit your completed homework to [Blackboard]({page.submission_link}).  You can work in pairs.  Only one partner should submit - be sure to specify who your partner was when you make your submission. 
 
 # Grading
 <div class="alert alert-warning" markdown="1">
- * Fine-Tune Additional Models for Text Adventure Games - 11 points (1 point per function)
- * Generate A Game - 5 points
- * Evaluation - 5 points
+ * Run fine-tuning code for room descriptions (1 pt)
+ * Fine-tune additional model for item properties
+	* Setup training data (5 pts)
+	* Finetune the model (5 pts)
+	* Call the model (7 pts, one per property)
+ * Call the few-shot model for item properties
+	* Try multiple prompts (5 pts)
+	* Zero-shot, One-shot, and Five-shot prompts -- prompt, output pairs (6 pts)
+ * Evaluation 
+	* Implement precision and recall using scikit (2 pts)
+	* Run precision and recall over your fine-tuned item model (1 pt)
+	* Run precision and recall over your one-shot item model (1 pt)
+	* Comparison questions (6 pts)
  </div>
  
  

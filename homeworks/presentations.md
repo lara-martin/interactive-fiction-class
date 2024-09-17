@@ -48,6 +48,17 @@ Your talk should include:
    - if it's about story generation, how could it be used for creating or playing interactive fiction?
    - if it's about interactive fiction, how could it be used for story generation?
 
+# Rubric
+
+| Criteria | Possible Points| Description|
+|---------|-------------------|-------------|
+|Summary| 4 points | High-level summary that explains the key points of the paper without going into unnecessary detail, but explains concepts that might be unknown to the class |
+| Strengths | 4 points | A few strengths of the paper compared to other work in the field|
+|Weaknesses | 4 points | A few weaknesses of the paper compared to other work in the field|
+|Relation to storytelling/IF | 4 points | Thoughtful application of techniques/methods of the paper to IF or storytelling or both|
+|Length | 1 point | Presentation is about 8 minutes long |
+|Slides| 3 points| Slides are organized/look professional, not overly wordy, and not just copying text from the paper|
+
 
 ## What to submit
 
