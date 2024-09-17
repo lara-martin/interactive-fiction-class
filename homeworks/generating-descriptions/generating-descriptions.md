@@ -93,7 +93,7 @@ For this assignment, we will check your ability to:
 * Setup data for finetuning
 * Compare early finetuned output to modern few-shot output
 
-## Getting Started with the OpenAI API
+## Getting Started
 
 If you haven't already done so, please complete the in-class activity on [Generating Room Descriptions](https://laramartin.net/interactive-fiction-class/in_class_activities/openai-playground/room-descriptions.html). This will give you a good idea of how the model should be prompted without dealing with the API.
 
@@ -106,9 +106,9 @@ OpenAI has several different chat models.  You will probably see `gpt-4o` and `g
 * The cost of the model (`gpt-4` is more [expensive](https://openai.com/pricing))
 
 
-### Prompt design
+## Prompt Design
 
-In addition to writing awesome reviews of your professors, you can design prompts to get GPT-3 to do all sorts of suprising things.  For instance, GPT-3 can perform [few-shot learning](https://arxiv.org/abs/2005.14165).  Given a few examples of a task, it can learn a pattern very quickly and then be used for classification tasks.  It often times helps to tell the model what you want it to do. 
+In addition to writing awesome reviews of your professors, you can design prompts to get GPT to do all sorts of suprising things.  For instance, GPT-3/4 can perform [few-shot learning](https://arxiv.org/abs/2005.14165).  Given a few examples of a task, it can learn a pattern very quickly and then be used for classification tasks.  It often times helps to tell the model what you want it to do. 
 
 
 
@@ -119,11 +119,9 @@ Next, we'll take a look at how to [fine-tune the OpenAI models](https://platform
 
 For your homework, you'll fine-tune GPT-3 to generate different parts of text adventure games.  Specifically we'll train GPT-3 to
 1. Generate descriptions of locations
-2. List items that might be found in a location
-3. Describe an item
-4. Predict an item's properties
+2. Predict an item's properties
 
-### Data
+## Data
 
 We are going to use a text adventure that was developed by Facebook AI Research for their paper [Learning to Speak and Act in a Fantasy Text Adventure Game](https://aclanthology.org/D19-1062/).
 
@@ -134,7 +132,7 @@ Here's the paper's abstract:
 Their data is called the LIGHT dataset (Learning in Interactive Games with Humans and Text).  It contains 663 locations, 3462 objects and 1755 characters.  I have divided this data into training/dev/test splits.  We will use this data to fine-tune GPT-3 to generate descriptions of rooms and items.
 
 
-### Colab Notebook
+## Colab Notebook
 
 You will be working on this [Colab Notebook for Fine-Tuning/Prompting on LIGHT Enviroment Data]({{ site.baseurl }}/homeworks/generating-descriptions/hw2.ipynb).
 
