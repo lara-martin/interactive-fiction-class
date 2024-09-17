@@ -136,21 +136,15 @@ Their data is called the LIGHT dataset (Learning in Interactive Games with Human
 
 ### Colab Notebook
 
-Here is a [Colab Notebook for Fine-Tuning OpenAI on LIGHT Enviroment Data](https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/homeworks/generating-descriptions/Fine_Tune_OpenAI_on_LIGHT_Text_Adventures.ipynb).  The notebook shows you how to fine-tune GPT-3 to generate descriptions.  You then will implement code to fine-tune it for several other tasks.  
+You will be working on this [Colab Notebook for Fine-Tuning/Prompting on LIGHT Enviroment Data]({{ site.baseurl }}/homeworks/generating-descriptions/hw2.ipynb).
 
 *Remember to make a copy of the notebook into your own Drive by choosing "Save a Copy in Drive" from Colab's "File" menu.*
 
-In addition to working your way through my Colab Notebook, I recommend reading the [OpenAI documentation](https://platform.openai.com/docs/overview), and trying the examples in the Playground.
+In addition to working your way through the Colab Notebook, I recommend reading the [OpenAI documentation](https://platform.openai.com/docs/overview), and trying the examples in the Playground.
 
 ## What to submit
 
-Please submit the following:
-1. Your completed Colab Notebook
-2. A set of generated game locations, items and connections in the same JSON format as the LIGHT data
-3. A zip file with all training data files that you used to fine-tune your models
-4. A PDF writeup that explains what you did in this homework.  You should say whether or not you think it's now feasible to fully generate text adventure games with AI.  What other pieces would you need to implement, in addition to what you did in this homework? Here's an [example writeup](example_writeup.pdf) that is roughly the level of quality that we expect.
-
-You should submit your completed homework to [Blackboard]({page.submission_link}).  You can work in pairs.  Only one partner should submit - be sure to specify who your partner was when you make your submission. 
+You should submit your completed Colab Notebook to [Blackboard]({page.submission_link}).  You can work in pairs.
 
 # Grading
 <div class="alert alert-warning" markdown="1">
