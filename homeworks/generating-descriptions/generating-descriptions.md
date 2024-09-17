@@ -134,8 +134,6 @@ Their data is called the LIGHT dataset (Learning in Interactive Games with Human
 
 You will be working on this [Colab Notebook for Fine-Tuning/Prompting on LIGHT Enviroment Data]({{ site.baseurl }}/homeworks/generating-descriptions/hw2.ipynb).
 
-*Remember to make a copy of the notebook into your own Drive by choosing "Save a Copy in Drive" from Colab's "File" menu.*
-
 In addition to working your way through the Colab Notebook, I recommend reading the [OpenAI documentation](https://platform.openai.com/docs/overview), and trying the examples in the Playground.
 
 ## What to submit
