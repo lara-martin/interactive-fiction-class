@@ -59,10 +59,18 @@
 
 -
   date: 2024-09-17
-  title: Neural Story Generation + Module 1 Paper Presentations
+  title: Campus Closed - No Class
+  type: no_lecture
+  
+  
  
 -
   date: 2024-09-19
+  title: Neural Story Generation + Module 1 Paper Presentations
+
+
+-
+  date: 2024-09-24
   title: Scripts and Events
   #activities:
   #  -
@@ -70,23 +78,19 @@
   #    url: script_making.html
 
 -
-  date: 2024-09-24
-  title: Understanding Procedures
-
--
   date: 2024-09-26
-  title: Guided Story Generation
+  title: Understanding Procedures
   
  
 
 
 -
   date: 2024-10-01
-  title: Story Ending Prediction (Story Cloze Test) + Module 2 Paper Presentations
+  title: Guided Story Generation
   
 -
   date: 2024-10-03
-  title: Search
+  title: Story Ending Prediction (Story Cloze Test) + Module 2 Paper Presentations
   #activities:
   #  -
   #    title: Search Algorithms for Action Castle
@@ -102,7 +106,7 @@
    
 -
   date: 2024-10-08
-  title: Classical Planning
+  title: Classical Planning + Search
   #activities:
   #  -
   #    title: Planning and PDDL
@@ -112,15 +116,15 @@
   date: 2024-10-10
   title: Story Planning + Drama Management
 
-          
+        
 -
   date: 2024-10-15
-  title: Façade Playthrough + Module 3 Paper Presentations
+  title: LLM-based Story Planning
   
 
 -
   date: 2024-10-17
-  title: LLM-based Story Planning
+  title: Façade Playthrough + Module 3 Paper Presentations
      
 -
   #date: 2024-10-21

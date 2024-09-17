@@ -50,27 +50,18 @@ No homework for this module.
 
 {% for lesson in module.lessons %}
 ### Lesson {{ forloop.index }}: {{lesson.title}}{% if lesson.slides %} [[Slides]]({{lesson.slides}}){% endif %}{%if lesson.video %} [[Video]]({{lesson.video}}){% endif %}
-{% if lesson.guest_speaker %} Guest Lecturer: <a href="{{ lesson.guest_url }}">{{lesson.guest_speaker}}</a>{% endif %}
+{% if lesson.guest_speaker %} Guest Lecturer: {% if lesson.guest_url %}<a href="{{ lesson.guest_url }}">{{lesson.guest_speaker}}</a>{% else %} {{lesson.guest_speaker}}{% endif %}{% endif %}
 {% if lesson.guest_speaker2 %} and <a href="{{ lesson.guest_url2 }}">{{lesson.guest_speaker2}}</a>{% endif %}
 
 
 
 {% if lesson.title contains "Paper Presentations" %}
-{% for pres in lesson.presentations %}
-*  <i><a href="{{ pres.link }}">{{ pres.paper }}</a></i> - presented by {{ pres.name }}
-{% endfor %}
+<b>Paper Presentations:</b>
 
-
-<!--{{lesson.title}}
-{{module.module_number}}
-{% assign pres = site.data.presentations | group_by: "module_num" %}
-{% for p in pres %}
-{% if module.module_number == p.name %}
-{% for pres_item in p.items %}
-*  <i><a href="{{ pres_item.link }}">{{ pres_item.paper }}</a></i> - presented by {{ pres_item.name }}
+{% assign pres = site.data.presentations | find: "module_num", module.module_number %}
+{% for p in pres.presenters %}
+*  <a href="{{ p.link }}">{{p.authors}} ({{p.year}}). <i>{{ p.paper }}</i>.</a> - presented by {{ p.name }}
 {% endfor %}
-{% endif %}
-{% endfor %}-->
 
 {% endif %}
 
