@@ -10,8 +10,8 @@ active_tab: homework
 release_date: 2024-09-16
 materials:
    -
-      name: hw2.ipynb
-      url: {{ site.baseurl }}//homeworks/generating-descriptions/hw2.ipynb
+     name: hw2.ipynb
+     url: {{ site.baseurl }}/homeworks/generating-descriptions/hw2.ipynb
 due_date: 2024-10-07 23:59:00EST
 submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7129306_1?courseId=_82444_1&gradeitemView=details
 readings:
@@ -109,8 +109,6 @@ OpenAI has several different chat models.  You will probably see `gpt-4o` and `g
 ## Prompt Design
 
 In addition to writing awesome reviews of your professors, you can design prompts to get GPT to do all sorts of suprising things.  For instance, GPT-3/4 can perform [few-shot learning](https://arxiv.org/abs/2005.14165).  Given a few examples of a task, it can learn a pattern very quickly and then be used for classification tasks.  It often times helps to tell the model what you want it to do. 
-
-
 
 
 ## Fine-Tuning
