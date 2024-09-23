@@ -10,7 +10,8 @@ active_tab: homework
 release_date: 2024-09-22
 due_date: 2024-09-30 23:59:00EST
 submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7135696_1?courseId=_82444_1&gradeitemView=details
-gen_policy: https://laramartin.net/interactive-fiction-class/index.html#using-llms-or-generative-ai
+gen_policy: "https://laramartin.net/interactive-fiction-class/index.html#using-llms-or-generative-ai"
+
 ---
 
 <!-- Check whether the assignment is ready to release -->
