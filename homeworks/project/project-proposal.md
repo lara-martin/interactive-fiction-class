@@ -7,8 +7,8 @@ title: Project Proposal
 type: Project Milestone
 number: 1
 active_tab: homework
-release_date: 2024-03-01
-due_date: 2024-03-26 13:45:00EST
+release_date: 2024-09-22
+due_date: 2024-09-30 23:59:00EST
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -52,32 +52,34 @@ You can download the materials for this assignment here:
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
 
-The project is a chance for you to delve into one of the topics we have covered in class. You can choose between two directions: creating a novel interactive experience or answering a research question. The final deliverable will a poster presentation and either a demo or a paper.
-
-For this milestone, you will write a project proposal that answers the questions below.
+The project is a chance for you to delve into one of the topics we have covered in class. You can choose between two directions: creating a novel interactive experience or answering a research question. The final deliverable will a poster presentation and either a **demo** or a **paper**.
 
 If you are trying to decide between multiple project ideas, or if you're struggling to come up with something, we highly encourage you to come to office hours and discuss it with Dr. Martin. She will be able to help you narrow down which ideas of yours are the most feasible + interesting.
 
-## Build a novel interactive experience
-Use the techniques we have learned in class to build a novel interactive experience that involves generated text. While fine-tuning a large language model on a custom dataset could be a component of your project, we are expecting something more involved than just this. Can you expand on the homeworks to build a text-based game that uses language models to make a novel and fun game experience? Can you incorporate elements of classical planning or dialogue systems into your generation? By the end of the semester, you should have a demo that runs either in a Python Notebook or on a website showcasing your interactive experience.
+For this milestone, you will pick whether you are doing a demo or a paper and then write a project proposal that contains the following sections.
+
+## Demo: Build a novel interactive experience
+Use the techniques we have learned in class to build a novel interactive experience that involves generated text. While fine-tuning a large language model on a custom dataset or few-shot prompting your model could be a _component_ of your project, we are expecting something more involved than just this. Can you expand on the homeworks to build a text-based game that uses language models to make a novel and fun game experience? Can you incorporate elements of classical planning or dialogue systems into your generation? By the end of the semester, you should have a demo that runs either in a Python Notebook or on a website showcasing your interactive experience.
 
 Write a project proposal that includes the following sections:
-1. __Project Description__: What novel interactive experience do you propose to design?
+1. __Project Description__: What novel interactive experience do you propose to design? You're not stuck with whatever design decisions you make here, but this will be your starting point.
   - Give an example mockup of what the user experience will look like.
-2. __Proposed Method__: How will you be using text generation systems or other concepts from class in order to enable the interactive experience? Will you need to train your own neural networks?
+2. __Data__: What data will be needed to build your interactive experience?
+  - Does the needed data already exist?  If so, how much data is available?  
+  - What does the data look like?
+3. __Proposed Method__: How will you be using text generation systems or other concepts from class in order to enable the interactive experience? Will you need to train your own neural networks?
   - Write 2-3 paragraphs explaining your proposed method.
-3. __Data__: What data will be needed to build your interactive experience?
-  - Does the needed data already exist?  If so, how much data is available?
+  - Give an example diagram of the backend system.
 4. __Related work__: Do similar games/experiences exist to the one you propose to create?
   - Give pointers to them and explain how you think they relate to your project idea.
 5. __Team members__: Give a list of the students who will participate in this project, and what contribution you expect each one to make to the project.
 
 
-## Attempt to answer a research question about text generation or interactive fiction
+## Paper: Attempt to answer a research question about text generation or interactive fiction
 In class, we have discussed multiple open questions related to text generation. Choose one of these questions and conduct experiments to attempt to answer the question. By the end of the semester, you should have an academic paper that describes the research question, the experiments you ran to try and answer it, and an analysis of the experimental results.
 
 <div class="alert alert-info">
-If you are interested in trying to submit a paper to the [IEEE Transactions on Games special issue on LLMs and Games](https://transactions.games/special-issue/special-issue-on-large-language-models-and-games), please state this in bold at the top of your proposal and submit 
+If you are interested in trying to submit a paper to a conference or workshop (aka publish the work), please state this at the top of your paper in bold. This won't affect your grade but will affect the thoroughness of feedback you get.
 </div>
 
 Write a project proposal that includes the following sections:
@@ -86,21 +88,24 @@ Write a project proposal that includes the following sections:
   - Give an illustrative example of the problem and/or your proposed solution.
 2. __Data__: What kind of data will you need to train and evaluate your method?
   - Does the needed data already exist?  If so, how much data is available?
-3. __Evaluation__: What evaluation metrics do you plan to use to answer your research question?
+  - What does the data look like?
+3. __Evaluation__: What are you measuring and why? What evaluation metrics do you plan to use to answer your research question?
 4. __Related work__: What previous research has been done on this research question?
-  - Give pointers to several research papers that you think are relevant along with short explanations of how you think they relate to your project idea.
+  - Give citations to several research papers that you think are relevant along with short explanations of how you think they relate to your project idea. This can be a list with summaries of the papers for now and you will turn it into a proper Related Work section later.
 5. __Team members__: Give a list of the students who will participate in this project, and what contribution you expect each one to make to the project.
 
 # What to Submit
 Submit to Blackboard:
-* `team#-proposal.pdf` which contains your project proposal. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points as well.
+* `team#-proposal.pdf` which is your project proposal. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points as well.
 
 
 # Grading
 <div class="alert alert-warning" markdown="1">
-* Project Description - 1 point
-* Proposed Method or Evaluation - 1 point
-* Data - 1 point
+* Project Description - 5 points
+* Data - 3 point
+* Proposed Method or Evaluation - 3 points
 * Related Work - 1 point
 * Team Members - 1 point
+
+Total: 13 points
 </div>

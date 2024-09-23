@@ -82,7 +82,13 @@
   title: Understanding Procedures
   
  
-
+-
+  date: 2024-09-30
+  type: deadline
+  homework_due:   
+    -
+      title: Final Project Milestone 1&colon; Proposal
+      url: project-proposal/project-proposal.html
 
 -
   date: 2024-10-01
@@ -149,15 +155,6 @@
 -
   date: 2024-10-22
   title: Commonsense Reasoning
-
--
-  date: 2024-10
-  type: deadline
-  homework_due:   
-    -
-      title: Final Project Milestone 1&colon; Proposal + Lightning Talk
-      url: #project-proposal/project-proposal.html
-
 
   
 -
