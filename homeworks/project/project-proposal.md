@@ -9,6 +9,8 @@ number: 1
 active_tab: homework
 release_date: 2024-09-22
 due_date: 2024-09-30 23:59:00EST
+submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7135696_1?courseId=_82444_1&gradeitemView=details
+gen_policy: https://laramartin.net/interactive-fiction-class/index.html#using-llms-or-generative-ai
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -35,6 +37,10 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 <div class="alert alert-info">
 This assignment is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
+
+Please reacquaint yourself with the [course's text generation policy]({{gen_policy}}).
+
+And then [submit a pdf of your proposal here]({{submission_link}}).
 </div>
 
 {% if page.materials %}
@@ -56,7 +62,7 @@ The project is a chance for you to delve into one of the topics we have covered 
 
 If you are trying to decide between multiple project ideas, or if you're struggling to come up with something, we highly encourage you to come to office hours and discuss it with Dr. Martin. She will be able to help you narrow down which ideas of yours are the most feasible + interesting.
 
-For this milestone, you will pick whether you are doing a demo or a paper and then write a project proposal that contains the following sections.
+For this milestone, you will pick whether you are doing a demo or a paper and then write a project proposal that contains the following sections. Guiding questions are given to help you fill out each section.
 
 ## Demo: Build a novel interactive experience
 Use the techniques we have learned in class to build a novel interactive experience that involves generated text. While fine-tuning a large language model on a custom dataset or few-shot prompting your model could be a _component_ of your project, we are expecting something more involved than just this. Can you expand on the homeworks to build a text-based game that uses language models to make a novel and fun game experience? Can you incorporate elements of classical planning or dialogue systems into your generation? By the end of the semester, you should have a demo that runs either in a Python Notebook or on a website showcasing your interactive experience.
@@ -73,6 +79,7 @@ Write a project proposal that includes the following sections:
 4. __Related work__: Do similar games/experiences exist to the one you propose to create?
   - Give pointers to them and explain how you think they relate to your project idea.
 5. __Team members__: Give a list of the students who will participate in this project, and what contribution you expect each one to make to the project.
+6. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your proposal document ([refer to the syllabus for guidance]({{gen_policy}})). If you did not use **any** generative text, please state so in this section.
 
 
 ## Paper: Attempt to answer a research question about text generation or interactive fiction
@@ -89,10 +96,12 @@ Write a project proposal that includes the following sections:
 2. __Data__: What kind of data will you need to train and evaluate your method?
   - Does the needed data already exist?  If so, how much data is available?
   - What does the data look like?
-3. __Evaluation__: What are you measuring and why? What evaluation metrics do you plan to use to answer your research question?
+3. __Evaluation__: What are you measuring and why?
+  - What evaluation metrics do you plan to use to answer your research question?
 4. __Related work__: What previous research has been done on this research question?
   - Give citations to several research papers that you think are relevant along with short explanations of how you think they relate to your project idea. This can be a list with summaries of the papers for now and you will turn it into a proper Related Work section later.
 5. __Team members__: Give a list of the students who will participate in this project, and what contribution you expect each one to make to the project.
+6. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your proposal document ([refer to the syllabus for guidance]({{gen_policy}})). If you did not use **any** generative text, please state so in this section.
 
 # What to Submit
 Submit to Blackboard:
@@ -106,6 +115,7 @@ Submit to Blackboard:
 * Proposed Method or Evaluation - 3 points
 * Related Work - 1 point
 * Team Members - 1 point
+* LLM Use Statement - 1 point
 
-Total: 13 points
+Total: 14 points
 </div>
