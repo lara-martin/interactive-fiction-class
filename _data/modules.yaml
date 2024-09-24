@@ -203,6 +203,7 @@
   lessons:
     - 
       title: Scripts and Events
+      slides: slides/lecture-07-scripts.pdf
       #slides: https://drive.google.com/file/d/15NY1bEg6ZZg5e3Ny0PIWvZNRpANAnInv/view?usp=sharing
       video: 
       length:
@@ -687,7 +688,10 @@
           title: "Co-writing screenplays and theatre scripts with language models: Evaluation by industry professionals"
           authors: Piotr Mirowski, Kory W. Mathewson, Jaylen Pittman, Richard Evans
           url: https://dl.acm.org/doi/full/10.1145/3544548.3581225
-          
+    -
+      title: Max Kreminiski
+      guest_speaker: Max Kreminiski
+      guest_url: https://mkremins.github.io/
     -
       title: Neurosymbolic Story Generation
       #slides: slides/22-04-07_Mixed-Methods.pdf

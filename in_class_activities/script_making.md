@@ -3,9 +3,9 @@ layout: default
 title: Make your own mini script
 type: in-class
 active_tab: homework
-release_date: 2022-02-01
-due_date: 2022-02-04 23:59:00EST
-submission_link: https://www.gradescope.com/courses/354158/assignments/1822819
+release_date: 2024-09-24
+due_date: 2024-10-01 23:59:00EST
+submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7137009_1?courseId=_82444_1&gradeitemView=details
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -49,13 +49,13 @@ The materials that you will need for this in-class activity are:
 In Class Activity: Make Your Own Mini Script
 =============================================================
 
-Now that you've seen a bit about what scripts can be, make your own with your group!
+Now that you've seen a bit about what scripts can be, make your own on your own or in pairs!
 Specifically, you will make a graph to represent a script for "checking out at the grocery store"
 
 ### What to do
 
-1. Open [draw.io](draw.io)
-2. Make a graph like the "ordering at a restaurant" one seen in class
-3. Save as a picture file (e.g., png or jpeg)
-4. Submit to [Gradescope]({{page.submission_link}}) by {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
+1. Open [draw.io](draw.io) or get out pen/pencil and paper
+2. Make a graph like the "ordering at a restaurant" one seen in class but for "checking out at the grocery store"
+3. Save as a picture file (e.g., png or jpeg) or take a picture of the piece of paper
+4. Submit to [Blackboard]({{page.submission_link}}) by {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
 

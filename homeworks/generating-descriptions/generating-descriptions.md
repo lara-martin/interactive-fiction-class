@@ -130,15 +130,15 @@ Here's the paper's abstract:
 Their data is called the LIGHT dataset (Learning in Interactive Games with Humans and Text).  It contains 663 locations, 3462 objects and 1755 characters.  I have divided this data into training/dev/test splits.  We will use this data to fine-tune GPT-3 to generate descriptions of rooms and items.
 
 
-## Colab Notebook
+## Jupyter Notebook
 
-You will be working on this [Colab Notebook for Fine-Tuning/Prompting on LIGHT Enviroment Data]({{ site.baseurl }}/homeworks/generating-descriptions/hw2.ipynb).
+You will be working on this [Jupyter Notebook for Fine-Tuning/Prompting on LIGHT Enviroment Data]({{ site.baseurl }}/homeworks/generating-descriptions/hw2.ipynb), which you can run in your VS Code environment or upload it to [Google Colab](https://colab.research.google.com/) or [DeepNote](https://deepnote.com/) to do the assignment online.
 
-In addition to working your way through the Colab Notebook, I recommend reading the [OpenAI documentation](https://platform.openai.com/docs/overview), and trying the examples in the Playground.
+In addition to working your way through the Jupyter Notebook, I recommend reading the [OpenAI documentation](https://platform.openai.com/docs/overview), and trying the examples in the Playground.
 
 ## What to submit
 
-You should submit your completed Colab Notebook to [Blackboard]({{page.submission_link}}).  You can work in pairs.
+You should submit your completed Jupyter Notebook to [Blackboard]({{page.submission_link}}).  You can work in pairs.
 
 # Grading
 <div class="alert alert-warning" markdown="1">
