@@ -244,6 +244,7 @@
       title: Understanding Procedures
       video: 
       length:
+      slides: slides/lecture-08_understanding-procedures.pdf
       #slides: https://docs.google.com/presentation/d/105BQYe7jyp5zSlVXORG1aJugOosUvcqk
       readings:
         -
@@ -314,7 +315,7 @@
   description: 
   hw:
     -
-      title: "Homework 4: Convert WikiHow to PDDL"
+      title: "Homework 4"
       percentage: 10%
       due_date: #2024-03-03
       url: #planning/planning.html
@@ -376,15 +377,15 @@
         -
           title: "Sabre: A Narrative Planner Supporting Intention and Deep Theory of Mind"
           authors: Stephen G. Ware, Cory Siler
-          url: http://cs.uky.edu/~sgware/reading/papers/ware2021sabre.pdf
+          url: https://dl.acm.org/doi/abs/10.5555/3505520.3505533
         -
           title: "Glaive: A State-Space Narrative Planner Supporting Intentionality and Conflict"
           authors: Stephen G. Ware, R. Michael Young
-          url: http://cs.uky.edu/~sgware/reading/papers/ware2014glaive.pdf        
+          url: https://ojs.aaai.org/index.php/AIIDE/article/view/12712       
         -
           title: Narrative Plan Generation with Self-Supervised Learning
           authors: Mihai Polceanu, Julie Porteous, Alan Lindsay, Marc Cavazza 
-          url: https://www.aaai.org/AAAI21Papers/AAAI-1408.PolceanuM.pdf      
+          url: https://ojs.aaai.org/index.php/AAAI/article/view/16747     
         -
           title: Integrating Plot, Character and Natural Language Processing in the Interactive Drama Façade
           authors: Michael Mateas, Andrew Stern
@@ -546,7 +547,7 @@
       readings:
         -
           title: Retrofitting Word Vectors to Semantic Lexicons
-          url: https://arxiv.org/abs/1411.4166
+          url: https://aclanthology.org/N15-1184/
           authors: "Manaal Faruqui, Jesse Dodge, Sujay K. Jauhar, Chris Dyer, Eduard Hovy, Noah A. Smith"          
       optional:
         -
@@ -558,7 +559,7 @@
 
   hw:
     -
-      title: "Homework 5: COMET-ATOMIC Schema"
+      title: "Homework 5"
       percentage: 10%
       due_date: 
       url: #schemas/schemas.html
@@ -578,12 +579,12 @@
         -
           title: Building End-To-End Dialogue Systems Using Generative Hierarchical Neural Network Models
           authors: Iulian V. Serban, Alessandro Sordoni, Yoshua Bengio, Aaron Courville, Joelle Pineau
-          url: https://arxiv.org/abs/1507.04808
+          url: https://dl.acm.org/doi/10.5555/3016387.3016435
           year: 2015
         -
           title: A Diversity-Promoting Objective Function for Neural Conversation Models
           authors: Jiwei Li, Michel Galley, Chris Brockett, Jianfeng Gao, Bill Dolan
-          url: https://arxiv.org/abs/1510.03055
+          url: https://aclanthology.org/N16-1014/
           year: 2015
         -
           title: A Neural Conversational Model
@@ -596,11 +597,11 @@
         -
           title: Learning to Speak and Act in a Fantasy Text Adventure Game
           authors: Jack Urbanek, Angela Fan, Siddharth Karamcheti, Saachi Jain, Samuel Humeau, Emily Dinan, Tim Rocktäschel, Douwe Kiela, Arthur Szlam, Jason Weston
-          url: https://arxiv.org/abs/1903.03094
+          url: https://aclanthology.org/D19-1062/
         -
           title: Telling Stories through Multi-User Dialogue by Modeling Character Relations
           authors: Wai Man Si, Prithviraj Ammanabrolu, Mark O. Riedl
-          url: https://aclanthology.org/2021.sigdial-1.30.pdf
+          url: https://aclanthology.org/2021.sigdial-1.30/
         -
           title: "I love your chain mail! Making knights smile in a fantasy game world: Open-domain goal-oriented dialogue agents"
           authors: Shrimai Prabhumoye, Margaret Li, Jack Urbanek, Emily Dinan, Douwe Kiela, Jason Weston, Arthur Szlam
@@ -647,7 +648,7 @@
       
   hw:
     -
-      title: "Homework 6: Character-based Story Generation"
+      title: "Homework 6"
       percentage: 10%
       due_date: 
       url: 
