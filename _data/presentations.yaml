@@ -166,4 +166,12 @@
       authors: Oriol Vinyals &amp; Quoc Le
       year: 2015
       link: https://arxiv.org/abs/1506.05869
-      slides:                                      
+      slides:
+    -
+      name: Mukesh Kumar Vidam
+      paper: "Learning to Speak and Act in a Fantasy Text Adventure Game"
+      authors: Jack Urbanek, et al.
+      link: https://aclanthology.org/D19-1062/
+      year: 2019
+      slides: 
+                                 
