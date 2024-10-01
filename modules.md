@@ -58,10 +58,15 @@ No homework for this module.
 {% if lesson.title contains "Paper Presentations" %}
 <b>Paper Presentations:</b>
 
-{% assign pres = site.data.presentations | find: "module_num", module.module_number %}
+
+<!--{% assign pres = site.data.presentations | find: "module_num", module.module_number %}-->
+{% for pres in site.data.presentations %}
+{% if presentation.module_num == module.module_number %}
 {% for p in pres.presenters %}
-*  <a href="{{ p.link }}">{{p.authors}} ({{p.year}}). <i>{{ p.paper }}</i>.</a> - presented by {{ p.name }}
+*  {{p.authors}} ({{p.year}}). <i>{{ p.paper }}</i>. [<a href="{{ p.link }}">paper</a>] [<a href="presentations/{{p.slides}}">slides</a>] - presented by {{ p.name }}
 {% endfor %}
+{%endif%}
+{%endfor%}
 
 {% endif %}
 

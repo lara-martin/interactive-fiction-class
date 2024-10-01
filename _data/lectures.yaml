@@ -72,10 +72,10 @@
 -
   date: 2024-09-24
   title: Scripts and Events
-  #activities:
-  #  -
-  #    title: Make Your Own Mini Script
-  #    url: script_making.html
+  activities:
+    -
+      title: Make Your Own Mini Script
+      url: script_making.html
 
 -
   date: 2024-09-26
@@ -96,7 +96,7 @@
   
 -
   date: 2024-10-03
-  title: Story Ending Prediction (Story Cloze Test) + Module 2 Paper Presentations
+  title: Module 2 Paper Presentations
   #activities:
   #  -
   #    title: Search Algorithms for Action Castle
