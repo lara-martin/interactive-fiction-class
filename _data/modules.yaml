@@ -495,7 +495,7 @@
         -
           title: "dAIrector: Automatic Story Beat Generation through Knowledge Synthesis"
           url: http://ceur-ws.org/Vol-2321/paper8.pdf
-          authors: Markus Eger, Kory W. Mathewson
+          authors: Markus Eger &amp; Kory W. Mathewson
         -
           title: "Joint Constrained Learning for Event-Event Relation Extraction"
           url: https://aclanthology.org/2020.emnlp-main.51/
@@ -504,7 +504,7 @@
         -
           title: Façade
           url: https://www.playablstudios.com/facade
-          authors: Michael Mateas, Andrew Stern
+          authors: Michael Mateas &amp; Andrew Stern
         -
           title: Anchorhead
           url: https://dwheeler.com/anchorhead/
@@ -574,7 +574,7 @@
           url: https://homes.cs.washington.edu/~msap/acl2020-commonsense/
         -
           title: "NaturalLI: Natural Logic Inference for Common Sense Reasoning"
-          authors: Gabor Angeli and Chris Manning
+          authors: Gabor Angeli &amp; Chris Manning
           url: https://www.aclweb.org/anthology/D14-1059.pdf        
       optional:          
         -
@@ -617,7 +617,7 @@
           url: https://arxiv.org/abs/1804.05435
         -
           title: "Putting Pieces Together: Combining FrameNet, VerbNet and WordNet for Robust Semantic Parsing"
-          authors: Lei Shi and Rada Mihalcea
+          authors: Lei Shi &amp; Rada Mihalcea
           url: https://web.eecs.umich.edu/~mihalcea/papers/shi.cicling05.pdf
     -
       title: Storytelling with Ontologies + Midsemester Recap
@@ -716,7 +716,7 @@
           year: 2015
         -
           title: A Neural Conversational Model
-          authors: Oriol Vinyals, Quoc Le
+          authors: Oriol Vinyals &amp; Quoc Le
           url: https://arxiv.org/abs/1506.05869
         -
           title: "DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation"
@@ -745,7 +745,7 @@
           url: https://aclanthology.org/2022.emnlp-main.637/
         -
           title: "Deep Dungeons and Dragons: Learning Character-Action Interactions from Role-Playing Game Transcripts"
-          authors: Annie Louis, Charles Sutton
+          authors: Annie Louis &amp; Charles Sutton
           url: https://aclanthology.org/N18-2111/
         -
           title: "Connotation Frames of Power and Agency in Modern Films"
@@ -832,6 +832,10 @@
           title: "Confabulation: The Surprising Value of Large Language Model Hallucinations"
           authors: Peiqi Sui, Eamon Duede, Sophie Wu, Richard So
           url: https://aclanthology.org/2024.acl-long.770/
+        -
+          title: "Mrs. Dalloway Said She Would Segment the Chapters Herself"
+          authors: Peiqi Sui, et al.
+          url: https://aclanthology.org/2023.wnu-1.15/
               
 
     -
@@ -846,7 +850,7 @@
           url: https://dl.acm.org/doi/abs/10.1145/3630106.3658993
         -
           title: "Communicative capital: a key resource for human–machine shared agency and collaborative capacity"
-          authors: Kory W. Mathewson, Adam S.R. Parker, Craig Sherstan, Ann L. Edwards, Richard S. Sutton, Patrick M. Pilarski
+          authors: Kory W. Mathewson, et al.
           url: https://link.springer.com/article/10.1007/s00521-022-07948-1
         -
           title: "Co-writing screenplays and theatre scripts with language models: Evaluation by industry professionals"
@@ -862,7 +866,7 @@
         -
           title: "Patchview: LLM-Powered Worldbuilding with Generative Dust and Magnet Visualization"
           url: https://mkremins.github.io/publications/Patchview_UIST2024.pdf
-          authors: John Joon Young Chung, Max Kreminski
+          authors: John Joon Young Chung &amp; Max Kreminski
         -
           title: Homogenization Effects of Large Language Models on Human Creative Ideation
           url: https://dl.acm.org/doi/10.1145/3635636.3656204
@@ -871,7 +875,27 @@
           title: "Toyteller: Toy-Playing with Character Symbols for AI-Powered Visual Storytelling"
           url: https://mkremins.github.io/publications/Toyteller_UIST2024.pdf
           authors: John Joon Young Chung, Melissa Roemmele, Max Kreminski
-    
+    -
+      title: Co-Creativity
+      guest_speaker: Zhiyu Lin (林之雨)
+      guest_url: https://www.zhiyulin.info/
+      readings:
+        -
+          title: "Beyond Following: Mixing Active Initiative into Computational Creativity"
+          url: https://arxiv.org/abs/2409.16291
+          authors: Zhiyu Lin, et al.
+        -
+          title: An Ontology of Co-Creative AI Systems
+          url: https://arxiv.org/abs/2310.07472
+          authors: Zhiyu Lin &amp; Mark Riedl
+        -
+          title: "Beyond prompts: Exploring the design space of mixed-initiative co-creativity systems"
+          url: https://arxiv.org/abs/2305.07465
+          authors: Zhiyu Lin, et al.
+        -
+          title: "Creative wand: a system to study effects of communications in co-creative settings"
+          url: https://ojs.aaai.org/index.php/AIIDE/article/view/21946
+          authors: Zhiyu Lin, Rohan Agarwal, Mark Riedl
     
     -
       title: Neurosymbolic Story Generation
