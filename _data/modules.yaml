@@ -348,21 +348,14 @@
           authors: Belinda Z. Li, et al.
           link: https://aclanthology.org/2021.acl-long.143/
           year: 2021
-          slides:
-        - 
-          name: Keerthi Sree Kopparaju
-          paper: Reasoning about Goals, Steps, and Temporal Ordering with WikiHow
-          authors: Li Zhang, et al.
-          link: https://aclanthology.org/2020.emnlp-main.374/
-          year: 2020
-          slides:
+          slides: Honraopatil_Implicit-representation-of-meaning.pdf
         - 
           name: Hanuma Sashank Samudrala 
           paper: Enhanced Story Representation by ConceptNet for Predicting Story Endings
           authors: Shanshan Huang, et al.
           link: https://dl.acm.org/doi/abs/10.1145/3340531.3417466
           year: 2020
-          slides:
+          slides: Samudrala_Enhanced-Story-Representation.pdf
 
   hw:
     -

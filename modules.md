@@ -59,7 +59,7 @@ No homework for this module.
 <b>Paper Presentations:</b>
 
 {% for p in lesson.presenters %}
-*  {{p.authors}} ({{p.year}}). <i>{{ p.paper }}</i>. [<a href="{{ p.link }}">paper</a>] [<a href="presentations/{{p.slides}}">slides</a>] - presented by {{ p.name }}
+*  {{p.authors}} ({{p.year}}). <i>{{ p.paper }}</i>. [<a href="{{ p.link }}">paper</a>] {% if p.slides %}[<a href="presentations/{{p.slides}}">slides</a>]{%endif%} - presented by {{ p.name }}
 {% endfor %}
 
 {% endif %}
