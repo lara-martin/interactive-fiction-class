@@ -457,7 +457,13 @@
           url: http://cs.uky.edu/~sgware/reading/papers/ware2019multi.pdf
     -
       title: LLM-based Story Planning
+      guest_speaker: Nisha Simon
+      guest_url: https://nisimon48.github.io/
       readings:
+        -
+          title: "Want To Choose Your Own Adventure? Then First Make a Plan."
+          url: https://assets.pubpub.org/doldyzqc/CanadianAI2024_ChooseYourOwnAdventureStories_NSimon_Camera_Ready_Apr17-61716785652947.pdf
+          authors: Nisha Simon &amp; Christian Muise
         -
           title: "StoryVerse: Towards Co-authoring Dynamic Plot with LLM-based Character Simulation via Narrative Planning"
           url: https://dl.acm.org/doi/10.1145/3649921.3656987
@@ -613,7 +619,7 @@
           authors: Lei Shi &amp; Rada Mihalcea
           url: https://web.eecs.umich.edu/~mihalcea/papers/shi.cicling05.pdf
     -
-      title: Storytelling with Ontologies + Midsemester Recap
+      title: Storytelling with Ontologies + Recap
       guest_speaker: 
       guest_url: 
       #slides: slides/CIS700-Recap-Ontologies.pdf

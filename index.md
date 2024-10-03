@@ -172,8 +172,10 @@ Your two lowest grade class knowledge checks (i.e., incomplete or missing submis
 #### Collaboration Policy
 Unless otherwise noted, you ARE allowed to work in pairs (2 people) on the homework assignments, and teams of 3-5 for the final project.
 
-#### Late Day Policy
-Each student has five free "late days".  Homeworks can be submitted at most two days late.  If you are out of late days, then you will not be able to get credit for subsequent late assignments. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays.  You do not need to ask permission to use your late days.  No additional late days are granted. **Late days only apply to the homeworks. They cannot be used on the last deadline for the final project, which must be finished by the final day of class.  Late days may not be used for paper presentations.**
+#### Late Day Policy 
+Each student has five free "late days" to be used on homeworks.  Each homework can be submitted at most two days late.  If you are out of late days, then you will not be able to get credit for subsequent late assignments. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays.  You do not need to ask permission to use your late days.  No additional late days are granted. **Late days only apply to the homeworks. They cannot be used on the last deadline for the final project, which must be finished by the final day of class.  Late days may not be used for paper presentations.**
+
+10/3 Update: Knowledge checks can be made up at any time, no excuse needed. There will be an assignment for each knowledge check on Blackboard where you can submit your answer or materials.
 
 #### Academic Integrity
 If you are struggling because of the material or having difficulties completing the assignments on time, please [reach out to Dr. Martin](mailto:laramar@umbc.edu) rather than copying another student or looking up answers online. We can come up with a solution to help you out before you feel like you need to resort to cheating.
