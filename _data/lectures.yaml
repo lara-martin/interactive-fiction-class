@@ -97,10 +97,6 @@
 -
   date: 2024-10-03
   title: Module 2 Paper Presentations
-  #activities:
-  #  -
-  #    title: Search Algorithms for Action Castle
-  #    url: search/action-castle-search.html
  
 -
   date: 2024-10-07
@@ -113,6 +109,10 @@
 -
   date: 2024-10-08
   title: Classical Planning + Search
+  activities:
+    -
+      title: Search Algorithms for Action Castle
+      url: search/action-castle-search.html  
   #activities:
   #  -
   #    title: Planning and PDDL
