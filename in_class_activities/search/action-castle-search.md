@@ -6,13 +6,13 @@ caption: DFS is not useful for all occasions
 title: Search Algorithms for Action Castle
 type: in-class
 active_tab: homework
-release_date: 2022-02-15
-due_date: 2022-02-21 23:59:00EST
+release_date: 2024-10-08
+due_date: 2024-10-15 23:59:00EST
 materials:
     - 
         name: Search Algorithms for Action Castle.ipynb
-        url: https://colab.research.google.com/github/interactive-fiction-class/interactive-fiction-class.github.io/blob/master/in_class_activities/search/Search_Algorithms_for_Action_Castle.ipynb
-submission_link: https://www.gradescope.com/courses/354158/assignments/1861402
+        url: https://colab.research.google.com/github/lara-martin/interactive-fiction-class/blob/master/in_class_activities/search/Search_Algorithms_for_Action_Castle.ipynb
+submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7149705_1?courseId=_82444_1&gradeitemView=details
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -76,6 +76,6 @@ We'll implement three functions that will allow us to use BFS to find the best s
 * `get_available_actions`
 * `goal_test`
 
-4. Please submit your work to [Gradescope]({{page.submission_link}}) by {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
+4. Please submit your work to [Blackboard]({{page.submission_link}}) by {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
 
 
