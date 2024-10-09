@@ -87,7 +87,7 @@
   type: deadline
   homework_due:   
     -
-      title: Final Project Milestone 1&colon; Proposal
+      title: Project Milestone 1&colon; Proposal
       url: project-proposal/project-proposal.html
 
 -
@@ -160,8 +160,8 @@
   date: 2024-10-28
   homework_due:
     - 
-      title: Final Project Milestone 2&colon; Progress Report (Lit Review &amp; Baselines)
-      url: #progress-report1/pr1.html
+      title: Final Project Milestone 2&colon; Project Progress
+      url: project/progress-report1.html
 -
   date: 2024-10-29
   title: Knowledge Representations + Schemata
@@ -237,8 +237,8 @@
   type: deadline
   homework_due:
     - 
-      title: Final Project Milestone 3&colon; Final Report Draft
-      url: #progress-report2/pr2.html
+      title: Project Milestone 3&colon; Final Report Draft
+      url: #project/pr2.html
 
 
 -
@@ -259,8 +259,8 @@
   type: deadline
   homework_due: 
     - 
-      title: Final Project Milestone 4&colon; Final Submission
-      url: #project-final-submission/project-final.html
+      title: Project Milestone 4&colon; Final Submission
+      url: #project/project-final.html
 
 
 -
