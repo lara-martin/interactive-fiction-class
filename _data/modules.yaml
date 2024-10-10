@@ -380,7 +380,7 @@
 
       
     - 
-      title: Classical Planning + Search
+      title: Search
       #slides: slides/Search-and-Planning.pdf
       slides: slides/lecture-11_search.pdf
       video: 
@@ -402,10 +402,10 @@
           authors: Kory Becker
           url: http://www.primaryobjects.com/2015/11/06/artificial-intelligence-planning-with-strips-a-gentle-introduction/
     - 
-      title: Story Planning + Drama Management
+      title: "Classical Planning + Story/Game Planning"
       video: 
       length:
-      #slides: slides/Sabre.pdf
+      slides: slides/lecture-12_planning-combined.pdf
       optional:
         -
           title: Camelot Virtual Environment
@@ -420,6 +420,14 @@
           title: Story-Telling as Planning and Learning
           authors: Michael Lebowitz
           url: https://www.sciencedirect.com/science/article/pii/0304422X85900154
+        -
+          title: Planning Stories
+          authors: Michael Lebowitz
+          url: https://cognitivesciencesociety.org/wp-content/uploads/2019/01/cogsci_9.pdf
+        -
+          title: "CPOCL: A Narrative Planner Supporting Conflict"
+          authors: Stephen G. Ware, R. Michael Young
+          url: https://ojs.aaai.org/index.php/AIIDE/article/view/12428        
         -
           title: Open-world planning for story generation
           authors: Mark O. Riedl, R. Michael Young
