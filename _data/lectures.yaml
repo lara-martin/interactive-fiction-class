@@ -43,7 +43,7 @@
   type: deadline
   homework_due:   
     -
-      title: "HW1: Build a Text-Adventure Game (5%)"
+      title: "HW1: Build a Text-Adventure Game (7%)"
       url: text-adventure-game/text-adventure-game.html
 -
   date: 2024-09-11
@@ -103,7 +103,7 @@
   type: deadline
   homework_due:
     -
-      title: "HW2: Prompting and Fine-tuning (10%)"
+      title: "HW2: Prompting and Fine-tuning (12%)"
       url: generating-descriptions/generating-descriptions.html 
    
 -
@@ -130,7 +130,8 @@
 
 -
   date: 2024-10-17
-  title: Façade Playthrough + Module 3 Paper Presentations
+  title: Commonsense Reasoning
+  
      
 -
   #date: 2024-10-21
@@ -149,12 +150,13 @@
   type: deadline
   homework_due:
     -
-      title: "HW3: Plot Graph Generation HW (10%)"
+      title: "HW3: Guided Story Generation (12%)"
       url: #plots/plots.html  
     
 -
   date: 2024-10-22
-  title: Commonsense Reasoning
+  title: Façade Playthrough + Module 3 Paper Presentations
+  
 
 -
   date: 2024-10-28
@@ -175,7 +177,7 @@
   type: deadline
   homework_due:
     -
-      title: "HW5 Schemas: COMET-ATOMIC Schema (10%)"
+      title: "HW4 (12%)"
       url: #schemas/schemas.html
       
 -
@@ -214,7 +216,7 @@
   type: deadline
   homework_due: 
     - 
-      title: HW6
+      title: "HW5 (12%)"
       url: 
 #Reinforcement Learning for Playing Interactive Fiction
 #Neurosymbolic Story Generation

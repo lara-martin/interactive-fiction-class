@@ -39,13 +39,13 @@
     -
       title: "Homework 1: Build a Text-Adventure Game"
       url: text-adventure-game/text-adventure-game.html
-      percentage: 5%
+      percentage: 7%
       due_date: 2024-09-11
 
 -
   module_number: 1
   start_date: 2024-09-03
-  end_date: 2024-09-12
+  end_date: 2024-09-19
   title: Large Language Models
   description: With large language models becoming more popular within Natural Language Processing/Generation (NLP/NLG), automated story generation researchers realized how much easier it is to generate text. (And this also helped NLP researchers get interested in story generation!) Here, you'll learn about neural language models, particularly the transformer, how to work with them, and how they are used to generate stories.
   lessons:
@@ -220,13 +220,13 @@
     -
       title: "Homework 2: Prompting and Fine-tuning"
       url: generating-descriptions/generating-descriptions.html
-      percentage: 10%
+      percentage: 12%
       due_date: 2024-10-07
 
 -
   module_number: 2
-  start_date: 2024-09-17
-  end_date: 2024-09-26
+  start_date: 2024-09-19
+  end_date: 2024-10-03
   title: Scripts and Story Structure
   description: Scripts can be considered the backbone of storytelling. They help us fill in the gaps of knowledge that we would otherwise be missing from reading a story, and they help us reason about why events happen and what order they happen in. This Module will teach you about scripts, causal chains, and events. We'll also look at how people have been using these techniques in the age of the neural network.
   lessons:
@@ -359,21 +359,21 @@
 
   hw:
     -
-      title: "Homework 3: Plot Graph Generation"
-      percentage: 10%
+      title: "Homework 3: Guided Story Generation"
+      percentage: 12%
       due_date: #2024-02-15
       url: #plots/plots.html
 
 -
   module_number: 3
-  start_date: 2024-10-01
-  end_date: 2024-10-10
+  start_date: 2024-10-08
+  end_date: 2024-10-22
   title: Search and Planning
   description: 
   hw:
     -
       title: "Homework 4"
-      percentage: 10%
+      percentage: 12%
       due_date: #2024-03-03
       url: #planning/planning.html
   lessons:
@@ -547,8 +547,8 @@
 
 -
   module_number: 4
-  start_date: 2024-10-15
-  end_date: 2024-10-29
+  start_date: 2024-10-17
+  end_date: 2024-11-05
   title: Commonsense Reasoning + Schemas
   description:
   lessons:
@@ -690,7 +690,7 @@
   hw:
     -
       title: "Homework 5"
-      percentage: 10%
+      percentage: 12%
       due_date: 
       url: #schemas/schemas.html
 -
@@ -810,13 +810,6 @@
           link: https://aclanthology.org/D19-1062/
           year: 2019
           slides: 
-      
-  hw:
-    -
-      title: "Homework 6"
-      percentage: 10%
-      due_date: 
-      url: 
 
 -
   module_number: 6
