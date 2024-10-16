@@ -137,6 +137,7 @@ Books
 -->
 
 ### Grading
+(Updated 10/15 to reflect dropping from 6 to 5 HWs.)
 
 <table class="zui-table">
   <thead>
@@ -147,12 +148,11 @@ Books
     </tr>
   </thead>
   <tbody>
-  <tr> <td>Homework 1</td> <td> 5% </td><td> 5% </td></tr>
-  <tr> <td>Homework 2</td> <td> 10% </td><td> 10% </td></tr>
-  <tr> <td>Homework 3</td> <td> 10% </td><td> 10% </td></tr>
-  <tr> <td>Homework 4</td> <td> 10% </td><td> 10% </td></tr>
-  <tr> <td>Homework 5</td> <td> 10% </td><td> 10% </td></tr> 
-  <tr> <td>Homework 6</td> <td> 10% </td><td> 10% </td></tr>
+  <tr> <td>Homework 1</td> <td> 7% </td><td> 7% </td></tr>
+  <tr> <td>Homework 2</td> <td> 12% </td><td> 12% </td></tr>
+  <tr> <td>Homework 3</td> <td> 12% </td><td> 12% </td></tr>
+  <tr> <td>Homework 4</td> <td> 12% </td><td> 12% </td></tr>
+  <tr> <td>Homework 5</td> <td> 12% </td><td> 12% </td></tr> 
   <tr> <td>Project</td> <td> 30% </td><td> 30% </td></tr>
   <tr> <td>Knowledge Checks</td> <td> 15% </td><td> 5% </td></tr>
   <tr> <td>Paper Presentation</td> <td> - </td><td> 10% </td></tr>
