@@ -468,6 +468,7 @@
       title: LLM-based Story Planning
       guest_speaker: Nisha Simon
       guest_url: https://nisimon48.github.io/
+      slides: slides/Tell_Me_A_Story_LLM_NSimon_Oct152024.pdf
       readings:
         -
           title: "Want To Choose Your Own Adventure? Then First Make a Plan."
@@ -522,13 +523,6 @@
           url: http://garykac.github.io/plotto/
           authors: William Wallace Cook 
       presenters:
-        - 
-          name: Ashish Athimamula 
-          paper: "Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents"
-          authors: Wenlong Huang, et al.
-          year: 2022
-          link: https://proceedings.mlr.press/v162/huang22a
-          slides: 
         - 
           name: Shawn Bray 
           paper: Neural Story Planning
