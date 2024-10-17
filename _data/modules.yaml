@@ -555,6 +555,7 @@
     -
       title: Commonsense Reasoning
       #slides: slides/Commonsense-Reasoning.pdf
+      slides: slides/lecture-14_commonsense.pdf
       video: 
       length:
       readings:
@@ -584,7 +585,7 @@
           authors: Allen Institute for Artificial Intelligence
           url: https://leaderboard.allenai.org
     -
-      title: Knowledge Representations + Schemata
+      title: Neurosymbolic Knowledge Base Systems
       #slides: slides/CIS700-KnowledgeBases.pdf
       video: 
       length:

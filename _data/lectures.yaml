@@ -153,6 +153,7 @@
 
 -
   date: 2024-10-28
+  type: deadline
   homework_due:
     - 
       title: Final Project Milestone 2&colon; Project Progress
@@ -162,7 +163,7 @@
       url: plan-and-write/plan-and-write.html 
 -
   date: 2024-10-29
-  title: Knowledge Representations + Schemata
+  title: Neurosymbolic Knowledge Base Systems
 
 -
   date: 2024-10-31
