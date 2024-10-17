@@ -145,13 +145,6 @@
   #    title: "HW4 Planning: Convert WikiHow to PDDL (10%)"
   #    url: planning/planning.html
 
--
-  date: 2024-10-21
-  type: deadline
-  homework_due:
-    -
-      title: "HW3: Guided Story Generation (12%)"
-      url: #plots/plots.html  
     
 -
   date: 2024-10-22
@@ -164,6 +157,9 @@
     - 
       title: Final Project Milestone 2&colon; Project Progress
       url: project/progress-report1.html
+    -
+      title: "HW3: Guided Generation (12%)"
+      url: plan-and-write/plan-and-write.html 
 -
   date: 2024-10-29
   title: Knowledge Representations + Schemata

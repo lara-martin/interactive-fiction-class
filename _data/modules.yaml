@@ -359,10 +359,10 @@
 
   hw:
     -
-      title: "Homework 3: Guided Story Generation"
+      title: "Homework 3: Guided Generation"
       percentage: 12%
-      due_date: #2024-02-15
-      url: #plots/plots.html
+      due_date: 2024-10-28
+      url: plan-and-write/plan-and-write.html
 
 -
   module_number: 3
