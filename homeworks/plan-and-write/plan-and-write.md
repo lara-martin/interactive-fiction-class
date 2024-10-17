@@ -22,6 +22,13 @@ readings:
     year: 2019
     type: paper
     url: https://ojs.aaai.org/index.php/AAAI/article/view/4726
+  -
+    title: "Llama 2: Open Foundation and Fine-Tuned Chat Models"
+    authors: Hugo Touvron, et al.
+    venue: arXiv
+    year: 2023
+    type: paper
+    url: https://arxiv.org/abs/2307.09288   
 ---
 
 <!-- Check whether the assignment is ready to release -->
