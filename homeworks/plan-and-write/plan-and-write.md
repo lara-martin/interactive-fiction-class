@@ -16,12 +16,12 @@ due_date: 2024-10-28 23:59:00EST
 submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7156633_1?courseId=_82444_1&gradeitemView=details&gradebookCategoryId=_24131213_1&assessmentSubtype=Assignment
 readings:
   -
-    title: "Plan-and-write: towards better automatic storytelling"
+    title: "Plan-And-Write: Towards Better Automatic Storytelling"
     authors: Lili Yao, Nanyun Peng, Ralph Weischedel, Kevin Knight, Dongyan Zhao, Rui Yan
     venue: AAAI
     year: 2019
     type: paper
-    url: https://dl.acm.org/doi/10.1609/aaai.v33i01.33017378
+    url: https://ojs.aaai.org/index.php/AAAI/article/view/4726
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -66,7 +66,7 @@ You can download the materials for this assignment here:
 =============================================================
 
 Now that you know how to prompt an LLM from HW2, we will be using some guided story generation techniques from Module 2.
-In this homework, you will be following a generation pipeline inspired by the [Plan-and-Write system](https://dl.acm.org/doi/10.1609/aaai.v33i01.33017378). In their work, they generated keywords from a title and then generated a story from the keywords. They tried both dynamic and static schemas to integrate the planning into their generation pipeline. This homework will focus on the "static" schema but use a pre-trained LLM instead of their RNN model.
+In this homework, you will be following a generation pipeline inspired by the [Plan-and-Write system](https://ojs.aaai.org/index.php/AAAI/article/view/4726). In their work, they generated keywords from a title and then generated a story from the keywords. They tried both dynamic and static schemas to integrate the planning into their generation pipeline. This homework will focus on the "static" schema but use a pre-trained LLM instead of their RNN model.
 
 
 
