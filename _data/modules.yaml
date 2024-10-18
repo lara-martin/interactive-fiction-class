@@ -560,6 +560,26 @@
       length:
       readings:
         -
+          title: "ConceptNet 5.5: An Open Multilingual Graph of General Knowledge"
+          authors: Robyn Speer, Joshua Chin, Catherine Havasi
+          url: https://dl.acm.org/doi/10.5555/3298023.3298212
+        -
+          title: "VerbNet: Capturing English verb behavior, meaning and usage"
+          authors:  Martha Palmer, Claire Bonial, Jena Hwang
+          url: https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780199842193.001.0001/oxfordhb-9780199842193-e-15
+        -
+          title: WordNet
+          authors: Christiane Fellbaum
+          url: https://link.springer.com/chapter/10.1007/978-90-481-8847-5_10   
+        -
+          title: "ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning"
+          authors:  Maarten Sap, Ronan Le Bras, Emily Allaway, Chandra Bhagavatula, Nicholas Lourie, Hannah Rashkin, Brendan Roof, Noah A. Smith, Yejin Choi 
+          url: https://ojs.aaai.org//index.php/AAAI/article/view/4160       
+        -
+          title: "Putting Pieces Together: Combining FrameNet, VerbNet and WordNet for Robust Semantic Parsing"
+          authors: Lei Shi &amp; Rada Mihalcea
+          url: https://web.eecs.umich.edu/~mihalcea/papers/shi.cicling05.pdf                
+        -
           title: Machine Common Sense Concept Paper
           authors: David Gunning
           url: https://arxiv.org/abs/1810.07528
@@ -572,10 +592,6 @@
           authors: Shane Storks, Qiaozi Gao, Joyce Y. Chai
           url: https://arxiv.org/abs/1904.01172
         -
-          title: ACL 2020 Commonsense Tutorial
-          authors: Yejin Choi, Vered Shwartz, Maarten Sap, Antoine Bosselut, Dan Roth
-          url: https://homes.cs.washington.edu/~msap/acl2020-commonsense/
-        -
           title: "NaturalLI: Natural Logic Inference for Common Sense Reasoning"
           authors: Gabor Angeli &amp; Chris Manning
           url: https://www.aclweb.org/anthology/D14-1059.pdf        
@@ -584,6 +600,10 @@
           title: AI2 Common Sense leaderboards
           authors: Allen Institute for Artificial Intelligence
           url: https://leaderboard.allenai.org
+        -
+          title: ACL 2020 Commonsense Tutorial
+          authors: Yejin Choi, Vered Shwartz, Maarten Sap, Antoine Bosselut, Dan Roth
+          url: https://homes.cs.washington.edu/~msap/acl2020-commonsense/          
     -
       title: Neurosymbolic Knowledge Base Systems
       #slides: slides/CIS700-KnowledgeBases.pdf
@@ -591,25 +611,13 @@
       length:
       readings:
         -
-          title: "ConceptNet 5.5: An Open Multilingual Graph of General Knowledge"
-          authors: Robyn Speer, Joshua Chin, Catherine Havasi
-          url: https://dl.acm.org/doi/10.5555/3298023.3298212
-        -
-          title: "VerbNet: Capturing English verb behavior, meaning and usage"
-          authors:  Martha Palmer, Claire Bonial, Jena Hwang
-          url: https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780199842193.001.0001/oxfordhb-9780199842193-e-15
-        -
-          title: WordNet
-          authors: Christiane Fellbaum
-          url: https://link.springer.com/chapter/10.1007/978-90-481-8847-5_10
+          title: "(COMET-)ATOMIC2020: On Symbolic and Neural Commonsense Knowledge Graphs"
+          authors: Jena D. Hwang, Chandra Bhagavatula, Ronan Le Bras, Jeff Da, Keisuke Sakaguchi, Antoine Bosselut, Yejin Choi
+          url: https://ojs.aaai.org/index.php/AAAI/article/view/16792    
         -
           title: "GLUCOSE: GeneraLized and COntextualized Story Explanations"
           authors: Nasrin Mostafazadeh, Aditya Kalyanpur, Lori Moon, David Buchanan, Lauren Berkowitz, Or Biran, Jennifer Chu-Carroll
           url: https://aclanthology.org/2020.emnlp-main.370/
-        -
-          title: "ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning"
-          authors:  Maarten Sap, Ronan Le Bras, Emily Allaway, Chandra Bhagavatula, Nicholas Lourie, Hannah Rashkin, Brendan Roof, Noah A. Smith, Yejin Choi 
-          url: https://ojs.aaai.org//index.php/AAAI/article/view/4160
         -
           title: Guided Generation of Cause and Effect
           authors: Zhongyang Li, Xiao Ding, Ting Liu, J. Edward Hu, Benjamin Van Durme
@@ -619,9 +627,10 @@
           authors: Peter Clark, Bhavana Dalvi, Niket Tandon
           url: https://arxiv.org/abs/1804.05435
         -
-          title: "Putting Pieces Together: Combining FrameNet, VerbNet and WordNet for Robust Semantic Parsing"
-          authors: Lei Shi &amp; Rada Mihalcea
-          url: https://web.eecs.umich.edu/~mihalcea/papers/shi.cicling05.pdf
+          title: "NovaCOMET: Open Commonsense Foundation Models with Symbolic Knowledge Distillation"
+          authors: Peter West, Ronan Bras, Taylor Sorensen, Bill Lin, Liwei Jiang, Ximing Lu, Khyathi Chandu, Jack Hessel, Ashutosh Baheti, Chandra Bhagavatula, Yejin Choi
+          url: https://aclanthology.org/2023.findings-emnlp.80/
+
     -
       title: Storytelling with Ontologies + Recap
       guest_speaker: 
