@@ -174,13 +174,6 @@
   date: 2024-10-31
   title: Storytelling with Ontologies + Recap
   
--
-  date: 2024-11-04
-  type: deadline
-  homework_due:
-    -
-      title: "HW4 (12%)"
-      url: #schemas/schemas.html
       
 -
   date: 2024-11-06
@@ -203,7 +196,13 @@
   #    title: Characters and Quests
   #    url: dialogue-2/quests.html
       
-
+-
+  date: 2024-11-11
+  type: deadline
+  homework_due:
+    -
+      title: "HW4 (12%)"
+      url: #schemas/schemas.html
 -
   date: 2024-11-12
   title: Module 5 Paper Presentations

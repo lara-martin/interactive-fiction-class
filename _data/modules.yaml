@@ -529,21 +529,21 @@
           authors: Anbang Ye, et al.
           link: https://openreview.net/forum?id=cLBEKlu5WZK
           year: 2023
-          slides:                   
+          slides: bray_neural_story_planning.pdf                
         - 
           name: Vishwanth Reddy Jakka 
           paper: "Little Red Riding Hood Goes Around the Globe: Crosslingual Story Planning and Generation with Large Language Models"
           authors: Evgeniia Razumovskaia, et al.
           link: https://aclanthology.org/2024.lrec-main.929/
           year: 2024
-          slides:
+          slides: Jakka_Little-Red-Riding-Hood-Goes-Around-the-Globe.pdf
         - 
           name: Sathvik Reddy Musku 
           paper: "StoryVerse: Towards Co-authoring Dynamic Plot with LLM-based Character Simulation via Narrative Planning"
           authors: Yi Wang, et al.
           link: https://dl.acm.org/doi/10.1145/3649921.3656987
           year: 2024
-          slides:          
+          slides: Musku-StoryVerse.pdf      
 
 -
   module_number: 4
