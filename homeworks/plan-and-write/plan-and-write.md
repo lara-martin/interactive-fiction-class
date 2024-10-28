@@ -114,7 +114,7 @@ You will be generating stories for all 20 prompts in two ways (40 generated stor
 You are welcome to use any prompting techniques (e.g., zero-shot, few-shot, chain-of-thought). Like in HW2, it will be beneficial for you try multiple prompts until you get the best results, even if it's just changing the wording of the prompt. However, you are only required to show your final prompt for both conditioned and unconditioned generation.
 
 <div class="alert alert-info">
-Note: If you are using few-shot prompting, use a story from outside of the 20 stories I gave you to evaluate on. I get the 20 examples from <code class="language-plaintext highlighter-rouge">reader</code> in the <code class="language-plaintext highlighter-rouge">load_data()</code> function. You can use a story from any other index outside of <code class="language-plaintext highlighter-rouge">[1:21]</code for your prompts.
+Note: If you are using few-shot prompting, use a story from outside of the 20 stories I gave you to evaluate on. I get the 20 examples from <code class="language-plaintext highlighter-rouge">reader</code> in the <code class="language-plaintext highlighter-rouge">load_data()</code> function. You can use a story from any other index outside of <code class="language-plaintext highlighter-rouge">[1:21]</code> for your prompts.
 </div>
 
 ### 2) Evaluate stories
