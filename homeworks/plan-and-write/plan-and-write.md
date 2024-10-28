@@ -114,7 +114,7 @@ You will be generating stories for all 20 prompts in two ways (40 generated stor
 You are welcome to use any prompting techniques (e.g., zero-shot, few-shot, chain-of-thought). Like in HW2, it will be beneficial for you try multiple prompts until you get the best results, even if it's just changing the wording of the prompt. However, you are only required to show your final prompt for both conditioned and unconditioned generation.
 
 <div class="alert alert-info">
-Note: If you are using few-shot prompting, use a story from outside of the 20 stories I gave you to evaluate on. I get the 20 examples from `reader` in the `load_data()` function. You can use a story from any other index outside of `[1:21]` for your prompts.
+Note: If you are using few-shot prompting, use a story from outside of the 20 stories I gave you to evaluate on. I get the 20 examples from <code class="language-plaintext highlighter-rouge">reader</code> in the <code class="language-plaintext highlighter-rouge">load_data()</code> function. You can use a story from any other index outside of <code class="language-plaintext highlighter-rouge">[1:21]</code for your prompts.
 </div>
 
 ### 2) Evaluate stories
@@ -139,7 +139,7 @@ You will implement BLEU and ROUGE using the following libraries:
 And you should calculate BLEU-1, BLEU-2, ROUGE-1, ROUGE-2, and ROUGE-L comparing both the controlled generation vs original story and uncontrolled generation vs original story. Specificially, the BLEU will be modified n-gram precision. Calculate these scores over each pair of sentences in the data and then average across the 20 stories. You will be implementing the BLEU and ROGUE functions to compare the sentences one-by-one in the stories and return an average across the 5 sentences.
 
 <div class="alert alert-info">
-Important: The output from the decoder will be stored in `uncontrolled_stories` and `controlled_stories`. Before running these generated stories through BLEU/ROUGE, you will need to cut off the prompt since it will return the entire string with your prompt + the generated story after that.
+Important: The output from the decoder will be stored in <code class="language-plaintext highlighter-rouge">uncontrolled_stories</code> and <code class="language-plaintext highlighter-rouge">controlled_stories</code>. Before running these generated stories through BLEU/ROUGE, you will need to cut off the prompt since it will return the entire string with your prompt + the generated story after that.
 </div>
 
 Keep adjusting the prompt until you can consistently generate 5-sentence stories, but if you've tried a bunch of things and are still unable to get it to produce 5 sentences, evaluate on whatever sentences it generates. You can "pad" the story with empty strings to compare against with BLEU/ROUGE.
