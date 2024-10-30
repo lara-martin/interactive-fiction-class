@@ -81,7 +81,7 @@ You can download the materials for this assignment here:
 ## Instructions
 In this homework, we're going back to the beginning! 
 Here's an overview of what you'll do:
-1. Convert the Action Castle game from HW1 into Sabre's syntax by hand.
+1. Convert the Action Castle game from HW1 into [Sabre](http://cs.uky.edu/~sgware/projects/sabre/)'s syntax by hand.
 2. Convert a WikiHow article into a Sabre problem using Github Copilot.
 3. 
 
@@ -100,6 +100,17 @@ And you should be ready to go!
 
 ## Step 1: Make a Planning Problem by Hand
 
+In this first step, you will be creating a planning problem following the syntax of Sabre and then running your problem through the Sabre planner.
+
+Instead of looking for a plan that reaches a pre-defined goal like traditional planners, [Sabre](http://cs.uky.edu/~sgware/projects/sabre/) tries to find a story based on a set of limits.
+It has three different types of limits:
+* **author temporal limit**: "maximum number of actions in the author’s plan—that is, the actual actions that will be executed to raise the author’s utility" 
+* **character temporal limit**: "maximum number of actions in a plan a character imagines when justifying an action"
+* **epistemic limit**: "how deeply Sabre will search into a character’s theory of mind"
+
+The above definitions and more information can be found in the report [A Collection of Benchmark Problems for the Sabre Narrative Planner](https://github.com/sgware/sabre-benchmarks/blob/main/report.pdf).
+
+For this part of the homework, you should do the following:
 1. Download one or a couple of the problems from the list [https://github.com/sgware/sabre-benchmarks/tree/main/problems](https://github.com/sgware/sabre-benchmarks/tree/main/problems) 
 to use as reference.
 2. Find your HW1 notebook. If you can't find your notebook from when you did HW1, here it is again: [Homework 1 Notebook](hw1.ipynb)
@@ -125,7 +136,7 @@ Survival Stories
 * [How to Find True North Without a Compass](https://www.wikihow.com/Find-True-North-Without-a-Compass)
 * [How to Survive a Wolf Attack](https://www.wikihow.com/Survive-a-Wolf-Attack)
 
-Kid Detectives
+Detectives
 * [How to Make a Detective Kit](https://www.wikihow.com/Make-a-Detective-Kit)
 * [How to Disguise Yourself](https://www.wikihow.com/Disguise-Yourself)
 * [How to Make a Hidden Camera](https://www.wikihow.com/Make-a-Hidden-Camera)
@@ -135,7 +146,6 @@ Kid Detectives
 * [How to Make a Grappling Hook](https://www.wikihow.com/Make-a-Grappling-Hook)
 * [How to Open a Locked Door](https://www.wikihow.com/Open-a-Locked-Door)
 * [How to Create a Secret Society](https://www.wikihow.com/Create-a-Secret-Society)
-* [How to Win Fights at School](https://www.wikihow.com/Win-Fights-at-School)
 
 Dystopian Futures
 * [How to Survive a Comet Hitting Earth](https://www.wikihow.com/Survive-a-Comet-Hitting-Earth)
@@ -170,29 +180,77 @@ My Sabre problem for this might look like this:
 I would declare some types.
 ```LISP
   type location;
-  type place : location; 
-  type attribute : entity;  
-  type status : entity;
+  type type : location;
+  type player : location;
+  type attribute : entity;
+  type water: entity;
+  type status;
 ``` 
 And some entities.
-```LISP
-  entity Fresh : status;
-  entity Dangerous : status;
-  entity Bugs : attribute;
-  entity Freshwater : attribute;
+```LISP  
+  entity Bugs : player;
   entity Treated : attribute;
-  entity Foot : place;
-  entity Waterfall : place;
-  entity Spring : place;
+  entity Foot : type;
+  entity Fresh : type;
+  entity Moving : type;
+  entity Chesapeake : location;
+  entity Lake : location;
+  entity Water : water;
+  entity Player : player;
+```
+And properties.
+```LISP
+  property is(location : location, attribute : attribute) : boolean;
+  property has_water(location : location) : boolean;
+  property at(type : type) : location;
+  property at(player : player) : location;
+  property from(water : water) : location;
+  property safe(water : water) : boolean;
+  property has(player : player, water : water) : boolean;
+  ...
 ```
 
 Then we need some starting facts.
-
+```LISP
+  at(Foot) = Lake;
+  at(Bugs)= Lake;
+  !has(Player, Water);
+  at(Player) = Chesapeake;
+  has_water(Chesapeake);
+  ...
+```
 And actions.
-
-Triggers.
-
-Finally, some utility.
+```LISP
+  action get_water(player : player, water : water, location : location) {
+     precondition:
+		has_water(location) &
+		at(player) == location;
+     effect:
+		!safe(water) &
+		has(player, water);
+  };
+```
+Any potential triggers. That is, things that should occur but don't neccessarily have an event that starts it.
+```LISP
+  trigger know_water_source(player : player, other : player, water : water, location : location) {
+	precondition:
+		at(player) != location &
+		from(water) == location &
+		has(other, water);
+	effect:
+		believes(player, safe(water));
+  };
+```
+Finally, some utility. This is how you want the planner to weight effects.
+```LISP
+  utility(Water):
+	if(safe(Water))
+		2
+	elseif(is(Water,Fresh) & is(Water,Moving))
+		1
+	else
+		0;
+```
 
 ### Using GitHub Copilot
 1. Download an example problem from [https://github.com/sgware/sabre-benchmarks/tree/main/problems](https://github.com/sgware/sabre-benchmarks/tree/main/problems) (or use the same one you've used in Step 1).
