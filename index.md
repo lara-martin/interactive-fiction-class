@@ -110,7 +110,7 @@ By the end of the course, you will be able to...
 : Fall 2024, Tuesdays & Thursdays from 11:30am - 12:45pm ET in Sondheim 110
 : First day of class is August 29, 2024
 : Last day of class is December 10, 2024
-: Final project presentations will be held on December 12th from 10:30am - 12:30pm in Sondheim 110
+: Final project presentations will be held on December 12th from 10:30am - 12:30pm in SHER 150
 
 ### Course Materials
 There is no textbook for this course, but you will be required to puchase a variety of materials including games, software, and API credits. If any of these are prohibitively expensive for your budget, please let the instructor know.

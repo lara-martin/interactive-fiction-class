@@ -11,8 +11,8 @@ release_date: 2024-11-11
 due_date: 2024-03-03 23:59:01EST
 materials:
     - 
-        name: Homework 4 Notebook
-        url: 
+        name: Jupyter Notebook for Running Sabre
+        url: IF_HW4_Running_Sabre.ipynb
     - 
         name: Homework 1 Notebook
         url: hw1.ipynb
@@ -89,22 +89,29 @@ Here's an overview of what you'll do:
 You can find the instructions here: [https://code.visualstudio.com/docs/copilot/setup](https://code.visualstudio.com/docs/copilot/setup)
 
 But it essentially is:
-1. Get access to [GitHub Copilot](https://github.com/features/copilot), you can sign up for a [free student account](https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-students/apply-to-github-education-as-a-student) or do the 1-month free trial.
+1. Get access to [GitHub Copilot](https://github.com/features/copilot), you can sign up for a [free student account](https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-education-for-students/apply-to-github-education-as-a-student) or do the 1-month free trial. It's usually $10/month.
+2. Make sure to **block** suggestions matching public code and **uncheck** allowing GitHub to use your code snippets to train on.
+ ![Removing training data and public code match.](copilot-access.png)
+3. Install the extension on VSCode & link it to your GitHub account.
 
-![Removing training data and public code match.](copilot-acces.png)
-2. Install the extension on VSCode.
-3. 
+And you should be ready to go!
 
 
 
 ## Step 1: Make a Planning Problem by Hand
 
-Download one or a couple of the problems from this list: https://github.com/sgware/sabre-benchmarks/tree/main/problems
+1. Download one or a couple of the problems from the list [https://github.com/sgware/sabre-benchmarks/tree/main/problems](https://github.com/sgware/sabre-benchmarks/tree/main/problems) 
+to use as reference.
+2. Find your HW1 notebook. If you can't find your notebook from when you did HW1, here it is again: [Homework 1 Notebook](hw1.ipynb)
+3. Note the syntax used in the example Sabre problems to make a planning problem for the first Action Castle game. Your plan should contain:
+  * 
+  * 
+4. Download the [notebook for running Sabre](IF_HW4_Running_Sabre.ipynb) and test your file. You can also run one of the example files to see what a successful plan looks like.
 
 ## Step 2: Generate a Planning Problem
 We'll now use GitHub Copilot to write a Sabre problem for a wikiHow article.  The goal for this is to start from something that describes proceedures and actions and is written in natural language, and then have Copilot translate it into the description language used for automated planning.
 
-Here are a few wikiHow articles that I thought might be interesting since they had some elements that could make for interesting interactive fiction.  It's fine to pick your own article.   We won't translate the whole article, just a few steps, so you can pick out the parts that you think are most relevant / easiest to create action schema from.
+Here are a few wikiHow articles that I thought might be interesting since they had some elements that could make for interesting interactive fiction.  It's fine to pick your own article.   **You shouldn't translate the whole article, just a few steps, so you can pick out the parts that you think are most relevant/easiest to create a schema from.**
 
 Survival Stories
 * [How to Survive in the Woods](https://www.wikihow.com/Survive-in-the-Woods)
@@ -142,7 +149,7 @@ Dystopian Futures
 * [How to Make Papyrus](https://www.wikihow.com/Make-Papyrus)
 
 
-As an example, I'll pick the [How to Survive in the Woods](https://www.wikihow.com/Survive-in-the-Woods) article, and work on translating Part 1, Step 1 into PDDL.  Here is step 1 from that article: 
+As an example, I'll pick the [How to Survive in the Woods](https://www.wikihow.com/Survive-in-the-Woods) article, and show you how part of the schema might look.  Here is step 1 from that article: 
 
 
 <center>
@@ -158,9 +165,38 @@ If there are mountains nearby, look for water collected at the foot of the cliff
 > * Freshwater springs are typically safer water sources, although these can be contaminated by mineral or bacteria as well.
 > * Remember that all untreated water must be considered risky unless treated. Even crystal clear water can harbor diseases and be dangerous if consumed.
 
+My Sabre problem for this might look like this:
+
+I would declare some types.
+```LISP
+  type location;
+  type place : location; 
+  type attribute : entity;  
+  type status : entity;
+``` 
+And some entities.
+```LISP
+  entity Fresh : status;
+  entity Dangerous : status;
+  entity Bugs : attribute;
+  entity Freshwater : attribute;
+  entity Treated : attribute;
+  entity Foot : place;
+  entity Waterfall : place;
+  entity Spring : place;
+```
+
+Then we need some starting facts.
+
+And actions.
+
+Triggers.
+
+Finally, some utility.
+
 ### Using GitHub Copilot
-1. Download an example problem from https://github.com/sgware/sabre-benchmarks/tree/main/problems (or use the same one you've used before).
-2. Import the file from #1 in VSCode.
+1. Download an example problem from [https://github.com/sgware/sabre-benchmarks/tree/main/problems](https://github.com/sgware/sabre-benchmarks/tree/main/problems) (or use the same one you've used in Step 1).
+2. Import the problem file in VSCode.
 3. Create a new .txt file for the problem you plan to generate.
 4. Open the file and press CTRL + I to open Copilot.
 5. Add the example problem file as an attachment in the prompt.
