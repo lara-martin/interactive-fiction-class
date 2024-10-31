@@ -83,9 +83,9 @@ In this homework, we're going back to the beginning!
 Here's an overview of what you'll do:
 1. Convert the Action Castle game from HW1 into [Sabre](http://cs.uky.edu/~sgware/projects/sabre/)'s syntax by hand.
 2. Convert a WikiHow article into a Sabre problem using Github Copilot.
-3. 
+3. Analysis!
 
-## Step 0: Setting up GitHub Copilot
+## Part 0: Setting up GitHub Copilot
 You can find the instructions here: [https://code.visualstudio.com/docs/copilot/setup](https://code.visualstudio.com/docs/copilot/setup)
 
 But it essentially is:
@@ -98,9 +98,9 @@ And you should be ready to go!
 
 
 
-## Step 1: Make a Planning Problem by Hand
+## Part 1: Make a Planning Problem by Hand
 
-In this first step, you will be creating a planning problem following the syntax of Sabre and then running your problem through the Sabre planner.
+In this first part, you will be creating a planning problem following the syntax of Sabre and then running your problem through the Sabre planner.
 
 Instead of looking for a plan that reaches a pre-defined goal like traditional planners, [Sabre](http://cs.uky.edu/~sgware/projects/sabre/) tries to find a story based on a set of limits.
 It has three different types of limits:
@@ -108,18 +108,25 @@ It has three different types of limits:
 * **character temporal limit**: "maximum number of actions in a plan a character imagines when justifying an action"
 * **epistemic limit**: "how deeply Sabre will search into a character’s theory of mind"
 
-The above definitions and more information can be found in the report [A Collection of Benchmark Problems for the Sabre Narrative Planner](https://github.com/sgware/sabre-benchmarks/blob/main/report.pdf).
+The above definitions and more information can be found in the report [A Collection of Benchmark Problems for the Sabre Narrative Planner](https://github.com/sgware/sabre-benchmarks/blob/main/report.pdf). You can also find a partial example that I made in Part 2.
 
 For this part of the homework, you should do the following:
 1. Download one or a couple of the problems from the list [https://github.com/sgware/sabre-benchmarks/tree/main/problems](https://github.com/sgware/sabre-benchmarks/tree/main/problems) 
 to use as reference.
 2. Find your HW1 notebook. If you can't find your notebook from when you did HW1, here it is again: [Homework 1 Notebook](hw1.ipynb)
 3. Note the syntax used in the example Sabre problems to make a planning problem for the first Action Castle game. Your plan should contain:
-  * 
+  * The locations
+  * How the locations are connected
+  * The items (including the lamp)
+  * Item properties
+  * Scenery items
+  * Scenery properties
+  * The player & the NPCs
+  * The actions (hint: these already have pre-conditions and effects)
   * 
 4. Download the [notebook for running Sabre](IF_HW4_Running_Sabre.ipynb) and test your file. You can also run one of the example files to see what a successful plan looks like.
 
-## Step 2: Generate a Planning Problem
+## Part 2: Generate a Planning Problem
 We'll now use GitHub Copilot to write a Sabre problem for a wikiHow article.  The goal for this is to start from something that describes proceedures and actions and is written in natural language, and then have Copilot translate it into the description language used for automated planning.
 
 Here are a few wikiHow articles that I thought might be interesting since they had some elements that could make for interesting interactive fiction.  It's fine to pick your own article.   **You shouldn't translate the whole article, just a few steps, so you can pick out the parts that you think are most relevant/easiest to create a schema from.**
@@ -177,32 +184,32 @@ If there are mountains nearby, look for water collected at the foot of the cliff
 
 My Sabre problem for this might look like this:
 
-I would declare some types.
+I would declare some types that would be relevant. These are like listing variable.
 ```LISP
   type location;
-  type type : location;
+  type type : attribute;
   type player : location;
   type attribute : entity;
   type water: entity;
   type status;
 ``` 
-And some entities.
+And some entities -- specific instances of the types above. These are like the characters and things in your story.
 ```LISP  
   entity Bugs : player;
   entity Treated : attribute;
-  entity Foot : type;
   entity Fresh : type;
   entity Moving : type;
+  entity Salt : type;
   entity Chesapeake : location;
   entity Lake : location;
   entity Water : water;
   entity Player : player;
 ```
-And properties.
+And properties -- what types of what attributes entities might have and the relations they have with each other.
 ```LISP
   property is(location : location, attribute : attribute) : boolean;
   property has_water(location : location) : boolean;
-  property at(type : type) : location;
+  property is(location : location) : type;
   property at(player : player) : location;
   property from(water : water) : location;
   property safe(water : water) : boolean;
@@ -210,7 +217,7 @@ And properties.
   ...
 ```
 
-Then we need some starting facts.
+Then we need some starting facts -- what state things are in at the beginning of the story.
 ```LISP
   at(Foot) = Lake;
   at(Bugs)= Lake;
@@ -219,7 +226,7 @@ Then we need some starting facts.
   has_water(Chesapeake);
   ...
 ```
-And actions.
+And actions -- things that move the story along.
 ```LISP
   action get_water(player : player, water : water, location : location) {
      precondition:
@@ -230,7 +237,7 @@ And actions.
 		has(player, water);
   };
 ```
-Any potential triggers. That is, things that should occur but don't neccessarily have an event that starts it.
+Any potential triggers -- things that should occur but don't neccessarily have an event that starts it.
 ```LISP
   trigger know_water_source(player : player, other : player, water : water, location : location) {
 	precondition:
@@ -253,7 +260,7 @@ Finally, some utility. This is how you want the planner to weight effects.
 ```
 
 ### Using GitHub Copilot
-1. Download an example problem from [https://github.com/sgware/sabre-benchmarks/tree/main/problems](https://github.com/sgware/sabre-benchmarks/tree/main/problems) (or use the same one you've used in Step 1).
+1. Download an example problem from [https://github.com/sgware/sabre-benchmarks/tree/main/problems](https://github.com/sgware/sabre-benchmarks/tree/main/problems) (or use the same one you've used in Part 1).
 2. Import the problem file in VSCode.
 3. Create a new .txt file for the problem you plan to generate.
 4. Open the file and press CTRL + I to open Copilot.
