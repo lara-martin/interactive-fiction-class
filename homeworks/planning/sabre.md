@@ -29,7 +29,7 @@ readings:
         title: A Collection of Benchmark Problems for the Sabre Narrative Planner
         authors: Stephen G. Ware and Rachelyn Farrell
         url: https://github.com/sgware/sabre-benchmarks/blob/main/report.pdf
-submission_link: 
+submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7156634_1?courseId=_82444_1&gradeitemView=details
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -75,7 +75,10 @@ You can download the materials for this assignment here:
 =============================================================
 ## Learning Objectives
 * Figure out how to write a problem for a planning program.
-* Generate a planning problem using Github Copilot.
+* Determine how utility functions within Sabre.
+* Compare and contrast the planner's behavior to when the game is played by a human.
+Extra Credit:
+* Generate a planning problem using a code-based LLM.
 * Compare the processes of generating a planning problem by hand vs LLM
 
 ## Instructions
@@ -85,7 +88,67 @@ Here's an overview of what you'll do:
 2. Convert a WikiHow article into a Sabre problem using Github Copilot.
 3. Analysis!
 
-## Part 0: Setting up GitHub Copilot
+
+## Working with Sabre
+In this first part, you will be creating a planning problem following the syntax of Sabre and then running your problem through the Sabre planner.
+
+[Sabre](http://cs.uky.edu/~sgware/projects/sabre/) tries to find a story based on a set of limits.
+It has three different types of limits:
+* **author temporal limit**: "maximum number of actions in the author’s plan—that is, the actual actions that will be executed to raise the author’s utility" (`-atl` flag)
+* **character temporal limit**: "maximum number of actions in a plan a character imagines when justifying an action" (`-ctl` flag)
+* **epistemic limit**: "how deeply Sabre will search into a character’s theory of mind" (`-el` flag)
+Whether a limit is reached is calculated by looking at the **utility** of the overall problem (`utility()`) or the utility of a particular character's perspective (e.g., `utility(Princess)`).
+
+The above definitions and more information can be found in the report [A Collection of Benchmark Problems for the Sabre Narrative Planner](https://github.com/sgware/sabre-benchmarks/blob/main/report.pdf). You can also find a partial example of a problem that I made in [the Extra Credit](extra-credit-use-github-copilot-for-problem-creation).
+
+### Part 1: Make a Planning Problem by Hand
+The skeleton of a problem has been provided to you in [the notebook]({{page.materials[2].url}})
+
+You might notice that there are some variations from Action Castle. I've simplified a few things: the rose is just in the garden (no rosebush) and there is no "Death" room or path from the tree.
+
+To write a problem for Sabre, do the following:
+1. Download one or a couple of the problems from the list [https://github.com/sgware/sabre-benchmarks/tree/main/problems](https://github.com/sgware/sabre-benchmarks/tree/main/problems) 
+to use as reference.
+2. Find your HW1 notebook. If you can't find your notebook from when you did HW1, here it is again: [Homework 1 Notebook]({{page.materials[1].url}})
+3. Note the syntax used in the example Sabre problems to make a planning problem for the first Action Castle game. You will implement the following things from Action Castle in your plan:
+  * How the locations are connected
+	* This will be a mixture of properties and intial state predicates. Take a look at [Gramma](https://github.com/sgware/sabre-benchmarks/blob/main/problems/gramma.txt) for an example of how to do this.
+  * Item & Scenery Item properties
+	* Again, this will be properties and intial state predicates.
+  * Actions (unlock door, read runes, propose, wear crown, sit on throne)
+     * Hint: these already have pre-conditions and effects from HW 1
+  * Blocks (troll, guard, darkness, door)
+	* These will probably be a combination of properties, initial state predicates, effects of actions, and maybe even triggers.
+4. Additionally, you will implement a few utilities. Namely, 2 for solving each block and 1 for picking up each inventory item except the lamp (since the Player starts with it).
+5. Download the [notebook for running Sabre]({{page.materials[2].url}}) and test your file. You can also run one of the example files to see what a successful plan looks like.
+6. Iterate until Sabre can solve your problem. **Tip: To debug your problem once your syntax bugs are fixed, you can try changing your utility to a smaller problem until you know the paths are available. For example, set your utility to `location(Player) == GardenPath` if you're trying to make sure your walk action works.**
+Also, the deeper the goal is, the longer the planner is going to take to run.
+
+
+
+### Part 2: Experiment with Utility
+1. (2 pts) Set your `utility()` as the following block:
+```
+utility():
+	if(crowned(Player))
+		1
+	else
+		0;
+```
+	* Copy and paste the plan that you get (printed at the end of the output when you run the Java command) into a word document.
+	* Does this plan differ a lot from the interactive fiction version of Action Castle? (1-3 sentences)
+2. (2 pts) Give the characters their own utility that is consistent with their attributes/personality in the game. 
+	* Copy and paste what your utilities are and what the resulting plan is into your word document.
+3. (2 pts) Does adjusting the characters' utilities result in a more interesting story? If so, why? If not, why not? (2-3 sentences)
+4. (2 pts) Traditional planners require a *pre-specified goal* that the system tries to find a path toward. How does Sabre compare to more traditional planners? (1-3 sentences)
+
+
+
+
+
+## Extra Credit: Use GitHub Copilot for Problem Creation
+
+### Setting up GitHub Copilot
 You can find the instructions here: [https://code.visualstudio.com/docs/copilot/setup](https://code.visualstudio.com/docs/copilot/setup)
 
 But it essentially is:
@@ -96,37 +159,7 @@ But it essentially is:
 
 And you should be ready to go!
 
-
-
-## Part 1: Make a Planning Problem by Hand
-
-In this first part, you will be creating a planning problem following the syntax of Sabre and then running your problem through the Sabre planner.
-
-Instead of looking for a plan that reaches a pre-defined goal like traditional planners, [Sabre](http://cs.uky.edu/~sgware/projects/sabre/) tries to find a story based on a set of limits.
-It has three different types of limits:
-* **author temporal limit**: "maximum number of actions in the author’s plan—that is, the actual actions that will be executed to raise the author’s utility" 
-* **character temporal limit**: "maximum number of actions in a plan a character imagines when justifying an action"
-* **epistemic limit**: "how deeply Sabre will search into a character’s theory of mind"
-
-The above definitions and more information can be found in the report [A Collection of Benchmark Problems for the Sabre Narrative Planner](https://github.com/sgware/sabre-benchmarks/blob/main/report.pdf). You can also find a partial example that I made in Part 2.
-
-For this part of the homework, you should do the following:
-1. Download one or a couple of the problems from the list [https://github.com/sgware/sabre-benchmarks/tree/main/problems](https://github.com/sgware/sabre-benchmarks/tree/main/problems) 
-to use as reference.
-2. Find your HW1 notebook. If you can't find your notebook from when you did HW1, here it is again: [Homework 1 Notebook](hw1.ipynb)
-3. Note the syntax used in the example Sabre problems to make a planning problem for the first Action Castle game. Your plan should contain:
-  * The locations
-  * How the locations are connected
-  * The items (including the lamp)
-  * Item properties
-  * Scenery items
-  * Scenery properties
-  * The player & the NPCs
-  * The actions (hint: these already have pre-conditions and effects)
-  * 
-4. Download the [notebook for running Sabre](IF_HW4_Running_Sabre.ipynb) and test your file. You can also run one of the example files to see what a successful plan looks like.
-
-## Part 2: Generate a Planning Problem
+### Generating a Planning Problem from wikiHow
 We'll now use GitHub Copilot to write a Sabre problem for a wikiHow article.  The goal for this is to start from something that describes proceedures and actions and is written in natural language, and then have Copilot translate it into the description language used for automated planning.
 
 Here are a few wikiHow articles that I thought might be interesting since they had some elements that could make for interesting interactive fiction.  It's fine to pick your own article.   **You shouldn't translate the whole article, just a few steps, so you can pick out the parts that you think are most relevant/easiest to create a schema from.**
@@ -236,6 +269,7 @@ And actions -- things that move the story along.
 		!safe(water) &
 		has(player, water);
   };
+  ...
 ```
 Any potential triggers -- things that should occur but don't neccessarily have an event that starts it.
 ```LISP
@@ -247,6 +281,7 @@ Any potential triggers -- things that should occur but don't neccessarily have a
 	effect:
 		believes(player, safe(water));
   };
+  ...
 ```
 Finally, some utility. This is how you want the planner to weight effects.
 ```LISP
@@ -257,50 +292,39 @@ Finally, some utility. This is how you want the planner to weight effects.
 		1
 	else
 		0;
+   ...
 ```
 
-### Using GitHub Copilot
+#### Using GitHub Copilot
 1. Download an example problem from [https://github.com/sgware/sabre-benchmarks/tree/main/problems](https://github.com/sgware/sabre-benchmarks/tree/main/problems) (or use the same one you've used in Part 1).
 2. Import the problem file in VSCode.
 3. Create a new .txt file for the problem you plan to generate.
 4. Open the file and press CTRL + I to open Copilot.
-5. Add the example problem file as an attachment in the prompt.
+5. Add an example problem file as an attachment in the prompt (as shown in image).
 ![Attach the planning problem to your prompt.](attach-copilot.png)
 6. Write your prompt.
+7. Save the file and [run it through Sabre]({{page.materials[2].url}}).
+8. Iterate until Sabre can run through your problem. It doesn't have to find a solution (it can spit out ``No solution exists.''), but it does have to have no errors when run.
 
 
 ## What to submit
-
 You should submit the following:
 
-* A set of PDDL files, one PDDL file for your domain, and one PDDL file for each of the problems.   Your domain definition should have 
-1. at least 10 action schemas beyond the ones that we defined for action castle, 
-2. relevant types for your problem, 
-3. predicates defined with their types and comments describing them.  
-* Your problem definitions should 
-1. cover at least 3 problems, 
-2. give initial states and goals for each, and 
-3. ensure that the goal can be reached from the initial state using your action schema. 
-* A JSON file containing your annotations that map from the elements in your PDDL domain onto phrases in the wikiHow article that you selected.  You can  use this [Colab to annotate your PDDL elements with mentions from your WikiHow article]({{page.materials[1].url}}).
-* A PDF file containing your writeup.  You should include at least 1 paragraphs for each of the following topics:
-1. What wikiHow article did you pick and why?
-2. What portions of the article did you select to translate to PDDL?
-3. Give some example of the actions, types, and predicates you used in your domain.
-4. Explain what goal you selected for your problem, and give the inital state and solution that you created.
-5. What limitations of PDDL did you encounter that makes it difficult to precisely convert a wikiHow description into PDDL?
-6. Could your PDDL be used as an interesting challenge for a text-adventure-style game?  If so, how?  If not, what would needed to create an interesting challenge?
-7. Discuss how you might use GPT-3 to automatically or semi-automatically convert a wikiHow article to PDDL?
+* A Jupiter notebook with your completed planning problem.
+* A PDF file containing your answers to Parts 2 & 3.
+* If you did the extra credit:
+	* A PDF called "extra-credit.pdf" containing 1) the original text of your prompt and 2) what problem file you used as input.
+	* A txt file called "generated.txt" of the generated problem.
 
-Submissions should be done on [Gradescope]({{page.submission_link}}).
+
+Submissions should be done on [Blackboard]({{page.submission_link}}).
 
 
 ## Grading
 <div class="alert alert-warning" markdown="1">
-* Domain Definition - 10 points
-* Problem Definition - 5 points
-* JSON with Annotations - 3 point
-* Questions - 1x7 = 7 points
-* -0.5points for not specifying why you picked the given wikihow article
+* Part 1 - 24 points (2 points per action/trigger)
+* Part 2 - 8 points
+* Extra credit - 10 points
 </div>
 
 {% if page.readings %} 
