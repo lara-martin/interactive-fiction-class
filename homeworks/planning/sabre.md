@@ -112,7 +112,7 @@ You might notice that there are some variations from Action Castle. I've simplif
 To write a problem for Sabre, do the following:
 1. Download one or a couple of the problems from the list [https://github.com/sgware/sabre-benchmarks/tree/main/problems](https://github.com/sgware/sabre-benchmarks/tree/main/problems) 
 to use as reference.
-2. Find your HW1 notebook. If you can't find your notebook from when you did HW1, here it is again: [Homework 1 Notebook]({{page.materials[1].url}}).
+2. Find your HW1 notebook. If you can't find your notebook from when you did HW1, here is the empty one again: [Homework 1 Notebook]({{page.materials[1].url}}).
 3. Note the syntax used in the example Sabre problems to make a planning problem for the first Action Castle game. You will implement the **Actions** from Action Castle in your plan. There are 11 of them in total.
 4. Download the [notebook for running Sabre]({{page.materials[0].url}}) and test your file. You can also run one of the example files to see what a successful plan looks like.
 5. Iterate until Sabre can *solve* your problem. **Tip: To debug your problem once your syntax bugs are fixed, you can try changing your utility to a smaller problem until you know the paths are available. For example, set your utility to `location(Player) == GardenPath` if you're trying to make sure your walk action works.**
