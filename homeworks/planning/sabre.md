@@ -70,6 +70,11 @@ You can download the materials for this assignment here:
 </div>
 {% endif %}
 
+<div class="alert alert-info">
+Submission link:
+<a href="{{page.submission_link}}">{{ page.submission_link }}</a>
+
+</div>
 
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
