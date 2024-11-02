@@ -100,6 +100,7 @@ It has three different types of limits:
 * **author temporal limit**: "maximum number of actions in the author’s plan—that is, the actual actions that will be executed to raise the author’s utility" (`-atl` flag)
 * **character temporal limit**: "maximum number of actions in a plan a character imagines when justifying an action" (`-ctl` flag)
 * **epistemic limit**: "how deeply Sabre will search into a character’s theory of mind" (`-el` flag)
+
 Whether a limit is reached is calculated by looking at the **utility** of the overall problem (`utility()`) or the utility of a particular character's perspective (e.g., `utility(Princess)`).
 
 The above definitions and more information can be found in the report [A Collection of Benchmark Problems for the Sabre Narrative Planner](https://github.com/sgware/sabre-benchmarks/blob/main/report.pdf). You can also find a partial example of a problem that I made in [the Extra Credit](#generating-a-planning-problem-from-wikihow).
