@@ -97,10 +97,10 @@ It has three different types of limits:
 * **epistemic limit**: "how deeply Sabre will search into a character’s theory of mind" (`-el` flag)
 Whether a limit is reached is calculated by looking at the **utility** of the overall problem (`utility()`) or the utility of a particular character's perspective (e.g., `utility(Princess)`).
 
-The above definitions and more information can be found in the report [A Collection of Benchmark Problems for the Sabre Narrative Planner](https://github.com/sgware/sabre-benchmarks/blob/main/report.pdf). You can also find a partial example of a problem that I made in [the Extra Credit](#extra-credit-use-github-copilot-for-problem-creation).
+The above definitions and more information can be found in the report [A Collection of Benchmark Problems for the Sabre Narrative Planner](https://github.com/sgware/sabre-benchmarks/blob/main/report.pdf). You can also find a partial example of a problem that I made in [the Extra Credit](#generating-a-planning-problem-from-wikihow).
 
 ### Part 1: Make a Planning Problem by Hand
-The skeleton of a problem has been provided to you in [this notebook]({{page.materials[2].url}}).
+The skeleton of a problem has been provided to you in [this notebook]({{page.materials[0].url}}).
 You might notice that there are some variations from Action Castle. I've simplified a few things: the rose is just in the garden (no rosebush) and there is no "Death" room or path from the tree.
 
 To write a problem for Sabre, do the following:
@@ -108,7 +108,7 @@ To write a problem for Sabre, do the following:
 to use as reference.
 2. Find your HW1 notebook. If you can't find your notebook from when you did HW1, here it is again: [Homework 1 Notebook]({{page.materials[1].url}}).
 3. Note the syntax used in the example Sabre problems to make a planning problem for the first Action Castle game. You will implement the **Actions** from Action Castle in your plan. There are 11 of them in total.
-4. Download the [notebook for running Sabre]({{page.materials[2].url}}) and test your file. You can also run one of the example files to see what a successful plan looks like.
+4. Download the [notebook for running Sabre]({{page.materials[0].url}}) and test your file. You can also run one of the example files to see what a successful plan looks like.
 5. Iterate until Sabre can *solve* your problem. **Tip: To debug your problem once your syntax bugs are fixed, you can try changing your utility to a smaller problem until you know the paths are available. For example, set your utility to `location(Player) == GardenPath` if you're trying to make sure your walk action works.**
 Also, the deeper the goal is, the longer the planner is going to take to run.
 
