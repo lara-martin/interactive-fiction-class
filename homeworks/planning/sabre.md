@@ -106,7 +106,7 @@ Whether a limit is reached is calculated by looking at the **utility** of the ov
 The above definitions and more information can be found in the report [A Collection of Benchmark Problems for the Sabre Narrative Planner](https://github.com/sgware/sabre-benchmarks/blob/main/report.pdf). You can also find a partial example of a problem that I made in [the Extra Credit](#generating-a-planning-problem-from-wikihow).
 
 ### Part 1: Make a Planning Problem by Hand
-The skeleton of a problem has been provided to you in [this notebook]({{page.materials[0].url}}).
+The skeleton of a problem has been provided to you in [this notebook]({{page.materials[0].url}}). Again, you can open this notebook in [Colab](https://colab.research.google.com/), [Deepnote](https://deepnote.com/), or VSCode.
 You might notice that there are some variations from Action Castle. I've simplified a few things: the rose is just in the garden (no rosebush) and there is no "Death" room or path from the tree.
 
 To write a problem for Sabre, do the following:
