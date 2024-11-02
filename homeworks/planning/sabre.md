@@ -7,8 +7,8 @@ title: Creating Sabre Problems
 type: Homework
 number: 4
 active_tab: homework
-release_date: 2024-11-11
-due_date: 2024-03-03 23:59:01EST
+release_date: 2024-11-02
+due_date: 2024-11-18 23:59:01EST
 materials:
     - 
         name: Jupyter Notebook for Running Sabre
@@ -77,16 +77,14 @@ You can download the materials for this assignment here:
 * Figure out how to write a problem for a planning program.
 * Determine how utility functions within Sabre.
 * Compare and contrast the planner's behavior to when the game is played by a human.
+
 Extra Credit:
 * Generate a planning problem using a code-based LLM.
 * Compare the processes of generating a planning problem by hand vs LLM
 
-## Instructions
+## Introduction
 In this homework, we're going back to the beginning! 
-Here's an overview of what you'll do:
-1. Convert the Action Castle game from HW1 into [Sabre](http://cs.uky.edu/~sgware/projects/sabre/)'s syntax by hand.
-2. Convert a WikiHow article into a Sabre problem using Github Copilot.
-3. Analysis!
+Primarily, you will be converting the Action Castle game from HW1 into [Sabre](http://cs.uky.edu/~sgware/projects/sabre/)'s syntax by hand.
 
 
 ## Working with Sabre
@@ -99,29 +97,19 @@ It has three different types of limits:
 * **epistemic limit**: "how deeply Sabre will search into a character’s theory of mind" (`-el` flag)
 Whether a limit is reached is calculated by looking at the **utility** of the overall problem (`utility()`) or the utility of a particular character's perspective (e.g., `utility(Princess)`).
 
-The above definitions and more information can be found in the report [A Collection of Benchmark Problems for the Sabre Narrative Planner](https://github.com/sgware/sabre-benchmarks/blob/main/report.pdf). You can also find a partial example of a problem that I made in [the Extra Credit](extra-credit-use-github-copilot-for-problem-creation).
+The above definitions and more information can be found in the report [A Collection of Benchmark Problems for the Sabre Narrative Planner](https://github.com/sgware/sabre-benchmarks/blob/main/report.pdf). You can also find a partial example of a problem that I made in [the Extra Credit](#extra-credit-use-github-copilot-for-problem-creation).
 
 ### Part 1: Make a Planning Problem by Hand
-The skeleton of a problem has been provided to you in [the notebook]({{page.materials[2].url}})
-
+The skeleton of a problem has been provided to you in [this notebook]({{page.materials[2].url}}).
 You might notice that there are some variations from Action Castle. I've simplified a few things: the rose is just in the garden (no rosebush) and there is no "Death" room or path from the tree.
 
 To write a problem for Sabre, do the following:
 1. Download one or a couple of the problems from the list [https://github.com/sgware/sabre-benchmarks/tree/main/problems](https://github.com/sgware/sabre-benchmarks/tree/main/problems) 
 to use as reference.
-2. Find your HW1 notebook. If you can't find your notebook from when you did HW1, here it is again: [Homework 1 Notebook]({{page.materials[1].url}})
-3. Note the syntax used in the example Sabre problems to make a planning problem for the first Action Castle game. You will implement the following things from Action Castle in your plan:
-  * How the locations are connected
-	* This will be a mixture of properties and intial state predicates. Take a look at [Gramma](https://github.com/sgware/sabre-benchmarks/blob/main/problems/gramma.txt) for an example of how to do this.
-  * Item & Scenery Item properties
-	* Again, this will be properties and intial state predicates.
-  * Actions (unlock door, read runes, propose, wear crown, sit on throne)
-     * Hint: these already have pre-conditions and effects from HW 1
-  * Blocks (troll, guard, darkness, door)
-	* These will probably be a combination of properties, initial state predicates, effects of actions, and maybe even triggers.
-4. Additionally, you will implement a few utilities. Namely, 2 for solving each block and 1 for picking up each inventory item except the lamp (since the Player starts with it).
-5. Download the [notebook for running Sabre]({{page.materials[2].url}}) and test your file. You can also run one of the example files to see what a successful plan looks like.
-6. Iterate until Sabre can solve your problem. **Tip: To debug your problem once your syntax bugs are fixed, you can try changing your utility to a smaller problem until you know the paths are available. For example, set your utility to `location(Player) == GardenPath` if you're trying to make sure your walk action works.**
+2. Find your HW1 notebook. If you can't find your notebook from when you did HW1, here it is again: [Homework 1 Notebook]({{page.materials[1].url}}).
+3. Note the syntax used in the example Sabre problems to make a planning problem for the first Action Castle game. You will implement the **Actions** from Action Castle in your plan. There are 11 of them in total.
+4. Download the [notebook for running Sabre]({{page.materials[2].url}}) and test your file. You can also run one of the example files to see what a successful plan looks like.
+5. Iterate until Sabre can *solve* your problem. **Tip: To debug your problem once your syntax bugs are fixed, you can try changing your utility to a smaller problem until you know the paths are available. For example, set your utility to `location(Player) == GardenPath` if you're trying to make sure your walk action works.**
 Also, the deeper the goal is, the longer the planner is going to take to run.
 
 
@@ -130,19 +118,22 @@ Also, the deeper the goal is, the longer the planner is going to take to run.
 1. (2 pts) Set your `utility()` as the following block:
 ```
 utility():
-	if(crowned(Player))
-		1
-	else
-		0;
+	if(royal(Player)) 1 else 0;
 ```
-	* Copy and paste the plan that you get (printed at the end of the output when you run the Java command) into a word document.
-	* Does this plan differ a lot from the interactive fiction version of Action Castle? (1-3 sentences)
-2. (2 pts) Give the characters their own utility that is consistent with their attributes/personality in the game. 
+run it and collect the plan you get
+and then replace it with
+```
+utility():
+	if(inv(Crown) == Player) 1 else 0;
+```
+and run that and collect that plan.
+	* Copy and paste each plan that you get (printed at the end of the output when you run the Java command) into a word document.
+	
+2. (2 pts) Do the above plans differ a lot from the actions someone would take when playing the interactive fiction version of Action Castle? (1-3 sentences)
+3. (2 pts) Give the characters their own utility that is consistent with their attributes/personality in the game. 
 	* Copy and paste what your utilities are and what the resulting plan is into your word document.
-3. (2 pts) Does adjusting the characters' utilities result in a more interesting story? If so, why? If not, why not? (2-3 sentences)
-4. (2 pts) Traditional planners require a *pre-specified goal* that the system tries to find a path toward. How does Sabre compare to more traditional planners? (1-3 sentences)
-
-
+4. (2 pts) Does adjusting the characters' utilities result in a more interesting story? If so, why? If not, why not? (2-3 sentences)
+5. (2 pts) Traditional planners require a *pre-specified goal* that the system tries to find a path toward. How does Sabre compare to more traditional planners? (1-3 sentences)
 
 
 
@@ -322,8 +313,8 @@ Submissions should be done on [Blackboard]({{page.submission_link}}).
 
 ## Grading
 <div class="alert alert-warning" markdown="1">
-* Part 1 - 24 points (2 points per action/trigger)
-* Part 2 - 8 points
+* Part 1 - 22 points (2 points per action)
+* Part 2 - 10 points
 * Extra credit - 10 points
 </div>
 

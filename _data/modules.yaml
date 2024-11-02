@@ -372,10 +372,10 @@
   description: 
   hw:
     -
-      title: "Homework 4"
+      title: "Homework 4: Creating Sabre Problems"
       percentage: 12%
-      due_date: #2024-03-03
-      url: #planning/planning.html
+      due_date: 2024-11-18
+      url: planning/sabre.html
   lessons:
 
       

@@ -148,8 +148,8 @@
     
 -
   date: 2024-10-22
-  title: Class Cancelled
-  type: no_lecture
+  title: 
+  type: 
   
 
 -
@@ -196,13 +196,7 @@
   #    title: Characters and Quests
   #    url: dialogue-2/quests.html
       
--
-  date: 2024-11-11
-  type: deadline
-  homework_due:
-    -
-      title: "HW4 (12%)"
-      url: #schemas/schemas.html
+
 -
   date: 2024-11-12
   title: Module 5 Paper Presentations
@@ -212,13 +206,7 @@
   title: "Confabulation: What Could LLM Hallucinations Do For Storytelling?"
   
 
--
-  date: 2024-11-18
-  type: deadline
-  homework_due: 
-    - 
-      title: "HW5 (12%)"
-      url: 
+
 #Reinforcement Learning for Playing Interactive Fiction
 #Neurosymbolic Story Generation
 #Theory of Mind and Intent in Procedural Agents
@@ -226,6 +214,14 @@
 #Visual Storytelling
 #Collaborative storytelling
 #RL for story generation
+-
+  date: 2024-11-18
+  type: deadline
+  homework_due:
+    -
+      title: "HW4 (12%): Creating Sabre Problems"
+      url: planning/sabre.html
+
 -
   date: 2024-11-19
   title: Co-creating Storytelling Machines
@@ -253,6 +249,8 @@
   title: Thanksgiving - No lecture
   type: no_lecture  
 
+  
+
 -
   date: 2024-12-03
   title: Final Project In-Class Help
@@ -269,7 +267,15 @@
 -
   date: 2024-12-05
   title: Co-Creativity
-  
+
+-
+  date: 2024-12-09
+  type: deadline
+  homework_due: 
+    - 
+      title: "HW5 (12%)"
+      url: 
+
 -
   date: 2024-12-10
   title: TBA 
