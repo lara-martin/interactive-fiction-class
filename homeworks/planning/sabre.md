@@ -304,7 +304,7 @@ Finally, some utility. This is how you want the planner to weight effects.
 
 In order to get the full 5 points, you need:
 * Sabre to be able to find a solution in the generated problem.
-* To provide the list of changes you made to get it to work.
+* To provide the list of changes you made to the generated code to get it to work.
 
 
 
