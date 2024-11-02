@@ -103,7 +103,7 @@ It has three different types of limits:
 
 Whether a limit is reached is calculated by looking at the **utility** of the overall problem (`utility()`) or the utility of a particular character's perspective (e.g., `utility(Princess)`).
 
-The above definitions and more information can be found in the report [A Collection of Benchmark Problems for the Sabre Narrative Planner](https://github.com/sgware/sabre-benchmarks/blob/main/report.pdf). You can also find a partial example of a problem that I made in [the Extra Credit](#generating-a-planning-problem-from-wikihow).
+The above definitions and more information can be found in the report [A Collection of Benchmark Problems for the Sabre Narrative Planner](https://github.com/sgware/sabre-benchmarks/blob/main/report.pdf). You can also find a partial example of a problem that I made in [the Extra Credit](#example).
 
 ### Part 1: Make a Planning Problem by Hand
 The skeleton of a problem has been provided to you in [this notebook]({{page.materials[0].url}}). Again, you can open this notebook in [Colab](https://colab.research.google.com/), [Deepnote](https://deepnote.com/), or VSCode.
@@ -197,6 +197,7 @@ Dystopian Futures
 * [How to Thwart an Abduction Attempt](https://www.wikihow.com/Thwart-an-Abduction-Attempt)
 * [How to Make Papyrus](https://www.wikihow.com/Make-Papyrus)
 
+### Example
 
 As an example, I'll pick the [How to Survive in the Woods](https://www.wikihow.com/Survive-in-the-Woods) article, and show you how part of the schema might look.  Here is step 1 from that article: 
 
