@@ -299,8 +299,14 @@ Finally, some utility. This is how you want the planner to weight effects.
 5. Add an example problem file as an attachment in the prompt (as shown in image).
 ![Attach the planning problem to your prompt.](attach-copilot.png)
 6. Write your prompt.
-7. Save the file and [run it through Sabre]({{page.materials[2].url}}).
-8. Iterate until Sabre can run through your problem. It doesn't have to find a solution (it can spit out ``No solution exists.''), but it does have to have no errors when run.
+7. Save the file and [run it through Sabre]({{page.materials[0].url}}).
+8. If it is close, count the number of edits you need to make to get it to run. If it's pretty far off from what you wanted, generate it again.
+
+In order to get the full 5 points, you need:
+* Sabre to be able to find a solution in the generated problem.
+* To provide the list of changes you made to get it to work.
+
+
 
 
 ## What to submit
@@ -320,7 +326,7 @@ Submissions should be done on [Blackboard]({{page.submission_link}}).
 <div class="alert alert-warning" markdown="1">
 * Part 1 - 22 points (2 points per action)
 * Part 2 - 10 points
-* Extra credit - 10 points
+* Extra credit - 5 points
 </div>
 
 {% if page.readings %} 
