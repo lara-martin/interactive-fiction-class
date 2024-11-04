@@ -251,20 +251,18 @@
   title: Thanksgiving - No lecture
   type: no_lecture  
 
-  
-
 -
-  date: 2024-12-03
-  title: Final Project In-Class Help
-  
--
-  date: 2024
+  date: 2024-12-02
   type: deadline
   homework_due: 
     - 
       title: Project Milestone 4&colon; Final Submission
       url: #project/project-final.html
 
+-
+  date: 2024-12-03
+  title: Final Project In-Class Help
+  
 
 -
   date: 2024-12-05
