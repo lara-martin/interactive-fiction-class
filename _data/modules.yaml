@@ -642,25 +642,13 @@
       video: 
       length:
       readings:
-        -
-          title: "FIREBALL: A Dataset of Dungeons and Dragons Actual-Play with Structured Game State Information"
-          url: https://aclanthology.org/2023.acl-long.229/
-          authors: Andrew Zhu, Karmanya Aggarwal, Alexander Feng, Lara J. Martin, Chris Callison-Burch 
+
     -
       title: Module 4 Paper Presentations
       video: 
       length:
       old_video: https://upenn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=76f04c32-7e9b-4955-a4cc-ae600144975e
-      readings:
-        -
-          title: Retrofitting Word Vectors to Semantic Lexicons
-          url: https://aclanthology.org/N15-1184/
-          authors: "Manaal Faruqui, Jesse Dodge, Sujay K. Jauhar, Chris Dyer, Eduard Hovy, Noah A. Smith"          
-      optional:
-        -
-          title: Stanford Natural Language Inference (SNLI) Corpus
-          url: https://nlp.stanford.edu/projects/snli/
-          authors: "Samuel R. Bowman, Gabor Angeli, Christopher Potts, and Christopher D. Manning"
+
       presenters:
         - 
           name: Lalith Avinash Donkina 
