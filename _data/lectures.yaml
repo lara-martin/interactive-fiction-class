@@ -148,8 +148,8 @@
     
 -
   date: 2024-10-22
-  title: 
-  type: 
+  title: Class Cancelled
+  type: no_lecture
   
 
 -
@@ -182,7 +182,9 @@
 
 -
   date: 2024-11-05
-  title: Intro to Dialogue + Dialogue for Interactive Fiction + Module 4 Paper Presentations
+  title: Class Cancelled - Election Day
+  type: no_lecture
+  title: 
   #activities:
   #  -
   #    title: Train GPT-3 to Perform Dialogue for NPCs
@@ -190,7 +192,7 @@
 
 -
   date: 2024-11-07
-  title: Character-Based Generation
+  title: Module 4 Paper Presentations
   #activities:
   #  -
   #    title: Characters and Quests
@@ -199,7 +201,7 @@
 
 -
   date: 2024-11-12
-  title: Module 5 Paper Presentations
+  title: Dialogue + Character-Based Generation
 
 -
   date: 2024-11-14
@@ -273,12 +275,12 @@
   type: deadline
   homework_due: 
     - 
-      title: "HW5 (12%)"
+      title: "HW5 (12%): "
       url: 
 
 -
   date: 2024-12-10
-  title: TBA 
+  title: Module 5 Paper Presentations 
 
 -
   date: 2024-12-12

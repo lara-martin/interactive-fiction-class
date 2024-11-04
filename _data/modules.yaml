@@ -714,7 +714,7 @@
   description: 
   lessons:
     -
-      title: Intro to Dialogue + Dialogue for Interactive Fiction
+      title: Dialogue + Character-Based Generation
       #slides: https://docs.google.com/presentation/d/1RLeEDymHWpMheNZwO7tgOWEc0t-tm7uUEXWjInEIycQ/edit?usp=sharing
       video: 
       length:
@@ -749,11 +749,6 @@
           title: "I love your chain mail! Making knights smile in a fantasy game world: Open-domain goal-oriented dialogue agents"
           authors: Shrimai Prabhumoye, Margaret Li, Jack Urbanek, Emily Dinan, Douwe Kiela, Jason Weston, Arthur Szlam
           url: https://arxiv.org/abs/2002.02878
-    -
-      title: Character-Based Generation
-      video: 
-      length:
-      readings:
         -
           title: "Dungeons and Dragons as a Dialogue Challenge for Artificial Intelligence"
           authors: Chris Callison-Burch, Gaurav Singh Tomar, Lara J. Martin, Daphne Ippolito, Suma Bailis, David Reitter
