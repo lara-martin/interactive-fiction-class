@@ -119,6 +119,10 @@ to use as reference.
 Also, the deeper the goal is, the longer the planner is going to take to run.
 
 
+<div class="alert alert-info">
+Do not use the "consenting" and "observing" components at this time.
+</div>
+
 
 ### Part 2: Experiment with Utility
 1. (2 pts) Set your `utility()` as the following block:
@@ -136,7 +140,7 @@ and run that and collect that plan.
 	* Copy and paste each plan that you get (printed at the end of the output when you run the Java command) into a word document.
 	
 2. (2 pts) Do the above plans differ a lot from the actions someone would take when playing the interactive fiction version of Action Castle? (1-3 sentences)
-3. (2 pts) Give the characters their own utility that is consistent with their attributes/personality in the game. 
+3. (2 pts) Give the characters their own utility that is consistent with their attributes/personality in the game. You might need to add *consenting* and *observing* into the actions to have this work properly.
 	* Copy and paste what your utilities are and what the resulting plan is into your word document.
 4. (2 pts) Now that you've added character utility, change the `walk()` action to allow all characters to walk around, not just the Player.
 	* Copy and paste the resulting plan & share your impressions on how the story has changed.

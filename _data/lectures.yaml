@@ -252,14 +252,6 @@
   type: no_lecture  
 
 -
-  date: 2024-12-02
-  type: deadline
-  homework_due: 
-    - 
-      title: Project Milestone 4&colon; Final Submission
-      url: #project/project-final.html
-
--
   date: 2024-12-03
   title: Final Project In-Class Help
   
@@ -283,3 +275,8 @@
 -
   date: 2024-12-12
   title: Final Project Presentations, 10:30am - 12:30pm, SHER 150
+  type: deadline
+  homework_due: 
+    - 
+      title: Project Milestone 4&colon; Final Submission
+      url: #project/project-final.html  
