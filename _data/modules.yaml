@@ -670,29 +670,29 @@
           authors: Gabor Angeli &amp; Chris Manning
           link: https://aclanthology.org/D14-1059/
           year: 2014
-          slides:
+          slides: Li-NaturalLI.pdf
         - 
           name: Reece Robertson 
           paper: "Common Sense Reasoning – From Cyc to Intelligent Assistant"
           authors: Kathy Panton, et al.
           link: https://www.csee.umbc.edu/courses/graduate/691/spring13/01/papers/FromCycToIntelligentAssistant-IJHCS-LNAI3864.pdf
           year: 2006
-          slides:
+          slides: Robertson-IF+Common+Sense+Reasoning.pdf
         -
           name: Saksham Kumar Sharma
           paper: "BERALL: Towards Generating Retrieval-augmented State-based Interactive Fiction Games"
           authors: Rachel Chambers, et al.
           year: 2024
           link: https://wordplay-workshop.github.io/pdfs/21.pdf
-          slides: 
+          slides: Sharma-BERALL.pdf
           
         
 
   hw:
     -
-      title: "Homework 5"
+      title: "Homework 5: COMET-ATOMIC Schema"
       percentage: 12%
-      due_date: 
+      due_date: 2024-12-09
       url: #schemas/schemas.html
 -
   module_number: 5
@@ -817,7 +817,7 @@
     -
       title: "Confabulation: What Could LLM Hallucinations Do For Storytelling?"
       guest_speaker: Peiqi "Patrick" Sui
-      guest_url:
+      guest_url: https://www.linkedin.com/in/peiqi-sui-4ba977282
       readings:
         -
           title: "Confabulation: The Surprising Value of Large Language Model Hallucinations"
