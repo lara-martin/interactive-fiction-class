@@ -656,14 +656,14 @@
           authors: Prithviraj Ammanabrolu &amp; Mark Riedl
           link: https://aclanthology.org/N19-1358
           year: 2019
-          slides:
+          slides: 
         - 
-          name: Venkata Kanduri 
+          name: KV Yaswanth
           paper: "ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning" 
           authors: Maarten Sap, et al.
           link: https://ojs.aaai.org//index.php/AAAI/article/view/4160
           year: 2019
-          slides:
+          slides: Yaswanth-ATOMIC.pdf
         - 
           name: Josh Li 
           paper: "NaturalLI: Natural Logic Inference for Common Sense Reasoning"
@@ -702,29 +702,12 @@
   description: 
   lessons:
     -
-      title: Dialogue + Character-Based Generation
+      title: Character-Based Generation
+      slides: slides/lecture-18_characters.pdf
       #slides: https://docs.google.com/presentation/d/1RLeEDymHWpMheNZwO7tgOWEc0t-tm7uUEXWjInEIycQ/edit?usp=sharing
       video: 
       length:
-      readings:
-        -
-          title: Building End-To-End Dialogue Systems Using Generative Hierarchical Neural Network Models
-          authors: Iulian V. Serban, Alessandro Sordoni, Yoshua Bengio, Aaron Courville, Joelle Pineau
-          url: https://dl.acm.org/doi/10.5555/3016387.3016435
-          year: 2015
-        -
-          title: A Diversity-Promoting Objective Function for Neural Conversation Models
-          authors: Jiwei Li, Michel Galley, Chris Brockett, Jianfeng Gao, Bill Dolan
-          url: https://aclanthology.org/N16-1014/
-          year: 2015
-        -
-          title: A Neural Conversational Model
-          authors: Oriol Vinyals &amp; Quoc Le
-          url: https://arxiv.org/abs/1506.05869
-        -
-          title: "DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation"
-          authors: Yizhe Zhang, Siqi Sun, Michel Galley, Yen-Chun Chen, Chris Brockett, Xiang Gao, Jianfeng Gao, Jingjing Liu, Bill Dolan
-          url: https://aclanthology.org/2020.acl-demos.30/      
+      readings:    
         -
           title: Learning to Speak and Act in a Fantasy Text Adventure Game
           authors: Jack Urbanek, Angela Fan, Siddharth Karamcheti, Saachi Jain, Samuel Humeau, Emily Dinan, Tim Rocktäschel, Douwe Kiela, Arthur Szlam, Jason Weston
@@ -742,10 +725,6 @@
           authors: Chris Callison-Burch, Gaurav Singh Tomar, Lara J. Martin, Daphne Ippolito, Suma Bailis, David Reitter
           url: https://aclanthology.org/2022.emnlp-main.637/
         -
-          title: "Deep Dungeons and Dragons: Learning Character-Action Interactions from Role-Playing Game Transcripts"
-          authors: Annie Louis &amp; Charles Sutton
-          url: https://aclanthology.org/N18-2111/
-        -
           title: "Connotation Frames of Power and Agency in Modern Films"
           authors: Maarten Sap, Marcella Cindy Prasettio, Ari Holtzman, Hannah Rashkin, Yejin Choi     
           url: https://aclanthology.org/D17-1247/
@@ -758,9 +737,9 @@
           authors: Xuhui Zhou, Zhe Su, Tiwalayo Eisape, Hyunwoo Kim, Maarten Sap
           url: https://aclanthology.org/2024.emnlp-main.1208/
         -
-          title: Curating Simulated Storyworlds
-          authors: James Ryan
-          url: https://www.researchgate.net/publication/330855103_Curating_Simulated_Storyworlds
+          title: "Bad News: An Experiment in Computationally Assisted Performance"
+          authors: Ben Samuel, James Ryan, Adam J. Summerville, Michael Mateas, Noah Wardrip-Fruin 
+          url: https://link.springer.com/chapter/10.1007/978-3-319-48279-8_10
     -
       title: Module 5 Paper Presentations
       video: 
