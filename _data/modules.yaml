@@ -750,6 +750,14 @@
           authors: Maarten Sap, Marcella Cindy Prasettio, Ari Holtzman, Hannah Rashkin, Yejin Choi     
           url: https://aclanthology.org/D17-1247/
         -
+          title: Towards Inter-character Relationship-driven Story Generation
+          authors: Anvesh Rao Vijjini, Faeze Brahman, Snigdha Chaturvedi
+          url: https://aclanthology.org/2022.emnlp-main.613
+        -
+          title: "Is this the real life? Is this just fantasy? The Misleading Success of Simulating Social Interactions With LLMs"
+          authors: Xuhui Zhou, Zhe Su, Tiwalayo Eisape, Hyunwoo Kim, Maarten Sap
+          url: https://aclanthology.org/2024.emnlp-main.1208/
+        -
           title: Curating Simulated Storyworlds
           authors: James Ryan
           url: https://www.researchgate.net/publication/330855103_Curating_Simulated_Storyworlds
@@ -757,19 +765,6 @@
       title: Module 5 Paper Presentations
       video: 
       length:
-      readings:
-        -
-          title: Recipes for Building an Open-Domain Chatbot
-          authors: Stephen Roller, Emily Dinan, Naman Goyal, Da Ju, Mary Williamson, Yinhan Liu, Jing Xu, Myle Ott, Eric Michael Smith, Y-Lan Boureau, Jason Weston
-          url: https://aclanthology.org/2021.eacl-main.24
-        -
-          title: Towards a Human-like Open-Domain Chatbot
-          authors: Daniel Adiwardana, Minh-Thang Luong, David R. So, Jamie Hall, Noah Fiedel, Romal Thoppilan, Zi Yang, Apoorv Kulshreshtha, Gaurav Nemade, Yifeng Lu, Quoc V. Le
-          url: https://arxiv.org/abs/2001.09977
-        -
-          title: "ChatEval: A Tool for Chatbot Evaluation"
-          authors: "Joao Sedoc, Daphne Ippolito, Arun Kirubarajan, Jai Thirani, Lyle Ungar, Chris Callison-Burch"
-          url: https://aclanthology.org/N19-4011/
       presenters:
         - 
           name: Srinivas Badiga 
@@ -892,44 +887,44 @@
           url: https://ojs.aaai.org/index.php/AIIDE/article/view/21946
           authors: Zhiyu Lin, Rohan Agarwal, Mark Riedl
     
-    -
-      title: Neurosymbolic Story Generation
+    #-
+    #  title: Neurosymbolic Story Generation
       #slides: slides/22-04-07_Mixed-Methods.pdf
-      video: 
-      length:
-      readings:
-        -
-          title: Neurosymbolic automated story generation [thesis]
-          authors: Lara J. Martin
-          url: https://smartech.gatech.edu/handle/1853/64643      
+    #  video: 
+    #  length:
+    #  readings:
+    #    -
+    #      title: Neurosymbolic automated story generation [thesis]
+    #      authors: Lara J. Martin
+    #      url: https://smartech.gatech.edu/handle/1853/64643      
           
           
-    -
-      title: Visual Storytelling
-      guest_speaker: 
-      guest_url: 
+    #-
+    #  title: Visual Storytelling
+    #  guest_speaker: 
+    #  guest_url: 
       #slides: slides/22-04-19_Kenneth-Huang_VIST.pdf
-      video: 
-      length:
-      readings:
-        -
-          title: "Stretch-VST: Getting Flexible With Visual Stories"
-          authors: Chi-Yang Hsu, Yun-Wei Chu, Tsai-Lun Yang, Ting-Hao Huang, Lun-Wei Ku
-          url: https://aclanthology.org/2021.acl-demo.42/
-        -
-          title: "Plot and Rework: Modeling Storylines for Visual Storytelling"
-          authors: "Chi-Yang Hsu, Yun-Wei Chu, Ting-Hao 'Kenneth' Huang, Lun-Wei Ku"
-          url: https://aclanthology.org/2021.findings-acl.390/
-        -
-          title: "The Amazing Mysteries of the Gutter: Drawing Inferences Between Panels in Comic Book Narratives"
-          authors: Mohit Iyyer, Varun Manjunatha, Anupam Guha, Yogarshi Vyas, Jordan Boyd-Graber, Hal Daume III, Larry S. Davis
-          url: http://openaccess.thecvf.com/content_cvpr_2017/html/Iyyer_The_Amazing_Mysteries_CVPR_2017_paper.html
-        -
-          title: Visual Storytelling
-          authors: Ting-Hao Kenneth Huang, Francis Ferraro, Nasrin Mostafazadeh, Ishan Misra, Aishwarya Agrawal, Jacob Devlin, Ross Girshick, Xiaodong He, Pushmeet Kohli, Dhruv Batra, C. Lawrence Zitnick, Devi Parikh, Lucy Vanderwende, Michel Galley, and Margaret Mitchell
-          url: https://www.aclweb.org/anthology/N16-1147v2.pdf
-        -
-          title: "Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books"
-          authors: Yukun Zhu, Ryan Kiros, Richard Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba, and Sanja Fidler
-          url: https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zhu_Aligning_Books_and_ICCV_2015_paper.pdf              
+    #  video: 
+    #  length:
+    #  readings:
+    #    -
+    #      title: "Stretch-VST: Getting Flexible With Visual Stories"
+    #      authors: Chi-Yang Hsu, Yun-Wei Chu, Tsai-Lun Yang, Ting-Hao Huang, Lun-Wei Ku
+    #      url: https://aclanthology.org/2021.acl-demo.42/
+    #    -
+    #      title: "Plot and Rework: Modeling Storylines for Visual Storytelling"
+    #      authors: "Chi-Yang Hsu, Yun-Wei Chu, Ting-Hao 'Kenneth' Huang, Lun-Wei Ku"
+    #      url: https://aclanthology.org/2021.findings-acl.390/
+    #    -
+    #      title: "The Amazing Mysteries of the Gutter: Drawing Inferences Between Panels in Comic Book Narratives"
+    #      authors: Mohit Iyyer, Varun Manjunatha, Anupam Guha, Yogarshi Vyas, Jordan Boyd-Graber, Hal Daume III, Larry S. Davis
+    #      url: http://openaccess.thecvf.com/content_cvpr_2017/html/Iyyer_The_Amazing_Mysteries_CVPR_2017_paper.html
+    #    -
+    #      title: Visual Storytelling
+    #      authors: Ting-Hao Kenneth Huang, Francis Ferraro, Nasrin Mostafazadeh, Ishan Misra, Aishwarya Agrawal, Jacob Devlin, Ross Girshick, Xiaodong He, Pushmeet Kohli, Dhruv Batra, C. Lawrence Zitnick, Devi Parikh, Lucy Vanderwende, Michel Galley, and Margaret Mitchell
+    #      url: https://www.aclweb.org/anthology/N16-1147v2.pdf
+    #    -
+    #      title: "Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books"
+    #      authors: Yukun Zhu, Ryan Kiros, Richard Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba, and Sanja Fidler
+    #      url: https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zhu_Aligning_Books_and_ICCV_2015_paper.pdf              
           
