@@ -791,7 +791,8 @@
     -
       title: "Confabulation: What Could LLM Hallucinations Do For Storytelling?"
       guest_speaker: Peiqi "Patrick" Sui
-      guest_url: https://www.linkedin.com/in/peiqi-sui-4ba977282
+      guest_url: https://patrick-sui.github.io/
+      slides: slides/Patrick_Sui_UMBC_lecture.pdf
       readings:
         -
           title: "Confabulation: The Surprising Value of Large Language Model Hallucinations"
