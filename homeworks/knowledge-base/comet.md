@@ -1,5 +1,5 @@
 ---
-layout: default-2022
+layout: default
 img: ATOMIC.png
 img_link: https://doi.org/10.1609/aaai.v33i01.33013027
 caption: "ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning"
