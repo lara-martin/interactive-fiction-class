@@ -793,6 +793,7 @@
       guest_speaker: Peiqi "Patrick" Sui
       guest_url: https://patrick-sui.github.io/
       slides: slides/Patrick_Sui_UMBC_lecture.pdf
+      video: https://umbc.webex.com/umbc/ldr.php?RCID=20880a76d13f0c95d301820f08c988f5
       readings:
         -
           title: "Confabulation: The Surprising Value of Large Language Model Hallucinations"
