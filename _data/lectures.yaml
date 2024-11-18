@@ -238,8 +238,8 @@
   type: deadline
   homework_due:
     - 
-      title: Project Milestone 3&colon; Final Report Draft
-      url: #project/pr2.html
+      title: Project Milestone 3&colon; Rough Draft
+      url: project/rough-draft.html
 
 
 -
@@ -266,7 +266,7 @@
   homework_due: 
     - 
       title: "HW5 (12%): COMET-ATOMIC Schema"
-      url: #knowledge-base/comet.html
+      url: knowledge-base/comet.html
 
 -
   date: 2024-12-10
