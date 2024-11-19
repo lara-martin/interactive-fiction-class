@@ -827,8 +827,20 @@
           title: "Co-writing screenplays and theatre scripts with language models: Evaluation by industry professionals"
           authors: Piotr Mirowski, Kory W. Mathewson, Jaylen Pittman, Richard Evans
           url: https://dl.acm.org/doi/full/10.1145/3544548.3581225
-    
-    
+    -
+      title: Sai Vallurupalli
+      guest_speaker: Sai Vallurupalli
+      guest_url: https://scholar.google.com/citations?user=K3F-wdMAAAAJ&hl=en
+      readings:
+        -
+          title: "SAGA: A Participant-specific Examination of Story Alternatives and Goal Applicability for a Deeper Understanding of Complex Events"
+          authors: Sai Vallurupalli, Katrin Erk, Francis Ferraro
+          url: https://aclanthology.org/2024.findings-acl.910/
+        -
+          title: "POQue: Asking participant-specific outcome questions for a deeper understanding of complex events"
+          authors: Sai Vallurupalli, Sayontan Ghosh, Katrin Erk, Niranjan Balasubramanian, Francis Ferraro
+          url: https://aclanthology.org/2022.emnlp-main.594/
+  
     -
       title: Novel Interfaces for Creative Text Generation
       guest_speaker: Max Kreminiski
