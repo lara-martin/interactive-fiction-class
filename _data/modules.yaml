@@ -656,7 +656,7 @@
           authors: Prithviraj Ammanabrolu &amp; Mark Riedl
           link: https://aclanthology.org/N19-1358
           year: 2019
-          slides: 
+          slides: Donkina-Playing-TAGs.pdf
         - 
           name: KV Yaswanth
           paper: "ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning" 
@@ -751,7 +751,7 @@
           authors: João Sedoc, et al.
           link: https://aclanthology.org/N19-4011/
           year: 2019
-          slides:
+          slides: Badiga_ChatEval+A+Tool+for+Chatbot+Evaluation.pdf
         - 
           name: Tristan Galcik 
           paper: "Deep Dungeons and Dragons: Learning Character-Action Interactions from Role-Playing Game Transcripts"
@@ -765,21 +765,21 @@
           authors: Stephen Roller, et al.
           link: https://aclanthology.org/2021.eacl-main.24/
           year: 2021
-          slides:
+          slides: Kadasani-Recipes+for+building+an+Open-Domain+Chatbot.pdf
         - 
           name: Maitri Mistry 
           paper: A Neural Conversational Model
           authors: Oriol Vinyals &amp; Quoc Le
           year: 2015
           link: https://arxiv.org/abs/1506.05869
-          slides:
+          slides: Mistry-Neural-conversation-model.pdf
         -
           name: Mukesh Kumar Vidam
           paper: "Learning to Speak and Act in a Fantasy Text Adventure Game"
           authors: Jack Urbanek, et al.
           link: https://aclanthology.org/D19-1062/
           year: 2019
-          slides: 
+          slides: Vidam-Learning-to-speak-and-act.pdf
 
 -
   module_number: 6

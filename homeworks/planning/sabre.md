@@ -28,7 +28,7 @@ readings:
     -
         title: A Collection of Benchmark Problems for the Sabre Narrative Planner
         authors: Stephen G. Ware and Rachelyn Farrell
-        url: https://github.com/sgware/sabre-benchmarks/blob/main/report.pdf
+        url: sabre-report.pdf
 submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7156634_1?courseId=_82444_1&gradeitemView=details
 ---
 
@@ -103,11 +103,16 @@ It has three different types of limits:
 
 Whether a limit is reached is calculated by looking at the **utility** of the overall problem (`utility()`) or the utility of a particular character's perspective (e.g., `utility(Princess)`).
 
-The above definitions and more information can be found in the report [A Collection of Benchmark Problems for the Sabre Narrative Planner](https://github.com/sgware/sabre-benchmarks/blob/main/report.pdf). You can also find a partial example of a problem that I made in [the Extra Credit](#example).
+The above definitions and more information can be found in the report [A Collection of Benchmark Problems for the Sabre Narrative Planner](sabre-report.pdf). You can also find a partial example of a problem that I made in [the Extra Credit](#example).
 
 ### Part 1: Make a Planning Problem by Hand
 The skeleton of a problem has been provided to you in [this notebook]({{page.materials[0].url}}). Again, you can open this notebook in [Colab](https://colab.research.google.com/), [Deepnote](https://deepnote.com/), or VSCode.
 You might notice that there are some variations from Action Castle. I've simplified a few things: the rose is just in the garden (no rosebush) and there is no "Death" room or path from the tree.
+
+<div class="alert alert-info">
+I've set up everything so that you just need to implement the parts in the string that say "TODO". No need to try to convert the Sabre code into Python or Java. Also, note that I have already declared all of the types, entities, properties, and starting state conditions for you.
+</div>
+
 
 To write a problem for Sabre, do the following:
 1. Download one or a couple of the problems from the list [https://github.com/sgware/sabre-benchmarks/tree/main/problems](https://github.com/sgware/sabre-benchmarks/tree/main/problems) 
