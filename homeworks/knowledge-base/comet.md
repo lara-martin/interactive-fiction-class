@@ -13,7 +13,7 @@ materials:
     - 
         name: HW 5 Python Notebook
         url: hw5.ipynb
-submission_link: 
+submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7156635_1?courseId=_82444_1&gradeitemView=details
 readings:
     -
       title: "(COMET-)ATOMIC-2020: On Symbolic and Neural Commonsense Knowledge Graphs"
