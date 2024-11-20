@@ -123,15 +123,16 @@ Your paper should include the following sections:
 Note that at this stage the questions below are *guiding* questions. Do not include the questions themselves in your paper and make sure that what you write in each section builds to be one cohesive section. Your content in each section should contain information beyond these questions as well.
 </div>
 
-Discussion and Conclusion sections will be added in the final deliverable.
-
-1. __Title__: What are you calling your study?
-1. __Abstract__: A high-level 
-2. __Introduction__: What research question(s) or problem are you trying to solve?
 <div class="alert alert-warning" markdown="1">
 <b>Science 101</b><br>
 A *research question* should be **something that can be proved true or false.** An example of a *bad* research question might be "Which dog is the best dog?" because it cannot be rejected (i.e., null hypothesis). <br> A *better* way to rephrase this---by potentially looking at the same problem---would be to ask "Is Pharaoh a good dog?". This can then be tested. You just need to define how to measure "goodness" in this case.
 </div>
+
+Discussion and Conclusion sections will be added in the final deliverable.
+
+1. __Title__: What are you calling your study?
+1. __Abstract__: A high-level overview of what the paper is about.
+2. __Introduction__: What research question(s) or problem are you trying to solve?
   - Why this it worth researching?
   - What contributions does this work make? (i.e., What are you doing that's novel?) You might have to compare to other research.
 3. __Related Work__: What previous research has been done on this research question?
