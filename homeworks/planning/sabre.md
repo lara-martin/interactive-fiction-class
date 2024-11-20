@@ -16,6 +16,12 @@ materials:
     - 
         name: Homework 1 Notebook
         url: hw1.ipynb
+    -
+        name: Sabre Technical Report
+        url: sabre-report.pdf
+    -
+        name: Example Sabre Problems
+        url: https://github.com/sgware/sabre-benchmarks/tree/main/problems
 readings:
     -
         title: "Sabre: A Narrative Planner Supporting Intention and Deep Theory of Mind"
