@@ -125,7 +125,11 @@ Also, the deeper the goal is, the longer the planner is going to take to run.
 
 
 <div class="alert alert-info">
-Do not use the "consenting" and "observing" components at this time.
+Important notes:
+<ul>
+<li>Do not use the "consenting" and "observing" components.</li>
+<li><code>null</code> in Sabre is <code>?</code></li>
+</ul>
 </div>
 
 
