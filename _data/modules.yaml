@@ -845,6 +845,8 @@
       title: Novel Interfaces for Creative Text Generation
       guest_speaker: Max Kreminiski
       guest_url: https://mkremins.github.io/
+      slides: https://docs.google.com/presentation/d/1VJYvIV28faOB8eH8A2Yf5gxkAZmSRfmALvA9nEC9NWU/edit
+      video: https://umbc.webex.com/recordingservice/sites/umbc/recording/53557a38b1b84f6ba06e6c267eef6545/playback
       readings:
         -
           title: "Patchview: LLM-Powered Worldbuilding with Generative Dust and Magnet Visualization"
@@ -858,6 +860,18 @@
           title: "Toyteller: Toy-Playing with Character Symbols for AI-Powered Visual Storytelling"
           url: https://mkremins.github.io/publications/Toyteller_UIST2024.pdf
           authors: John Joon Young Chung, Melissa Roemmele, Max Kreminski
+        -
+          title: "TaleBrush: Sketching stories with generative pretrained language models"
+          authors: John Joon Young Chung, Wooseok Kim, Kang Min Yoo, Hwaran Lee, Eytan Adar, Minsuk Chang
+          url: https://dl.acm.org/doi/abs/10.1145/3491102.3501819
+        -
+          title: "Wordcraft: story writing with large language models"
+          authors: Ann Yuan, Andy Coenen, Emily Reif, Daphne Ippolito
+          url: https://dl.acm.org/doi/abs/10.1145/3490099.3511105
+        -
+          title: "Creative help: A story writing assistant"
+          authors: Melissa Roemmele, Andrew S Gordon
+          url: https://roemmele.github.io/publications/ICIDS15.PDF
     -
       title: Co-Creativity
       guest_speaker: Zhiyu Lin (林之雨)
