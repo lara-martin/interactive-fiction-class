@@ -62,14 +62,18 @@ Here are the requirements for the final submission of your project. Please refer
 * The presentations will be open to the university, broadly.
 * On presentation day: Within your team, designate some members to be "group 1" and the rest to be in "group 2". The first half of the time group 1 will present and group 2 will walk around and look at other posters/demos. Everyone will switch halfway through so that you all get a chance to see each other's work.
 * **For demo teams**: Please bring a laptop and charger, and have your demo ready to be played with.
-* There will be a voting box where visitors can vote for their favorite presentation(s). The team with the most votes will get 3 points of extra credit.
+* There will be a voting box where visitors can vote for their favorite presentation(s). The team with the most votes will get 3 points of extra credit on Milestone 4.
 
+### Poster Grading
 The posters will be graded on two main criteria:
 * __Content__: (8 points) The poster contains enough relevant information that someone can get the highlights of the project without you necessarily presenting (although you will still be presenting it).
 	* Information is written in clear language.
 	* Contains: 1) an introduction to what you did, 2) information about the methods/system, and 3) any results/discussion (for paper teams) or takeaways (for demo teams).
 * __Visuals__: (4 points) The poster contains relevant visuals without overwhelming the reader, and the text organization is nicely displayed.
 
+
+
+---
 
 ## Demo: Build a novel interactive experience
 
@@ -88,11 +92,11 @@ __LLM Use Statement__: Describe exactly how you used LLMs to generate **parts of
 You will get full points if you 1) include all of the material listed above and 2) incorporate the feedback you got from the previous submission.<br>
 
 
-* Poster Content - 8 points
+* Poster Content - 8 points ([See description above.](#poster-grading))
 * Poster Visuals - 4 points
-* System Diagram  - 5 points
-* Minimal bugs - 5 points - Runs from beginning to end with minimal bugs (1-3 bugs, depending on the size).
-* Complete - 10 points - The demo does what the previous milestones claim to do (within reason).
+* System Diagram  - 5 points - Updated to reflect your final system. This can also be put onto your poster, if you want.
+* Minimal bugs - 5 points - Runs from beginning to end with minimal bugs (1-3 bugs, depending on the size/type of bug).
+* Complete - 10 points - The demo does what the previous milestones' architecture claim to do (within reason).
 * Read Me - 3 points - A short document explaining how to setup and run your demo.
 * LLM Use Statement - 1 point
 
@@ -104,6 +108,10 @@ Total: 36 points
 Submit the following to [Blackboard]({{page.submission_link}}):
 * The link to your repository.
 * `team#-supplement.pdf`
+
+
+
+---
 
 ## Paper: Attempt to answer a research question about text generation or interactive fiction
 
@@ -161,13 +169,15 @@ __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of y
 ### Grading
 <div class="alert alert-warning" markdown="1">
 
+* Poster Content - 8 points ([See description above.](#poster-grading))
+* Poster Visuals - 4 points
 * Results - 5 points - Data is displayed in a clear format and tables/graphs are made to accompany the text.
 * Discussion - 5 points - Insights make sense and 
 * Tips Integrated - 3 points - All previous tips/recommendations were integrated or adjusted for.
 * Complete - 10 points - All sections listed above are included, paper seems cohesive, and paper is in correct format.
 * LLM Use Statement - 1 point
 
-Total: 29 points
+Total: 36 points
 </div>
 
 ### What to Submit
