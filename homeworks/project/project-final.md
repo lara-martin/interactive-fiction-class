@@ -104,7 +104,7 @@ You will get full points if you 1) include all of the material listed above and 
 * System Diagram  - 5 points - Updated to reflect your final system. This can also be put onto your poster, if you want.
 * Minimal bugs - 5 points - Runs from beginning to end with minimal bugs (1-3 bugs, depending on the size/type of bug).
 * Complete - 10 points - The demo does what the previous milestones' architecture claim to do (within reason).
-* Read Me - 3 points - A short document explaining how to setup and run your demo.
+* Read Me - 3 points - A short document explaining what your system is, and how to setup and run your demo. Put this readme in the README.md file of your repository.
 * LLM Use Statement - 1 point
 
 
@@ -114,7 +114,7 @@ Total: 36 points
 ### What to Submit
 Submit the following to [Blackboard]({{page.submission_link}}):
 * The link to your repository.
-* `team#-supplement.pdf`
+* `team#-supplement.pdf`, the LLM use statement.
 
 
 
@@ -191,7 +191,7 @@ Total: 36 points
 ### What to Submit
 Submit the following to [Blackboard]({{page.submission_link}}):
 * `team#-finaldraft.pdf` which is your final paper.
-* `team#-supplement.pdf`, the supplemental material mentioned above.
+* `team#-supplement.pdf`, the LLM use statement.
 
 
 
