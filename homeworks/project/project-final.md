@@ -157,7 +157,7 @@ Your paper should have the following components, in order:
   - Why this it worth researching?
   - What contributions does this work make? (i.e., What are you doing that's novel?) You might have to compare to other research.
 4. __Related Work__: What previous research has been done on this research question?
-  - I want you to do a deeper dive of the related work now. Find *at least five more papers* to add to the narrative you've written so far.
+  - I want you to do a deeper dive of the related work now. Find **at least five more papers** (for a total of 8-10+) to add to the narrative you've written so far.
 5. __Methods__: What are you doing or making to address your research question(s)?
   - If you are using any datasets, does the needed data already exist?  If so, how much data is available? What does the data look like? If you are just using a few examples for few-shot prompting, how did you select those?
   - Describe your solution to the problem/research question. What model(s) are you using? If you are using few- or zero-shot prompting, what do your prompts look like?
