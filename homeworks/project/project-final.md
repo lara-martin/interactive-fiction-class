@@ -52,15 +52,22 @@ You can download the materials for this assignment here:
 Here are the requirements for the final submission of your project. Please refer to the appropriate section below for your project type.
 
 ## How will the presentation day work?
-* Posters will be either attached to the walls or presented on easels around the room (SHER 150).
+
+### Getting Ready
 * Posters should be size 36 x 42. This can be 42" tall and 36" wide or vice versa. You can print your poster through Research Graphics: [https://researchgraphics.umbc.edu/welcome/poster-printing/](https://researchgraphics.umbc.edu/welcome/poster-printing/). 
 	* The CSEE department has generously agreed to pay for the printing of the poster, but you will still have to order and pick it up yourself.
 	* Please allow them **at least 3 business days** to approve the file.
 	* If you want Dr. Martin to look at your poster before you print it, be sure to give them a couple days before you want to print it.
 * I have provided a [poster template]({{page.materials[0].url}}) for you to use. You're welcome to adapt it as much as you like except make sure to keep it 36 x 42 (or 42 x 36).
-	* Also, **save it as a pdf before sending it to Research Graphics**.
+	* You are not required to use the template at all, but make sure it's the correct size. You can also make a poster in LaTeX, if you prefer.
+	* Regardless of the format you choose, **save it as a pdf before sending it to Research Graphics**.
+	
+
+### On Presentation Day
+* Posters will be either attached to the walls or presented on easels around the room (SHER 150).
+* Please be in SHER 150 on time or a bit earlier!! (10:30am on December 12th)
 * The presentations will be open to the university, broadly.
-* On presentation day: Within your team, designate some members to be "group 1" and the rest to be in "group 2". The first half of the time group 1 will present and group 2 will walk around and look at other posters/demos. Everyone will switch halfway through so that you all get a chance to see each other's work.
+* Within your team, designate some members to be "group 1" and the rest to be in "group 2". The first half of the time group 1 will present and group 2 will walk around and look at other posters/demos. Everyone will switch halfway through so that you all get a chance to see each other's work. You don't have to tell us who is in which group; this is just to let you know what's going to happen on presentation day.
 * **For demo teams**: Please bring a laptop and charger, and have your demo ready to be played with.
 * There will be a voting box where visitors can vote for their favorite presentation(s). The team with the most votes will get 3 points of extra credit on Milestone 4.
 
