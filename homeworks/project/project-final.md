@@ -172,7 +172,7 @@ Your paper should have the following components, in order:
 	- This should be more than just a list of raw numbers. You should explain to the reader how to interpret any graphs or tables you have and describe any trends that you see.
 7. __Discussion__: What insights can you take away from the results?
 8. __Conclusion__: In CS, this is often just a brief paragraph reminding people what the highlights of your paper were.
-9. __References__: (Un-numbered) Papers are cited correctly in the conference's format and are references in the main text.
+9. __References__: Papers are cited correctly in the conference's format and are references in the main text. (Do not number this section.)
 
 In a separate document called `team#-supplement.pdf`, provide the
 __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your paper (<a href="https://laramartin.net/interactive-fiction-class/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>) **or your poster**. If you did not use **any** generative text, please state so.
