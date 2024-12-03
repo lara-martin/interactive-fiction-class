@@ -88,7 +88,7 @@ You will be filling in 4 methods in the code:
 * **getEffects**: query COMET to get relevant effects for a given event
 * **updateSchema**: update the story state to reflect these new pre-conditions & effects
 
-1. (3 pts) Explain how you made your schema. (i.e., Why did you decide to do the things you did?) (1 paragraph)
+1. (3 pts) Explain how you made your schema. (e.g., Why did you decide to design it the way you did? What are your inputs and outputs?) (1 paragraph)
 You can test how your schema does on the "testing call". **Once your schema is finalized, uncomment out the 5 story blocks**, and then answer the following questions for each story:
 
 	2-6. (1 pt each) What went well when processing this story? What went poorly? (2-3 sentences)
@@ -105,7 +105,7 @@ Answer each of the following with a couple of sentences:
 ## What to Submit
 
 1. An iPython notebook called `hw5.ipynb` that runs your COMET-ATOMIC schema. **Important: Save the output for the Story Tracking Questions!**
-2. A pdf that has **your schema explanation and the answers to the COMET-ATOMIC questions** found at the end of the notebook.
+2. A pdf that has **your schema explanation and the answers to the COMET-ATOMIC questions** (Parts 1 & 2 above).
 
 Submissions should be done on [Blackboard]({{page.submission_link}}).
 
