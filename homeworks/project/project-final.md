@@ -68,8 +68,9 @@ Here are the requirements for the final submission of your project. Please refer
 * Please be in SHER 150 on time or a bit earlier!! (10:30am on December 12th)
 * The presentations will be open to the university, broadly.
 * Within your team, designate some members to be "group 1" and the rest to be in "group 2". The first half of the time group 1 will present and group 2 will walk around and look at other posters/demos. Everyone will switch halfway through so that you all get a chance to see each other's work. You don't have to tell us who is in which group; this is just to let you know what's going to happen on presentation day.
-* **For demo teams**: Please bring a laptop and charger, and have your demo ready to be played with.
 * There will be a voting box where visitors can vote for their favorite presentation(s). The team with the most votes will get 3 points of extra credit on Milestone 4.
+* **For demo teams**: Please bring a laptop and charger, and have your demo ready to be played with.
+
 
 ### Poster Grading
 The posters will be graded on two main criteria:

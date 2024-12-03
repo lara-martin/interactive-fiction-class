@@ -813,8 +813,12 @@
       title: Co-creating Storytelling Machines
       guest_speaker: Kory Mathewson
       guest_url: https://korymathewson.com/
-      slides: 
+      slides: https://docs.google.com/presentation/d/14njAZ4bkTfBF84YbNk8r-DN6cUI_-7AVQz02hPA91ag
       readings:
+        -
+          title: "Shaping the Narrative Arc: Information-Theoretic Collaborative Dialogue"
+          authors: Kory W. Mathewson, Pablo Samuel Castro, Colin Cherry, George Foster, Marc G. Bellemare
+          url: https://computationalcreativity.net/iccc20/papers/010-iccc20.pdf
         -
           title: "A Robot Walks into a Bar: Can Language Models Serve as Creativity SupportTools for Comedy? An Evaluation of LLMs’ Humour Alignment with Comedians"
           authors: Piotr Mirowski, Juliette Love, Kory Mathewson, Shakir Mohamed
