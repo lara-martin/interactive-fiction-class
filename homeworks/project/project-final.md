@@ -95,6 +95,16 @@ Your demo should:
 In a separate document called `team#-supplement.pdf`, provide the
 __LLM Use Statement__: Describe exactly how you used LLMs to generate **parts of your code** (<a href="https://laramartin.net/interactive-fiction-class/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>) **or your poster**. If you did not use **any** generative text, please state so.
 
+
+
+### What to Submit
+Submit the following to [Blackboard]({{page.submission_link}}):
+* The link to your repository.
+* `team#-poster.pdf` which is your poster.
+* `team#-supplement.pdf`, the LLM use statement.
+
+
+
 ### Grading
 <div class="alert alert-warning" markdown="1">
 You will get full points if you 1) include all of the material listed above and 2) incorporate the feedback you got from the previous submission.<br>
@@ -111,14 +121,6 @@ You will get full points if you 1) include all of the material listed above and 
 
 Total: 36 points
 </div>
-
-### What to Submit
-Submit the following to [Blackboard]({{page.submission_link}}):
-* The link to your repository.
-* `team#-supplement.pdf`, the LLM use statement.
-
-
-
 ---
 
 ## Paper: Attempt to answer a research question about text generation or interactive fiction
@@ -175,6 +177,15 @@ Your paper should have the following components, in order:
 In a separate document called `team#-supplement.pdf`, provide the
 __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your paper (<a href="https://laramartin.net/interactive-fiction-class/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>) **or your poster**. If you did not use **any** generative text, please state so.
 
+
+
+### What to Submit
+Submit the following to [Blackboard]({{page.submission_link}}):
+* `team#-finaldraft.pdf` which is your final paper.
+* `team#-poster.pdf` which is your poster.
+* `team#-supplement.pdf`, the LLM use statement.
+
+
 ### Grading
 <div class="alert alert-warning" markdown="1">
 
@@ -188,11 +199,3 @@ __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of y
 
 Total: 36 points
 </div>
-
-### What to Submit
-Submit the following to [Blackboard]({{page.submission_link}}):
-* `team#-finaldraft.pdf` which is your final paper.
-* `team#-supplement.pdf`, the LLM use statement.
-
-
-
