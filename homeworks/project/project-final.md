@@ -54,8 +54,10 @@ Here are the requirements for the final submission of your project. Please refer
 ## How will the presentation day work?
 
 ### Getting Ready
-* Posters should be size 36 x 42. This can be 42" tall and 36" wide or vice versa. You can print your poster through Research Graphics: [https://researchgraphics.umbc.edu/welcome/poster-printing/](https://researchgraphics.umbc.edu/welcome/poster-printing/). 
-	* The CSEE department has generously agreed to pay for the printing of the poster, but you will still have to order and pick it up yourself.
+* Posters should be size **36 x 42**. This can be 42" tall and 36" wide or vice versa. And it should be printed on **paper**. You can print your poster through Research Graphics: [https://researchgraphics.umbc.edu/welcome/poster-printing/](https://researchgraphics.umbc.edu/welcome/poster-printing/) using their [form](https://docs.google.com/forms/d/e/1FAIpQLSeGC2pS6604Sx99AxboFX0kNaTv0YeA9J-2MpBI3u2mMa8pHg/viewform).
+	* The CSEE department has generously agreed to pay for the printing of the poster, but you will still have to order and pick it up yourself. **On the form, under "Billing Chartstring Information", just put "For CMSC 491/691 Interactive Fiction and Text Generation class".** They will be expecting your submission.
+	* Once you submit it, look for an email from `ResearchGraphics@umbc.edu`.
+	* [Melissa Penley Cormier](mailto:melico1@umbc.edu) from Research Graphics has graciously offered to help if anyone has issues uploading files.
 	* Please allow them **at least 3 business days** to approve the file.
 	* If you want Dr. Martin to look at your poster before you print it, be sure to give them a couple days before you want to print it.
 * I have provided a [poster template]({{page.materials[0].url}}) for you to use. You're welcome to adapt it as much as you like except make sure to keep it 36 x 42 (or 42 x 36).
