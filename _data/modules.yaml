@@ -758,7 +758,7 @@
           authors: Annie Louis &amp; Charles Sutton
           link: https://aclanthology.org/N18-2111/
           year: 2018
-          slides:
+          slides: Galcik-Deep_Dungeons_and_Dragons.pdf
         - 
           name: Dayakar Reddy Kadasani 
           paper: Recipes for Building an Open-Domain Chatbot
@@ -877,9 +877,11 @@
           authors: Melissa Roemmele, Andrew S Gordon
           url: https://roemmele.github.io/publications/ICIDS15.PDF
     -
-      title: Co-Creativity
+      title: Human-aware AI for Procedural Content Generation
       guest_speaker: Zhiyu Lin (林之雨)
       guest_url: https://www.zhiyulin.info/
+      slides: slides/Zhiyu-invited-talk.pdf
+      video: https://umbc.webex.com/recordingservice/sites/umbc/recording/playback/71c88e4a4ecc49f797cb543de0efa167
       readings:
         -
           title: "Beyond Following: Mixing Active Initiative into Computational Creativity"
