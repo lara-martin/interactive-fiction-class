@@ -67,6 +67,9 @@ You can download the materials for this assignment here:
 </div>
 {% endif %}
 
+<!--TODO!!!! 1) Add a diagram of the flow of the code. 2) Give examples of fuzzy matches for those who aren't familiar with NLP tools. 3) Get rid of the punctuation for the sentence that's stored initially in the state.-->
+
+
 
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
