@@ -1,0 +1,282 @@
+-
+  date: 2024-08-29
+  title: Intro to the class, Interactive Fiction, and Automated Story Generation
+  #activities: 
+  #  -
+  #    title: Play a text adventure game
+  #    url: play-text-adventures/play-text-adventures.html
+
+
+
+-
+  date: 2024-09-03
+  title: Neural Language Models + Attention
+
+-
+  date: 2024-09-04
+  title: Waitlist Deadline
+  type: no_lecture
+
+-
+  date: 2024-09-05
+  title: Waitlists Deactivated
+  type: no_lecture      
+
+-
+  date: 2024-09-05
+  title: Transformers
+  #activities:
+  #  -
+  #    title: Create Data for Intent Detection
+  #    url: intent-detection/intent-detection.html
+
+-
+  date: 2024-09-10
+  title: Output
+  activities: 
+    -
+      title: Generating Room Descriptions
+      url: openai-playground/room-descriptions.html
+
+-
+  date: 2024-09-11
+  type: deadline
+  homework_due:   
+    -
+      title: "HW1: Build a Text-Adventure Game (7%)"
+      url: text-adventure-game/text-adventure-game.html
+-
+  date: 2024-09-11
+  title: Last day to drop without a W
+  type: no_lecture
+ 
+
+-
+  date: 2024-09-12
+  title: Foundation Models + Word Embeddings
+
+
+
+-
+  date: 2024-09-17
+  title: Campus Closed - No Class
+  type: no_lecture
+  
+  
+ 
+-
+  date: 2024-09-19
+  title: Neural Story Generation + Module 1 Paper Presentations
+
+
+-
+  date: 2024-09-24
+  title: Scripts and Events
+  activities:
+    -
+      title: Make Your Own Mini Script
+      url: script_making.html
+
+-
+  date: 2024-09-26
+  title: Understanding Procedures
+  
+ 
+-
+  date: 2024-09-30
+  type: deadline
+  homework_due:   
+    -
+      title: Project Milestone 1&colon; Proposal
+      url: project-proposal/project-proposal.html
+
+-
+  date: 2024-10-01
+  title: Guided Story Generation
+  
+-
+  date: 2024-10-03
+  title: Module 2 Paper Presentations
+ 
+-
+  date: 2024-10-07
+  type: deadline
+  homework_due:
+    -
+      title: "HW2: Prompting and Fine-tuning (12%)"
+      url: generating-descriptions/generating-descriptions.html 
+   
+-
+  date: 2024-10-08
+  title: Search
+  activities:
+    -
+      title: Search Algorithms for Action Castle
+      url: search/action-castle-search.html  
+  #activities:
+  #  -
+  #    title: Planning and PDDL
+  #    url: planning/planning-and-pddl.html
+
+-
+  date: 2024-10-10
+  title: "Classical Planning + Story/Game Planning"
+
+        
+-
+  date: 2024-10-15
+  title: LLM-based Story Planning
+  
+
+-
+  date: 2024-10-17
+  title: Commonsense Reasoning
+  
+     
+-
+  #date: 2024-10-21
+  #type: deadline
+  #activities: 
+  #  -
+  #    title: WordNet Schemas
+  #    url: schemas/schemas.html
+  #homework_due:
+  #  -
+  #    title: "HW4 Planning: Convert WikiHow to PDDL (10%)"
+  #    url: planning/planning.html
+
+    
+-
+  date: 2024-10-22
+  title: Class Cancelled
+  type: no_lecture
+  
+
+-
+  date: 2024-10-24
+  title: Façade Playthrough + Module 3 Paper Presentations
+
+-
+  date: 2024-10-28
+  type: deadline
+  homework_due:
+    - 
+      title: Final Project Milestone 2&colon; Project Progress
+      url: project/progress-report1.html
+    -
+      title: "HW3: Guided Generation (12%)"
+      url: plan-and-write/plan-and-write.html 
+-
+  date: 2024-10-29
+  title: Neurosymbolic Knowledge Base Systems
+
+-
+  date: 2024-10-31
+  title: Storytelling with Ontologies + Recap
+  
+      
+-
+  date: 2024-11-06
+  title: Last day to withdraw from a course
+  type: no_lecture  
+
+-
+  date: 2024-11-05
+  title: Class Cancelled - Election Day
+  type: no_lecture
+
+  #activities:
+  #  -
+  #    title: Train GPT-3 to Perform Dialogue for NPCs
+  #    url: dialogue/light-dialogue.html
+
+-
+  date: 2024-11-07
+  title: Module 4 Paper Presentations
+  #activities:
+  #  -
+  #    title: Characters and Quests
+  #    url: dialogue-2/quests.html
+      
+
+-
+  date: 2024-11-12
+  title: Character-Based Generation
+
+-
+  date: 2024-11-14
+  title: "Confabulation: What Could LLM Hallucinations Do For Storytelling?"
+  
+
+
+#Reinforcement Learning for Playing Interactive Fiction
+#Neurosymbolic Story Generation
+#Theory of Mind and Intent in Procedural Agents
+#Story Evaluation
+#Visual Storytelling
+#Collaborative storytelling
+#RL for story generation
+-
+  date: 2024-11-18
+  type: deadline
+  homework_due:
+    -
+      title: "HW4 (12%): Creating Sabre Problems"
+      url: planning/sabre.html
+
+-
+  date: 2024-11-19
+  title: Co-creating Storytelling Machines
+
+
+-
+  date: 2024-11-21
+  title: Sai Vallurupalli
+
+-
+  date: 2024-11-25
+  type: deadline
+  homework_due:
+    - 
+      title: Project Milestone 3&colon; Rough Draft
+      url: project/rough-draft.html
+
+
+-
+  date: 2024-11-26
+  title: Novel Interfaces for Creative Text Generation
+
+-
+  date: 2024-11-28
+  title: Thanksgiving - No lecture
+  type: no_lecture  
+
+-
+  date: 2024-12-03
+  title: Final Project In-Class Help
+  
+
+-
+  date: 2024-12-05
+  title: Human-aware AI for Procedural Content Generation
+
+-
+  date: 2024-12-09
+  type: deadline
+  homework_due: 
+    - 
+      title: "HW5 (12%): COMET-ATOMIC Schema"
+      url: knowledge-base/comet.html
+
+-
+  date: 2024-12-10
+  title: Module 5 Paper Presentations 
+
+-
+  date: 2024-12-12
+  title: Final Project Presentations, 10:30am - 12:30pm, SHER 150
+  type: deadline
+  homework_due: 
+    - 
+      title: Project Milestone 4&colon; Final Submission
+      url: project/project-final.html  
