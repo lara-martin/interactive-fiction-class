@@ -12,13 +12,13 @@ due_date: 2024-11-18 23:59:01EST
 materials:
     - 
         name: Jupyter Notebook for Running Sabre
-        url: 2024/IF_HW4_Running_Sabre.ipynb
+        url: IF_HW4_Running_Sabre.ipynb
     - 
         name: Homework 1 Notebook
-        url: 2024/hw1.ipynb
+        url: hw1.ipynb
     -
         name: Sabre Technical Report
-        url: 2024/sabre-report.pdf
+        url: sabre-report.pdf
     -
         name: Example Sabre Problems
         url: https://github.com/sgware/sabre-benchmarks/tree/main/problems

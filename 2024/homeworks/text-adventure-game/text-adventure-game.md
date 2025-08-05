@@ -12,13 +12,13 @@ due_date: 2024-09-09 23:59:00EST
 materials:
     - 
         name: Text Adventure Game starter code (Zip file)
-        url: https://github.com/lara-martin/interactive-fiction-class/raw/master/2024/homeworks/text-adventure-game/IF-Class-HW1.zip
+        url: IF-Class-HW1.zip
     - 
         name: Parsely&colon; Preview n' Play Edition (this contains the Action Castle game).  
         url: http://www.memento-mori.com/pdf/parsely-preview-n-play-edition
     - 
         name: Text from Action Castle  
-        url: https://raw.githubusercontent.com/lara-martin/interactive-fiction-class/master/homeworks/text-adventure-game/action_castle_text.txt
+        url: action_castle_text.txt
 submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7097981_1?courseId=_82444_1&gradeitemView=details&gradebookCategoryId=_24131213_1&assessmentSubtype=Assignment
 readings:
     -

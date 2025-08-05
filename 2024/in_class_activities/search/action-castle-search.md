@@ -11,7 +11,7 @@ due_date: 2024-10-15 23:59:00EST
 materials:
     - 
         name: Search Algorithms for Action Castle.ipynb
-        url: https://colab.research.google.com/github/lara-martin/interactive-fiction-class/blob/master/in_class_activities/search/Search_Algorithms_for_Action_Castle.ipynb
+        url: https://colab.research.google.com/github/lara-martin/interactive-fiction-class/blob/master/2024/in_class_activities/search/Search_Algorithms_for_Action_Castle.ipynb
 submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7149705_1?courseId=_82444_1&gradeitemView=details
 ---
 

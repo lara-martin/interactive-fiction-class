@@ -38,7 +38,7 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 <div class="alert alert-info">
 This assignment is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
 <br><br>
-Please reacquaint yourself with the <a href="https://laramartin.net/interactive-fiction-class/index.html#using-llms-or-generative-ai">course's text generation policy</a>.
+Please reacquaint yourself with the <a href="https://laramartin.net/interactive-fiction-class/2024/index.html#using-llms-or-generative-ai">course's text generation policy</a>.
 <br>
 And then <a href="{{submission_link}}">submit a pdf of your proposal here</a>.
 </div>
@@ -79,7 +79,7 @@ Write a project proposal that includes the following sections:
 4. __Related work__: Do similar games/experiences exist to the one you propose to create?
   - Give pointers to them and explain how you think they relate to your project idea.
 5. __Team members__: Give a list of the students who will participate in this project, and what contribution you expect each one to make to the project.
-6. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your proposal document (<a href="https://laramartin.net/interactive-fiction-class/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
+6. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your proposal document (<a href="https://laramartin.net/interactive-fiction-class/2024/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
 
 
 ## Paper: Attempt to answer a research question about text generation or interactive fiction
@@ -101,7 +101,7 @@ Write a project proposal that includes the following sections:
 4. __Related work__: What previous research has been done on this research question?
   - Give citations to several research papers that you think are relevant along with short explanations of how you think they relate to your project idea. This can be a list with summaries of the papers for now and you will turn it into a proper Related Work section later.
 5. __Team members__: Give a list of the students who will participate in this project, and what contribution you expect each one to make to the project.
-6. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your proposal document (<a href="https://laramartin.net/interactive-fiction-class/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
+6. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your proposal document (<a href="https://laramartin.net/interactive-fiction-class/2024/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
 
 # What to Submit
 Submit to Blackboard:

@@ -77,7 +77,7 @@ In a separate document called `team#-supplement.pdf`, include:
 2. __System Diagram__: This might be in something formal like [UML](https://slickplan.com/blog/how-to-make-a-uml-diagram) or a more informal format, but it should include more details than your **Back End Architecture** diagram(s) from the previous milestone probably had.
 3. __Team Members__: Give a list of the students who are participating in this project, and what contributions you have made and expect to make for the project.
   - In this section also mention what you have completed so far and what is still left to do.
-4. __LLM Use Statement__: Describe exactly how you used LLMs to generate **parts of your code** (<a href="https://laramartin.net/interactive-fiction-class/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
+4. __LLM Use Statement__: Describe exactly how you used LLMs to generate **parts of your code** (<a href="https://laramartin.net/interactive-fiction-class/2024/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
 
 ### Grading
 <div class="alert alert-warning" markdown="1">
@@ -153,7 +153,7 @@ Discussion and Conclusion sections will be added in the final deliverable.
 In a separate document called `team#-supplement.pdf`, write:
 1. __Team Members__: Give a list of the students who are participating in this project, and what contributions you have made and expect to make for the project.
   - In this section also mention what you have completed so far and what is still left to do.
-2. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your paper (<a href="https://laramartin.net/interactive-fiction-class/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
+2. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your paper (<a href="https://laramartin.net/interactive-fiction-class/2024/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
 
 ### Grading
 <div class="alert alert-warning" markdown="1">

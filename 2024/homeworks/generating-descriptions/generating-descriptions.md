@@ -10,8 +10,8 @@ active_tab: homework
 release_date: 2024-09-16
 materials:
    -
-     name: 2024/hw2.ipynb
-     url: https://laramartin.net/interactive-fiction-class/homeworks/generating-descriptions/hw2.ipynb
+     name: hw2.ipynb
+     url: hw2.ipynb
 due_date: 2024-10-07 23:59:00EST
 submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7129306_1?courseId=_82444_1&gradeitemView=details
 readings:
@@ -84,7 +84,7 @@ You can download the materials for this assignment here:
 =============================================================
 
 In this homework, we're going to use OpenAI's API to generate text adventure game components automatically.
-Starting with the [prompting ideas from class](https://laramartin.net/interactive-fiction-class/slides/lecture-04_output.pdf) and [generating descriptions using the Playground](https://laramartin.net/interactive-fiction-class/in_class_activities/openai-playground/room-descriptions.html), we'll show how to finetune models to perform specific tasks. In particular, you will generate room descriptions and item properties for text adventure games. 
+Starting with the [prompting ideas from class](https://laramartin.net/interactive-fiction-class/2024/slides/lecture-04_output.pdf) and [generating descriptions using the Playground](https://laramartin.net/interactive-fiction-class/in_class_activities/openai-playground/room-descriptions.html), we'll show how to finetune models to perform specific tasks. In particular, you will generate room descriptions and item properties for text adventure games. 
 
 ## Learning Objectives
 For this assignment, we will check your ability to:
@@ -95,7 +95,7 @@ For this assignment, we will check your ability to:
 
 ## Getting Started
 
-If you haven't already done so, please complete the in-class activity on [Generating Room Descriptions](https://laramartin.net/interactive-fiction-class/in_class_activities/openai-playground/room-descriptions.html). This will give you a good idea of how the model should be prompted without dealing with the API.
+If you haven't already done so, please complete the in-class activity on [Generating Room Descriptions](https://laramartin.net/interactive-fiction-class/2024/in_class_activities/openai-playground/room-descriptions.html). This will give you a good idea of how the model should be prompted without dealing with the API.
 
 ### Models
 
@@ -108,7 +108,7 @@ OpenAI has several different chat models.  You will probably see `gpt-4o` and `g
 
 ## Prompt Design
 
-You can design prompts to get GPT to do all sorts of suprising things.  For instance, GPT-3/4 can perform [few-shot learning](https://arxiv.org/abs/2005.14165).  Given a few examples of a task, it can "learn" a pattern very quickly and then be used for classification tasks.  It often times helps to tell the model what you want it to do. Use some of the tips and tricks we [talked about in class](https://laramartin.net/interactive-fiction-class/slides/lecture-04_output.pdf).
+You can design prompts to get GPT to do all sorts of suprising things.  For instance, GPT-3/4 can perform [few-shot learning](https://arxiv.org/abs/2005.14165).  Given a few examples of a task, it can "learn" a pattern very quickly and then be used for classification tasks.  It often times helps to tell the model what you want it to do. Use some of the tips and tricks we [talked about in class](https://laramartin.net/interactive-fiction-class/2024/slides/lecture-04_output.pdf).
 
 
 ## Fine-Tuning

@@ -12,7 +12,7 @@ due_date: 2024-12-09 23:59:00EST
 materials:
     - 
         name: HW 5 Python Notebook
-        url: 2024/hw5.ipynb
+        url: hw5.ipynb
 submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7156635_1?courseId=_82444_1&gradeitemView=details
 readings:
     -

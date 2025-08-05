@@ -13,7 +13,7 @@ submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/asse
 materials:
   -
     name: Poster Template
-    url: 2024/poster-template.pptx
+    url: poster-template.pptx
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -95,7 +95,7 @@ Your demo should:
 * **Not** be edited after the deadline. We will be grading the last commit pushed before the deadline.
 
 In a separate document called `team#-supplement.pdf`, provide the
-__LLM Use Statement__: Describe exactly how you used LLMs to generate **parts of your code** (<a href="https://laramartin.net/interactive-fiction-class/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>) **or your poster**. If you did not use **any** generative text, please state so.
+__LLM Use Statement__: Describe exactly how you used LLMs to generate **parts of your code** (<a href="https://laramartin.net/interactive-fiction-class/2024/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>) **or your poster**. If you did not use **any** generative text, please state so.
 
 
 
@@ -177,7 +177,7 @@ Your paper should have the following components, in order:
 9. __References__: Papers are cited correctly in the conference's format and are references in the main text. (Do not number this section.)
 
 In a separate document called `team#-supplement.pdf`, provide the
-__LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your paper (<a href="https://laramartin.net/interactive-fiction-class/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>) **or your poster**. If you did not use **any** generative text, please state so.
+__LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your paper (<a href="https://laramartin.net/interactive-fiction-class/2024/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>) **or your poster**. If you did not use **any** generative text, please state so.
 
 
 

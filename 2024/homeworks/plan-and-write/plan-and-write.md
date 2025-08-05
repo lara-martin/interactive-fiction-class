@@ -10,8 +10,8 @@ active_tab: homework
 release_date: 2024-10-15
 materials:
    -
-     name: 2024/hw3.ipynb
-     url: https://laramartin.net/interactive-fiction-class/homeworks/plan-and-write/hw3.ipynb
+     name: hw3.ipynb
+     url: hw3.ipynb
 due_date: 2024-10-28 23:59:00EST
 submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7156633_1?courseId=_82444_1&gradeitemView=details&gradebookCategoryId=_24131213_1&assessmentSubtype=Assignment
 readings:
@@ -86,14 +86,14 @@ For this assignment, we will check your ability to:
 
 ## What to do
 ### Getting Started
-Like in the last homework, you will be using a [Jupyter notebook]({{ site.baseurl }}/homeworks/plan-and-write/hw3.ipynb), but instead of using OpenAI's suite of models, we're going to use Meta's Llama 2 via HuggingFace🤗. Again, you can run in your VS Code environment or upload it to [Google Colab](https://colab.research.google.com/) or [DeepNote](https://deepnote.com/) to do the assignment online.
+Like in the last homework, you will be using a [Jupyter notebook]({{ site.baseurl }}/2024/homeworks/plan-and-write/hw3.ipynb), but instead of using OpenAI's suite of models, we're going to use Meta's Llama 2 via HuggingFace🤗. Again, you can run in your VS Code environment or upload it to [Google Colab](https://colab.research.google.com/) or [DeepNote](https://deepnote.com/) to do the assignment online.
 
 <div class="alert alert-info">
 Important: You will need to get access to Llama-2 before running it! Once you log into your Hugging Face account, you will need to fill out the license agreement.
  </div>
 ![Log in/sign up to share contact information and agree with community license agreement to get access to Llama-2](access.png)
 
-You will be using a portion of the data from the original Plan-and-Write work. I have already setup the data in [the notebook]({{ site.baseurl }}/homeworks/plan-and-write/hw3.ipynb). You will be using the stories, their titles, and the keywords they extracted. And you will only be looking at 20 stories from the dataset.
+You will be using a portion of the data from the original Plan-and-Write work. I have already setup the data in [the notebook]({{ site.baseurl }}/2024/homeworks/plan-and-write/hw3.ipynb). You will be using the stories, their titles, and the keywords they extracted. And you will only be looking at 20 stories from the dataset.
 
 
 

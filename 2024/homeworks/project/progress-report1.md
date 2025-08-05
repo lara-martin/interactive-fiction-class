@@ -75,7 +75,7 @@ Write a report that includes the following sections:
   - What specific models will you be using? Will they be trained from scratch, finetuned, or just prompted?
 5. __Team Members__: Give a list of the students who are participating in this project, and what contributions you have made and expect to make for the project.
   - In this section also mention what you have completed so far and what is still left to do. You won't be graded on how far you've gotten in the project, but obviously the further you get, the less you'll have to scramble last-minute.
-6. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your proposal document (<a href="https://laramartin.net/interactive-fiction-class/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
+6. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your proposal document (<a href="https://laramartin.net/interactive-fiction-class/2024/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
 
 ### Grading
 <div class="alert alert-warning" markdown="1">
@@ -112,7 +112,7 @@ Your paper should include the following sections:
   - How do these experiments answer your research questions?
 5. __Team Members__: Give a list of the students who are participating in this project, and what contributions you have made and expect to make for the project.
   - In this section also mention what you have completed so far and what is still left to do. You won't be graded on how far you've gotten in the project, but obviously the further you get, the less you'll have to scramble last-minute.
-6. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your proposal document (<a href="https://laramartin.net/interactive-fiction-class/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
+6. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your proposal document (<a href="https://laramartin.net/interactive-fiction-class/2024/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
 
 ### Grading
 <div class="alert alert-warning" markdown="1">
