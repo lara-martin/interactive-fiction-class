@@ -10,7 +10,7 @@ active_tab: homework
 release_date: 2024-10-15
 materials:
    -
-     name: hw3.ipynb
+     name: 2024/hw3.ipynb
      url: https://laramartin.net/interactive-fiction-class/homeworks/plan-and-write/hw3.ipynb
 due_date: 2024-10-28 23:59:00EST
 submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7156633_1?courseId=_82444_1&gradeitemView=details&gradebookCategoryId=_24131213_1&assessmentSubtype=Assignment

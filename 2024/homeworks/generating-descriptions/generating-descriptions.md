@@ -10,7 +10,7 @@ active_tab: homework
 release_date: 2024-09-16
 materials:
    -
-     name: hw2.ipynb
+     name: 2024/hw2.ipynb
      url: https://laramartin.net/interactive-fiction-class/homeworks/generating-descriptions/hw2.ipynb
 due_date: 2024-10-07 23:59:00EST
 submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7129306_1?courseId=_82444_1&gradeitemView=details

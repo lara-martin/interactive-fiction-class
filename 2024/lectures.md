@@ -12,7 +12,7 @@ active_tab: lectures
 
 
 <div class="alert alert-info">
-The lecture schedule will be updated as the term progresses. You can find more details under the <a href="/modules.html">Modules</a> tab.
+The lecture schedule will be updated as the term progresses. You can find more details under the <a href="{{ site.baseurl }}/2024/modules.html">Modules</a> tab.
 </div>
 
 <table class="table table-striped">

@@ -13,7 +13,7 @@ submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/asse
 materials:
   -
     name: Poster Template
-    url: poster-template.pptx
+    url: 2024/poster-template.pptx
 ---
 
 <!-- Check whether the assignment is ready to release -->

@@ -12,13 +12,13 @@ due_date: 2024-11-18 23:59:01EST
 materials:
     - 
         name: Jupyter Notebook for Running Sabre
-        url: IF_HW4_Running_Sabre.ipynb
+        url: 2024/IF_HW4_Running_Sabre.ipynb
     - 
         name: Homework 1 Notebook
-        url: hw1.ipynb
+        url: 2024/hw1.ipynb
     -
         name: Sabre Technical Report
-        url: sabre-report.pdf
+        url: 2024/sabre-report.pdf
     -
         name: Example Sabre Problems
         url: https://github.com/sgware/sabre-benchmarks/tree/main/problems
@@ -34,7 +34,7 @@ readings:
     -
         title: A Collection of Benchmark Problems for the Sabre Narrative Planner
         authors: Stephen G. Ware and Rachelyn Farrell
-        url: sabre-report.pdf
+        url: 2024/sabre-report.pdf
 submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7156634_1?courseId=_82444_1&gradeitemView=details
 ---
 
