@@ -51,20 +51,11 @@ It is due before {{ page.due_date | date: "%I:%M%p" }} on {{ page.due_date | dat
 <!-- End alert for upcoming homework assignments -->
 
 
-<!--
-<div class="alert alert-success" markdown="1">
-A great example of what you could build if you take this class is the [AI Dungeon](https://play.aidungeon.io/), which is an interactive fiction game  that was developed by a student at BYU using [Open AI's GPT-2](https://openai.com/blog/better-language-models/) large scale language model.
-</div>
--->
-<!--
-<div class="alert alert-success" markdown="1">
-First day of class is Thursday, January 13, 2022 at 1:45pm-3:15pm Eastern. It will take place virtually. Here is the [Zoom link](https://upenn.zoom.us/j/95868341588?pwd=a0NvbkhtUEdYTTk5d0Vmc2VvcHJrUT09). We look forward to seeing you there!
-</div>
--->
+
 
 # CMSC 491/691-11 - Interactive Fiction and Text Generation at UMBC
 
-## Fall 2024
+## Fall 2025
 
 ### Prerequisites 
 At least one of the following courses if you are an undergrad:
@@ -98,27 +89,27 @@ By the end of the course, you will be able to...
 : [laramar@umbc.edu](mailto:laramar@umbc.edu)
 
 **Grader**
-: Vineeth Nunna
-: [vnunna1@umbc.edu](mailto:vnunna1@umbc.edu)
+: 
+: 
 
 **Office Hours**
-: Lara - Thursdays from 3:15-5pm in ITE 216 or [by appointment](https://calendly.com/laramar/schedule)
-: Vineeth - [by appointment](mailto:vnunna1@umbc.edu) (grading questions only)
+: Lara - Thursdays from 3:15-5pm in ITE 342-A or [by appointment](https://calendly.com/laramar/schedule)
+:  - [by appointment](mailto:) (grading questions only)
 
 ### Logistics
 **Time and Place**
-: Fall 2024, Tuesdays & Thursdays from 11:30am - 12:45pm ET in Sondheim 110
-: First day of class is August 29, 2024
-: Last day of class is December 10, 2024
-: Final project presentations will be held on December 12th from 10:30am - 12:30pm in SHER 150
+: Fall 2025, Tuesdays & Thursdays from 11:30am - 12:45pm ET in Interdisciplinary Life Sciences 116A
+: First day of class is August 28, 2025
+: Last day of class is December 9, 2025
+: Final project presentations will be held on December 11th from 10:30am - 12:30pm
 
 ### Course Materials
 There is no textbook for this course, but you will be required to puchase a variety of materials including games, software, and API credits. If any of these are prohibitively expensive for your budget, please let the instructor know.
 
 #### Materials 
-* [OpenAI API account](https://platform.openai.com/api-keys) - Pay-as-you-go
+<!--* [OpenAI API account](https://platform.openai.com/api-keys) - Pay-as-you-go
   * Please do not sign up for the ChatGPT Plus subscription since you do not get access to the API with it.
-  * If you cannot afford GPT-4/GPT-4o, you can use GPT-4o mini for free but the quality will most likely be lower. 
+  * If you cannot afford GPT-4/GPT-4o, you can use GPT-4o mini for free but the quality will most likely be lower. -->
 <!--: [Midjourney subscription](https://www.midjourney.com/home) - $10/month -->
 
 #### Games
@@ -137,7 +128,6 @@ Books
 -->
 
 ### Grading
-(Updated 10/15 to reflect dropping from 6 to 5 HWs.)
 
 <table class="zui-table">
   <thead>
@@ -175,12 +165,12 @@ Unless otherwise noted, you ARE allowed to work in pairs (2 people) on the homew
 #### Late Day Policy 
 Each student has five free "late days" to be used on homeworks.  Each homework can be submitted at most two days late.  If you are out of late days, then you will not be able to get credit for subsequent late assignments. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays.  You do not need to ask permission to use your late days.  No additional late days are granted. **Late days only apply to the homeworks. They cannot be used on the last deadline for the final project, which must be finished by the final day of class.  Late days may not be used for paper presentations.**
 
-10/3 Update: Knowledge checks can be made up at any time, no excuse needed. There will be an assignment for each knowledge check on Blackboard where you can submit your answer or materials.
+Knowledge checks can be made up at any time, no excuse needed. There will be an assignment for each knowledge check on Blackboard where you can submit your answer or materials.
 
 #### Academic Integrity
 If you are struggling because of the material or having difficulties completing the assignments on time, please [reach out to Dr. Martin](mailto:laramar@umbc.edu) rather than copying another student or looking up answers online. We can come up with a solution to help you out before you feel like you need to resort to cheating.
 
-I care a lot about the students who take my classes, and that also means that I take cheating very seriously. Plagiarism or any sort of cheating is not tolerated in this class. All work submitted must be your own (or, if permitted, with partners---see [Collaoration Policy](#collaboration-policy). If you are allowed external sources on an assignment, please be sure to cite your source! This includes Large Language Models (LLMs): Please see [the next section](#generative-ai) for our policy specific to ChatGPT and other generative AI. Remember, reusing your own work from a different class is not permitted; this is self-plagiarism. If you are suspected of cheating, plagiarism, or other forms of academic dishonesty, your case will be brought to the attention of the Undergraduate Academic Conduct Committee or Graduate Council Grievance Committee and may result in an F in the course, depending on the Committee’s decision. **Your first offense will result in at least a 0 (zero) on the assignment.** If you would like more information on what constitutes as academic dishonesty, please consult [https://academicconduct.umbc.edu/](https://academicconduct.umbc.edu/).
+I care a lot about the students who take my classes, and that also means that I take cheating very seriously. Plagiarism or any sort of cheating is not tolerated in this class. All work submitted must be your own (or, if permitted, with partners---see [Collaboration Policy](#collaboration-policy). If you are allowed external sources on an assignment, please be sure to cite your source! This includes Large Language Models (LLMs): Please see [the next section](#generative-ai) for our policy specific to ChatGPT and other generative AI. Remember, reusing your own work from a different class is not permitted; this is self-plagiarism. If you are suspected of cheating, plagiarism, or other forms of academic dishonesty, your case will be brought to the attention of the Undergraduate Academic Conduct Committee or Graduate Council Grievance Committee and may result in an F in the course, depending on the Committee’s decision. **Your first offense will result in at least a 0 (zero) on the assignment.** If you would like more information on what constitutes as academic dishonesty, please consult [https://academicconduct.umbc.edu/](https://academicconduct.umbc.edu/).
 
 #### Using LLMs or Generative AI
 This course is centered around text generation, and we will be using GPT for a large portion of it. That said, any time that you use a large language model (LLM) for an assignment you must provide (1) the exact prompt that you used and (2) the original, unedited generation.

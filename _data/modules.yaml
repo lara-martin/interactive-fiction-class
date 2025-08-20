@@ -1,7 +1,7 @@
 -
   module_number: 0
-  start_date: 2024-08-29
-  end_date: 2024-08-29
+  start_date: 2025-08-28
+  end_date: 2025-08-28
   title: Introduction to IF and Automated Story Generation
   description: Welcome to the class! In this introductory module, you will become acquainted with interactive fiction (since you're probably too young to know what it is) and learn about the field of automated story generation (since it's a small subfield of AI and you probably haven't heard of it). You'll even get a chance to make your own mini interactive fiction game the old-school way!
   lessons:
@@ -10,7 +10,7 @@
       video: 
       length: 
       #slides: slides/1_text-adventure-games.pdf
-      slides: slides/lecture-01_ text-adventure-games.pdf
+      slides: #slides/lecture-01_ text-adventure-games.pdf
       readings:
         -
           title: A Systematic Survey of Text Worlds as Embodied Natural Language Environments
@@ -37,22 +37,22 @@
 
   hw:
     -
-      title: "Homework 1: Build a Text-Adventure Game"
-      url: text-adventure-game/text-adventure-game.html
+      title: "Homework 0: Build a Text-Adventure Game"
+      url: #text-adventure-game/text-adventure-game.html
       percentage: 7%
-      due_date: 2024-09-11
+      due_date: 2025-09-11
 
 -
   module_number: 1
-  start_date: 2024-09-03
-  end_date: 2024-09-19
+  start_date: 2025-09-02
+  end_date: 2025-09-18
   title: Large Language Models
   description: With large language models becoming more popular within Natural Language Processing/Generation (NLP/NLG), automated story generation researchers realized how much easier it is to generate text. (And this also helped NLP researchers get interested in story generation!) Here, you'll learn about neural language models, particularly the transformer, how to work with them, and how they are used to generate stories.
   lessons:
     - 
       title: Neural Language Models + Attention
       #slides: https://drive.google.com/file/d/1l0tzQmJoAcX7TOoq9mU8gnHDh8Cubz8i/view?usp=sharing
-      slides: slides/lecture-02_attention-lms.pdf
+      slides: #slides/lecture-02_attention-lms.pdf
       guest_speaker: 
       guest_url: 
       video: 
@@ -79,7 +79,7 @@
       title: Transformers
       guest_speaker: 
       guest_url:
-      slides: slides/lecture-03_transformers.pdf 
+      slides: #slides/lecture-03_transformers.pdf 
       #slides: https://drive.google.com/file/d/1l0tzQmJoAcX7TOoq9mU8gnHDh8Cubz8i/view?usp=sharing
       video: 
       length:
@@ -114,7 +114,7 @@
       title: Output
       guest_speaker: 
       guest_url: 
-      slides: slides/lecture-04_output.pdf
+      slides: #slides/lecture-04_output.pdf
       video: 
       length:
       readings:
@@ -145,7 +145,7 @@
           authors: Janelle Shane
     -
       title: Foundation Models + Word Embeddings
-      slides: slides/lecture-05_foundation-models.pdf
+      slides: #slides/lecture-05_foundation-models.pdf
       readings:
         -
           title: "[word2vec paper] Efficient Estimation of Word Representations in Vector Space"
@@ -166,73 +166,52 @@
 
           
     - 
-      title: Neural Story Generation + Module 1 Paper Presentations
+      title: Module 1 Paper Presentations
       guest_speaker:
-      slides: slides/lecture-06-neural-story-generation.pdf
+      slides: #slides/lecture-06-neural-story-generation.pdf
       #slides: https://docs.google.com/presentation/d/1qFjLt5DZ2aH9e4Eu0Bx1XoSjtiF1iQdKx4xDxxsy-fg/edit?usp=sharing
       video: 
       length:
-      readings:
-        -
-          title: Hierarchical Neural Story Generation
-          authors: Angela Fan, Mike Lewis, Yann Dauphin
-          url: https://aclanthology.org/P18-1082/
-        -
-          title: Do Massively Pretrained Language Models Make Better Storytellers?
-          authors: Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning
-          url: https://aclanthology.org/K19-1079/          
-      optional:
-        -
-          title: AI Dungeon (game)
-          url: https://play.aidungeon.io/
-          authors: Nick Walton/Latitude
+#      readings:
+#        -
+#          title: Hierarchical Neural Story Generation
+#          authors: Angela Fan, Mike Lewis, Yann Dauphin
+#          url: https://aclanthology.org/P18-1082/
+#        -
+#          title: Do Massively Pretrained Language Models Make Better Storytellers?
+#          authors: Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning
+#          url: https://aclanthology.org/K19-1079/          
+#      optional:
+#        -
+#          title: AI Dungeon (game)
+#          url: https://play.aidungeon.io/
+#          authors: Nick Walton/Latitude
       presenters:
         - 
-          name: Pavan Sanjana Cirruguri 
-          paper: Attention is All You Need
-          authors: Ashish Vaswani, et al.
-          link: https://papers.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
-          year: 2017
-          slides: Cirruguri_Attention-is-all-you-need.pdf
-        - 
-          name: Rohith Mada 
-          paper: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
-          authors: Colin Raffel, et al.
-          link: https://jmlr.org/papers/volume21/20-074/20-074.pdf
-          year: 2020
-          slides: Mada_Exploring-the-limits.pdf
-        - 
-          name: Varun Magotra 
-          paper: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
-          authors: Jacob Devlin, et al.
-          link: https://aclanthology.org/N19-1423/
-          year: 2019
-          slides: Magotra_BERT.pdf
-        - 
-          name: Sukhbir Singh Sardar 
-          paper: Green AI
-          authors: Roy Schwartz, et al.
-          link: https://arxiv.org/abs/1907.10597
-          year: 2019
-          slides: Sardar_Green-AI.pdf
+          name: 
+          paper: 
+          authors: 
+          link: 
+          year: 
+          slides:    
       
   hw:
     -
-      title: "Homework 2: Prompting and Fine-tuning"
-      url: generating-descriptions/generating-descriptions.html
+      title: "Homework 1: Prompting and Fine-tuning"
+      url: #generating-descriptions/generating-descriptions.html
       percentage: 12%
-      due_date: 2024-10-07
+      due_date: 2025-10-07
 
 -
   module_number: 2
-  start_date: 2024-09-19
-  end_date: 2024-10-03
-  title: Scripts and Story Structure
+  start_date: 2025-09-23
+  end_date: 2025-10-07
+  title: Scripts and Guided Generation
   description: Scripts can be considered the backbone of storytelling. They help us fill in the gaps of knowledge that we would otherwise be missing from reading a story, and they help us reason about why events happen and what order they happen in. This Module will teach you about scripts, causal chains, and events. We'll also look at how people have been using these techniques in the age of the neural network.
   lessons:
     - 
       title: Scripts and Events
-      slides: slides/lecture-07-scripts.pdf
+      slides: #slides/lecture-07-scripts.pdf
       #slides: https://drive.google.com/file/d/15NY1bEg6ZZg5e3Ny0PIWvZNRpANAnInv/view?usp=sharing
       video: 
       length:
@@ -273,7 +252,7 @@
       title: Understanding Procedures
       video: 
       length:
-      slides: slides/lecture-08_understanding-procedures.pdf
+      slides: #slides/lecture-08_understanding-procedures.pdf
       #slides: https://docs.google.com/presentation/d/105BQYe7jyp5zSlVXORG1aJugOosUvcqk
       readings:
         -
@@ -299,7 +278,7 @@
       
     - 
       title: Guided Story Generation
-      slides: slides/lecture-09_guided-story-generation.pdf
+      slides: #slides/lecture-09_guided-story-generation.pdf
       #slides: https://drive.google.com/file/d/1UH23icbixj0fvwjPh7U99MS6CUriMAYy/view?usp=sharing
       video: 
       length:
@@ -329,60 +308,39 @@
       #slides: https://drive.google.com/file/d/1J5Z4Q7GwFD-T9R_amZOX6bxEq2oj0pxY/view?usp=sharing
       presenters:
         - 
-          name: Patty Delafuente 
-          paper: Controllable Neural Story Plot Generation via Reward Shaping
-          authors: Pradyumna Tambwekar, et al.
-          link: https://www.ijcai.org/proceedings/2019/829
-          year: 2019
-          slides: Delafuente-ControllableNeuralStoryPlotGenViaRewardShp.pdf
-        - 
-          name: Pooja Guttal 
-          paper: What do Large Language Models Learn about Scripts?
-          authors:  Abhilasha Sancheti &amp; Rachel Rudinger.
-          link: https://aclanthology.org/2022.starsem-1.1/
-          year: 2022
-          slides: Guttal-What+do+Large+Language+Models+Learn+about+Scripts.pdf
-        - 
-          name: Arya Honraopatil 
-          paper: Implicit Representations of Meaning in Neural Language Models
-          authors: Belinda Z. Li, et al.
-          link: https://aclanthology.org/2021.acl-long.143/
-          year: 2021
-          slides: Honraopatil_Implicit-representation-of-meaning.pdf
-        - 
-          name: Hanuma Sashank Samudrala 
-          paper: Enhanced Story Representation by ConceptNet for Predicting Story Endings
-          authors: Shanshan Huang, et al.
-          link: https://dl.acm.org/doi/abs/10.1145/3340531.3417466
-          year: 2020
-          slides: Samudrala_Enhanced-Story-Representation.pdf
+          name: 
+          paper: 
+          authors: 
+          link: 
+          year: 
+          slides:    
 
   hw:
     -
-      title: "Homework 3: Guided Generation"
+      title: "Homework 2: Guided Generation"
       percentage: 12%
-      due_date: 2024-10-28
-      url: plan-and-write/plan-and-write.html
+      due_date: 2025-10-28
+      url: #plan-and-write/plan-and-write.html
 
 -
   module_number: 3
-  start_date: 2024-10-08
-  end_date: 2024-10-22
+  start_date: 2025-10-09
+  end_date: 2025-10-23
   title: Search and Planning
   description: 
   hw:
     -
-      title: "Homework 4: Creating Sabre Problems"
+      title: "Homework 3: Creating Sabre Problems"
       percentage: 12%
-      due_date: 2024-11-18
-      url: planning/sabre.html
+      due_date: 2025-11-18
+      url: #planning/sabre.html
   lessons:
 
       
     - 
       title: Search
       #slides: slides/Search-and-Planning.pdf
-      slides: slides/lecture-11_search.pdf
+      slides: #slides/lecture-11_search.pdf
       video: 
       length:
       readings:     
@@ -405,7 +363,7 @@
       title: "Classical Planning + Story/Game Planning"
       video: 
       length:
-      slides: slides/lecture-12_planning-combined.pdf
+      slides: #slides/lecture-12_planning-combined.pdf
       optional:
         -
           title: Camelot Virtual Environment
@@ -466,9 +424,9 @@
           url: http://cs.uky.edu/~sgware/reading/papers/ware2019multi.pdf
     -
       title: LLM-based Story Planning
-      guest_speaker: Nisha Simon
-      guest_url: https://nisimon48.github.io/
-      slides: slides/Tell_Me_A_Story_LLM_NSimon_Oct152024.pdf
+      guest_speaker: #Nisha Simon
+      guest_url: #https://nisimon48.github.io/
+      slides: #slides/Tell_Me_A_Story_LLM_NSimon_Oct152024.pdf
       readings:
         -
           title: "Want To Choose Your Own Adventure? Then First Make a Plan."
@@ -490,73 +448,65 @@
           title: "Neural Story Planning"
           url: https://openreview.net/forum?id=cLBEKlu5WZK
           authors: Anbang Ye, Christopher Cui, Taiwei Shi, Mark O. Riedl
-          
+    -
+      title: Reinforcement Learning
+      slides: 
+      video: 
+      length:
+      readings:          
           
     -
-      title: Façade Playthrough + Module 3 Paper Presentations
-      slides: slides/lecture-15_intro-neurosymbolic.pdf
+      title: Module 3 Paper Presentations
+      slides: #slides/lecture-15_intro-neurosymbolic.pdf
       video: 
       length:
       readings:
-        -
-          title: "Learning Norms from Stories: A Prior for Value Aligned Agents"
-          url: https://dl.acm.org/doi/10.1145/3375627.3375825
-          authors: Md Sultan Al Nahian, Spencer Frazier, Mark Riedl, Brent Harrison
-        -
-          title: "dAIrector: Automatic Story Beat Generation through Knowledge Synthesis"
-          url: http://ceur-ws.org/Vol-2321/paper8.pdf
-          authors: Markus Eger &amp; Kory W. Mathewson
-        -
-          title: "Joint Constrained Learning for Event-Event Relation Extraction"
-          url: https://aclanthology.org/2020.emnlp-main.51/
-          authors: Haoyu Wang, Muhao Chen, Hongming Zhang, Dan Roth
-      optional:
-        -
-          title: Façade
-          url: https://www.playablstudios.com/facade
-          authors: Michael Mateas &amp; Andrew Stern
-        -
-          title: Anchorhead
-          url: https://dwheeler.com/anchorhead/
-          authors: Michael S. Gentry
-        -
-          title: "PLOTTO: A New Method of Plot Suggestion for Writers of Creative Fiction"
-          url: http://garykac.github.io/plotto/
-          authors: William Wallace Cook 
+#        -
+#          title: "Learning Norms from Stories: A Prior for Value Aligned Agents"
+#          url: https://dl.acm.org/doi/10.1145/3375627.3375825
+#          authors: Md Sultan Al Nahian, Spencer Frazier, Mark Riedl, Brent Harrison
+#        -
+#          title: "dAIrector: Automatic Story Beat Generation through Knowledge Synthesis"
+#          url: http://ceur-ws.org/Vol-2321/paper8.pdf
+#          authors: Markus Eger &amp; Kory W. Mathewson
+#        -
+#          title: "Joint Constrained Learning for Event-Event Relation Extraction"
+#          url: https://aclanthology.org/2020.emnlp-main.51/
+#          authors: Haoyu Wang, Muhao Chen, Hongming Zhang, Dan Roth
+#      optional:
+#        -
+#          title: Façade
+#          url: https://www.playablstudios.com/facade
+#          authors: Michael Mateas &amp; Andrew Stern
+#        -
+#          title: Anchorhead
+#          url: https://dwheeler.com/anchorhead/
+#          authors: Michael S. Gentry
+#        -
+#          title: "PLOTTO: A New Method of Plot Suggestion for Writers of Creative Fiction"
+#          url: http://garykac.github.io/plotto/
+#          authors: William Wallace Cook 
       presenters:
         - 
-          name: Shawn Bray 
-          paper: Neural Story Planning
-          authors: Anbang Ye, et al.
-          link: https://openreview.net/forum?id=cLBEKlu5WZK
-          year: 2023
-          slides: bray_neural_story_planning.pdf                
-        - 
-          name: Vishwanth Reddy Jakka 
-          paper: "Little Red Riding Hood Goes Around the Globe: Crosslingual Story Planning and Generation with Large Language Models"
-          authors: Evgeniia Razumovskaia, et al.
-          link: https://aclanthology.org/2024.lrec-main.929/
-          year: 2024
-          slides: Jakka_Little-Red-Riding-Hood-Goes-Around-the-Globe.pdf
-        - 
-          name: Sathvik Reddy Musku 
-          paper: "StoryVerse: Towards Co-authoring Dynamic Plot with LLM-based Character Simulation via Narrative Planning"
-          authors: Yi Wang, et al.
-          link: https://dl.acm.org/doi/10.1145/3649921.3656987
-          year: 2024
-          slides: Musku-StoryVerse.pdf      
+          name: 
+          paper: 
+          authors: 
+          link: 
+          year: 
+          slides:           
+
 
 -
   module_number: 4
-  start_date: 2024-10-17
-  end_date: 2024-11-05
+  start_date: 2025-10-28
+  end_date: 2025-11-06
   title: Commonsense Reasoning + Schemas
   description:
   lessons:
     -
       title: Commonsense Reasoning
       #slides: slides/Commonsense-Reasoning.pdf
-      slides: slides/lecture-14_commonsense.pdf
+      slides: #slides/lecture-14_commonsense.pdf
       video: 
       length:
       readings:
@@ -604,11 +554,17 @@
         -
           title: ACL 2020 Commonsense Tutorial
           authors: Yejin Choi, Vered Shwartz, Maarten Sap, Antoine Bosselut, Dan Roth
-          url: https://homes.cs.washington.edu/~msap/acl2020-commonsense/          
+          url: https://homes.cs.washington.edu/~msap/acl2020-commonsense/       
+    -
+      title: World Modeling
+      slides: 
+      video: 
+      length:
+      readings:   
     -
       title: Neurosymbolic Knowledge Base Systems
       #slides: slides/CIS700-KnowledgeBases.pdf
-      slides: slides/lecture-16_neurosymbolic-knowledge-bases.pdf
+      slides: #slides/lecture-16_neurosymbolic-knowledge-bases.pdf
       video: 
       length:
       readings:
@@ -632,17 +588,16 @@
           title: "NovaCOMET: Open Commonsense Foundation Models with Symbolic Knowledge Distillation"
           authors: Peter West, Ronan Bras, Taylor Sorensen, Bill Lin, Liwei Jiang, Ximing Lu, Khyathi Chandu, Jack Hessel, Ashutosh Baheti, Chandra Bhagavatula, Yejin Choi
           url: https://aclanthology.org/2023.findings-emnlp.80/
-
     -
-      title: Storytelling with Ontologies + Recap
+      title: Storytelling with Ontologies
       guest_speaker: 
       guest_url: 
       #slides: slides/CIS700-Recap-Ontologies.pdf
-      slides: slides/lecture-17_ontologies-recap.pdf
+      slides: #slides/lecture-17_ontologies-recap.pdf
       video: 
       length:
       readings:
-
+      
     -
       title: Module 4 Paper Presentations
       video: 
@@ -651,59 +606,36 @@
 
       presenters:
         - 
-          name: Lalith Avinash Donkina 
-          paper: Playing Text-Adventure Games with Graph-Based Deep Reinforcement Learning
-          authors: Prithviraj Ammanabrolu &amp; Mark Riedl
-          link: https://aclanthology.org/N19-1358
-          year: 2019
-          slides: Donkina-Playing-TAGs.pdf
-        - 
-          name: KV Yaswanth
-          paper: "ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning" 
-          authors: Maarten Sap, et al.
-          link: https://ojs.aaai.org//index.php/AAAI/article/view/4160
-          year: 2019
-          slides: Yaswanth-ATOMIC.pdf
-        - 
-          name: Josh Li 
-          paper: "NaturalLI: Natural Logic Inference for Common Sense Reasoning"
-          authors: Gabor Angeli &amp; Chris Manning
-          link: https://aclanthology.org/D14-1059/
-          year: 2014
-          slides: Li-NaturalLI.pdf
-        - 
-          name: Reece Robertson 
-          paper: "Common Sense Reasoning – From Cyc to Intelligent Assistant"
-          authors: Kathy Panton, et al.
-          link: https://www.csee.umbc.edu/courses/graduate/691/spring13/01/papers/FromCycToIntelligentAssistant-IJHCS-LNAI3864.pdf
-          year: 2006
-          slides: Robertson-IF+Common+Sense+Reasoning.pdf
-        -
-          name: Saksham Kumar Sharma
-          paper: "BERALL: Towards Generating Retrieval-augmented State-based Interactive Fiction Games"
-          authors: Rachel Chambers, et al.
-          year: 2024
-          link: https://wordplay-workshop.github.io/pdfs/21.pdf
-          slides: Sharma-BERALL.pdf
-          
-        
+          name: 
+          paper: 
+          authors: 
+          link: 
+          year: 
+          slides:    
+                
 
   hw:
     -
-      title: "Homework 5: COMET-ATOMIC Schema"
+      title: "Homework 4: COMET-ATOMIC Schema"
       percentage: 12%
-      due_date: 2024-12-09
-      url: knowledge-base/comet.html
+      due_date: 2025-12-09
+      url: #knowledge-base/comet.html
 -
   module_number: 5
-  start_date: 2024-10-31
-  end_date: 2024-11-07
-  title: Dialog + Characters
+  start_date: 2025-11-11
+  end_date: 2025-11-25
+  title: Dialog, Agents, Characters
   description: 
   lessons:
     -
+      title: Agentic AI
+    
+    -
+      title: Dialog Systems
+      
+    -
       title: Character-Based Generation
-      slides: slides/lecture-18_characters.pdf
+      slides: #slides/lecture-18_characters.pdf
       #slides: https://docs.google.com/presentation/d/1RLeEDymHWpMheNZwO7tgOWEc0t-tm7uUEXWjInEIycQ/edit?usp=sharing
       video: 
       length:
@@ -741,164 +673,53 @@
           authors: Ben Samuel, James Ryan, Adam J. Summerville, Michael Mateas, Noah Wardrip-Fruin 
           url: https://link.springer.com/chapter/10.1007/978-3-319-48279-8_10
     -
+      title: Personas and Roleplaying
+    -
       title: Module 5 Paper Presentations
       video: 
       length:
       presenters:
         - 
-          name: Srinivas Badiga 
-          paper: "ChatEval: A Tool for Chatbot Evaluation"
-          authors: João Sedoc, et al.
-          link: https://aclanthology.org/N19-4011/
-          year: 2019
-          slides: Badiga_ChatEval+A+Tool+for+Chatbot+Evaluation.pdf
-        - 
-          name: Tristan Galcik 
-          paper: "Deep Dungeons and Dragons: Learning Character-Action Interactions from Role-Playing Game Transcripts"
-          authors: Annie Louis &amp; Charles Sutton
-          link: https://aclanthology.org/N18-2111/
-          year: 2018
-          slides: Galcik-Deep_Dungeons_and_Dragons.pdf
-        - 
-          name: Dayakar Reddy Kadasani 
-          paper: Recipes for Building an Open-Domain Chatbot
-          authors: Stephen Roller, et al.
-          link: https://aclanthology.org/2021.eacl-main.24/
-          year: 2021
-          slides: Kadasani-Recipes+for+building+an+Open-Domain+Chatbot.pdf
-        - 
-          name: Maitri Mistry 
-          paper: A Neural Conversational Model
-          authors: Oriol Vinyals &amp; Quoc Le
-          year: 2015
-          link: https://arxiv.org/abs/1506.05869
-          slides: Mistry-Neural-conversation-model.pdf
-        -
-          name: Mukesh Kumar Vidam
-          paper: "Learning to Speak and Act in a Fantasy Text Adventure Game"
-          authors: Jack Urbanek, et al.
-          link: https://aclanthology.org/D19-1062/
-          year: 2019
-          slides: Vidam-Learning-to-speak-and-act.pdf
+          name: 
+          paper: 
+          authors: 
+          link: 
+          year: 
+          slides:    
 
 -
   module_number: 6
-  start_date: 2024-11-12
-  end_date: 2024-12-10
+  start_date: 2025-12-02
+  end_date: 2025-12-09
   title: Bonus Lessons!
   description:
   lessons:
     -
-      title: "Confabulation: What Could LLM Hallucinations Do For Storytelling?"
-      guest_speaker: Peiqi "Patrick" Sui
-      guest_url: https://patrick-sui.github.io/
-      slides: slides/Patrick_Sui_UMBC_lecture.pdf
-      video: https://umbc.webex.com/umbc/ldr.php?RCID=20880a76d13f0c95d301820f08c988f5
+      title: 
+      guest_speaker: 
+      guest_url: 
+      slides: 
+      video:
       readings:
-        -
-          title: "Confabulation: The Surprising Value of Large Language Model Hallucinations"
-          authors: Peiqi Sui, Eamon Duede, Sophie Wu, Richard So
-          url: https://aclanthology.org/2024.acl-long.770/
-        -
-          title: Venus in Two Acts
-          url: assets/readings/venus_in_two_acts.pdf
-          authors: Saidiya Hartman          
-        -
-          title: "Mrs. Dalloway Said She Would Segment the Chapters Herself"
-          authors: Peiqi Sui, et al.
-          url: https://aclanthology.org/2023.wnu-1.15/
+
               
 
     -
-      title: Co-creating Storytelling Machines
-      guest_speaker: Kory Mathewson
-      guest_url: https://korymathewson.com/
-      slides: https://docs.google.com/presentation/d/14njAZ4bkTfBF84YbNk8r-DN6cUI_-7AVQz02hPA91ag
+      title: 
+      guest_speaker: 
+      guest_url: 
+      slides: 
       readings:
-        -
-          title: "Shaping the Narrative Arc: Information-Theoretic Collaborative Dialogue"
-          authors: Kory W. Mathewson, Pablo Samuel Castro, Colin Cherry, George Foster, Marc G. Bellemare
-          url: https://computationalcreativity.net/iccc20/papers/010-iccc20.pdf
-        -
-          title: "A Robot Walks into a Bar: Can Language Models Serve as Creativity SupportTools for Comedy? An Evaluation of LLMs’ Humour Alignment with Comedians"
-          authors: Piotr Mirowski, Juliette Love, Kory Mathewson, Shakir Mohamed
-          url: https://dl.acm.org/doi/abs/10.1145/3630106.3658993
-        -
-          title: "Communicative capital: a key resource for human–machine shared agency and collaborative capacity"
-          authors: Kory W. Mathewson, et al.
-          url: https://link.springer.com/article/10.1007/s00521-022-07948-1
-        -
-          title: "Co-writing screenplays and theatre scripts with language models: Evaluation by industry professionals"
-          authors: Piotr Mirowski, Kory W. Mathewson, Jaylen Pittman, Richard Evans
-          url: https://dl.acm.org/doi/full/10.1145/3544548.3581225
+
     -
-      title: Sai Vallurupalli
-      guest_speaker: Sai Vallurupalli
-      guest_url: https://scholar.google.com/citations?user=K3F-wdMAAAAJ&hl=en
+      title: 
+      guest_speaker: 
+      guest_url:
       readings:
-        -
-          title: "SAGA: A Participant-specific Examination of Story Alternatives and Goal Applicability for a Deeper Understanding of Complex Events"
-          authors: Sai Vallurupalli, Katrin Erk, Francis Ferraro
-          url: https://aclanthology.org/2024.findings-acl.910/
-        -
-          title: "POQue: Asking participant-specific outcome questions for a deeper understanding of complex events"
-          authors: Sai Vallurupalli, Sayontan Ghosh, Katrin Erk, Niranjan Balasubramanian, Francis Ferraro
-          url: https://aclanthology.org/2022.emnlp-main.594/
+
   
-    -
-      title: Novel Interfaces for Creative Text Generation
-      guest_speaker: Max Kreminiski
-      guest_url: https://mkremins.github.io/
-      slides: https://docs.google.com/presentation/d/1VJYvIV28faOB8eH8A2Yf5gxkAZmSRfmALvA9nEC9NWU/edit
-      video: https://umbc.webex.com/recordingservice/sites/umbc/recording/53557a38b1b84f6ba06e6c267eef6545/playback
-      readings:
-        -
-          title: "Patchview: LLM-Powered Worldbuilding with Generative Dust and Magnet Visualization"
-          url: https://mkremins.github.io/publications/Patchview_UIST2024.pdf
-          authors: John Joon Young Chung &amp; Max Kreminski
-        -
-          title: Homogenization Effects of Large Language Models on Human Creative Ideation
-          url: https://dl.acm.org/doi/10.1145/3635636.3656204
-          authors: Barrett R. Anderson, Jash Hemant Shah, Max Kreminski
-        -
-          title: "Toyteller: Toy-Playing with Character Symbols for AI-Powered Visual Storytelling"
-          url: https://mkremins.github.io/publications/Toyteller_UIST2024.pdf
-          authors: John Joon Young Chung, Melissa Roemmele, Max Kreminski
-        -
-          title: "TaleBrush: Sketching stories with generative pretrained language models"
-          authors: John Joon Young Chung, Wooseok Kim, Kang Min Yoo, Hwaran Lee, Eytan Adar, Minsuk Chang
-          url: https://dl.acm.org/doi/abs/10.1145/3491102.3501819
-        -
-          title: "Wordcraft: story writing with large language models"
-          authors: Ann Yuan, Andy Coenen, Emily Reif, Daphne Ippolito
-          url: https://dl.acm.org/doi/abs/10.1145/3490099.3511105
-        -
-          title: "Creative help: A story writing assistant"
-          authors: Melissa Roemmele, Andrew S Gordon
-          url: https://roemmele.github.io/publications/ICIDS15.PDF
-    -
-      title: Human-aware AI for Procedural Content Generation
-      guest_speaker: Zhiyu Lin (林之雨)
-      guest_url: https://www.zhiyulin.info/
-      slides: slides/Zhiyu-invited-talk.pdf
-      video: https://umbc.webex.com/recordingservice/sites/umbc/recording/playback/71c88e4a4ecc49f797cb543de0efa167
-      readings:
-        -
-          title: "Beyond Following: Mixing Active Initiative into Computational Creativity"
-          url: https://arxiv.org/abs/2409.16291
-          authors: Zhiyu Lin, et al.
-        -
-          title: An Ontology of Co-Creative AI Systems
-          url: https://arxiv.org/abs/2310.07472
-          authors: Zhiyu Lin &amp; Mark Riedl
-        -
-          title: "Beyond prompts: Exploring the design space of mixed-initiative co-creativity systems"
-          url: https://arxiv.org/abs/2305.07465
-          authors: Zhiyu Lin, et al.
-        -
-          title: "Creative wand: a system to study effects of communications in co-creative settings"
-          url: https://ojs.aaai.org/index.php/AIIDE/article/view/21946
-          authors: Zhiyu Lin, Rohan Agarwal, Mark Riedl
+
+
     
     #-
     #  title: Neurosymbolic Story Generation
