@@ -12,18 +12,6 @@
       #slides: slides/1_text-adventure-games.pdf
       slides: #slides/lecture-01_ text-adventure-games.pdf
       readings:
-        -
-          title: A Systematic Survey of Text Worlds as Embodied Natural Language Environments
-          url: https://aclanthology.org/2022.wordplay-1.1.pdf
-          authors: Peter A. Jansen
-        -
-          title: "TextWorld: A Learning Environment for Text-based Games"
-          url: https://www.semanticscholar.org/paper/TextWorld%3A-A-Learning-Environment-for-Text-based-Côté-Kádár/89daae27e7df4a418b9610d307ce3df0e30fc8a2
-          authors: Marc-Alexandre Côté, Ákos Kádár, Xingdi Yuan, Ben Kybartas, Tavian Barnes, Emery Fine, James Moore, Matthew Hausknecht, Ruo Yu Tao, Layla El Asri, Mahmoud Adada, Wendy Tay, and Adam Trischler
-        -
-          title: "Interactive Fiction Games: A Colossal Adventure"
-          url: https://www.semanticscholar.org/paper/Interactive-Fiction-Games%3A-A-Colossal-Adventure-Hausknecht-Ammanabrolu/221d453c165aca6bc1a054289eb510e558a23dca
-          authors: Matthew Hausknecht, Prithviraj Ammanabrolu, Marc-Alexandre Côté, Xingdi Yuan
       optional:
         -
           authors: Jason Scott
@@ -453,7 +441,27 @@
       slides: 
       video: 
       length:
-      readings:          
+      readings:
+        -
+          title: "Controllable Neural Story Plot Generation via Reward Shaping"
+          url: https://www.ijcai.org/Proceedings/2019/829
+          authors: Pradyumna Tambwekar, Murtaza Dhuliawala, Lara J. Martin, Animesh Mehta, Brent Harrison, Mark O. Riedl
+        -
+          title: "Goal-Directed Story Generation: Augmenting Generative Language Models with Reinforcement Learning"
+          url: https://arxiv.org/abs/2112.08593
+          authors: Amal Alabdulkarim, Winston Li, Lara J. Martin, Mark O. Riedl
+        -
+          title: "Playing Text-Adventure Games with Graph-Based Deep Reinforcement Learning"
+          url: https://aclanthology.org/N19-1358/
+          authors: Prithviraj Ammanabrolu, Mark O. Riedl
+        -
+          title: "How to Motivate Your Dragon: Teaching Goal-Driven Agents to Speak and Act in Fantasy Worlds"
+          url: https://aclanthology.org/2021.naacl-main.64/
+          authors: Prithviraj Ammanabrolu, Jack Urbanek, Margaret Li, Arthur Szlam, Tim Rocktäschel, Jason Weston
+        -
+          title: "Hands-Free: Action Abstraction With Hierarchical Reinforcement Learning in Text-Based Games"
+          url:  https://ieeexplore.ieee.org/abstract/document/10707323
+          authors: Anjie Zhu, Hongcai He, Yongjun Yang, Zetao Zheng, Jie Shao       
           
     -
       title: Module 3 Paper Presentations
@@ -560,7 +568,19 @@
       slides: 
       video: 
       length:
-      readings:   
+      readings:
+        -
+          title: A Systematic Survey of Text Worlds as Embodied Natural Language Environments
+          url: https://aclanthology.org/2022.wordplay-1.1.pdf
+          authors: Peter A. Jansen
+        -
+          title: "TextWorld: A Learning Environment for Text-based Games"
+          url: https://www.semanticscholar.org/paper/TextWorld%3A-A-Learning-Environment-for-Text-based-Côté-Kádár/89daae27e7df4a418b9610d307ce3df0e30fc8a2
+          authors: Marc-Alexandre Côté, Ákos Kádár, Xingdi Yuan, Ben Kybartas, Tavian Barnes, Emery Fine, James Moore, Matthew Hausknecht, Ruo Yu Tao, Layla El Asri, Mahmoud Adada, Wendy Tay, and Adam Trischler
+        -
+          title: "Interactive Fiction Games: A Colossal Adventure"
+          url: https://www.semanticscholar.org/paper/Interactive-Fiction-Games%3A-A-Colossal-Adventure-Hausknecht-Ammanabrolu/221d453c165aca6bc1a054289eb510e558a23dca
+          authors: Matthew Hausknecht, Prithviraj Ammanabrolu, Marc-Alexandre Côté, Xingdi Yuan 
     -
       title: Neurosymbolic Knowledge Base Systems
       #slides: slides/CIS700-KnowledgeBases.pdf
@@ -631,7 +651,14 @@
       title: Agentic AI
     
     -
-      title: Dialog Systems
+      title: Task-Oriented Dialog Systems
+      readings: 
+        -
+          title: "An agenda-based dialog management architecture for spoken language systems"
+          url: http://www.cs.cmu.edu/afs/cs.cmu.edu/Web/People/dod/papers/agenda.pdf
+          authors: Alex Rudnicky, Xu Wei
+        -
+          title: 
       
     -
       title: Character-Based Generation
@@ -674,6 +701,16 @@
           url: https://link.springer.com/chapter/10.1007/978-3-319-48279-8_10
     -
       title: Personas and Roleplaying
+      readings:
+        -
+          title: Enhancing Persona Consistency for LLMs' Role-Playing using Persona-Aware Contrastive Learning
+          url: https://aclanthology.org/2025.findings-acl.1344/
+          authors: Ke Ji, Yixin Lian, Linxu Li, Jingsheng Gao, Weiyuan Li, Bin Dai
+        -
+          title: "Persona Dynamics: Unveiling the Impact of Persona Traits on Agents in Text-Based Games"
+          url: https://aclanthology.org/2025.acl-long.1515/
+          authors: Seungwon Lim, Seungbeen Lee, Dongjun Min, Youngjae Yu
+      
     -
       title: Module 5 Paper Presentations
       video: 
@@ -695,7 +732,14 @@
   description:
   lessons:
     -
-      title: 
+      title: Evaluation
+      guest_speaker: 
+      guest_url: 
+      slides: 
+      video:
+      readings:
+    -
+      title: TBD
       guest_speaker: 
       guest_url: 
       slides: 
@@ -704,18 +748,7 @@
 
               
 
-    -
-      title: 
-      guest_speaker: 
-      guest_url: 
-      slides: 
-      readings:
 
-    -
-      title: 
-      guest_speaker: 
-      guest_url:
-      readings:
 
   
 

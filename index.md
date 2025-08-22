@@ -66,10 +66,11 @@ We know now that artificial intelligence (AI) can play chess, Go, or even Starcr
 
 ### Learning Objectives
 By the end of the course, you will be able to...
-1. Understand the challenges of creating text-based games and automatically generating stories.
-2. Implement and appraise the value of different technologies (Neural Language Models, Dialogue Systems, Scripts, Planning, and Commonsense Reasoning) in story generation/interactive fiction playing.
-3. Argue for the appropriate components of a working story generation system or interactive fiction--playing system.
-4. Create your own story generation system or interactive fiction--playing system.
+1. See the components of what goes into creating text-based games and automatically generating stories.
+2. Understand the strengths and weaknesses of neural language models (LMs) for storytelling.
+3. Implement and appraise the value of (a) conditioned generation, (b) planning, and (c) schemata in story generation/interactive fiction playing.
+4. Combine and argue for the appropriate components of a working story generation system or interactive fiction--playing system.
+5. Create your own story generation system or interactive fiction--playing system.
 
 
 
@@ -138,11 +139,11 @@ Books
     </tr>
   </thead>
   <tbody>
-  <tr> <td>Homework 1</td> <td> 7% </td><td> 7% </td></tr>
+  <tr> <td>Homework 0</td> <td> 7% </td><td> 7% </td></tr>
+  <tr> <td>Homework 1</td> <td> 12% </td><td> 12% </td></tr>
   <tr> <td>Homework 2</td> <td> 12% </td><td> 12% </td></tr>
   <tr> <td>Homework 3</td> <td> 12% </td><td> 12% </td></tr>
-  <tr> <td>Homework 4</td> <td> 12% </td><td> 12% </td></tr>
-  <tr> <td>Homework 5</td> <td> 12% </td><td> 12% </td></tr> 
+  <tr> <td>Homework 4</td> <td> 12% </td><td> 12% </td></tr> 
   <tr> <td>Project</td> <td> 30% </td><td> 30% </td></tr>
   <tr> <td>Knowledge Checks</td> <td> 15% </td><td> 5% </td></tr>
   <tr> <td>Paper Presentation</td> <td> - </td><td> 10% </td></tr>
