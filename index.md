@@ -89,13 +89,13 @@ By the end of the course, you will be able to...
 : [Lara J. Martin](https://laramartin.net)
 : [laramar@umbc.edu](mailto:laramar@umbc.edu)
 
-**Grader**
-: 
-: 
+**TA**
+: [Duong Ta](https://duongta155.github.io/)
+: [dta1@umbc.edu](mailto:dta1@umbc.edu)
 
 **Office Hours**
 : Lara - Thursdays from 3:15-5pm in ITE 342-A or [by appointment](https://calendly.com/laramar/schedule)
-:  - [by appointment](mailto:) (grading questions only)
+: Ta - TBD or [by appointment](mailto:dta1@umbc.edu)
 
 ### Logistics
 **Time and Place**
@@ -108,9 +108,9 @@ By the end of the course, you will be able to...
 There is no textbook for this course, but you will be required to puchase a variety of materials including games, software, and API credits. If any of these are prohibitively expensive for your budget, please let the instructor know.
 
 #### Materials 
-<!--* [OpenAI API account](https://platform.openai.com/api-keys) - Pay-as-you-go
-  * Please do not sign up for the ChatGPT Plus subscription since you do not get access to the API with it.
-  * If you cannot afford GPT-4/GPT-4o, you can use GPT-4o mini for free but the quality will most likely be lower. -->
+* [OpenAI API account](https://platform.openai.com/api-keys) - Pay-as-you-go
+  * Pricing for each model can be found [here](https://platform.openai.com/docs/pricing).
+  * Please **do not** sign up for the ChatGPT Plus subscription since you do not get access to the API with it.
 <!--: [Midjourney subscription](https://www.midjourney.com/home) - $10/month -->
 
 #### Games
