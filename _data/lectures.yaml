@@ -189,6 +189,14 @@
   #  -
   #    title: Characters and Quests
   #    url: dialogue-2/quests.html
+
+-
+  date: 2025-11-07
+  type: deadline
+  homework_due:
+    -
+      title: "HW3: Creating Sabre Problems"
+      url: #planning/sabre.html
       
 -
   date: 2025-11-11
@@ -198,13 +206,7 @@
   date: 2025-11-13
   title: Dialog Systems
 
--
-  date: 2025-11-14
-  type: deadline
-  homework_due:
-    -
-      title: "HW3: Creating Sabre Problems"
-      url: #planning/sabre.html
+
   
 -
   date: 2025-11-18
@@ -222,9 +224,6 @@
 #RL for story generation
 
 
-
-
-
 -
   date: 2025-11-20
   title: Personas and Roleplaying
@@ -236,6 +235,9 @@
     - 
       title: Project Milestone 3&colon; Rough Draft
       url: #project/rough-draft.html
+    - 
+      title: "HW4: COMET-ATOMIC Schema"
+      url: #knowledge-base/comet.html      
 
 
 -
@@ -249,20 +251,14 @@
 
 -
   date: 2025-12-02
-  title: TBD
+  title: Evaluation
   
 
 -
   date: 2025-12-04
   title: Final Project In-Class Help
 
--
-  date: 2025-12-05
-  type: deadline
-  homework_due: 
-    - 
-      title: "HW4: COMET-ATOMIC Schema"
-      url: #knowledge-base/comet.html
+
 
 -
   date: 2025-12-09

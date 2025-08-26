@@ -5,7 +5,7 @@ img_link: https://parl.ai/projects/light/
 caption: Automatically write descriptions for text adventure games
 title: Prompting and Fine-tuning
 type: Homework
-number: 2
+number: 1
 active_tab: homework
 release_date: 2024-09-16
 materials:

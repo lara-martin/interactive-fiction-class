@@ -5,12 +5,12 @@ img_link: https://dl.acm.org/doi/10.1609/aaai.v33i01.33017378
 caption: The Bike Accident
 title: Guided Generation
 type: Homework
-number: 3
+number: 2
 active_tab: homework
 release_date: 2024-10-15
 materials:
    -
-     name: hw3.ipynb
+     name: hw2.ipynb
      url: https://laramartin.net/interactive-fiction-class/homeworks/plan-and-write/hw3.ipynb
 due_date: 2024-10-28 23:59:00EST
 submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7156633_1?courseId=_82444_1&gradeitemView=details&gradebookCategoryId=_24131213_1&assessmentSubtype=Assignment

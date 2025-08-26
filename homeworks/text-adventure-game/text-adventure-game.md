@@ -5,14 +5,14 @@ img_link: https://en.wikipedia.org/wiki/Zork#/media/
 caption: Zork, an early intractive fiction game released in 1977.
 title: Build a Text-Adventure Game
 type: Homework
-number: 1
+number: 0
 active_tab: homework
 release_date: 2024-08-29
 due_date: 2024-09-09 23:59:00EST
 materials:
     - 
         name: Text Adventure Game starter code (Zip file)
-        url: https://github.com/lara-martin/interactive-fiction-class/raw/master/homeworks/text-adventure-game/IF-Class-HW1.zip
+        url: https://github.com/lara-martin/interactive-fiction-class/raw/master/homeworks/text-adventure-game/IF-Class-HW0.zip
     - 
         name: Parsely&colon; Preview n' Play Edition (this contains the Action Castle game).  
         url: http://www.memento-mori.com/pdf/parsely-preview-n-play-edition
@@ -89,14 +89,14 @@ In this homework assignment, you will write your own classic text adventure game
 
 We have provided [starter code for a basic text adventure game]({{page.materials[0].url}}).  I recommend using Visual Studio Code for this homework. You should get started by reviewing the `HW1_Tutorial.ipynb` which introduces the concepts in our starter code. 
 
-#### Environment Setup
+<!--#### Environment Setup
 
 First download the zip file, then create a virtual environment and install
 the dependencies.
 
 ```
-$ unzip IF-Class-HW1.zip
-$ cd IF-Class/HW1/
+$ unzip IF-Class-HW0.zip
+$ cd IF-Class-HW0/
 $ python3 -mvenv venv
 $ source venv/bin/activate
 (venv) $ pip install .
@@ -119,6 +119,7 @@ Note: You will need to start your virtual environment (`source venv/bin/activate
 If the `code` command does not work, open VSCode's command pallet (command+shift+p)
 and type `shell command`. VSCode should then show an option for installing
 'code' in your PATH.
+-->
 
 
 #### Try out the Tutorial

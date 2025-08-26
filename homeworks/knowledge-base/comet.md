@@ -5,14 +5,14 @@ img_link: https://doi.org/10.1609/aaai.v33i01.33013027
 caption: "ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning"
 title: COMET-ATOMIC Schema
 type: Homework
-number: 5
+number: 4
 active_tab: homework
 release_date: 2024-11-18
 due_date: 2024-12-09 23:59:00EST
 materials:
     - 
-        name: HW 5 Python Notebook
-        url: hw5.ipynb
+        name: HW 4 Python Notebook
+        url: hw4.ipynb
 submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7156635_1?courseId=_82444_1&gradeitemView=details
 readings:
     -
