@@ -28,7 +28,7 @@
       title: "Homework 0: Build a Text-Adventure Game"
       url: #text-adventure-game/text-adventure-game.html
       percentage: 7%
-      due_date: 2025-09-11
+      due_date: 2025-09-12
 
 -
   module_number: 1
@@ -89,11 +89,11 @@
           url: https://arxiv.org/abs/1907.10597
           authors: Roy Schwartz, Jesse Dodge, Noah A. Smith, Oren Etzioni                   
       optional:
-        -
-          title: "A Bit of Fry & Laurie: Concerning Language"
-          length: 7 minutes, 23 seconds
-          url: https://www.youtube.com/watch?v=3MWpHQQ-wQg
-          authors: Hugh Laurie, Stephen Fry
+        #-
+        #  title: "A Bit of Fry & Laurie: Concerning Language"
+        #  length: 7 minutes, 23 seconds
+        #  url: https://www.youtube.com/watch?v=3MWpHQQ-wQg
+        #  authors: Hugh Laurie, Stephen Fry
         -
           title: "Speech and Language Processing, Chapter 6: Vector Semantics and Embeddings"
           url: https://web.stanford.edu/~jurafsky/slp3/6.pdf
@@ -188,7 +188,7 @@
       title: "Homework 1: Prompting and Fine-tuning"
       url: #generating-descriptions/generating-descriptions.html
       percentage: 12%
-      due_date: 2025-10-07
+      due_date: 2025-10-10
 
 -
   module_number: 2
@@ -292,6 +292,14 @@
           authors: Nasrin Mostafazadeh, Nathanael Chambers, Xiaodong He, Devi Parikh, Dhruv Batra, Lucy Vanderwende, Pushmeet Kohli, James Allen
           url: https://aclanthology.org/N16-1098/          
     -
+      title: Retrieval-Augmented Story Generation
+      readings:
+        -
+          title: "WHAT-IF: Exploring Branching Narratives by Meta-Prompting Large Language Models"
+          authors: Runsheng "Anson" Huang, Lara J. Martin, Chris Callison-Burch
+          url: https://arxiv.org/abs/2412.10582
+    
+    -
       title: Module 2 Paper Presentations
       #slides: https://drive.google.com/file/d/1J5Z4Q7GwFD-T9R_amZOX6bxEq2oj0pxY/view?usp=sharing
       presenters:
@@ -307,7 +315,7 @@
     -
       title: "Homework 2: Guided Generation"
       percentage: 12%
-      due_date: 2025-10-28
+      due_date: 2025-10-24
       url: #plan-and-write/plan-and-write.html
 
 -
@@ -320,7 +328,7 @@
     -
       title: "Homework 3: Creating Sabre Problems"
       percentage: 12%
-      due_date: 2025-11-18
+      due_date: 2025-11-07
       url: #planning/sabre.html
   lessons:
 
@@ -638,7 +646,7 @@
     -
       title: "Homework 4: COMET-ATOMIC Schema"
       percentage: 12%
-      due_date: 2025-12-09
+      due_date: 2025-11-21
       url: #knowledge-base/comet.html
 -
   module_number: 5

@@ -147,9 +147,6 @@
   date: 2025-10-24
   type: deadline
   homework_due:
-    - 
-      title: Final Project Milestone 2&colon; Project Progress
-      url: #project/progress-report1.html
     -
       title: "HW2: Guided Generation"
       url: #plan-and-write/plan-and-write.html 
@@ -164,18 +161,23 @@
 -
   date: 2025-11-04
   title: Neurosymbolic Knowledge Base Systems
-  
+-
+  date: 2025-11-05
+  title: Last day to withdraw from a course
+  type: no_lecture    
 -
   date: 2025-11-06
   title:  Storytelling with Ontologies
 
      
+
 -
-  date: 2025-11-05
-  title: Last day to withdraw from a course
-  type: no_lecture  
-
-
+  date: 2025-11-07
+  type: deadline
+  homework_due:
+    - 
+      title: Final Project Milestone 2&colon; Project Progress
+      url: #project/progress-report1.html
 
   #activities:
   #  -
