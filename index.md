@@ -53,7 +53,7 @@ It is due before {{ page.due_date | date: "%I:%M%p" }} on {{ page.due_date | dat
 
 
 
-# CMSC 491/691-11 - Interactive Fiction and Text Generation at UMBC
+# CMSC 491/691 - Interactive Fiction and Text Generation at UMBC
 
 ## Fall 2025
 
