@@ -93,7 +93,7 @@
 
 -
   date: 2025-09-30
-  title: Guided Story Generation
+  title: Plot-Guided Story Generation
   
 -
   date: 2025-10-02
@@ -105,7 +105,7 @@
    
 -
   date: 2025-10-09
-  title: Search
+  title: AI Agents and Search
   activities:
     -
       title: Search Algorithms for Action Castle
@@ -125,7 +125,7 @@
 
 -
   date: 2025-10-14
-  title: "Classical Planning + Story/Game Planning"
+  title: "Classical Planning and Story/Game Planning"
 
 
               
@@ -152,7 +152,7 @@
       url: #plan-and-write/plan-and-write.html 
 -
   date: 2025-10-28
-  title: Commonsense Reasoning
+  title: Commonsense Reasoning and Causality
 
 -
   date: 2025-10-30 
@@ -167,7 +167,7 @@
   type: no_lecture    
 -
   date: 2025-11-06
-  title:  Storytelling with Ontologies
+  title:  Storytelling with Schemas
 
      
 
@@ -202,17 +202,17 @@
       
 -
   date: 2025-11-11
-  title: Agentic AI
+  title: Dialog Systems
   
 -
   date: 2025-11-13
-  title: Dialog Systems
+  title: Character-Based Generation
 
 
   
 -
   date: 2025-11-18
-  title: Character-Based Generation
+  title: Personas and Roleplaying
 
   
 
@@ -228,7 +228,7 @@
 
 -
   date: 2025-11-20
-  title: Personas and Roleplaying
+  title: Interactive Storytelling
 
 -
   date: 2025-11-21
