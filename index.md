@@ -1,5 +1,5 @@
 ---
-title: CMSC 491/691-11 - Interactive Fiction and Text Generation - UMBC
+title: CMSC 491/691 - Interactive Fiction and Text Generation - UMBC
 layout: default
 img: heroes_journey.png
 active_tab: main_page 

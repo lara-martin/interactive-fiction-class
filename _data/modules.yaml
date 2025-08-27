@@ -99,7 +99,7 @@
           url: https://web.stanford.edu/~jurafsky/slp3/6.pdf
           authors: Daniel Jurafsky, James H. Martin
     - 
-      title: Output
+      title: Prompting and Decoding
       guest_speaker: 
       guest_url: 
       slides: #slides/lecture-04_output.pdf
@@ -295,9 +295,18 @@
       title: Retrieval-Augmented Story Generation
       readings:
         -
-          title: "WHAT-IF: Exploring Branching Narratives by Meta-Prompting Large Language Models"
-          authors: Runsheng "Anson" Huang, Lara J. Martin, Chris Callison-Burch
-          url: https://arxiv.org/abs/2412.10582
+          title: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks
+          authors: Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin, Naman Goyal, Heinrich Küttler, Mike Lewis, Wen-tau Yih, Tim Rocktäschel, Sebastian Riedel, Douwe Kiela
+          url: https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html
+        -
+          title: "BERALL: Generating Retrieval-augmented State-based Interactive Fiction Games"
+          authors: Rachel Chambers, Naomi Tack, Eliot Pearson, Lara J. Martin, Francis Ferraro
+          url: https://wordplay-workshop.github.io/wordplay2024/pdfs/21.pdf
+        -
+          title: "GROVE: A Retrieval-augmented Complex Story Generation Framework with A Forest of Evidence"
+          authors: Zhihua Wen, Zhiliang Tian, Wei Wu, Yuxin Yang, Yanqi Shi, Zhen Huang, Dongsheng Li
+          url: https://aclanthology.org/2023.findings-emnlp.262/ 
+        
     
     -
       title: Module 2 Paper Presentations
@@ -419,7 +428,7 @@
           authors: Stephen G. Ware, Edward T. Garcia, Alireza Shirvani, Rachelyn Farrell
           url: http://cs.uky.edu/~sgware/reading/papers/ware2019multi.pdf
     -
-      title: LLM-based Story Planning
+      title: LLM-based Formal Planning
       guest_speaker: #Nisha Simon
       guest_url: #https://nisimon48.github.io/
       slides: #slides/Tell_Me_A_Story_LLM_NSimon_Oct152024.pdf
@@ -437,13 +446,18 @@
           url: https://aclanthology.org/2024.lrec-main.929/
           authors: Evgeniia Razumovskaia, Joshua Maynez, Annie Louis, Mirella Lapata, Shashi Narayan
         -
-          title: "Does Robin Hood Use a Lightsaber?: Automated Planning for Storytelling"
-          url: https://ojs.aaai.org/index.php/AAAI/article/view/30411
-          authors: Nisha Simon
-        -
           title: "Neural Story Planning"
           url: https://openreview.net/forum?id=cLBEKlu5WZK
           authors: Anbang Ye, Christopher Cui, Taiwei Shi, Mark O. Riedl
+        -
+          title: "PDDLEGO: Iterative Planning in Textual Environments"
+          url: https://aclanthology.org/2024.starsem-1.17/
+          authors: Li Zhang, Peter Jansen, Tianyi Zhang, Peter Clark, Chris Callison-Burch, Niket Tandon
+        -
+          title: "On the Limit of Language Models as Planning Formalizers"
+          url: https://aclanthology.org/2025.acl-long.242/
+          authors: Cassie Huang, Li Zhang
+          
     -
       title: Reinforcement Learning
       slides: 
@@ -625,6 +639,23 @@
       video: 
       length:
       readings:
+        -
+          title: Simple Contrastive Learning with Knowledge Graphs for Story Generation
+          url: https://ieeexplore.ieee.org/abstract/document/10889400
+          authors: Yu Zhu, Rong Pan
+        -
+          title: Guiding Neural Story Generation with Reader Models
+          url: https://aclanthology.org/2022.findings-emnlp.526/
+          authors: Xiangyu Peng, Kaige Xie, Amal Alabdulkarim, Harshith Kayam, Samihan Dani, Mark Riedl
+        -
+          title:
+          url: 
+          authors: 
+        -
+          title: Improvisational Computational Storytelling in Open Worlds
+          url: https://laramartin.net/lab/pub/Martin_ICIDS2016.pdf
+          authors: Lara J. Martin, Brent Harrison, Mark O. Riedl                    
+                 
       
     -
       title: Module 4 Paper Presentations
