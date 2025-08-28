@@ -340,12 +340,6 @@
       due_date: 2025-11-07
       url: #planning/sabre.html
   lessons:
-    -
-      title: 
-      readings:
-      optional:
-
-      
     - 
       title: AI Agents and Search
       #slides: slides/Search-and-Planning.pdf
@@ -680,7 +674,7 @@
           title: Enhanced Story Representation by ConceptNet for Predicting Story Endings
           authors: Shanshan Huang, Kenny Q. Zhu, Qianzi Liao, Libin Shen, Yinggong Zhao
           url: https://dl.acm.org/doi/pdf/10.1145/3340531.3417466                 
-                 
+               
       
     -
       title: Module 4 Paper Presentations
