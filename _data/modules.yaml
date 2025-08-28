@@ -10,7 +10,7 @@
       video: 
       length: 
       slides: slides/25-08-28_Intro.pdf
-      slides: #slides/lecture-01_ text-adventure-games.pdf
+      #slides: slides/lecture-01_ text-adventure-games.pdf
       readings:
       optional:
         -
