@@ -9,7 +9,7 @@
       title: Intro to the class, Interactive Fiction, and Automated Story Generation 
       video: 
       length: 
-      #slides: slides/1_text-adventure-games.pdf
+      slides: slides/25-08-28_Intro.pdf
       slides: #slides/lecture-01_ text-adventure-games.pdf
       readings:
       optional:
@@ -30,7 +30,7 @@
   hw:
     -
       title: "Homework 0: Build a Text-Adventure Game"
-      url: #text-adventure-game/text-adventure-game.html
+      url: text-adventure-game/text-adventure-game.html
       percentage: 7%
       due_date: 2025-09-12
 
@@ -787,6 +787,7 @@
           url: https://aclanthology.org/2024.emnlp-main.1208/          
     -
       title: Interactive Storytelling
+      readings:
         -
           title: Improvisational Computational Storytelling in Open Worlds
           url: https://laramartin.net/lab/pub/Martin_ICIDS2016.pdf

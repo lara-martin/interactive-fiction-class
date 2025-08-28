@@ -7,8 +7,8 @@ title: Build a Text-Adventure Game
 type: Homework
 number: 0
 active_tab: homework
-release_date: 2024-08-29
-due_date: 2024-09-09 23:59:00EST
+release_date: 2025-08-28
+due_date: 2025-09-12 23:59:00EST
 materials:
     - 
         name: Text Adventure Game starter code (Zip file)
@@ -19,7 +19,7 @@ materials:
     - 
         name: Text from Action Castle  
         url: https://raw.githubusercontent.com/lara-martin/interactive-fiction-class/master/homeworks/text-adventure-game/action_castle_text.txt
-submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7097981_1?courseId=_82444_1&gradeitemView=details&gradebookCategoryId=_24131213_1&assessmentSubtype=Assignment
+submission_link: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/Test/_7961006_1?courseId=_96140_1&gradeitemView=details&gradebookCategoryId=_24424743_1&assessmentSubtype=Assignment
 readings:
     -
       title: Adventuron Classroom
@@ -83,15 +83,17 @@ Submission link:
 
 ## Instructions
 
-In this homework assignment, you will write your own classic text adventure game.  This homework can be completed in groups of up to 5 people.  You will implement two text adventure games.  One will be a re-implementation of the __Action Castle__ game, and one will be a game that you design yourself. The game that you design can be on any topic, or can tell any story of your choice.
+In this homework assignment, you will write your own classic text adventure game.  You will implement two text adventure games.  One will be a re-implementation of the __Action Castle__ game, and one will be a game that you design yourself. The game that you design can be on any topic, or can tell any story of your choice.
 
 ### Using our Starter code
 
-We have provided [starter code for a basic text adventure game]({{page.materials[0].url}}).  I recommend using Visual Studio Code for this homework. You should get started by reviewing the `HW1_Tutorial.ipynb` which introduces the concepts in our starter code. 
+We have provided [starter code for a basic text adventure game]({{page.materials[0].url}}).  I recommend using [Deepnote](https://deepnote.com/), for which you can get a [free student account](https://deepnote.com/docs/edu-verification), but you can also use [Google Colab](https://colab.research.google.com/) or a local IDE such as VSCode. 
 
-<!--#### Environment Setup
+You should start the assignment by reviewing the `HW1_Tutorial.ipynb` which introduces the concepts in our starter code. 
 
-First download the zip file, then create a virtual environment and install
+#### Environment Setup
+
+First download the zip file, upzip it then create a virtual environment and install
 the dependencies.
 
 ```
@@ -102,6 +104,9 @@ $ source venv/bin/activate
 (venv) $ pip install .
 ```
 
+Bash commands in Google Colab need a `!' before the command. For example ```!source activate venv/bin/activate'''.
+
+<!--
 #### VSCode
 
 We recommend that you use VSCode.
@@ -109,7 +114,7 @@ The best way to ensure a good experience with VSCode is to launch it from the
 project directory with your virtual environment already enabled.
 
 ```
-$ cd path/to/homework/IF-Class/HW1/
+$ cd path/to/homework/IF-Class-HW0/
 $ source venv/bin/activate
 (venv) $ code .
 ```
@@ -124,7 +129,7 @@ and type `shell command`. VSCode should then show an option for installing
 
 #### Try out the Tutorial
 
-After you have downloaded the code, started your virutal envionment and launched VSCode, you should work through the `HW1_Tutorial.ipynb` notebook that we created to show off the basics of our text adventure game platform.  Here's a screenshot of the notebook that you'll see.
+After you have downloaded the code, started your virutal envionment and launched VSCode, you should work through the `HW0_Tutorial.ipynb` notebook that we created to show off the basics of our text adventure game platform.  Here's a screenshot of the notebook that you'll see.
 
 <div class="container-fluid">
   <div class="row">
@@ -140,7 +145,7 @@ After you have downloaded the code, started your virutal envionment and launched
 
 Our starter code includes a vizualize tool `text_adventure_games.viz` which will allow you to view your game map as a directed graph.  To use this, you will also need to install graphviz. There is both the graphviz app and the graphviz python library, which is a wrapper for the app. You can find instructions on how to install graphviz from their website here: [graphviz.org/download/](https://graphviz.org/download/)
 
-One easy way to install graphviz to is run `pip install graphviz` in the terminal of VSCode **after you have activated your environment**. Also, be sure that when you run the game, you have the `env` python kernel selected.
+One easy way to install graphviz to is run `pip install graphviz` in the terminal **after you have activated your environment**. Also, be sure that when you run the game, you have the `env` python kernel selected.
 
 
 ### Task 1: Implement Action Castle
@@ -223,8 +228,8 @@ __Tip:__ I recommend drawing out your game on [graph paper](http://print-graph-p
 
 You should submit a link to a Github repository which contains the following:
 
-1. An Python notebook called `action_castle.ipynb` that runs Action Castle. (You can use [Google Colab to view IPython Notebooks on Github](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb).)
-2. An IPython notebook called `my_game.ipynb` that runs the initial version of your game.
+1. An Python notebook called `action_castle.ipynb` that runs Action Castle.
+2. An Python notebook called `my_game.ipynb` that runs the initial version of your game.
 3. A text file called `playthrough.txt` with all of the commands that we need to issue to complete your game. It shold be a plain text file with one command per line.
 4. A text file called `README.md` containing a short paragraph describing your game, and why you picked that topic.
 5. An image showing the directed graph for your game. 

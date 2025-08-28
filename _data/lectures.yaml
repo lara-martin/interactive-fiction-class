@@ -1,10 +1,10 @@
 -
   date: 2025-08-28
   title: Intro to the class, Interactive Fiction, and Automated Story Generation
-  #activities: 
-  #  -
-  #    title: Play a text adventure game
-  #    url: play-text-adventures/play-text-adventures.html
+  activities: 
+    -
+      title: Play a text adventure game
+      #url: play-text-adventures/play-text-adventures.html
 
 
 
@@ -57,7 +57,7 @@
   homework_due:   
     -
       title: "HW0: Build a Text-Adventure Game"
-      url: #text-adventure-game/text-adventure-game.html
+      url: text-adventure-game/text-adventure-game.html
  
       
 -
