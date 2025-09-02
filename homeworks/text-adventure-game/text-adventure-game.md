@@ -147,7 +147,7 @@ After you have downloaded the code, you should work through the `hw0_tutorial.ip
 
 Our starter code includes a vizualize tool `text_adventure_games.viz` which will allow you to view your game map as a directed graph.  To use this, you will also need to install graphviz. There is both the graphviz app and the graphviz python library, which is a wrapper for the app. You can find instructions on how to install graphviz from their website here: [graphviz.org/download/](https://graphviz.org/download/)
 
-One easy way to install graphviz to is run `pip install graphviz` in the terminal **after you have activated your environment**. Also, be sure that when you run the game, you have the `env` python kernel selected.
+There is a command in the ipynb that will install graphviz for you via `requirements.txt`.
 
 
 ### Task 1: Implement Action Castle
