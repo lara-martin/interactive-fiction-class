@@ -44,7 +44,7 @@
     - 
       title: Neural Language Models + Attention
       #slides: https://drive.google.com/file/d/1l0tzQmJoAcX7TOoq9mU8gnHDh8Cubz8i/view?usp=sharing
-      slides: #slides/lecture-02_attention-lms.pdf
+      slides: slides/25-09-02_Attention.pdf #slides/lecture-02_attention-lms.pdf
       guest_speaker: 
       guest_url: 
       video: 
