@@ -95,7 +95,7 @@ By the end of the course, you will be able to...
 
 **Office Hours**
 : Lara - Thursdays from 3:15-5pm in ITE 342-A or [by appointment](https://calendly.com/laramar/schedule)
-: Ta - TBD or [by appointment](mailto:dta1@umbc.edu)
+: Ta - Wednesdays from 2-4pm in ITE 340 or [by appointment](mailto:dta1@umbc.edu)
 
 ### Logistics
 **Time and Place**
