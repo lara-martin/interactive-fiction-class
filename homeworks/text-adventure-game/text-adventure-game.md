@@ -15,7 +15,7 @@ materials:
         url: https://github.com/lara-martin/interactive-fiction-class/raw/master/homeworks/text-adventure-game/IF-Class-HW0.zip
     - 
         name: Parsely&colon; Preview n' Play Edition (this contains the Action Castle game).  
-        url: http://www.memento-mori.com/pdf/parsely-preview-n-play-edition
+        url: Parsely_Preview_n_Play_Edition.pdf
     - 
         name: Text from Action Castle  
         url: https://raw.githubusercontent.com/lara-martin/interactive-fiction-class/master/homeworks/text-adventure-game/action_castle_text.txt
@@ -89,10 +89,12 @@ In this homework assignment, you will write your own classic text adventure game
 
 We have provided [starter code for a basic text adventure game]({{page.materials[0].url}}).  I recommend using [Deepnote](https://deepnote.com/), for which you can get a [free student account](https://deepnote.com/docs/edu-verification), but you can also use [Google Colab](https://colab.research.google.com/) or a local IDE such as VSCode. 
 
-You should start the assignment by reviewing the `HW1_Tutorial.ipynb` which introduces the concepts in our starter code. 
+You should start the assignment by reviewing the `hw0_tutorial.ipynb` which introduces the concepts in our starter code. 
 
+<!--
 #### Environment Setup
 
+If you are running the code on your local computer, we recommend that you create a virtual environment.
 First download the zip file, upzip it then create a virtual environment and install
 the dependencies.
 
@@ -106,7 +108,7 @@ $ source venv/bin/activate
 
 Bash commands in Google Colab need a `!' before the command. For example ```!source activate venv/bin/activate'''.
 
-<!--
+
 #### VSCode
 
 We recommend that you use VSCode.
@@ -129,7 +131,7 @@ and type `shell command`. VSCode should then show an option for installing
 
 #### Try out the Tutorial
 
-After you have downloaded the code, started your virutal envionment and launched VSCode, you should work through the `HW0_Tutorial.ipynb` notebook that we created to show off the basics of our text adventure game platform.  Here's a screenshot of the notebook that you'll see.
+After you have downloaded the code, you should work through the `hw0_tutorial.ipynb` notebook that we created to show off the basics of our text adventure game platform.  Here's a screenshot of the notebook that you'll see.
 
 <div class="container-fluid">
   <div class="row">
@@ -152,12 +154,13 @@ One easy way to install graphviz to is run `pip install graphviz` in the termina
 
 Action Castle is a game by Jared A. Sorensen.  It is included in his book [Parsley](http://www.memento-mori.com/pdf/parsely-pdf), which is a collection of games inspired by the text-adventures of the 1980s.  Parsley is a party game where you take on the role of the parser, and the players shout out commands like GO NORTH, LIGHT LAMP or GET SWORD.  You obtusely follow player's commands, simulating a computer's limited vocabulary.  The effect is suprisingly hilarious and fun. 
 
-You should download ["Parsely: Preview n' Play Edition"](http://www.memento-mori.com/pdf/parsely-preview-n-play-edition) which is free on Jared's website.  It contains the Action Castle game that you'll be implementing.  You can also [buy the full Parsley book for $20](http://www.memento-mori.com/pdf/parsely-pdf) if you'd like to support an awesome indy game developer.  The Preview n' Play Edition also explains how these kinds of games work.
+You can download the free "Parsely: Preview n' Play Edition" [here]({{page.materials[1].url}}) or directly from [Jared's website](http://www.memento-mori.com/pdf/parsely-preview-n-play-edition).  It contains the Action Castle game that you'll be implementing.  You can also [buy the full Parsley book for $20](http://www.memento-mori.com/pdf/parsely-pdf) if you'd like to support an awesome indy game developer.  The Preview n' Play Edition also explains how these kinds of games work.
 
 We have implemented most of Action Castle for you. 
 1. We created the 13 locations from Action Castle (Cottage, Garden Path, Fishing Pond, Winding Path, Top of the Tall Tree, Drawbridge, Courtyard, Tower Stairs, Tower, 
 Dungeon Stairs, Dungeon, Great Feasting Hall, Throne Room).
-2. We created most of the items for the game (fishing poll, rosebush, club, fish, the troll etc.).
+2. We created most of the items for the game (fishing poll, rosebush, club, fish, the troll, etc.).
+
 You will need to update the code so that it can:
 3. Add blocks to the game (these are puzzles that the player needs to solve in order to make progress).  You should add blocks in
 * The courtyard - the guard prevents you from going east
@@ -166,8 +169,8 @@ You will need to update the code so that it can:
 4. Add special actions for the Action Castle game.  You should add Actions for:
 * Unlocking the door
 * Reading the runes to banish the ghost from the dungeon
-* Proposing marriage
-* Sitting on the throne
+* Proposing marriage (to the princess)
+* Sitting on the throne, which requires you to be royal and wearing the crown
 
 
 <div class="alert alert-warning" markdown="1">
