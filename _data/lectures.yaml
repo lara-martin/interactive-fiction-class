@@ -27,6 +27,9 @@
   title: Transformers
   activities:
     -
+      title: Visualizing Attention 
+      url: Visualizing_Attention_with_BertViz.ipynb
+    -
       title: (Optional) Transformers Tutorial
       url: transformer_tutorial.ipynb
   #activities:
