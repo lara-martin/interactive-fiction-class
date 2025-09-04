@@ -20,7 +20,7 @@ The lecture schedule will be updated as the term progresses. You can find more d
     <tr>
       <th>Date</th> 
       <th>Lecture Topic</th>
-      <th>Activity</th>
+      <th>Knowledge Check</th>
       <th>Academic Papers</th>
       <th>Supplemental Media</th>
       <th>Homework Due</th>
