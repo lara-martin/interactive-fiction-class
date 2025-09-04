@@ -116,6 +116,7 @@ The lecture schedule will be updated as the term progresses. You can find more d
 		    {% else %}
 		      {{ activity.title }}
 		    {% endif %}
+		    <br>
 		  {% endfor %}
 	      </td>
 	      <td>
