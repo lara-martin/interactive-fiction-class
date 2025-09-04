@@ -108,10 +108,11 @@ The lecture schedule will be updated as the term progresses. You can find more d
 	      <td width="12%">
 		  {% for activity in lecture.activities %}
 		    {% if activity.url %}
-		    {% if activity.url contains "ipynb" %}
-		    <a href="in_class_activities/{{ activity.url }}" download>{{ activity.title }}</a> 
-		    {% else %}
-		      <a href="in_class_activities/{{ activity.url }}">{{ activity.title }}</a> 
+				{% if activity.url contains "ipynb" %}
+				<a href="in_class_activities/{{ activity.url }}" download>{{ activity.title }}</a> 
+				{% else %}
+				  <a href="in_class_activities/{{ activity.url }}">{{ activity.title }}</a> 
+				 {% endif %}
 		    {% else %}
 		      {{ activity.title }}
 		    {% endif %}
