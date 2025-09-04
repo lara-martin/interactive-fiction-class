@@ -11,7 +11,7 @@ This is an archived version of the class, which was taught in Fall 2024 at the U
 
 <!-- Display an alert about upcoming homework assignments -->
 {% capture now %}{{'now' | date: '%s'}}{% endcapture %}
-{% for page in site.pages %}
+{% for page in site.2024.pages %}
 {% if page.release_date and page.due_date %}
 {% capture release_date %}{{page.release_date | date: '%s'}}{% endcapture %}
 {% capture due_date %}{{page.due_date | date: '%s'}}{% endcapture %}
