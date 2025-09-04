@@ -25,6 +25,10 @@
 -
   date: 2025-09-04
   title: Transformers
+  activities:
+    -
+      title: (Optional) Transformers Tutorial
+      url: transformer_tutorial.ipynb
   #activities:
   #  -
   #    title: Create Data for Intent Detection

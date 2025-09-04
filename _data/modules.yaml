@@ -71,7 +71,7 @@
       title: Transformers
       guest_speaker: 
       guest_url:
-      slides: #slides/lecture-03_transformers.pdf 
+      slides: slides/25-09-04_transformers.pdf 
       #slides: https://drive.google.com/file/d/1l0tzQmJoAcX7TOoq9mU8gnHDh8Cubz8i/view?usp=sharing
       video: 
       length:
@@ -92,16 +92,17 @@
           title: Green AI
           url: https://arxiv.org/abs/1907.10597
           authors: Roy Schwartz, Jesse Dodge, Noah A. Smith, Oren Etzioni                   
-      optional:
         #-
         #  title: "A Bit of Fry & Laurie: Concerning Language"
         #  length: 7 minutes, 23 seconds
         #  url: https://www.youtube.com/watch?v=3MWpHQQ-wQg
         #  authors: Hugh Laurie, Stephen Fry
+      optional:
         -
-          title: "Speech and Language Processing, Chapter 6: Vector Semantics and Embeddings"
-          url: https://web.stanford.edu/~jurafsky/slp3/6.pdf
-          authors: Daniel Jurafsky, James H. Martin
+          title: The Illustrated Transformer
+          url: https://jalammar.github.io/illustrated-transformer/
+          authors: Jay Alammar
+
     - 
       title: Prompting and Decoding
       guest_speaker: 
@@ -154,8 +155,12 @@
         -
           title: "[T5 paper] Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"
           url: https://jmlr.org/papers/volume21/20-074/20-074.pdf
-          authors: Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu          
-
+          authors: Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu
+      optional:      
+        -
+          title: "Speech and Language Processing, Chapter 6: Vector Semantics and Embeddings"
+          url: https://web.stanford.edu/~jurafsky/slp3/6.pdf
+          authors: Daniel Jurafsky, James H. Martin
           
     - 
       title: Module 1 Paper Presentations
