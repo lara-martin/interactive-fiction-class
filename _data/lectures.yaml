@@ -38,6 +38,11 @@
   #    url: intent-detection/intent-detection.html
 
 -
+  date: 2025-09-05
+  title: Grad Presentation Sign-up Due
+  type: deadline
+
+-
   date: 2025-09-09
   title: Prompting and Decoding
   activities: 
