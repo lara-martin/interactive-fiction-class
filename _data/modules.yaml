@@ -107,7 +107,7 @@
       title: Prompting and Decoding
       guest_speaker: 
       guest_url: 
-      slides: #slides/lecture-04_output.pdf
+      slides: slides/25-09-09_output.pdf #slides/lecture-04_output.pdf
       video: 
       length:
       readings:
@@ -120,14 +120,17 @@
           url: https://papers.nips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html
           authors: Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, et al.
         -
-          title: "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing"
-          url: https://arxiv.org/abs/2107.13586
-          authors: Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, Graham Neubig
+          title: "The Prompt Report: A Systematic Survey of Prompt Engineering Techniques"
+          url: https://arxiv.org/abs/2406.06608
+          authors: Sander Schulhoff, Michael Ilie, Nishant Balepur, Konstantine Kahadze, Amanda Liu, Chenglei Si, Yinheng Li, Aayush Gupta, HyoJung Han, Sevien Schulhoff, Pranav Sandeep Dulepet, Saurav Vidyadhara, et al.
         -
           title: "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
           url: https://papers.neurips.cc/paper_files/paper/2022/hash/9d5609613524ecf4f15af0f7b31abca4-Abstract-Conference.html
           authors: Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter, Fei Xia, Ed Chi, Quoc Le, Denny Zhou
       optional:
+        -
+          title: title: "Speech and Language Processing, Chapter 9: Post-training: Instruction Tuning, Alignment, and Test-Time Compute"
+          authors: Daniel Jurafsky, James H. Martin
         -
           title: "What is Prompting, Really?"
           url: https://korymathewson.com/what-is-prompting/
