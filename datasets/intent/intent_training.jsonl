@@ -1,0 +1,1000 @@
+{"location_name": "Brim canal", "natural_language_command": "put down fish", "intent": "drop", "game_command": "drop fish"}
+{"location_name": "Graveyard", "natural_language_command": "look at inventory, save game, then drop the flowers", "intent": "sequence", "game_command": "inventory, save, drop flower"}
+{"location_name": "Inside the fairy temple", "natural_language_command": "show me my stuff", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Bog", "natural_language_command": "cup some water in my hands", "intent": "get", "game_command": "get water"}
+{"location_name": "Council of Twelve", "natural_language_command": "Look around the room", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Beach", "natural_language_command": "Pull up my inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "In Front of a Stone Tower", "natural_language_command": "describe location", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Adjacent to the Guest Castle", "natural_language_command": "ride the horse toward the castle, save the game, travel west and check my pockets", "intent": "sequence", "game_command": "get horse, go east, save, go west, inventory"}
+{"location_name": "Cave", "natural_language_command": "toss the bone", "intent": "drop", "game_command": "drop bone"}
+{"location_name": "Wharf", "natural_language_command": "go to stall", "intent": "direction", "game_command": "go south"}
+{"location_name": "The haunted shrine", "natural_language_command": "open inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "entryway to the wizards tower", "natural_language_command": "Let me out", "intent": "direction", "game_command": "go outside"}
+{"location_name": "Royal Kitchen", "natural_language_command": "break the pot", "intent": "special", "game_command": "break pot"}
+{"location_name": "Gold Mine", "natural_language_command": "Go south", "intent": "direction", "game_command": "go south"}
+{"location_name": "Inside Temple", "natural_language_command": "Store the candle", "intent": "get", "game_command": "get candle"}
+{"location_name": "Fish Market", "natural_language_command": "save progress", "intent": "save", "game_command": "save"}
+{"location_name": "Within the King's Mansion", "natural_language_command": "exit", "intent": "quit", "game_command": "quit"}
+{"location_name": "Confessional Room", "natural_language_command": "describe table", "intent": "examine", "game_command": "examine table"}
+{"location_name": "Beside church pews", "natural_language_command": "I want to grab some wood", "intent": "get", "game_command": "get wood"}
+{"location_name": "The rectory", "natural_language_command": "Find a place to put the book down away from the candle", "intent": "drop", "game_command": "drop book"}
+{"location_name": "bone pit", "natural_language_command": "pick up spike", "intent": "get", "game_command": "get spike"}
+{"location_name": "Kings chambers", "natural_language_command": "let some fresh air in", "intent": "special", "game_command": "open window"}
+{"location_name": "Tool Shed", "natural_language_command": "look at shelf, get the hook, go east, check inventory, go west", "intent": "sequence", "game_command": "examine shelf, get hook, go east, inventory, go west"}
+{"location_name": "Along the banks of a river in the forest", "natural_language_command": "go fishing", "intent": "get", "game_command": "get fish"}
+{"location_name": "The dungeon of test subjects", "natural_language_command": "check bag", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Weapon Closet", "natural_language_command": "inspect the sword", "intent": "examine", "game_command": "examine sword"}
+{"location_name": "castle exit", "natural_language_command": "how many guards are there?", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Marketplace", "natural_language_command": "throw away the tool", "intent": "drop", "game_command": "drop tool"}
+{"location_name": "Gold Mine", "natural_language_command": "pick up the stone", "intent": "get", "game_command": "get rock"}
+{"location_name": "The  main hall", "natural_language_command": "head towards the throne room", "intent": "direction", "game_command": "go north"}
+{"location_name": "The Show Room Inside the Castle", "natural_language_command": "show room", "intent": "direction", "game_command": "go west"}
+{"location_name": "Inside Church Back Row", "natural_language_command": "put down the mahagony set", "intent": "drop", "game_command": "drop set"}
+{"location_name": "Castle farm", "natural_language_command": "look at the grain", "intent": "examine", "game_command": "examine grain"}
+{"location_name": "Barn", "natural_language_command": "dig through the hay", "intent": "examine", "game_command": "examine hay"}
+{"location_name": "Queen's Castle", "natural_language_command": "kill game", "intent": "quit", "game_command": "quit"}
+{"location_name": "Sacrifice Chamber", "natural_language_command": "look at table", "intent": "examine", "game_command": "examine table"}
+{"location_name": "Inside the King's Castle", "natural_language_command": "view tower", "intent": "examine", "game_command": "examine tower"}
+{"location_name": "the whipping station", "natural_language_command": "go south", "intent": "direction", "game_command": "go south"}
+{"location_name": "Inside the fairies church", "natural_language_command": "How bad is the smoke", "intent": "examine", "game_command": "examine smoke"}
+{"location_name": "King's Quarters", "natural_language_command": "tidy sheets, fix pillow, clean comforter =", "intent": "special", "game_command": "make bed"}
+{"location_name": "The Winter Gardens", "natural_language_command": "special flower", "intent": "special", "game_command": "sp flower"}
+{"location_name": "bridge in the forest", "natural_language_command": "gge", "intent": "sequence", "game_command": "get stream, go east, examine bone"}
+{"location_name": "drinking water lake", "natural_language_command": "stumble towards to the tree", "intent": "direction", "game_command": "go east"}
+{"location_name": "Port Tavern", "natural_language_command": "drop the stool", "intent": "drop", "game_command": "drop stool"}
+{"location_name": "Inside the King's Castle", "natural_language_command": "save", "intent": "save", "game_command": "save"}
+{"location_name": "The stream", "natural_language_command": "fill some water", "intent": "get", "game_command": "get water"}
+{"location_name": "Large Galleon", "natural_language_command": "I want to get the tar", "intent": "get", "game_command": "get tar"}
+{"location_name": "The lords treasury", "natural_language_command": "what riches can be found in the treasury room", "intent": "redescribe", "game_command": "look"}
+{"location_name": "The armory", "natural_language_command": "drop the weapon", "intent": "drop", "game_command": "drop weapon"}
+{"location_name": "Unicorn Fields", "natural_language_command": "go out", "intent": "quit", "game_command": "quit"}
+{"location_name": "mysterious forest outskirts", "natural_language_command": "examine food", "intent": "examine", "game_command": "examine food"}
+{"location_name": "Dark Cave", "natural_language_command": "out", "intent": "direction", "game_command": "go outside"}
+{"location_name": "Royal Shipyard", "natural_language_command": "go south", "intent": "direction", "game_command": "go south"}
+{"location_name": "mysterious forest outskirts", "natural_language_command": "stop", "intent": "quit", "game_command": "quit"}
+{"location_name": "Outside Church", "natural_language_command": "save", "intent": "save", "game_command": "save"}
+{"location_name": "Temple Entrance", "natural_language_command": "drop torch", "intent": "drop", "game_command": "drop torch"}
+{"location_name": "Alchemists Lab", "natural_language_command": "obtain the beaker", "intent": "get", "game_command": "get beaker"}
+{"location_name": "Mythical dragon castle", "natural_language_command": "quit", "intent": "quit", "game_command": "quit"}
+{"location_name": "Debtor's Prison", "natural_language_command": "throw bucket", "intent": "drop", "game_command": "drop bucket"}
+{"location_name": "Wizard's lair", "natural_language_command": "examine cage", "intent": "examine", "game_command": "examine cage"}
+{"location_name": "Courtyard", "natural_language_command": "examine statue to get a stone. Then, save the game, check the inventory for the statue", "intent": "sequence", "game_command": "examine statue, get stone, save, inventory, examine statue"}
+{"location_name": "Dry Dock Room", "natural_language_command": "go east", "intent": "direction", "game_command": "go east"}
+{"location_name": "Palace Garden", "natural_language_command": "inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "scenic overlook", "natural_language_command": "pick wildflowers", "intent": "get", "game_command": "get wildflower"}
+{"location_name": "middle of the city", "natural_language_command": "quit game", "intent": "quit", "game_command": "quit"}
+{"location_name": "The Dog's Hound", "natural_language_command": "im finished", "intent": "quit", "game_command": "quit"}
+{"location_name": "Ferry Terminal", "natural_language_command": "go eastwards", "intent": "direction", "game_command": "go east"}
+{"location_name": "Debtor's Prison", "natural_language_command": "head to the slave quarters", "intent": "direction", "game_command": "go down"}
+{"location_name": "Castle farm", "natural_language_command": "in", "intent": "direction", "game_command": "go inside"}
+{"location_name": "The beach", "natural_language_command": "Examine the sand and save game", "intent": "sequence", "game_command": "examine sand, save"}
+{"location_name": "Boat House", "natural_language_command": "look around the boat house then go above the supply store", "intent": "sequence", "game_command": "inventory, examine decor, go outside, go up"}
+{"location_name": "Mountain", "natural_language_command": "check inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Devil's Den", "natural_language_command": "take a skull from the stakes", "intent": "get", "game_command": "get skull"}
+{"location_name": "{}", "natural_language_command": "exit", "intent": "quit", "game_command": "quit"}
+{"location_name": "The Hall of the Goddess", "natural_language_command": "Describe the statue", "intent": "examine", "game_command": "examine statue"}
+{"location_name": "Winding Staircase", "natural_language_command": "describe staircase", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Horse's stables", "natural_language_command": "saddle the horse", "intent": "get", "game_command": "get horse"}
+{"location_name": "Weapon Closet", "natural_language_command": "examine sword", "intent": "examine", "game_command": "examine sword"}
+{"location_name": "The Great Hall", "natural_language_command": "look at the table", "intent": "examine", "game_command": "examine table"}
+{"location_name": "Fighting Arena inside Tourney Grounds", "natural_language_command": "go to the stables", "intent": "direction", "game_command": "go north"}
+{"location_name": "Lava Lake", "natural_language_command": "throw the rock into the lava", "intent": "special", "game_command": "throw rock"}
+{"location_name": "Hunters' cabins", "natural_language_command": "save", "intent": "save", "game_command": "save"}
+{"location_name": "Barn", "natural_language_command": "obtain the grain", "intent": "get", "game_command": "get hay"}
+{"location_name": "Castle Kitchen", "natural_language_command": "quit", "intent": "quit", "game_command": "quit"}
+{"location_name": "Secret magician's workshop", "natural_language_command": "take down the tapestry", "intent": "drop", "game_command": "drop tapestry"}
+{"location_name": "The forest", "natural_language_command": "get the plant", "intent": "get", "game_command": "get plant"}
+{"location_name": "Inside a desolate cave", "natural_language_command": "go to the prisoner cells", "intent": "direction", "game_command": "go north"}
+{"location_name": "Church", "natural_language_command": "I want to go south", "intent": "direction", "game_command": "go south"}
+{"location_name": "The Royal Tent", "natural_language_command": "examine rug and stay", "intent": "sequence", "game_command": "examine rug, get rug, go north, go south"}
+{"location_name": "Patchy Valdo", "natural_language_command": "quit", "intent": "quit", "game_command": "quit"}
+{"location_name": "Pond", "natural_language_command": "backpack", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Hillside Manor", "natural_language_command": "what does hillside manor look like", "intent": "redescribe", "game_command": "look"}
+{"location_name": "The dogs' domain", "natural_language_command": "save", "intent": "save", "game_command": "save"}
+{"location_name": "harp store", "natural_language_command": "strum the bouzoukis", "intent": "get", "game_command": "get bouzoukis'"}
+{"location_name": "Devil's Den", "natural_language_command": "put down skull", "intent": "drop", "game_command": "drop skull"}
+{"location_name": "Princess' Library", "natural_language_command": "end game", "intent": "quit", "game_command": "quit"}
+{"location_name": "Lower dungeon", "natural_language_command": "exam manacle", "intent": "examine", "game_command": "examine manacle"}
+{"location_name": "Hidden passageway", "natural_language_command": "check hidden passageway", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Inside Church", "natural_language_command": "take plant", "intent": "get", "game_command": "get plant"}
+{"location_name": "Inside the King's Castle", "natural_language_command": "climb at the tower", "intent": "special", "game_command": "climb tower"}
+{"location_name": "Beside temple entrance", "natural_language_command": "Go inside the temple chamber", "intent": "direction", "game_command": "go inside"}
+{"location_name": "The Lagoon", "natural_language_command": "check the inventory before saving. Then pick up the special moss and drop the lilipad.", "intent": "sequence", "game_command": "inventory, save, special moss, drop lily pad"}
+{"location_name": "Nursery", "natural_language_command": "take the painting off the wall", "intent": "get", "game_command": "get painting"}
+{"location_name": "Shrine of Sretniy", "natural_language_command": "leave game", "intent": "quit", "game_command": "quit"}
+{"location_name": "Lava Lake", "natural_language_command": "drop the rock", "intent": "drop", "game_command": "drop rock"}
+{"location_name": "Popes dormitory", "natural_language_command": "Explore the hidden passage", "intent": "direction", "game_command": "go west"}
+{"location_name": "prison room", "natural_language_command": "raise the dead", "intent": "special", "game_command": "animate skeletons"}
+{"location_name": "Rabbit den", "natural_language_command": "what items are in my inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Viewing room", "natural_language_command": "leave the box on the floor", "intent": "drop", "game_command": "drop box"}
+{"location_name": "Ocean", "natural_language_command": "items", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Wizard's lair", "natural_language_command": "Where did the creatures go?", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Port Tavern", "natural_language_command": "pick up stool then check bag", "intent": "sequence", "game_command": "special stool, inventory"}
+{"location_name": "Jail room", "natural_language_command": "I want to see if I can break the wall", "intent": "examine", "game_command": "examine wall"}
+{"location_name": "A wet dungeon", "natural_language_command": "east", "intent": "direction", "game_command": "go east"}
+{"location_name": "Confessional", "natural_language_command": "Remove the painting from the wall", "intent": "drop", "game_command": "drop painting"}
+{"location_name": "Next to an Altar", "natural_language_command": "save my progress", "intent": "save", "game_command": "save"}
+{"location_name": "Underground Chamber", "natural_language_command": "look more closely at the crystal", "intent": "examine", "game_command": "examine crystal"}
+{"location_name": "Underground Cavern", "natural_language_command": "extract gold", "intent": "get", "game_command": "get gold"}
+{"location_name": "unsettling forest area", "natural_language_command": "open inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Beside church pews", "natural_language_command": "altar", "intent": "direction", "game_command": "go north"}
+{"location_name": "Outside Church", "natural_language_command": "enter church", "intent": "direction", "game_command": "go inside"}
+{"location_name": "Firewood Forest", "natural_language_command": "Check my inventory, walk north then go south", "intent": "sequence", "game_command": "inventory, go north, go south"}
+{"location_name": "Southernmost Tower Entryway", "natural_language_command": "feel the wall", "intent": "examine", "game_command": "examine wall"}
+{"location_name": "Inside the Unicorn palace", "natural_language_command": "go to the unicorn palace", "intent": "direction", "game_command": "go south"}
+{"location_name": "Escape Tunnel", "natural_language_command": "inventry", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Cloud Nine Bar", "natural_language_command": "how to get to the cloud nine bar", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Lava Lake", "natural_language_command": "Throw away the rock", "intent": "drop", "game_command": "drop rock"}
+{"location_name": "Lava Pits", "natural_language_command": "check inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "The Winter Gardens", "natural_language_command": "enter castle", "intent": "direction", "game_command": "go north"}
+{"location_name": "Guard Shack", "natural_language_command": "place the jug on the floor", "intent": "drop", "game_command": "drop jug"}
+{"location_name": "Troll's bridge", "natural_language_command": "south", "intent": "direction", "game_command": "go south"}
+{"location_name": "The Queen's Chamber", "natural_language_command": "Inspect the queen's chamber", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Quicksand Pit", "natural_language_command": "head northward", "intent": "direction", "game_command": "go north"}
+{"location_name": "prison room", "natural_language_command": "release the skeleton", "intent": "drop", "game_command": "drop skeleton"}
+{"location_name": "Hidden garden", "natural_language_command": "kill me", "intent": "quit", "game_command": "quit"}
+{"location_name": "cloud tavern", "natural_language_command": "drop down the darts", "intent": "drop", "game_command": "drop darts"}
+{"location_name": "An abandoned castle on an ocean cliff side", "natural_language_command": "get inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Town Church", "natural_language_command": "examine inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "bone pit", "natural_language_command": "get splike", "intent": "get", "game_command": "get spike"}
+{"location_name": "Dragon Lift", "natural_language_command": "gig", "intent": "sequence", "game_command": "examine building, go south, inventory, go north"}
+{"location_name": "The lords treasury", "natural_language_command": "quit playing", "intent": "quit", "game_command": "quit"}
+{"location_name": "cavern", "natural_language_command": "enter the planes", "intent": "direction", "game_command": "go west"}
+{"location_name": "Along the banks of a river in the forest", "natural_language_command": "examine grass", "intent": "examine", "game_command": "examine grass"}
+{"location_name": "Horse Stable", "natural_language_command": "end", "intent": "quit", "game_command": "quit"}
+{"location_name": "the bedding room", "natural_language_command": "ge the gold cup then go inside", "intent": "sequence", "game_command": "get gold cup, go inside"}
+{"location_name": "Fishing Pier", "natural_language_command": "get barnacle", "intent": "get", "game_command": "get barnacle"}
+{"location_name": "castle entrance", "natural_language_command": "what am i holding", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "High Priest Chamber", "natural_language_command": "take a book off the shelf", "intent": "get", "game_command": "get book"}
+{"location_name": "Port Tavern", "natural_language_command": "look at the stool", "intent": "examine", "game_command": "examine stool"}
+{"location_name": "The Hall of the Goddess", "natural_language_command": "Inspect the bronze statue", "intent": "examine", "game_command": "examine statue"}
+{"location_name": "stable", "natural_language_command": "store tool", "intent": "drop", "game_command": "drop tool"}
+{"location_name": "An Unfinished Mausoleum", "natural_language_command": "touch the wall and check for traps", "intent": "examine", "game_command": "examine wall"}
+{"location_name": "swamp", "natural_language_command": "north", "intent": "direction", "game_command": "go north"}
+{"location_name": "Queen's quarters", "natural_language_command": "check the drape", "intent": "special", "game_command": "check the drape"}
+{"location_name": "A wooded magical village", "natural_language_command": "get vine", "intent": "get", "game_command": "get vine"}
+{"location_name": "Gallery", "natural_language_command": "enter cave", "intent": "direction", "game_command": "go west"}
+{"location_name": "King's chambers", "natural_language_command": "throw the ruby", "intent": "special", "game_command": "throw ruby"}
+{"location_name": "Royal Bathroom", "natural_language_command": "go to kings bedroom", "intent": "direction", "game_command": "go east"}
+{"location_name": "A cursed grave", "natural_language_command": "put down bone", "intent": "drop", "game_command": "drop bone"}
+{"location_name": "stable hand's quarters", "natural_language_command": "go to the royal stables", "intent": "direction", "game_command": "go east"}
+{"location_name": "Hillside Mansion", "natural_language_command": "desc hillside mansion", "intent": "redescribe", "game_command": "look"}
+{"location_name": "The Brush Den", "natural_language_command": "rip out the plant", "intent": "get", "game_command": "get plant"}
+{"location_name": "Front of the Cottage", "natural_language_command": "go inside", "intent": "direction", "game_command": "go inside"}
+{"location_name": "Church Entryway", "natural_language_command": "pick up the bench", "intent": "get", "game_command": "get bench"}
+{"location_name": "Pirate Ship", "natural_language_command": "hide inside the cabin", "intent": "special", "game_command": "hide inside"}
+{"location_name": "Castle basement", "natural_language_command": "look up my inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Ant hill", "natural_language_command": "go to the riverbed", "intent": "direction", "game_command": "go south"}
+{"location_name": "Launching point", "natural_language_command": "is the lighthouse lit?", "intent": "redescribe", "game_command": "look"}
+{"location_name": "old docks", "natural_language_command": "check inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Cold storage room", "natural_language_command": "Is there anyone watching this room?", "intent": "redescribe", "game_command": "look"}
+{"location_name": "The swimming hole", "natural_language_command": "check inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Port Tavern", "natural_language_command": "sit down on the stool", "intent": "special", "game_command": "sit stool"}
+{"location_name": "The Brush Den", "natural_language_command": "sleep on the bed", "intent": "examine", "game_command": "examine bed"}
+{"location_name": "Adjacent to the Guest Castle", "natural_language_command": "inspect horse", "intent": "examine", "game_command": "examine horse"}
+{"location_name": "arsenal", "natural_language_command": "i", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Neptune's throne room", "natural_language_command": "get the shell", "intent": "get", "game_command": "get shell"}
+{"location_name": "Shrine of Sretniy", "natural_language_command": "Admire the statue", "intent": "examine", "game_command": "examine steel statue"}
+{"location_name": "The living quarters", "natural_language_command": "Use window", "intent": "special", "game_command": "use window"}
+{"location_name": "Fishmonger's stall", "natural_language_command": "view inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "High Priest Chamber", "natural_language_command": "purify book", "intent": "special", "game_command": "purify book"}
+{"location_name": "Small graveyard", "natural_language_command": "climb up tree", "intent": "special", "game_command": "climb tree"}
+{"location_name": "The cabin of an ogre", "natural_language_command": "reach for the lantern", "intent": "get", "game_command": "get lantern"}
+{"location_name": "Magic Room", "natural_language_command": "scale wall", "intent": "special", "game_command": "scale wall"}
+{"location_name": "The stream", "natural_language_command": "describe the stream", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Treasure Cavern", "natural_language_command": "describe TREASURE CAVERN", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Inside the temple", "natural_language_command": "pick up the ancient artifacts", "intent": "get", "game_command": "get artifact"}
+{"location_name": "Church Altar", "natural_language_command": "what is chalice", "intent": "examine", "game_command": "examine chalice"}
+{"location_name": "the whipping station", "natural_language_command": "run away as fast as possible", "intent": "direction", "game_command": "go south"}
+{"location_name": "Underground Cavern", "natural_language_command": "go down three times and check inventory", "intent": "sequence", "game_command": "go down, inventory, go down, go down"}
+{"location_name": "The Brush Den", "natural_language_command": "drop the plant", "intent": "drop", "game_command": "drop plant"}
+{"location_name": "Bat room", "natural_language_command": "check bag", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Enchanted light house", "natural_language_command": "go west to pit", "intent": "direction", "game_command": "go west"}
+{"location_name": "Horse's stables", "natural_language_command": "approach horse", "intent": "examine", "game_command": "examine horse"}
+{"location_name": "Sacrificial altar", "natural_language_command": "drop the armor", "intent": "drop", "game_command": "drop piece"}
+{"location_name": "Front of the Cottage", "natural_language_command": "describe the cattage", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Front of the Cottage", "natural_language_command": "hang the furs on the rack", "intent": "special", "game_command": "rack furs"}
+{"location_name": "Keep", "natural_language_command": "check inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "The Fountain of Youth", "natural_language_command": "throw away the armor", "intent": "drop", "game_command": "drop armor"}
+{"location_name": "Ruined house", "natural_language_command": "collect the debris", "intent": "special", "game_command": "collect debris"}
+{"location_name": "Popes dormitory", "natural_language_command": "my inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "palace ballroom", "natural_language_command": "examine window", "intent": "examine", "game_command": "examine window"}
+{"location_name": "Fishing Pier", "natural_language_command": "Go to the pier walkway", "intent": "direction", "game_command": "go north"}
+{"location_name": "Reaper's lair", "natural_language_command": "Head to the square", "intent": "direction", "game_command": "go outside"}
+{"location_name": "The cabin of an ogre", "natural_language_command": "burn out lantern", "intent": "special", "game_command": "burn lantern"}
+{"location_name": "The Dungeon", "natural_language_command": "drop bone", "intent": "drop", "game_command": "drop bone"}
+{"location_name": "Secret exit", "natural_language_command": "save progress", "intent": "save", "game_command": "save"}
+{"location_name": "Torture Room", "natural_language_command": "examine shackle", "intent": "examine", "game_command": "examine shackle"}
+{"location_name": "Marketplace", "natural_language_command": "put down tool", "intent": "drop", "game_command": "drop tool"}
+{"location_name": "crew berthing", "natural_language_command": "Head up", "intent": "direction", "game_command": "go up"}
+{"location_name": "Valley of doom", "natural_language_command": "save game", "intent": "save", "game_command": "save"}
+{"location_name": "Sacrifice Chamber", "natural_language_command": "tell me more about the sacrifice chamber", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Bell Tower", "natural_language_command": "get bell", "intent": "get", "game_command": "get bell"}
+{"location_name": "Torture Chanber", "natural_language_command": "pick up the device", "intent": "get", "game_command": "get device"}
+{"location_name": "Castle basement", "natural_language_command": "Enter the interrogation room", "intent": "direction", "game_command": "go north"}
+{"location_name": "Royal Kitchen", "natural_language_command": "to into the garden", "intent": "direction", "game_command": "go outside"}
+{"location_name": "the priestess' dormitory", "natural_language_command": "I don't want to play anymore", "intent": "quit", "game_command": "quit"}
+{"location_name": "abandoned mine", "natural_language_command": "wipe the rust off the machinery", "intent": "special", "game_command": "wipe the rust off"}
+{"location_name": "Confessional", "natural_language_command": "Leave the painting", "intent": "drop", "game_command": "drop painting"}
+{"location_name": "Cottage safe-room", "natural_language_command": "goodbye", "intent": "quit", "game_command": "quit"}
+{"location_name": "In Front of a Stone Tower", "natural_language_command": "lift the block", "intent": "get", "game_command": "get block"}
+{"location_name": "Pig Pen", "natural_language_command": "take the mud", "intent": "get", "game_command": "get mud"}
+{"location_name": "the bedding room", "natural_language_command": "drop the gold cup", "intent": "drop", "game_command": "drop gold cup"}
+{"location_name": "Within the walls of the city", "natural_language_command": "go inside", "intent": "direction", "game_command": "go inside"}
+{"location_name": "Great Armory", "natural_language_command": "end game", "intent": "quit", "game_command": "quit"}
+{"location_name": "Front entrance", "natural_language_command": "quit the game", "intent": "quit", "game_command": "quit"}
+{"location_name": "Front entrance", "natural_language_command": "what do i have with me", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "prison room", "natural_language_command": "save status", "intent": "save", "game_command": "save"}
+{"location_name": "the bedding room", "natural_language_command": "put down the cup of wine", "intent": "drop", "game_command": "drop gold cup"}
+{"location_name": "Jail room", "natural_language_command": "pick up the bucket", "intent": "get", "game_command": "get bucket"}
+{"location_name": "Royal Gardens", "natural_language_command": "burn the shrub", "intent": "special", "game_command": "burn shrub"}
+{"location_name": "The old red barn", "natural_language_command": "north", "intent": "direction", "game_command": "go north"}
+{"location_name": "Stonehenge", "natural_language_command": "pick the grass", "intent": "get", "game_command": "get grass"}
+{"location_name": "weapon storage", "natural_language_command": "checkpoint", "intent": "save", "game_command": "save"}
+{"location_name": "inside temple crypt", "natural_language_command": "north", "intent": "direction", "game_command": "go north"}
+{"location_name": "Treasure Room", "natural_language_command": "Throw the gold back into the treasure chest", "intent": "drop", "game_command": "drop gold"}
+{"location_name": "Darkest part of the swamp", "natural_language_command": "What creature is in the swamp?", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Pond", "natural_language_command": "go into the hut", "intent": "direction", "game_command": "go west"}
+{"location_name": "The Winter Gardens", "natural_language_command": "I plan to get to the town", "intent": "direction", "game_command": "go south"}
+{"location_name": "stained glass room", "natural_language_command": "save", "intent": "save", "game_command": "save"}
+{"location_name": "The witches cottage", "natural_language_command": "describe everything", "intent": "sequence", "game_command": "examine cauldron, inventory"}
+{"location_name": "Tower kitchen", "natural_language_command": "visit the jail", "intent": "direction", "game_command": "go north"}
+{"location_name": "Secret tunnel", "natural_language_command": "go to the storage room", "intent": "direction", "game_command": "go east"}
+{"location_name": "the throne", "natural_language_command": "go south", "intent": "direction", "game_command": "go south"}
+{"location_name": "Debtor's Prison", "natural_language_command": "pick the bucket", "intent": "get", "game_command": "get bucket"}
+{"location_name": "Inside Temple", "natural_language_command": "pick up the candle", "intent": "get", "game_command": "get candle"}
+{"location_name": "Castle", "natural_language_command": "eis", "intent": "sequence", "game_command": "examine candle, inventory, special candle"}
+{"location_name": "The Dungeon", "natural_language_command": "look closer at bone", "intent": "examine", "game_command": "examine bone"}
+{"location_name": "Throne Room", "natural_language_command": "go inside and examine table", "intent": "sequence", "game_command": "go inside, examine table"}
+{"location_name": "Inside the Unicorn palace", "natural_language_command": "go outside", "intent": "direction", "game_command": "go south"}
+{"location_name": "King's Bedroom", "natural_language_command": "Read the book", "intent": "special", "game_command": "read book"}
+{"location_name": "Attic", "natural_language_command": "go down", "intent": "direction", "game_command": "go down"}
+{"location_name": "prison room", "natural_language_command": "pass", "intent": "drop", "game_command": "drop skeleton"}
+{"location_name": "abandoned mine", "natural_language_command": "try to figure our the machinery", "intent": "examine", "game_command": "examine machinery"}
+{"location_name": "The Bottlery", "natural_language_command": "force quit", "intent": "quit", "game_command": "quit"}
+{"location_name": "The Marketplace", "natural_language_command": "Display the wares", "intent": "drop", "game_command": "drop ware"}
+{"location_name": "Temple courtyard", "natural_language_command": "drop the cloth", "intent": "drop", "game_command": "drop cloth"}
+{"location_name": "The stream", "natural_language_command": "empty the water", "intent": "drop", "game_command": "drop water"}
+{"location_name": "center of the forest", "natural_language_command": "what do I have?", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Fishing shack", "natural_language_command": "check the boat", "intent": "examine", "game_command": "examine boat"}
+{"location_name": "Tree of Spirits", "natural_language_command": "travel towards the shack", "intent": "direction", "game_command": "go south"}
+{"location_name": "Underwater Marketplace", "natural_language_command": "look at flags", "intent": "examine", "game_command": "examine flag"}
+{"location_name": "sacristy", "natural_language_command": "check inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "the bedding room", "natural_language_command": "Stack the gold cups in an ornate fashion", "intent": "special", "game_command": "present cups"}
+{"location_name": "Northern Shore", "natural_language_command": "swim in the lake", "intent": "special", "game_command": "swim lake"}
+{"location_name": "Guard Shack", "natural_language_command": "pick up jug", "intent": "get", "game_command": "get jug"}
+{"location_name": "The Brush Den", "natural_language_command": "I want to put down the plant", "intent": "drop", "game_command": "drop plant"}
+{"location_name": "Faeries Den", "natural_language_command": "go deeper", "intent": "direction", "game_command": "go inside"}
+{"location_name": "Murder hole", "natural_language_command": "go up", "intent": "direction", "game_command": "go up"}
+{"location_name": "Northern Shore", "natural_language_command": "grab the clothes", "intent": "get", "game_command": "get cloth"}
+{"location_name": "Stonehenge", "natural_language_command": "pick a blade of grass", "intent": "get", "game_command": "get grass"}
+{"location_name": "throne room", "natural_language_command": "how do the past kings look like", "intent": "redescribe", "game_command": "look"}
+{"location_name": "prison room", "natural_language_command": "Pick up and examine the skeleton", "intent": "sequence", "game_command": "examine skeletons, get skeleton"}
+{"location_name": "ghost monk quarters", "natural_language_command": "check inventory and examine the bed", "intent": "sequence", "game_command": "inventory, examine bed"}
+{"location_name": "Hidden passageway", "natural_language_command": "walk south", "intent": "direction", "game_command": "go south"}
+{"location_name": "Underground Cavern", "natural_language_command": "drop gold", "intent": "drop", "game_command": "drop gold"}
+{"location_name": "Inside the fairies church", "natural_language_command": "go south", "intent": "direction", "game_command": "go south"}
+{"location_name": "Rectory", "natural_language_command": "take some wood", "intent": "get", "game_command": "get wood"}
+{"location_name": "The Moon Observatory", "natural_language_command": "do special observatory", "intent": "special", "game_command": "special observatory"}
+{"location_name": "Pond", "natural_language_command": "pick up rock", "intent": "get", "game_command": "get rock"}
+{"location_name": "Lake", "natural_language_command": "pour out the water", "intent": "drop", "game_command": "drop water"}
+{"location_name": "Grand balcony", "natural_language_command": "go into the grand dining room", "intent": "direction", "game_command": "go west"}
+{"location_name": "bathing room", "natural_language_command": "head inside the temple", "intent": "direction", "game_command": "go inside"}
+{"location_name": "Enormous church entrance door", "natural_language_command": "try the door", "intent": "examine", "game_command": "examine the door"}
+{"location_name": "the whipping station", "natural_language_command": "save and then examine platform twice", "intent": "sequence", "game_command": "save, examine platform, examine platform"}
+{"location_name": "Front of the Cottage", "natural_language_command": "put down fur", "intent": "drop", "game_command": "drop fur"}
+{"location_name": "Stonehenge", "natural_language_command": "inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Loading Dock", "natural_language_command": "load cargo", "intent": "get", "game_command": "get cargo"}
+{"location_name": "Hall of echoes", "natural_language_command": "sit on throne", "intent": "special", "game_command": "claim the throne"}
+{"location_name": "Withered Gardens", "natural_language_command": "go to the garden pavilion", "intent": "direction", "game_command": "go north"}
+{"location_name": "The Enchanted Forest", "natural_language_command": "i", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "The Chapel", "natural_language_command": "open the door to the chapel", "intent": "special", "game_command": "open chapel-door"}
+{"location_name": "Temple", "natural_language_command": "step outside", "intent": "direction", "game_command": "go outside"}
+{"location_name": "Murder hole", "natural_language_command": "I want to enter the tower", "intent": "direction", "game_command": "go down"}
+{"location_name": "Wizard's lair", "natural_language_command": "Go out", "intent": "direction", "game_command": "go outside"}
+{"location_name": "The old red barn", "natural_language_command": "Hold up a large pile of hay", "intent": "get", "game_command": "get hay"}
+{"location_name": "armory exit", "natural_language_command": "i", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Inside the Unicorn palace", "natural_language_command": "checkpoint", "intent": "save", "game_command": "save"}
+{"location_name": "Castle farm", "natural_language_command": "leave game", "intent": "quit", "game_command": "quit"}
+{"location_name": "Wizard's lair", "natural_language_command": "whats in the cage", "intent": "examine", "game_command": "examine cage"}
+{"location_name": "Loading Dock", "natural_language_command": "save the progress", "intent": "save", "game_command": "save"}
+{"location_name": "Reaper's lair", "natural_language_command": "look at lock", "intent": "examine", "game_command": "examine lock"}
+{"location_name": "Guard Shack", "natural_language_command": "exit", "intent": "quit", "game_command": "quit"}
+{"location_name": "Hidden garden", "natural_language_command": "go into the ball room", "intent": "direction", "game_command": "go inside"}
+{"location_name": "Training Fields", "natural_language_command": "save my progress", "intent": "save", "game_command": "save"}
+{"location_name": "A battleship", "natural_language_command": "hit the railing to see what sound it makes", "intent": "special", "game_command": "hit railing"}
+{"location_name": "Clergyman's office", "natural_language_command": "Give me the cross", "intent": "get", "game_command": "get cross"}
+{"location_name": "Abandoned mine entrance", "natural_language_command": "Does the mineshaft work?", "intent": "redescribe", "game_command": "look"}
+{"location_name": "The Moon Observatory", "natural_language_command": "destroy the observatory", "intent": "special", "game_command": "destroy observatory"}
+{"location_name": "Sacrifice Chamber", "natural_language_command": "check under table", "intent": "special", "game_command": "inspect table"}
+{"location_name": "Goddess Hollow", "natural_language_command": "I want to put down the pile", "intent": "drop", "game_command": "drop pile"}
+{"location_name": "Grand Dancing Hall", "natural_language_command": "Examine the ceiling candles", "intent": "examine", "game_command": "examine candle"}
+{"location_name": "A small church", "natural_language_command": "Probe the altar", "intent": "examine", "game_command": "examine altar"}
+{"location_name": "Royal stables", "natural_language_command": "Describe the royal stables", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Dining Hall", "natural_language_command": "lay down the rug", "intent": "drop", "game_command": "drop rug"}
+{"location_name": "Viewing room", "natural_language_command": "look at stage with dome", "intent": "examine", "game_command": "examine stage"}
+{"location_name": "Princess' Chamber", "natural_language_command": "to the maid's room", "intent": "direction", "game_command": "go west"}
+{"location_name": "Troll's bridge", "natural_language_command": "Drink the water", "intent": "special", "game_command": "consume water"}
+{"location_name": "Torture room", "natural_language_command": "fix table", "intent": "special", "game_command": "fix table"}
+{"location_name": "A small church", "natural_language_command": "inventory, special altar, examine alter", "intent": "sequence", "game_command": "inventory, special altar, examine altar"}
+{"location_name": "mess hall of the servants", "natural_language_command": "Save my game", "intent": "save", "game_command": "save"}
+{"location_name": "The Contemplation Room", "natural_language_command": "what's in my inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Top side tower overlooking view", "natural_language_command": "drop the stone", "intent": "drop", "game_command": "drop stone"}
+{"location_name": "Tower Sewers", "natural_language_command": "pick up the bone", "intent": "get", "game_command": "get bone"}
+{"location_name": "Lord's Castle", "natural_language_command": "I hope to check the cliffs", "intent": "examine", "game_command": "examine cliffs"}
+{"location_name": "A cabin", "natural_language_command": "I want to go north", "intent": "direction", "game_command": "go north"}
+{"location_name": "Fishmonger's stall", "natural_language_command": "what kind of fish does the stall have", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Woods", "natural_language_command": "go in to cave", "intent": "direction", "game_command": "go inside"}
+{"location_name": "The lords treasury", "natural_language_command": "x the rich", "intent": "examine", "game_command": "examine rich"}
+{"location_name": "The Fountain of Youth", "natural_language_command": "get armor", "intent": "get", "game_command": "get armor"}
+{"location_name": "holy alter", "natural_language_command": "where to find the alter", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Small graveyard", "natural_language_command": "check inventory", "intent": "sequence", "game_command": "examine tree, go north, go south, inventory"}
+{"location_name": "Bell Tower", "natural_language_command": "play bell", "intent": "special", "game_command": "ring bell"}
+{"location_name": "Grand hall of the City", "natural_language_command": "open inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "soldiers camp", "natural_language_command": "make checkpoint", "intent": "save", "game_command": "save"}
+{"location_name": "Beside church pews", "natural_language_command": "Collect the wood", "intent": "get", "game_command": "get wood"}
+{"location_name": "prison room", "natural_language_command": "peek at the skeleton", "intent": "examine", "game_command": "examine skeletons"}
+{"location_name": "Nursery", "natural_language_command": "walk to the attic", "intent": "direction", "game_command": "go up"}
+{"location_name": "Within the King's Mansion", "natural_language_command": "waft the air to study the scent", "intent": "special", "game_command": "smell scent"}
+{"location_name": "Dark Cave", "natural_language_command": "throw stone", "intent": "special", "game_command": "drop stone"}
+{"location_name": "mysterious forest outskirts", "natural_language_command": "check inventory and examine food", "intent": "sequence", "game_command": "inventory, examine food"}
+{"location_name": "staircase", "natural_language_command": "chisel a piece of stoone", "intent": "get", "game_command": "get stone"}
+{"location_name": "High Priest Chamber", "natural_language_command": "read the book", "intent": "examine", "game_command": "examine book"}
+{"location_name": "abandoned mine", "natural_language_command": "examine machinery", "intent": "examine", "game_command": "examine machinery"}
+{"location_name": "Church field", "natural_language_command": "knock over the table", "intent": "special", "game_command": "push table"}
+{"location_name": "the main chapel", "natural_language_command": "go towards the bell tower", "intent": "direction", "game_command": "go up"}
+{"location_name": "Geothermal Valley", "natural_language_command": "How far is the geothermal valley", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Tree of Spirits", "natural_language_command": "drop branch", "intent": "drop", "game_command": "drop branch"}
+{"location_name": "the country cottage", "natural_language_command": "Save the checkpoint", "intent": "save", "game_command": "save"}
+{"location_name": "Royal Bathroom", "natural_language_command": "save my progress", "intent": "save", "game_command": "save"}
+{"location_name": "a lonely island", "natural_language_command": "spec out tree", "intent": "examine", "game_command": "examine tree"}
+{"location_name": "Sacrifice Chamber", "natural_language_command": "search table", "intent": "examine", "game_command": "examine table"}
+{"location_name": "Small graveyard", "natural_language_command": "head to cottage", "intent": "direction", "game_command": "go north"}
+{"location_name": "Castle Armory", "natural_language_command": "end", "intent": "quit", "game_command": "quit"}
+{"location_name": "Troll's bridge", "natural_language_command": "head down", "intent": "direction", "game_command": "go south"}
+{"location_name": "Goddess Hollow", "natural_language_command": "lie in hammock", "intent": "direction", "game_command": "go up"}
+{"location_name": "Throne", "natural_language_command": "inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "South Castle", "natural_language_command": "leave game", "intent": "quit", "game_command": "quit"}
+{"location_name": "stained glass room", "natural_language_command": "I want to see how beautiful the art is", "intent": "examine", "game_command": "examine art"}
+{"location_name": "Main building", "natural_language_command": "exit game", "intent": "quit", "game_command": "quit"}
+{"location_name": "Priests Chambers", "natural_language_command": "exit the game", "intent": "quit", "game_command": "quit"}
+{"location_name": "Grand Ballroom", "natural_language_command": "look at the floor", "intent": "examine", "game_command": "examine floor"}
+{"location_name": "dungeon entrance", "natural_language_command": "save", "intent": "save", "game_command": "save"}
+{"location_name": "Main house", "natural_language_command": "north well", "intent": "direction", "game_command": "go north"}
+{"location_name": "the front altar", "natural_language_command": "describe the front altar", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Palace Entrance", "natural_language_command": "to throne", "intent": "direction", "game_command": "go north"}
+{"location_name": "tower spire", "natural_language_command": "end game", "intent": "quit", "game_command": "quit"}
+{"location_name": "Prayer chamber", "natural_language_command": "save game", "intent": "save", "game_command": "save"}
+{"location_name": "Weapon Closet", "natural_language_command": "Can I take weapons from the closet?", "intent": "redescribe", "game_command": "look"}
+{"location_name": "the clearing", "natural_language_command": "lay the sword down", "intent": "drop", "game_command": "drop sword"}
+{"location_name": "Underground Cavern", "natural_language_command": "melt the gold and mold it into a sword", "intent": "special", "game_command": "forge sword"}
+{"location_name": "Landing in the Foyer", "natural_language_command": "what am I carrying?", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Sacrificial altar", "natural_language_command": "take a piece of armor from storage", "intent": "get", "game_command": "get piece"}
+{"location_name": "Jail room", "natural_language_command": "What does the room smell like?", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Outside Temple", "natural_language_command": "pluck a flower", "intent": "get", "game_command": "get jasmine flower"}
+{"location_name": "Boat House", "natural_language_command": "toss the fish", "intent": "drop", "game_command": "drop fish"}
+{"location_name": "Large Galleon", "natural_language_command": "inspect the deck", "intent": "examine", "game_command": "examine deck"}
+{"location_name": "Outside Castle", "natural_language_command": "walk around the castle", "intent": "special", "game_command": "walk around"}
+{"location_name": "Bandit Lair", "natural_language_command": "head out then head back in. Save game and make bed", "intent": "sequence", "game_command": "go outside, go inside, save, special bed"}
+{"location_name": "The prayer room", "natural_language_command": "hang up the ornament", "intent": "special", "game_command": "hang ornament"}
+{"location_name": "Popes dormitory", "natural_language_command": "read the book", "intent": "examine", "game_command": "examine book"}
+{"location_name": "Fishing Pier", "natural_language_command": "go to the walkway", "intent": "direction", "game_command": "go north"}
+{"location_name": "Dungeon within a castle", "natural_language_command": "peek into the tunnel", "intent": "examine", "game_command": "examine tunnel"}
+{"location_name": "Armory", "natural_language_command": "look at the metal", "intent": "examine", "game_command": "examine piece"}
+{"location_name": "Murky water", "natural_language_command": "shoot the plants to reveal dangerous animals", "intent": "special", "game_command": "shoot plants"}
+{"location_name": "Church", "natural_language_command": "go to the graveyard", "intent": "direction", "game_command": "go south"}
+{"location_name": "Castle Kitchen", "natural_language_command": "up to sleeping quarters", "intent": "direction", "game_command": "go up"}
+{"location_name": "Within the King's Mansion", "natural_language_command": "climb to bedroom", "intent": "direction", "game_command": "go up"}
+{"location_name": "The Lagoon", "natural_language_command": "collect a lily pad from the water", "intent": "get", "game_command": "get lily pad"}
+{"location_name": "The Marketplace", "natural_language_command": "drop the ware", "intent": "drop", "game_command": "drop ware"}
+{"location_name": "Banquet Hall", "natural_language_command": "drop the candle", "intent": "drop", "game_command": "drop candle"}
+{"location_name": "The dungeon of test subjects", "natural_language_command": "exit", "intent": "quit", "game_command": "quit"}
+{"location_name": "The Marketplace", "natural_language_command": "burn down the stall", "intent": "special", "game_command": "burn stall"}
+{"location_name": "Wasteland Clearing", "natural_language_command": "close game", "intent": "quit", "game_command": "quit"}
+{"location_name": "the front altar", "natural_language_command": "pray at the alter", "intent": "special", "game_command": "pray alter"}
+{"location_name": "Boat House", "natural_language_command": "admire the decor", "intent": "special", "game_command": "admire decor"}
+{"location_name": "Loading Dock", "natural_language_command": "share a bottle of rum with priate and talk about your feelings", "intent": "special", "game_command": "befriend pirate"}
+{"location_name": "Jungle of the Beasts", "natural_language_command": "bag", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Dungeon within a castle", "natural_language_command": "Is there any light in the dungeon?", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Reception area", "natural_language_command": "head towards the royal graveyard", "intent": "direction", "game_command": "go west"}
+{"location_name": "Troll's bridge", "natural_language_command": "south", "intent": "direction", "game_command": "go south"}
+{"location_name": "The Lagoon", "natural_language_command": "drop lily pad and check special moss", "intent": "sequence", "game_command": "examine moss, drop lily pad, special moss"}
+{"location_name": "Bog", "natural_language_command": "Are the frogs poisonous", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Prison room", "natural_language_command": "drop the dirty bucket", "intent": "drop", "game_command": "drop bucket"}
+{"location_name": "The Marketplace", "natural_language_command": "investigate stall", "intent": "examine", "game_command": "examine stall"}
+{"location_name": "The Great Hall", "natural_language_command": "study the table", "intent": "examine", "game_command": "examine table"}
+{"location_name": "Royal Kitchen", "natural_language_command": "cook with pot", "intent": "special", "game_command": "use pot"}
+{"location_name": "Within the King's Mansion", "natural_language_command": "examine scent and then check inventory", "intent": "sequence", "game_command": "examine scent, inventory"}
+{"location_name": "sacristy", "natural_language_command": "save game", "intent": "save", "game_command": "save"}
+{"location_name": "Front of the Cottage", "natural_language_command": "put down the fur from the rack", "intent": "drop", "game_command": "drop fur"}
+{"location_name": "Rectory", "natural_language_command": "look through the bed", "intent": "examine", "game_command": "examine bed"}
+{"location_name": "ghost monastery", "natural_language_command": "quit", "intent": "quit", "game_command": "quit"}
+{"location_name": "Lower dungeon", "natural_language_command": "put down manacle", "intent": "drop", "game_command": "drop manacle"}
+{"location_name": "house entrance", "natural_language_command": "i", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Inside Church Back Row", "natural_language_command": "take set", "intent": "get", "game_command": "get set"}
+{"location_name": "Cave", "natural_language_command": "drop the bone on the ground", "intent": "drop", "game_command": "drop bone"}
+{"location_name": "Viewing room", "natural_language_command": "Pick up the box", "intent": "get", "game_command": "get box"}
+{"location_name": "Corn field", "natural_language_command": "Walk to the barn", "intent": "direction", "game_command": "go inside"}
+{"location_name": "Personal quarters", "natural_language_command": "drop the book", "intent": "drop", "game_command": "drop book"}
+{"location_name": "Torture Chamber", "natural_language_command": "do special shackle", "intent": "special", "game_command": "special shackle"}
+{"location_name": "scenic overlook", "natural_language_command": "inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Grand balcony", "natural_language_command": "desc balcony", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Town theater", "natural_language_command": "s", "intent": "save", "game_command": "save"}
+{"location_name": "Bathroom", "natural_language_command": "save game", "intent": "save", "game_command": "save"}
+{"location_name": "Training Fields", "natural_language_command": "go to the stables", "intent": "direction", "game_command": "go north"}
+{"location_name": "Tombstones of the Kings", "natural_language_command": "save the game, get the gold", "intent": "sequence", "game_command": "save, get gold"}
+{"location_name": "Clergyman's office", "natural_language_command": "Go outside", "intent": "direction", "game_command": "go outside"}
+{"location_name": "Garden", "natural_language_command": "drop the plants", "intent": "drop", "game_command": "drop plant"}
+{"location_name": "Royal Tomb", "natural_language_command": "D", "intent": "direction", "game_command": "go down"}
+{"location_name": "Great Armory", "natural_language_command": "get sword", "intent": "get", "game_command": "get sword"}
+{"location_name": "Entrance to church", "natural_language_command": "drop the moss", "intent": "drop", "game_command": "drop moss"}
+{"location_name": "Meadow", "natural_language_command": "I want the flower because it smells good", "intent": "get", "game_command": "get flower"}
+{"location_name": "Tower 2", "natural_language_command": "quit the game", "intent": "quit", "game_command": "quit"}
+{"location_name": "farmhouse", "natural_language_command": "quit game", "intent": "quit", "game_command": "quit"}
+{"location_name": "Inside the Unicorn palace", "natural_language_command": "Draw the rainbow", "intent": "special", "game_command": "draw rainbow"}
+{"location_name": "Entrance to the Pine trees", "natural_language_command": "take a branch from the tree", "intent": "get", "game_command": "get tree"}
+{"location_name": "Guard Shack", "natural_language_command": "drink water in the jug", "intent": "special", "game_command": "drink water"}
+{"location_name": "Front Row", "natural_language_command": "What is alter?", "intent": "examine", "game_command": "examine alter"}
+{"location_name": "Haunted Basement", "natural_language_command": "inspect solid", "intent": "examine", "game_command": "examine solid"}
+{"location_name": "A spiral staircase", "natural_language_command": "burn wall", "intent": "special", "game_command": "destroy wall"}
+{"location_name": "door", "natural_language_command": "save game", "intent": "save", "game_command": "save"}
+{"location_name": "Castle Maids' Room", "natural_language_command": "go down the stairs, check my bags, go down the stairs again, ring the bell and continue down", "intent": "sequence", "game_command": "go down, inventory, go down, special bell, go down"}
+{"location_name": "castle kitchen", "natural_language_command": "what food is in castle kitchen", "intent": "redescribe", "game_command": "look"}
+{"location_name": "kitchen", "natural_language_command": "up save down", "intent": "sequence", "game_command": "go up, save, go down"}
+{"location_name": "The prayer room", "natural_language_command": "stare at ornament", "intent": "examine", "game_command": "examine ornament"}
+{"location_name": "Echo Hall", "natural_language_command": "I want to get teh history", "intent": "get", "game_command": "get history"}
+{"location_name": "Bat room", "natural_language_command": "inspect paddles on the ground", "intent": "examine", "game_command": "examine paddle"}
+{"location_name": "The altar room", "natural_language_command": "check the flame", "intent": "examine", "game_command": "examine flame"}
+{"location_name": "Royal Kitchen", "natural_language_command": "examine pot", "intent": "examine", "game_command": "examine pot"}
+{"location_name": "Horse field", "natural_language_command": "check out horse", "intent": "examine", "game_command": "examine horse"}
+{"location_name": "The Dark Kings Throne Room", "natural_language_command": "dive", "intent": "direction", "game_command": "go down"}
+{"location_name": "Red river", "natural_language_command": "quit", "intent": "quit", "game_command": "quit"}
+{"location_name": "Lake", "natural_language_command": "put down water", "intent": "drop", "game_command": "drop water"}
+{"location_name": "Hunting grounds", "natural_language_command": "walk through the field", "intent": "examine", "game_command": "examine field"}
+{"location_name": "Haunted Orchard", "natural_language_command": "learn more about the haunted orchard", "intent": "redescribe", "game_command": "look"}
+{"location_name": "chamber entrance", "natural_language_command": "head outwards", "intent": "direction", "game_command": "go outside"}
+{"location_name": "Beside church entrance", "natural_language_command": "put the idol in backpack", "intent": "get", "game_command": "get idol"}
+{"location_name": "The Glade of Mysteries", "natural_language_command": "Spread the leaves out", "intent": "drop", "game_command": "drop leaves"}
+{"location_name": "The lords treasury", "natural_language_command": "count the money", "intent": "examine", "game_command": "examine rich"}
+{"location_name": "Fighting Arena inside Tourney Grounds", "natural_language_command": "x arena", "intent": "examine", "game_command": "examine arena"}
+{"location_name": "The Dark Kings Throne Room", "natural_language_command": "open inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Shrine of Sretniy", "natural_language_command": "examine statue", "intent": "examine", "game_command": "examine steel statue"}
+{"location_name": "The King's Quarters", "natural_language_command": "hold diamond up to the light", "intent": "examine", "game_command": "examine diamond"}
+{"location_name": "Horse's stables", "natural_language_command": "head toward the forest", "intent": "direction", "game_command": "go south"}
+{"location_name": "Garden", "natural_language_command": "eat plant", "intent": "special", "game_command": "eat plant"}
+{"location_name": "Priest's chambers", "natural_language_command": "exit", "intent": "quit", "game_command": "quit"}
+{"location_name": "Inside a desolate cave", "natural_language_command": "check the enchanted torch", "intent": "examine", "game_command": "examine enchanted torch"}
+{"location_name": "Courtyard exterior", "natural_language_command": "left", "intent": "direction", "game_command": "go east"}
+{"location_name": "Dining Hall", "natural_language_command": "sp candle", "intent": "special", "game_command": "special candle"}
+{"location_name": "Torture room", "natural_language_command": "wipe up the blood", "intent": "get", "game_command": "get blood"}
+{"location_name": "the whipping station", "natural_language_command": "look at the platform", "intent": "examine", "game_command": "examine platform"}
+{"location_name": "Marketplace", "natural_language_command": "gander at tool", "intent": "examine", "game_command": "examine tool"}
+{"location_name": "Moat", "natural_language_command": "inspect murky water", "intent": "examine", "game_command": "examine water"}
+{"location_name": "Paladins' Memorial Chapel", "natural_language_command": "take the rose", "intent": "get", "game_command": "get rose"}
+{"location_name": "Treasure Room", "natural_language_command": "go to castle kitchen", "intent": "direction", "game_command": "go east"}
+{"location_name": "farmhouse", "natural_language_command": "Enter the tool shed", "intent": "direction", "game_command": "go west"}
+{"location_name": "Palace Throne", "natural_language_command": "Drop the rock", "intent": "drop", "game_command": "drop precious stone"}
+{"location_name": "Dark Cave", "natural_language_command": "Drop the stone", "intent": "drop", "game_command": "drop stone"}
+{"location_name": "The forest", "natural_language_command": "What kind of animals live here?", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Boats", "natural_language_command": "check bag", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Guards quarters", "natural_language_command": "go down to the tower", "intent": "direction", "game_command": "go down"}
+{"location_name": "Outside gates", "natural_language_command": "So who resides here then?", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Paladins' Memorial Chapel", "natural_language_command": "pick rose", "intent": "get", "game_command": "get rose"}
+{"location_name": "Basement", "natural_language_command": "end the game", "intent": "quit", "game_command": "quit"}
+{"location_name": "Guard Shack", "natural_language_command": "drop the water jug", "intent": "drop", "game_command": "drop jug"}
+{"location_name": "The Hall of the Goddess", "natural_language_command": "leave hall", "intent": "direction", "game_command": "go outside"}
+{"location_name": "Bed Chambers", "natural_language_command": "observe chair", "intent": "examine", "game_command": "examine chair"}
+{"location_name": "Lava Lake", "natural_language_command": "Haul the rock", "intent": "get", "game_command": "get rock"}
+{"location_name": "Secret Tunnel", "natural_language_command": "enter dungeon", "intent": "direction", "game_command": "go inside"}
+{"location_name": "Reaper's lair", "natural_language_command": "special lock", "intent": "special", "game_command": "sp lock"}
+{"location_name": "Princess' Chamber", "natural_language_command": "fold the quilt, use a rope to tile it up, put in my bag", "intent": "get", "game_command": "get quilt"}
+{"location_name": "Goat yard", "natural_language_command": "quit the game", "intent": "quit", "game_command": "quit"}
+{"location_name": "Inside the king's palace", "natural_language_command": "exam food", "intent": "examine", "game_command": "examine food"}
+{"location_name": "Next to an Altar", "natural_language_command": "get ruby", "intent": "get", "game_command": "get ruby"}
+{"location_name": "Outside tower", "natural_language_command": "I want to get some weapons from the arsenal", "intent": "direction", "game_command": "go north"}
+{"location_name": "Riverbed", "natural_language_command": "gather mud", "intent": "get", "game_command": "get mud"}
+{"location_name": "Infernal Valley", "natural_language_command": "what do i have in my inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Treasure Room", "natural_language_command": "bite the gold to make sure it is real", "intent": "special", "game_command": "test gold"}
+{"location_name": "Lakeside House", "natural_language_command": "go into the house", "intent": "direction", "game_command": "go inside"}
+{"location_name": "tool shed", "natural_language_command": "pick up hoe", "intent": "get", "game_command": "get hoe"}
+{"location_name": "prison room", "natural_language_command": "bag the skeleton", "intent": "get", "game_command": "get skeleton"}
+{"location_name": "bone pit", "natural_language_command": "Lay down the spikes", "intent": "drop", "game_command": "drop spike"}
+{"location_name": "Firewood Forest", "natural_language_command": "place the wood in the fire pit", "intent": "drop", "game_command": "drop wood"}
+{"location_name": "Beyond the Wall", "natural_language_command": "inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "The prayer room", "natural_language_command": "Examine the ornament and save the game", "intent": "sequence", "game_command": "special ornament, save, examine ornament"}
+{"location_name": "Alchemists Lab", "natural_language_command": "Go to the alchemists bedroom", "intent": "direction", "game_command": "go down"}
+{"location_name": "The prayer room", "natural_language_command": "grab the ornament", "intent": "get", "game_command": "get ornament"}
+{"location_name": "Beach House", "natural_language_command": "go to the House entrance", "intent": "direction", "game_command": "go north"}
+{"location_name": "The Thrones of Death", "natural_language_command": "Mount a statue on the pedestal", "intent": "special", "game_command": "mount statue"}
+{"location_name": "Castle farm", "natural_language_command": "look at grains", "intent": "examine", "game_command": "examine grain"}
+{"location_name": "Lower dungeon", "natural_language_command": "I want to go up", "intent": "direction", "game_command": "go up"}
+{"location_name": "The Glade of Mysteries", "natural_language_command": "go towards the river of memories", "intent": "direction", "game_command": "go east"}
+{"location_name": "The forest", "natural_language_command": "cut the plant with my sword", "intent": "get", "game_command": "get plant"}
+{"location_name": "Pig Pen", "natural_language_command": "put down mud", "intent": "drop", "game_command": "drop mud"}
+{"location_name": "Tower Sewers", "natural_language_command": "create checkpoint", "intent": "save", "game_command": "save"}
+{"location_name": "Next to an Altar", "natural_language_command": "touch the altar", "intent": "examine", "game_command": "examine altar"}
+{"location_name": "Old Crypt", "natural_language_command": "carve stone", "intent": "special", "game_command": "carve stone"}
+{"location_name": "Castle farm", "natural_language_command": "exit", "intent": "quit", "game_command": "quit"}
+{"location_name": "Outside tower", "natural_language_command": "DO SOMETHING SPECIAL WITH the WALL", "intent": "special", "game_command": "break wall"}
+{"location_name": "church coat room", "natural_language_command": "leave here", "intent": "direction", "game_command": "go west"}
+{"location_name": "the spring bath", "natural_language_command": "i", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Underground Cavern", "natural_language_command": "pick up gold", "intent": "examine", "game_command": "examine gold"}
+{"location_name": "Astral plane", "natural_language_command": "go to lair", "intent": "direction", "game_command": "go inside"}
+{"location_name": "crew berthing", "natural_language_command": "move towards pirate ship", "intent": "direction", "game_command": "go up"}
+{"location_name": "Secret Tunnel", "natural_language_command": "what are the five different rooms that can be accessed through the secret tunnel", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Sacrificial altar", "natural_language_command": "Worship the statue", "intent": "special", "game_command": "worship statue"}
+{"location_name": "Grand hall of the City", "natural_language_command": "go through the door", "intent": "direction", "game_command": "go inside"}
+{"location_name": "Royal Tomb", "natural_language_command": "look at tomb", "intent": "special", "game_command": "see tomb"}
+{"location_name": "Lord's Castle", "natural_language_command": "fly on top of the cliffs", "intent": "special", "game_command": "fly to top"}
+{"location_name": "The upper chamber", "natural_language_command": "save my progress", "intent": "save", "game_command": "save"}
+{"location_name": "Bed Chambers", "natural_language_command": "go eastward", "intent": "direction", "game_command": "go east"}
+{"location_name": "Stable", "natural_language_command": "go towards the peasant living quarters", "intent": "direction", "game_command": "go west"}
+{"location_name": "garden", "natural_language_command": "lets quit", "intent": "quit", "game_command": "quit"}
+{"location_name": "The Glade of Mysteries", "natural_language_command": "look at trees", "intent": "examine", "game_command": "examine trees"}
+{"location_name": "Storage room", "natural_language_command": "describe table", "intent": "examine", "game_command": "examine table"}
+{"location_name": "The Chapel", "natural_language_command": "i want to save", "intent": "save", "game_command": "save"}
+{"location_name": "Toad Hollow", "natural_language_command": "I want to look at the pipe and do something special about it. I want to go outside then go inside. Wait, actually go outside again.", "intent": "sequence", "game_command": "examine pipe, special pipe, go outside, go inside, go outside"}
+{"location_name": "Dining hall", "natural_language_command": "take the place mat", "intent": "get", "game_command": "get place mat"}
+{"location_name": "Large Galleon", "natural_language_command": "pour the tar out", "intent": "drop", "game_command": "drop tar"}
+{"location_name": "Castle farm", "natural_language_command": "stuff pockets full of grain", "intent": "get", "game_command": "get grain"}
+{"location_name": "Island", "natural_language_command": "sp moss", "intent": "special", "game_command": "special command moss"}
+{"location_name": "Docks", "natural_language_command": "what am I carrying", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "A wet dungeon", "natural_language_command": "how does the moss look", "intent": "examine", "game_command": "examine moss"}
+{"location_name": "Fishing Store", "natural_language_command": "check fishing store", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Stable", "natural_language_command": "save progreess", "intent": "save", "game_command": "save"}
+{"location_name": "The prayer room", "natural_language_command": "look closer at ornament", "intent": "examine", "game_command": "examine ornament"}
+{"location_name": "Hilltop temple grounds", "natural_language_command": "pick a plant", "intent": "get", "game_command": "get plant"}
+{"location_name": "Tool Shed", "natural_language_command": "get hook and go east, save and go west", "intent": "sequence", "game_command": "get hook, go east, save, go west"}
+{"location_name": "Slave quarters", "natural_language_command": "Can I help the slaves escape?", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Treasure room", "natural_language_command": "inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Main street", "natural_language_command": "where is main street", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Tower Sewers", "natural_language_command": "pick up bone", "intent": "get", "game_command": "get bone"}
+{"location_name": "Adjacent to the Guest Castle", "natural_language_command": "leave the horse here", "intent": "drop", "game_command": "drop horse"}
+{"location_name": "Brim canal", "natural_language_command": "catch the fish", "intent": "get", "game_command": "get fish"}
+{"location_name": "Dining Hall", "natural_language_command": "Look at the candles", "intent": "examine", "game_command": "examine candle"}
+{"location_name": "the bedding room", "natural_language_command": "to east temple", "intent": "direction", "game_command": "go inside"}
+{"location_name": "Faery Bath", "natural_language_command": "i want to quit", "intent": "quit", "game_command": "quit"}
+{"location_name": "In Front of a Stone Tower", "natural_language_command": "pull out the block", "intent": "get", "game_command": "get block"}
+{"location_name": "The armory", "natural_language_command": "put down the weapon on the rack", "intent": "drop", "game_command": "drop weapon"}
+{"location_name": "Lord's Castle", "natural_language_command": "how old is lord's castle", "intent": "redescribe", "game_command": "look"}
+{"location_name": "The King's Quarters", "natural_language_command": "take the diamond", "intent": "get", "game_command": "get diamond"}
+{"location_name": "Dock", "natural_language_command": "go inside boat house", "intent": "direction", "game_command": "go inside"}
+{"location_name": "Toad Hollow", "natural_language_command": "leave toad hollow and go outside", "intent": "direction", "game_command": "go outside"}
+{"location_name": "acid sea", "natural_language_command": "display my inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "whipping chamber", "natural_language_command": "enter whip room", "intent": "direction", "game_command": "go inside"}
+{"location_name": "Dining Hall", "natural_language_command": "grab the handmade rug", "intent": "get", "game_command": "get rug"}
+{"location_name": "Paladins' Memorial Chapel", "natural_language_command": "Quit", "intent": "quit", "game_command": "quit"}
+{"location_name": "Privy room", "natural_language_command": "sit by the table", "intent": "special", "game_command": "use table"}
+{"location_name": "The King's Quarters", "natural_language_command": "Pry the diamond off the furnitures", "intent": "special", "game_command": "pry diamond off"}
+{"location_name": "cerf castle", "natural_language_command": "check inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "The Ball Room", "natural_language_command": "go to the picture gallery", "intent": "direction", "game_command": "go west"}
+{"location_name": "Royal stables", "natural_language_command": "inspect the tool", "intent": "examine", "game_command": "examine tool"}
+{"location_name": "Faeries Den", "natural_language_command": "activate things", "intent": "special", "game_command": "go things"}
+{"location_name": "waterfall", "natural_language_command": "check items", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Princess' Chamber", "natural_language_command": "examine bed", "intent": "examine", "game_command": "examine bed"}
+{"location_name": "Viewing room", "natural_language_command": "drop the box", "intent": "drop", "game_command": "drop box"}
+{"location_name": "Jail entrance", "natural_language_command": "save", "intent": "save", "game_command": "save"}
+{"location_name": "Nursery", "natural_language_command": "steal painting", "intent": "get", "game_command": "get painting"}
+{"location_name": "Curved Hallway", "natural_language_command": "describe the curved hallway", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Dark Cave", "natural_language_command": "look at the stone", "intent": "examine", "game_command": "examine stone"}
+{"location_name": "Lava Lake", "natural_language_command": "get rock", "intent": "get", "game_command": "get rock"}
+{"location_name": "Hillside Manor", "natural_language_command": "look around the manor", "intent": "examine", "game_command": "examine manor"}
+{"location_name": "The Inside Temple", "natural_language_command": "Exit game", "intent": "quit", "game_command": "quit"}
+{"location_name": "Troll's bridge", "natural_language_command": "check inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "mysterious forest outskirts", "natural_language_command": "put the food back", "intent": "drop", "game_command": "drop food"}
+{"location_name": "Church field", "natural_language_command": "Inspect the table", "intent": "examine", "game_command": "examine table"}
+{"location_name": "pier walkway", "natural_language_command": "E", "intent": "quit", "game_command": "quit"}
+{"location_name": "Outside Castle", "natural_language_command": "look around castle", "intent": "examine", "game_command": "examine castle"}
+{"location_name": "The Inside Temple", "natural_language_command": "x the statue", "intent": "examine", "game_command": "examine statue"}
+{"location_name": "A wooded magical village", "natural_language_command": "drop the vine", "intent": "drop", "game_command": "drop vine"}
+{"location_name": "Royal Kitchen", "natural_language_command": "down", "intent": "direction", "game_command": "go down"}
+{"location_name": "A cursed grave", "natural_language_command": "drop the bones", "intent": "drop", "game_command": "drop bone"}
+{"location_name": "The living quarters", "natural_language_command": "take some food", "intent": "get", "game_command": "get meal"}
+{"location_name": "Castle farm", "natural_language_command": "drop grain, go inside, go outside, special grain", "intent": "sequence", "game_command": "examine grain, drop grain, go inside, go outside, special grain"}
+{"location_name": "The Moon Observatory", "natural_language_command": "create a checkpoint here", "intent": "save", "game_command": "save"}
+{"location_name": "Faeries Den", "natural_language_command": "drop the things", "intent": "drop", "game_command": "drop things"}
+{"location_name": "Gold Mine", "natural_language_command": "describe the gold mine", "intent": "redescribe", "game_command": "look"}
+{"location_name": "path in forest", "natural_language_command": "go back to the trail entrance", "intent": "direction", "game_command": "go north"}
+{"location_name": "Woods", "natural_language_command": "visit lake", "intent": "direction", "game_command": "go north"}
+{"location_name": "Tree of Spirits", "natural_language_command": "survey the branch", "intent": "examine", "game_command": "examine branch"}
+{"location_name": "Fighting Arena inside Tourney Grounds", "natural_language_command": "take emblem", "intent": "get", "game_command": "get emblem"}
+{"location_name": "Courtyard", "natural_language_command": "head in", "intent": "direction", "game_command": "go inside"}
+{"location_name": "Sacrifice Chamber", "natural_language_command": "grab bones", "intent": "get", "game_command": "get bone"}
+{"location_name": "Dragon Lift", "natural_language_command": "look aground the building and see what i have", "intent": "sequence", "game_command": "examine building, inventory"}
+{"location_name": "Bell Tower", "natural_language_command": "let go of the bell", "intent": "drop", "game_command": "drop bell"}
+{"location_name": "Entrance", "natural_language_command": "head out", "intent": "direction", "game_command": "go outside"}
+{"location_name": "Trailhead", "natural_language_command": "i", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Small graveyard", "natural_language_command": "check out tree", "intent": "examine", "game_command": "examine tree"}
+{"location_name": "Never ending beach", "natural_language_command": "end", "intent": "quit", "game_command": "quit"}
+{"location_name": "stained glass room", "natural_language_command": "what does the art look like", "intent": "examine", "game_command": "examine art"}
+{"location_name": "royal farm", "natural_language_command": "which animals are farmed", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Royal Gardens", "natural_language_command": "north", "intent": "direction", "game_command": "go north"}
+{"location_name": "Servant's Quarters", "natural_language_command": "look at silverware", "intent": "examine", "game_command": "examine silverware"}
+{"location_name": "Small graveyard", "natural_language_command": "go westward", "intent": "direction", "game_command": "go west"}
+{"location_name": "weathered shack", "natural_language_command": "collect tile", "intent": "get", "game_command": "get tile"}
+{"location_name": "Horse stables", "natural_language_command": "lift a stone", "intent": "get", "game_command": "get stone"}
+{"location_name": "Horse's stables", "natural_language_command": "leave the stables and approach the forest", "intent": "direction", "game_command": "go south"}
+{"location_name": "weathered shack", "natural_language_command": "fix the tile", "intent": "special", "game_command": "fix shack"}
+{"location_name": "Elf's room", "natural_language_command": "tell me more about the elf's room", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Attic", "natural_language_command": "stop it", "intent": "quit", "game_command": "quit"}
+{"location_name": "Training Fields", "natural_language_command": "engage apparatus", "intent": "special", "game_command": "engage apparatus"}
+{"location_name": "Grand Ballroom", "natural_language_command": "climb up the dining hall", "intent": "direction", "game_command": "go up"}
+{"location_name": "Training Fields", "natural_language_command": "look at apparatus, get and drop bail, the look at my inventory", "intent": "sequence", "game_command": "examine apparatus, get bail, drop bail, inventory"}
+{"location_name": "Rectory", "natural_language_command": "Just drop the wood", "intent": "drop", "game_command": "drop wood"}
+{"location_name": "The haunted shrine", "natural_language_command": "i dont want to play anymore", "intent": "quit", "game_command": "quit"}
+{"location_name": "Netherworld Volcano", "natural_language_command": "quit the game", "intent": "quit", "game_command": "quit"}
+{"location_name": "The Ghost Trail", "natural_language_command": "travel east", "intent": "direction", "game_command": "go east"}
+{"location_name": "temple hallway", "natural_language_command": "quit", "intent": "quit", "game_command": "quit"}
+{"location_name": "Torture Room", "natural_language_command": "go north with special shackle", "intent": "sequence", "game_command": "special shackle, go north, inventory, go south, go north"}
+{"location_name": "Great Armory", "natural_language_command": "take the sword", "intent": "get", "game_command": "get sword"}
+{"location_name": "The Docks", "natural_language_command": "examine the ship", "intent": "examine", "game_command": "examine ship"}
+{"location_name": "Turquoise Shore", "natural_language_command": "down the shore", "intent": "direction", "game_command": "go down"}
+{"location_name": "Elf's room", "natural_language_command": "save my game, set down the lantern, pick it up again, check my inventory, light the lantern", "intent": "sequence", "game_command": "save, drop lantern, get lantern, inventory, special lantern"}
+{"location_name": "Coast", "natural_language_command": "fill bottle with water", "intent": "get", "game_command": "get water"}
+{"location_name": "Courtyard", "natural_language_command": "I want to admire the statue", "intent": "special", "game_command": "admire statue"}
+{"location_name": "Outside Castle", "natural_language_command": "look closer at castle", "intent": "examine", "game_command": "examine castle"}
+{"location_name": "Firewood Forest", "natural_language_command": "acquire the wood", "intent": "get", "game_command": "get wood"}
+{"location_name": "tool shed", "natural_language_command": "examine the hoe", "intent": "special", "game_command": "examine hoe"}
+{"location_name": "Horse field", "natural_language_command": "show horse field", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Entrance to church", "natural_language_command": "get into the weed", "intent": "examine", "game_command": "examine weed"}
+{"location_name": "Large cliffs", "natural_language_command": "head to beach", "intent": "direction", "game_command": "go south"}
+{"location_name": "Entrance", "natural_language_command": "Place the shrub on the ground", "intent": "drop", "game_command": "drop shrub"}
+{"location_name": "The Lower Dungeon Guard Room", "natural_language_command": "use manical", "intent": "special", "game_command": "use manical"}
+{"location_name": "Horse field", "natural_language_command": "east", "intent": "direction", "game_command": "go east"}
+{"location_name": "Devil's Den", "natural_language_command": "drop skull", "intent": "drop", "game_command": "drop skull"}
+{"location_name": "Temple courtyard", "natural_language_command": "replace the cloth", "intent": "drop", "game_command": "drop cloth"}
+{"location_name": "Torture equipment storage room", "natural_language_command": "go to torture room", "intent": "direction", "game_command": "go north"}
+{"location_name": "castle exit", "natural_language_command": "i'm hungry - let's get something to eat!", "intent": "direction", "game_command": "go north"}
+{"location_name": "Loading Dock", "natural_language_command": "observe the pirate", "intent": "examine", "game_command": "examine pirate"}
+{"location_name": "whipping chamber", "natural_language_command": "get stone", "intent": "get", "game_command": "get stone"}
+{"location_name": "The kings palace", "natural_language_command": "backpack", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Slave quarters", "natural_language_command": "list inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Bathroom", "natural_language_command": "put down linen", "intent": "drop", "game_command": "drop linen"}
+{"location_name": "stables", "natural_language_command": "save progress", "intent": "save", "game_command": "save"}
+{"location_name": "mess hall of the servants", "natural_language_command": "Have dinner on the table", "intent": "special", "game_command": "have dinner"}
+{"location_name": "The old red barn", "natural_language_command": "drop the hay", "intent": "drop", "game_command": "drop hay"}
+{"location_name": "Fountain of Youth", "natural_language_command": "what do I have", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Inside the Unicorn palace", "natural_language_command": "go south and save", "intent": "sequence", "game_command": "go south, go north, go south, save"}
+{"location_name": "Barn", "natural_language_command": "drop hay", "intent": "drop", "game_command": "drop hay"}
+{"location_name": "Tree of Spirits", "natural_language_command": "pick branch", "intent": "special", "game_command": "pick branch"}
+{"location_name": "Underwater Marketplace", "natural_language_command": "get flag", "intent": "get", "game_command": "get flag"}
+{"location_name": "Entrance to church", "natural_language_command": "store the moss", "intent": "get", "game_command": "get moss"}
+{"location_name": "Priest's Chambers", "natural_language_command": "end game", "intent": "quit", "game_command": "quit"}
+{"location_name": "the acid yard", "natural_language_command": "go to the bone pit", "intent": "direction", "game_command": "go south"}
+{"location_name": "Palace Entrance", "natural_language_command": "record progress", "intent": "save", "game_command": "save"}
+{"location_name": "Princess' Chamber", "natural_language_command": "describe all sequence", "intent": "sequence", "game_command": "examine bed, get quilt, go down, examine book"}
+{"location_name": "scenic overlook", "natural_language_command": "pick wildflowers", "intent": "get", "game_command": "get wildflower"}
+{"location_name": "Marketplace", "natural_language_command": "put the tool in my pocket", "intent": "get", "game_command": "get tool"}
+{"location_name": "The confession Box", "natural_language_command": "I want to sit on the seat", "intent": "special", "game_command": "sit down"}
+{"location_name": "Castle Kitchen", "natural_language_command": "look at the rack and start daydreaming", "intent": "special", "game_command": "look at rack"}
+{"location_name": "The Fountain of Youth", "natural_language_command": "go west then go east then go west", "intent": "sequence", "game_command": "go west, go east, go west"}
+{"location_name": "Hall of echoes", "natural_language_command": "go inside temple", "intent": "direction", "game_command": "go inside"}
+{"location_name": "Show Room", "natural_language_command": "check what I have", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Castle farm", "natural_language_command": "drop the grain", "intent": "drop", "game_command": "drop grain"}
+{"location_name": "Paladins' Memorial Chapel", "natural_language_command": "put down the white rose", "intent": "drop", "game_command": "drop rose"}
+{"location_name": "Beside temple entrance", "natural_language_command": "examine stone, examine stone again, drop stone, save", "intent": "sequence", "game_command": "examine stone, examine stone, drop stone, save"}
+{"location_name": "Adjacent to the Guest Castle", "natural_language_command": "touch the horse", "intent": "examine", "game_command": "examine horse"}
+{"location_name": "Quicksand Pit", "natural_language_command": "Drop the bush", "intent": "drop", "game_command": "drop shrub"}
+{"location_name": "the throne", "natural_language_command": "check the daimond", "intent": "examine", "game_command": "examine daimond"}
+{"location_name": "Trailhead", "natural_language_command": "go inside", "intent": "direction", "game_command": "go inside"}
+{"location_name": "main prayer room", "natural_language_command": "Go to the office", "intent": "direction", "game_command": "go north"}
+{"location_name": "Castle farm", "natural_language_command": "drop the grains", "intent": "drop", "game_command": "drop grain"}
+{"location_name": "wizards dragon egg incubatory", "natural_language_command": "continue west", "intent": "direction", "game_command": "go west"}
+{"location_name": "Underwater Marketplace", "natural_language_command": "go to the fishing stand", "intent": "direction", "game_command": "go west"}
+{"location_name": "An Unfinished Mausoleum", "natural_language_command": "break wall", "intent": "special", "game_command": "take down wall"}
+{"location_name": "Top floor of palace", "natural_language_command": "Where is the palace", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Beside temple entrance", "natural_language_command": "look at special stone, get the stone twice, drop the stone, then try examining the stone", "intent": "sequence", "game_command": "special stone, get stone, get stone, drop stone, examine stone"}
+{"location_name": "Garden", "natural_language_command": "do special plant", "intent": "special", "game_command": "special plant"}
+{"location_name": "Dark Cave", "natural_language_command": "drop the stone", "intent": "drop", "game_command": "drop stone"}
+{"location_name": "path in forest", "natural_language_command": "grab the bone", "intent": "get", "game_command": "get bone"}
+{"location_name": "Lighthouse", "natural_language_command": "Go to the dock then head north before saving the game and then open my inventory", "intent": "sequence", "game_command": "examine ship, go west, go north, save, inventory"}
+{"location_name": "Inside the temple", "natural_language_command": "up", "intent": "direction", "game_command": "go north"}
+{"location_name": "Murky water", "natural_language_command": "inspect the plant", "intent": "examine", "game_command": "examine plant"}
+{"location_name": "Decoration shop", "natural_language_command": "look at inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Dock", "natural_language_command": "Ride the boat", "intent": "special", "game_command": "ride boat"}
+{"location_name": "A wooded magical village", "natural_language_command": "check inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Closet", "natural_language_command": "save where I'm", "intent": "save", "game_command": "save"}
+{"location_name": "The Lower Dungeon Guard Room", "natural_language_command": "Examine the cuffs and go to the lower cells", "intent": "sequence", "game_command": "special manical, go down"}
+{"location_name": "kitchen", "natural_language_command": "examine smell", "intent": "examine", "game_command": "examine smell"}
+{"location_name": "Elf's room", "natural_language_command": "I want to grab the lantern", "intent": "get", "game_command": "get lantern"}
+{"location_name": "An Unfinished Mausoleum", "natural_language_command": "look at wall, then head west and check inventory before saving game", "intent": "sequence", "game_command": "special wall, examine wall, go west, inventory, save"}
+{"location_name": "tool shed", "natural_language_command": "enter the farmhouse", "intent": "direction", "game_command": "go east"}
+{"location_name": "Island", "natural_language_command": "throw moss in lake", "intent": "special", "game_command": "throw moss"}
+{"location_name": "Royal Gardens", "natural_language_command": "go to cerf castle", "intent": "direction", "game_command": "go east"}
+{"location_name": "Armory", "natural_language_command": "bag", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Reaper's lair", "natural_language_command": "get the lock", "intent": "get", "game_command": "get lock"}
+{"location_name": "The Winter Gardens", "natural_language_command": "look at flower, go to castle, save", "intent": "sequence", "game_command": "examine flower, examine flower, go north, save"}
+{"location_name": "High Priest Chamber", "natural_language_command": "read the book", "intent": "special", "game_command": "read book"}
+{"location_name": "Observatory", "natural_language_command": "stop using the telescope", "intent": "drop", "game_command": "drop telescope"}
+{"location_name": "Primary Cave", "natural_language_command": "head to the west", "intent": "direction", "game_command": "go west"}
+{"location_name": "grassy plains", "natural_language_command": "inspect flower", "intent": "examine", "game_command": "examine flower"}
+{"location_name": "The prayer room", "natural_language_command": "inside castle", "intent": "direction", "game_command": "go inside"}
+{"location_name": "Dungeon", "natural_language_command": "carefully pick up the instrument", "intent": "examine", "game_command": "examine torture instrument"}
+{"location_name": "stable hand's quarters", "natural_language_command": "north", "intent": "direction", "game_command": "go north"}
+{"location_name": "Church pew", "natural_language_command": "exit please", "intent": "quit", "game_command": "quit"}
+{"location_name": "Enchanted light house", "natural_language_command": "save the game", "intent": "save", "game_command": "save"}
+{"location_name": "high priest chamber", "natural_language_command": "leave game", "intent": "quit", "game_command": "quit"}
+{"location_name": "Torture Chamber", "natural_language_command": "grab shackles", "intent": "get", "game_command": "get shackle"}
+{"location_name": "Dining Hall", "natural_language_command": "examine candle first, get special candle, go west, go inside, go west", "intent": "sequence", "game_command": "examine candle, special candle, go west, go inside, go west"}
+{"location_name": "Rectory", "natural_language_command": "examine the bed", "intent": "examine", "game_command": "examine bed"}
+{"location_name": "Princess' Library", "natural_language_command": "Head south to the north tower", "intent": "direction", "game_command": "go down"}
+{"location_name": "mysterious forest outskirts", "natural_language_command": "look at the food and head east", "intent": "sequence", "game_command": "examine food, go east"}
+{"location_name": "Next to an Altar", "natural_language_command": "let go of the ruby", "intent": "drop", "game_command": "drop ruby"}
+{"location_name": "King's chambers", "natural_language_command": "go to the queen's room", "intent": "direction", "game_command": "go south"}
+{"location_name": "Shipyard", "natural_language_command": "save", "intent": "save", "game_command": "save"}
+{"location_name": "Launching point", "natural_language_command": "walk to dock", "intent": "direction", "game_command": "go south"}
+{"location_name": "Inside the king's palace", "natural_language_command": "Head to the king", "intent": "direction", "game_command": "go north"}
+{"location_name": "Interrogation room", "natural_language_command": "tell me what i have", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "the front altar", "natural_language_command": "what about the alter", "intent": "examine", "game_command": "examine alter"}
+{"location_name": "Armory", "natural_language_command": "go to storeroom", "intent": "direction", "game_command": "go inside"}
+{"location_name": "Bell Tower", "natural_language_command": "enter chapel", "intent": "direction", "game_command": "go down"}
+{"location_name": "Iconostasis", "natural_language_command": "describe ICONOSTASIS", "intent": "redescribe", "game_command": "look"}
+{"location_name": "cavern", "natural_language_command": "go down", "intent": "direction", "game_command": "go down"}
+{"location_name": "Hunting grounds", "natural_language_command": "examine the grass", "intent": "examine", "game_command": "examine field"}
+{"location_name": "The confession Box", "natural_language_command": "examine seat", "intent": "examine", "game_command": "examine seat"}
+{"location_name": "Armory", "natural_language_command": "exit", "intent": "quit", "game_command": "quit"}
+{"location_name": "Boat House", "natural_language_command": "rearrange the decor", "intent": "special", "game_command": "rearrange decor"}
+{"location_name": "The tower base", "natural_language_command": "examine and pick up torch", "intent": "sequence", "game_command": "examine torch, get torch, examine torch"}
+{"location_name": "the clearing", "natural_language_command": "do special sword", "intent": "special", "game_command": "special sword"}
+{"location_name": "the village of Tamerak", "natural_language_command": "save game", "intent": "save", "game_command": "save"}
+{"location_name": "rat den", "natural_language_command": "leave den", "intent": "direction", "game_command": "go outside"}
+{"location_name": "Outside Temple", "natural_language_command": "get Jasmine flower twice, and save the game", "intent": "sequence", "game_command": "get jasmine flower, get jasmine flower, save"}
+{"location_name": "Kings Bed Room", "natural_language_command": "look at the kings bed", "intent": "examine", "game_command": "examine bed"}
+{"location_name": "Castle", "natural_language_command": "exam the candle", "intent": "examine", "game_command": "examine candle"}
+{"location_name": "The Thrones of Death", "natural_language_command": "do special pedestal", "intent": "special", "game_command": "special pedestal"}
+{"location_name": "In Front of a Stone Tower", "natural_language_command": "go north, save, go south, drop block, and then go north", "intent": "sequence", "game_command": "go north, save, go south, drop block, go north"}
+{"location_name": "Master Bedroom", "natural_language_command": "library", "intent": "direction", "game_command": "go west"}
+{"location_name": "Toad Hollow", "natural_language_command": "go to helma's bakery", "intent": "direction", "game_command": "go outside"}
+{"location_name": "Confessional Room", "natural_language_command": "examine the table", "intent": "examine", "game_command": "examine table"}
+{"location_name": "The Hall of the Goddess", "natural_language_command": "put down the money", "intent": "drop", "game_command": "drop money"}
+{"location_name": "Temple gardens", "natural_language_command": "x spring", "intent": "examine", "game_command": "examine small water spring"}
+{"location_name": "Nursery", "natural_language_command": "grab the painting", "intent": "get", "game_command": "get painting"}
+{"location_name": "Fishermen's Fountain", "natural_language_command": "i want to check my inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "mushroom room", "natural_language_command": "save progress", "intent": "save", "game_command": "save"}
+{"location_name": "Front Gate", "natural_language_command": "inspect inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Underwater Marketplace", "natural_language_command": "quit", "intent": "quit", "game_command": "quit"}
+{"location_name": "patio", "natural_language_command": "store", "intent": "save", "game_command": "save"}
+{"location_name": "Stonehenge", "natural_language_command": "east", "intent": "direction", "game_command": "go east"}
+{"location_name": "Next to an Altar", "natural_language_command": "examine altar", "intent": "sequence", "game_command": "go south, go north, examine altar, examine altar"}
+{"location_name": "Hillside Manor", "natural_language_command": "Go inside the manor", "intent": "special", "game_command": "enter manor"}
+{"location_name": "The forest", "natural_language_command": "check the brown plant", "intent": "examine", "game_command": "examine plant"}
+{"location_name": "main castle doors", "natural_language_command": "head to the cottage", "intent": "direction", "game_command": "go north"}
+{"location_name": "Cottage", "natural_language_command": "Bring me to the small graveyyard", "intent": "direction", "game_command": "go south"}
+{"location_name": "Meditation room", "natural_language_command": "what is in the room", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Witch's House", "natural_language_command": "what do i have?", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Small graveyard", "natural_language_command": "Are there zombies?", "intent": "redescribe", "game_command": "look"}
+{"location_name": "The Thrones of Death", "natural_language_command": "step on pedestal", "intent": "special", "game_command": "climb pedestal"}
+{"location_name": "The living quarters", "natural_language_command": "Go the the chicken coop", "intent": "direction", "game_command": "go south"}
+{"location_name": "The Sacred Temple", "natural_language_command": "Look at the window", "intent": "examine", "game_command": "examine window"}
+{"location_name": "Stable", "natural_language_command": "go north", "intent": "direction", "game_command": "go north"}
+{"location_name": "Church Entryway", "natural_language_command": "Get the bench", "intent": "get", "game_command": "get bench"}
+{"location_name": "Lava Lake", "natural_language_command": "go to volcano", "intent": "direction", "game_command": "go north"}
+{"location_name": "Balcony", "natural_language_command": "inside", "intent": "direction", "game_command": "go inside"}
+{"location_name": "Bandit Lair", "natural_language_command": "let me out", "intent": "quit", "game_command": "quit"}
+{"location_name": "The Lagoon", "natural_language_command": "see moss", "intent": "examine", "game_command": "examine moss"}
+{"location_name": "Horse's stables", "natural_language_command": "get on the horse", "intent": "special", "game_command": "ride horse"}
+{"location_name": "the high courtroom", "natural_language_command": "open inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Cave entrance", "natural_language_command": "show inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Haunted Orchard", "natural_language_command": "desc haunted orchard", "intent": "redescribe", "game_command": "look"}
+{"location_name": "The dungeon", "natural_language_command": "learn more about the dungeon", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Bell Tower", "natural_language_command": "gently place the bell on the ground", "intent": "drop", "game_command": "drop bell"}
+{"location_name": "Boathouse", "natural_language_command": "Store the rope here", "intent": "drop", "game_command": "drop rope"}
+{"location_name": "Outside Castle", "natural_language_command": "exam castle", "intent": "examine", "game_command": "examine castle"}
+{"location_name": "Confessional Room", "natural_language_command": "light candle on the table", "intent": "special", "game_command": "light candle"}
+{"location_name": "arsenal", "natural_language_command": "I want to travel downward", "intent": "direction", "game_command": "go down"}
+{"location_name": "peasant's cottage", "natural_language_command": "S", "intent": "direction", "game_command": "go south"}
+{"location_name": "Faeries Den", "natural_language_command": "Give me the things", "intent": "get", "game_command": "get things"}
+{"location_name": "Popes dormitory", "natural_language_command": "read book", "intent": "examine", "game_command": "examine book"}
+{"location_name": "Exit", "natural_language_command": "out", "intent": "quit", "game_command": "quit"}
+{"location_name": "Castle entrance", "natural_language_command": "b", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Beside church entrance", "natural_language_command": "get idol", "intent": "get", "game_command": "get idol"}
+{"location_name": "Countryside", "natural_language_command": "go to The king's memorial", "intent": "direction", "game_command": "go north"}
+{"location_name": "Dragon Lift", "natural_language_command": "look at the building", "intent": "examine", "game_command": "examine building"}
+{"location_name": "The garden courtyard", "natural_language_command": "is there anyone else in the courtyard", "intent": "redescribe", "game_command": "look"}
+{"location_name": "The altar room", "natural_language_command": "what is the sacred flame", "intent": "redescribe", "game_command": "look"}
+{"location_name": "grassy plains", "natural_language_command": "see what's in the flowers", "intent": "get", "game_command": "get flower"}
+{"location_name": "Outside Castle", "natural_language_command": "examine castle", "intent": "examine", "game_command": "examine castle"}
+{"location_name": "Port Tavern", "natural_language_command": "try to find a empty space inbetween and put down the stool", "intent": "drop", "game_command": "drop stool"}
+{"location_name": "The Great Hall", "natural_language_command": "Flip over the table", "intent": "special", "game_command": "flip table"}
+{"location_name": "The cabin of an ogre", "natural_language_command": "examine lantern and go outside", "intent": "sequence", "game_command": "examine lantern, examine lantern, go outside, inventory"}
+{"location_name": "Castle entrance", "natural_language_command": "what items do I have?", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Grand Dancing Hall", "natural_language_command": "tell me about the grand dancing hall", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Servant's Quarters", "natural_language_command": "put the book back on the shelf", "intent": "drop", "game_command": "drop book"}
+{"location_name": "The beach", "natural_language_command": "inspect white powder", "intent": "examine", "game_command": "examine sand"}
+{"location_name": "The Lagoon", "natural_language_command": "put lily pads down", "intent": "drop", "game_command": "drop lily pad"}
+{"location_name": "Guard Shack", "natural_language_command": "go to the town", "intent": "direction", "game_command": "go south"}
+{"location_name": "Troll's bridge", "natural_language_command": "see water", "intent": "examine", "game_command": "examine water"}
+{"location_name": "Slave quarters", "natural_language_command": "head up", "intent": "direction", "game_command": "go up"}
+{"location_name": "The armory", "natural_language_command": "Aquire the weapon", "intent": "get", "game_command": "get weapon"}
+{"location_name": "King's Bedroom", "natural_language_command": "examine the books on the desk", "intent": "examine", "game_command": "examine book"}
+{"location_name": "Basement", "natural_language_command": "q", "intent": "quit", "game_command": "quit"}
+{"location_name": "Cave", "natural_language_command": "take the bone", "intent": "get", "game_command": "get bone"}
+{"location_name": "stable", "natural_language_command": "enter the foyer", "intent": "direction", "game_command": "go inside"}
+{"location_name": "backyard", "natural_language_command": "climb over the hill", "intent": "direction", "game_command": "go inside"}
+{"location_name": "The Dark Kings Throne Room", "natural_language_command": "go to the abyss", "intent": "direction", "game_command": "go down"}
+{"location_name": "A small church", "natural_language_command": "west", "intent": "direction", "game_command": "go west"}
+{"location_name": "Island", "natural_language_command": "remove moss", "intent": "special", "game_command": "get rid of moss"}
+{"location_name": "A wet dungeon", "natural_language_command": "go to east watch", "intent": "direction", "game_command": "go east"}
+{"location_name": "The dungeon", "natural_language_command": "x the death", "intent": "examine", "game_command": "examine death"}
+{"location_name": "Bat room", "natural_language_command": "drop paddle", "intent": "drop", "game_command": "drop paddle"}
+{"location_name": "Alchemists Lab", "natural_language_command": "enter the bedroom", "intent": "direction", "game_command": "go down"}
+{"location_name": "Hillside Manor", "natural_language_command": "leave manor", "intent": "direction", "game_command": "go outside"}
+{"location_name": "Bathroom", "natural_language_command": "enter bed chambers", "intent": "direction", "game_command": "go west"}
+{"location_name": "Meadow", "natural_language_command": "get close to a flower", "intent": "examine", "game_command": "examine flower"}
+{"location_name": "The King's Quarters", "natural_language_command": "exam diamond", "intent": "examine", "game_command": "examine diamond"}
+{"location_name": "Ruined house", "natural_language_command": "peek into the graveyard", "intent": "direction", "game_command": "go north"}
+{"location_name": "Lava Lake", "natural_language_command": "head to netherworld volcano", "intent": "direction", "game_command": "go north"}
+{"location_name": "The altar room", "natural_language_command": "go to the priests' chambers", "intent": "direction", "game_command": "go outside"}
+{"location_name": "Rose garden", "natural_language_command": "save game", "intent": "save", "game_command": "save"}
+{"location_name": "Horse's stables", "natural_language_command": "let the horse go", "intent": "drop", "game_command": "drop horse"}
+{"location_name": "The forest", "natural_language_command": "unearth plant", "intent": "get", "game_command": "get plant"}
+{"location_name": "Outside Church", "natural_language_command": "I want to visit the graveyard", "intent": "special", "game_command": "visit graveyard"}
+{"location_name": "Fairy Forest", "natural_language_command": "leave fairy forest", "intent": "direction", "game_command": "go down"}
+{"location_name": "Firewood Forest", "natural_language_command": "exit", "intent": "quit", "game_command": "quit"}
+{"location_name": "Palace Throne", "natural_language_command": "end the game", "intent": "quit", "game_command": "quit"}
+{"location_name": "A spiral staircase", "natural_language_command": "how does the oak smell?", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Murder hole", "natural_language_command": "go up", "intent": "direction", "game_command": "go up"}
+{"location_name": "Next to an Altar", "natural_language_command": "put down ruby", "intent": "drop", "game_command": "drop ruby"}
+{"location_name": "Observatory", "natural_language_command": "save game", "intent": "save", "game_command": "save"}
+{"location_name": "Tombstones of the Kings", "natural_language_command": "quit", "intent": "quit", "game_command": "quit"}
+{"location_name": "Inside the king's palace", "natural_language_command": "go north", "intent": "direction", "game_command": "go north"}
+{"location_name": "Foyer", "natural_language_command": "jump off balcony", "intent": "special", "game_command": "descend balcony"}
+{"location_name": "Paladins' Memorial Chapel", "natural_language_command": "get rose", "intent": "get", "game_command": "get rose"}
+{"location_name": "the courtyard", "natural_language_command": "check inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Cottage", "natural_language_command": "jump out the window", "intent": "special", "game_command": "jump through window"}
+{"location_name": "The Marketplace", "natural_language_command": "I'll gently release my hand, give it a little push,and let the ware flow back to the owner", "intent": "drop", "game_command": "drop ware"}
+{"location_name": "Troll's bridge", "natural_language_command": "E water", "intent": "examine", "game_command": "examine water"}
+{"location_name": "bone pit", "natural_language_command": "go north", "intent": "direction", "game_command": "go north"}
+{"location_name": "Front of the Cottage", "natural_language_command": "go in", "intent": "direction", "game_command": "go inside"}
+{"location_name": "Royal Shipyard", "natural_language_command": "leave the rope behind", "intent": "drop", "game_command": "drop rope"}
+{"location_name": "Castle Maids' Room", "natural_language_command": "clean the floor", "intent": "special", "game_command": "clean floor"}
+{"location_name": "Cave Dark Abyss", "natural_language_command": "save slot", "intent": "save", "game_command": "save"}
+{"location_name": "Horse stables", "natural_language_command": "collect stone", "intent": "get", "game_command": "get stone"}
+{"location_name": "Lower dungeon", "natural_language_command": "step into the main hall", "intent": "direction", "game_command": "go up"}
+{"location_name": "stable", "natural_language_command": "take tool", "intent": "get", "game_command": "get tool"}
+{"location_name": "Study room", "natural_language_command": "examine book", "intent": "examine", "game_command": "examine book"}
+{"location_name": "Torture Chanber", "natural_language_command": "acquire the device", "intent": "get", "game_command": "get device"}
+{"location_name": "mysterious forest outskirts", "natural_language_command": "go to the castle entrance", "intent": "direction", "game_command": "go outside"}
+{"location_name": "Forbidden Forest", "natural_language_command": "go to the lagoon", "intent": "direction", "game_command": "go south"}
+{"location_name": "The forest", "natural_language_command": "put down plant", "intent": "drop", "game_command": "drop plant"}
+{"location_name": "wizards dragon egg incubatory", "natural_language_command": "inspect round objects", "intent": "examine", "game_command": "examine objects"}
+{"location_name": "Outside tower", "natural_language_command": "describe OUTSIDE TOWER", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Inside the fairy temple", "natural_language_command": "inspect grass, go 2n", "intent": "sequence", "game_command": "inventory, special grass, examine grass, go north, go north"}
+{"location_name": "Outside Temple", "natural_language_command": "carefully place the jasmine flower", "intent": "drop", "game_command": "drop jasmine flower"}
+{"location_name": "the fountain", "natural_language_command": "i wanna check the weeds", "intent": "examine", "game_command": "examine weed"}
+{"location_name": "Decoration shop", "natural_language_command": "go outside", "intent": "direction", "game_command": "go up"}
+{"location_name": "The Glade of Mysteries", "natural_language_command": "head towards east", "intent": "direction", "game_command": "go east"}
+{"location_name": "Underwater Aquapolis", "natural_language_command": "pass", "intent": "get", "game_command": "get item"}
+{"location_name": "Maidens Cottage", "natural_language_command": "Lay down the dandelion", "intent": "drop", "game_command": "drop dandelion"}
+{"location_name": "The Docks", "natural_language_command": "take the product with me", "intent": "get", "game_command": "get product"}
+{"location_name": "Farmer's house", "natural_language_command": "quit game", "intent": "quit", "game_command": "quit"}
+{"location_name": "Dock at the Port", "natural_language_command": "save progress", "intent": "save", "game_command": "save"}
+{"location_name": "Interrogation room", "natural_language_command": "what am I holding", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Grand Ballroom", "natural_language_command": "check the special floor, then go down, then go up, check inventory, and go down", "intent": "sequence", "game_command": "special floor, go down, go up, inventory, go down"}
+{"location_name": "Bathroom", "natural_language_command": "get linen and rug, then go inside", "intent": "sequence", "game_command": "get linen, special rug, go inside"}
+{"location_name": "Pond", "natural_language_command": "Throw the rocks", "intent": "special", "game_command": "toss rock"}
+{"location_name": "Inside Tower", "natural_language_command": "How far away is the observation deck?", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Supply store", "natural_language_command": "How many ships are there", "intent": "redescribe", "game_command": "look"}
+{"location_name": "Main building", "natural_language_command": "show what i have", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Boathouse", "natural_language_command": "la'y", "intent": "drop", "game_command": "drop rope"}
+{"location_name": "Confessional Room", "natural_language_command": "describe all", "intent": "sequence", "game_command": "special table, go east, inventory, save"}
+{"location_name": "Palace Throne", "natural_language_command": "sit on throne", "intent": "special", "game_command": "enter throne"}
+{"location_name": "the spring bath", "natural_language_command": "go to garden", "intent": "direction", "game_command": "go south"}
+{"location_name": "Adjacent to the Guest Castle", "natural_language_command": "mount the horse", "intent": "get", "game_command": "get horse"}
+{"location_name": "bathing room", "natural_language_command": "exit", "intent": "quit", "game_command": "quit"}
+{"location_name": "Archery zone", "natural_language_command": "check inventory, tour north", "intent": "sequence", "game_command": "inventory, go north, go south"}
+{"location_name": "the whipping station", "natural_language_command": "investigate the platform", "intent": "examine", "game_command": "examine platform"}
+{"location_name": "Palace Throne", "natural_language_command": "claim throne", "intent": "special", "game_command": "take throne"}
+{"location_name": "Weapon Closet", "natural_language_command": "drop sword; get sword, examine sword", "intent": "sequence", "game_command": "drop sword, get sword, examine sword"}
+{"location_name": "A Creature cave", "natural_language_command": "shutdown", "intent": "quit", "game_command": "quit"}
+{"location_name": "Royal Shipyard", "natural_language_command": "do special rope", "intent": "special", "game_command": "special rope"}
+{"location_name": "In Front of a Stone Tower", "natural_language_command": "Smell the grass", "intent": "special", "game_command": "smell grass"}
+{"location_name": "Bell Tower", "natural_language_command": "Check out the tower bell", "intent": "examine", "game_command": "examine bell"}
+{"location_name": "Port Tavern", "natural_language_command": "head to the water", "intent": "direction", "game_command": "go north"}
+{"location_name": "The dungeon", "natural_language_command": "ascend", "intent": "direction", "game_command": "go up"}
+{"location_name": "Sacrificial altar", "natural_language_command": "go to the library and pick a book", "intent": "sequence", "game_command": "go south, get book"}
+{"location_name": "Church", "natural_language_command": "what god seems to be worshipped here", "intent": "redescribe", "game_command": "look"}
+{"location_name": "tool shed", "natural_language_command": "obtain the hoe", "intent": "get", "game_command": "get hoe"}
+{"location_name": "Haunted Orchard", "natural_language_command": "get inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Servant's Quarters", "natural_language_command": "put the book back on the shelf", "intent": "drop", "game_command": "drop book"}
+{"location_name": "Torture Chanber", "natural_language_command": "put down the device", "intent": "drop", "game_command": "drop device"}
+{"location_name": "Popes dormitory", "natural_language_command": "stuff book in shirt", "intent": "get", "game_command": "get book"}
+{"location_name": "Tower kitchen", "natural_language_command": "I want to quit", "intent": "quit", "game_command": "quit"}
+{"location_name": "Princess' Library", "natural_language_command": "i want to get the parchment", "intent": "get", "game_command": "get parchment"}
+{"location_name": "A cabin", "natural_language_command": "Is there noise coming out of the cabin", "intent": "redescribe", "game_command": "look"}
+{"location_name": "The Brush Den", "natural_language_command": "pick up a plant", "intent": "get", "game_command": "get plant"}
+{"location_name": "the weapons storage room", "natural_language_command": "exit game", "intent": "quit", "game_command": "quit"}
+{"location_name": "The dogs' domain", "natural_language_command": "west", "intent": "direction", "game_command": "go west"}
+{"location_name": "The devils castle", "natural_language_command": "touch the ground", "intent": "examine", "game_command": "examine ground"}
+{"location_name": "Royal stables", "natural_language_command": "Gather the tools", "intent": "get", "game_command": "get tool"}
+{"location_name": "The old red barn", "natural_language_command": "inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "A small church", "natural_language_command": "special altar", "intent": "special", "game_command": "special command alter"}
+{"location_name": "The Lower Dungeon Guard Room", "natural_language_command": "go to upper dungeon", "intent": "direction", "game_command": "go up"}
+{"location_name": "Laundry Lines", "natural_language_command": "stop", "intent": "quit", "game_command": "quit"}
+{"location_name": "The King's Quarters", "natural_language_command": "take diamond", "intent": "get", "game_command": "get diamond"}
+{"location_name": "Land beyond the Wasteland", "natural_language_command": "q", "intent": "quit", "game_command": "quit"}
+{"location_name": "Grand Ballroom", "natural_language_command": "i want to examine the floor", "intent": "examine", "game_command": "examine floor"}
+{"location_name": "Firewood Forest", "natural_language_command": "drop the wood", "intent": "drop", "game_command": "drop wood"}
+{"location_name": "Inside Tower", "natural_language_command": "put down gold", "intent": "drop", "game_command": "drop gold"}
+{"location_name": "The armory", "natural_language_command": "grab a weapon", "intent": "get", "game_command": "get weapon"}
+{"location_name": "Port Skyline", "natural_language_command": "go to the market", "intent": "direction", "game_command": "go north"}
+{"location_name": "Bat room", "natural_language_command": "put down paddle", "intent": "drop", "game_command": "drop paddle"}
+{"location_name": "The Great Hall", "natural_language_command": "head to the pantry", "intent": "direction", "game_command": "go north"}
+{"location_name": "Church foyer", "natural_language_command": "leave the church", "intent": "direction", "game_command": "go outside"}
+{"location_name": "The ritual room", "natural_language_command": "take the candle", "intent": "get", "game_command": "get candle"}
+{"location_name": "beside tower entrance", "natural_language_command": "quit", "intent": "quit", "game_command": "quit"}
+{"location_name": "Royal Gardens", "natural_language_command": "snatch a piece of shrub", "intent": "get", "game_command": "get shrub"}
+{"location_name": "Dragon Lift", "natural_language_command": "what does the boxy building look like?", "intent": "examine", "game_command": "examine building"}
+{"location_name": "Church garden", "natural_language_command": "open the church door", "intent": "direction", "game_command": "go inside"}
+{"location_name": "The marketplace", "natural_language_command": "inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Gold Mine", "natural_language_command": "get rock", "intent": "get", "game_command": "get rock"}
+{"location_name": "Bank", "natural_language_command": "throw the rock", "intent": "special", "game_command": "throw rock"}
+{"location_name": "Horse field", "natural_language_command": "release horse", "intent": "drop", "game_command": "drop horse"}
+{"location_name": "grassy plains", "natural_language_command": "pick flower", "intent": "special", "game_command": "pick flower"}
+{"location_name": "Tombstones of the Kings", "natural_language_command": "look at gravestone", "intent": "examine", "game_command": "examine tombstone"}
+{"location_name": "Inside the Unicorn palace", "natural_language_command": "go to palace", "intent": "direction", "game_command": "go south"}
+{"location_name": "Along the banks of a river in the forest", "natural_language_command": "x grass", "intent": "examine", "game_command": "examine grass"}
+{"location_name": "The dogs' domain", "natural_language_command": "go to the sacred temple", "intent": "direction", "game_command": "go west"}
+{"location_name": "bridge in the forest", "natural_language_command": "save my game and collect the steam", "intent": "sequence", "game_command": "save, get stream"}
+{"location_name": "mysterious forest outskirts", "natural_language_command": "eat the food", "intent": "special", "game_command": "consume food"}
+{"location_name": "Warehouses", "natural_language_command": "I want to rest on the front porch of the inn", "intent": "direction", "game_command": "go west"}
+{"location_name": "Fishmonger's stall", "natural_language_command": "check out table", "intent": "examine", "game_command": "examine table"}
+{"location_name": "Inside Tower", "natural_language_command": "Check out the gold", "intent": "examine", "game_command": "examine gold"}
+{"location_name": "Along the banks of a river in the forest", "natural_language_command": "remember everything please", "intent": "save", "game_command": "save"}
+{"location_name": "Cave", "natural_language_command": "gather bones", "intent": "get", "game_command": "get bone"}
+{"location_name": "Lava Lake", "natural_language_command": "get rock", "intent": "get", "game_command": "get rock"}
+{"location_name": "Lake", "natural_language_command": "follow the lake to the northern lagoon", "intent": "direction", "game_command": "go north"}
+{"location_name": "Prison room", "natural_language_command": "Go down to the castle", "intent": "direction", "game_command": "go down"}
+{"location_name": "Castle Armory", "natural_language_command": "is there a moat?", "intent": "redescribe", "game_command": "look"}
+{"location_name": "The stream", "natural_language_command": "get some water", "intent": "get", "game_command": "get water"}
+{"location_name": "Royal stables", "natural_language_command": "go to stables", "intent": "direction", "game_command": "go west"}
+{"location_name": "Tombstones of the Kings", "natural_language_command": "inspect tombstone", "intent": "examine", "game_command": "examine tombstone"}
+{"location_name": "Dungeon", "natural_language_command": "go to torture room", "intent": "direction", "game_command": "go east"}
+{"location_name": "Knight's hunting ground", "natural_language_command": "enter the castle", "intent": "direction", "game_command": "go north"}
+{"location_name": "Top side tower overlooking view", "natural_language_command": "climb down tower", "intent": "direction", "game_command": "go south"}
+{"location_name": "The upper chamber", "natural_language_command": "what do I have", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Fishermen's Fountain", "natural_language_command": "check inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Warehouses", "natural_language_command": "north", "intent": "direction", "game_command": "go north"}
+{"location_name": "Inside Temple", "natural_language_command": "gently take a lit candle", "intent": "get", "game_command": "get candle"}
+{"location_name": "center of the forest", "natural_language_command": "items", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Iconostasis", "natural_language_command": "head towards the confessional", "intent": "direction", "game_command": "go inside"}
+{"location_name": "Inside Church Back Row", "natural_language_command": "break the seat", "intent": "special", "game_command": "break seat"}
+{"location_name": "The confession Box", "natural_language_command": "exam seat", "intent": "examine", "game_command": "examine seat"}
+{"location_name": "Main entrance", "natural_language_command": "marvel at the statue", "intent": "examine", "game_command": "examine statue"}
+{"location_name": "Paladins' Memorial Chapel", "natural_language_command": "admire the mosaic", "intent": "examine", "game_command": "examine mosaic"}
+{"location_name": "Devil's Den", "natural_language_command": "use the bones to perform a satanic ritual", "intent": "special", "game_command": "use bones"}
+{"location_name": "Bell Tower", "natural_language_command": "I want to save my progress", "intent": "save", "game_command": "save"}
+{"location_name": "pit exit", "natural_language_command": "logout", "intent": "quit", "game_command": "quit"}
+{"location_name": "weathered shack", "natural_language_command": "drop old tile", "intent": "drop", "game_command": "drop tile"}
+{"location_name": "King's Bedroom", "natural_language_command": "leave book", "intent": "drop", "game_command": "drop book"}
+{"location_name": "Queen's Bedchamber", "natural_language_command": "do special bed", "intent": "special", "game_command": "special bed"}
+{"location_name": "Royal Tomb", "natural_language_command": "drop the stone", "intent": "drop", "game_command": "drop precious stone"}
+{"location_name": "throne room", "natural_language_command": "put the gold back", "intent": "drop", "game_command": "drop gold"}
+{"location_name": "inside temple crypt", "natural_language_command": "move to the temple", "intent": "direction", "game_command": "go north"}
+{"location_name": "Council of Twelve", "natural_language_command": "Go inside the temple", "intent": "direction", "game_command": "go down"}
+{"location_name": "The Queen's Chamber", "natural_language_command": "feel the silk", "intent": "examine", "game_command": "examine silk velvet"}
+{"location_name": "Tower Sewers", "natural_language_command": "take bone", "intent": "get", "game_command": "get bone"}
+{"location_name": "The armory", "natural_language_command": "what does the door look like", "intent": "examine", "game_command": "examine door"}
+{"location_name": "Withered Gardens", "natural_language_command": "lay the marble on the ground", "intent": "drop", "game_command": "drop marble"}
+{"location_name": "Bright Path", "natural_language_command": "go to the banquet hall", "intent": "direction", "game_command": "go inside"}
+{"location_name": "Decoration shop", "natural_language_command": "go outside the temple", "intent": "direction", "game_command": "go up"}
+{"location_name": "Echo Hall", "natural_language_command": "learn about the histories", "intent": "get", "game_command": "get history"}
+{"location_name": "whipping chamber", "natural_language_command": "what are the straps", "intent": "examine", "game_command": "examine straps"}
+{"location_name": "Confessional Room", "natural_language_command": "I want to travel eastward", "intent": "direction", "game_command": "go east"}
+{"location_name": "Lava Lake", "natural_language_command": "go towards the netherworld volcano", "intent": "direction", "game_command": "go north"}
+{"location_name": "Royal Tomb", "natural_language_command": "open the temple door", "intent": "direction", "game_command": "go south"}
+{"location_name": "mysterious forest outskirts", "natural_language_command": "go southward", "intent": "direction", "game_command": "go east"}
+{"location_name": "cavern", "natural_language_command": "descend the tunnels", "intent": "direction", "game_command": "go down"}
+{"location_name": "Inside the Unicorn palace", "natural_language_command": "item", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Secret Tunnel", "natural_language_command": "examine inventory", "intent": "inventory", "game_command": "inventory"}
+{"location_name": "Beside church pews", "natural_language_command": "enter church", "intent": "direction", "game_command": "go south"}
+{"location_name": "The witches cottage", "natural_language_command": "check the cauldron", "intent": "examine", "game_command": "examine cauldron"}
+{"location_name": "An Open Field", "natural_language_command": "go to the front of a stone tower", "intent": "direction", "game_command": "go north"}
+{"location_name": "Faeries Den", "natural_language_command": "examine the magical things", "intent": "examine", "game_command": "examine things"}
+{"location_name": "The Troll's Lair", "natural_language_command": "drop the rotting meat", "intent": "drop", "game_command": "drop meat"}
+{"location_name": "tower spire", "natural_language_command": "go down", "intent": "direction", "game_command": "go down"}
+{"location_name": "Arch Hall", "natural_language_command": "stop the game", "intent": "quit", "game_command": "quit"}
+{"location_name": "Barn", "natural_language_command": "get hay", "intent": "get", "game_command": "get hay"}
+{"location_name": "the throne", "natural_language_command": "grab the diamond", "intent": "get", "game_command": "get daimond"}
+{"location_name": "Dock at the Port", "natural_language_command": "x dock", "intent": "examine", "game_command": "examine dock"}
+{"location_name": "The Lagoon", "natural_language_command": "Check the sewers", "intent": "direction", "game_command": "go outside"}

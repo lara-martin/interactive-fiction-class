@@ -141,7 +141,7 @@
           authors: Janelle Shane
     -
       title: Foundation Models + Word Embeddings
-      slides: #slides/lecture-05_foundation-models.pdf
+      slides: slides/25-09-15_foundation-models.pdf #slides/lecture-05_foundation-models.pdf
       readings:
         -
           title: "[word2vec paper] Efficient Estimation of Word Representations in Vector Space"
