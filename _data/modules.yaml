@@ -198,7 +198,7 @@
   hw:
     -
       title: "Homework 1: Prompting and Fine-tuning"
-      url: #generating-descriptions/generating-descriptions.html
+      url: generating-descriptions/light.html
       percentage: 12%
       due_date: 2025-10-10
 
