@@ -229,7 +229,7 @@ __Tip:__ I recommend drawing out your game on [graph paper](http://print-graph-p
 
 ## What to submit
 
-You should submit a link to a Github repository which contains the following:
+You should submit the following on [Blackboard]({{page.submission_link}}).
 
 1. An Python notebook called `action_castle.ipynb` that runs Action Castle.
 2. An Python notebook called `my_game.ipynb` that runs the initial version of your game.
@@ -237,7 +237,6 @@ You should submit a link to a Github repository which contains the following:
 4. A text file called `README.md` containing a short paragraph describing your game, and why you picked that topic.
 5. An image showing the directed graph for your game. 
 
-Submissions should be done on [Blackboard]({{page.submission_link}}).
 
 ## Grading
 <div class="alert alert-warning" markdown="1">
