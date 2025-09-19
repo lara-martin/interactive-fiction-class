@@ -131,6 +131,7 @@
         -
           title: "Speech and Language Processing, Chapter 9: Post-training: Instruction Tuning, Alignment, and Test-Time Compute"
           authors: Daniel Jurafsky, James H. Martin
+          url: https://web.stanford.edu/~jurafsky/slp3/9.pdf
         -
           title: "What is Prompting, Really?"
           url: https://korymathewson.com/what-is-prompting/
@@ -188,12 +189,26 @@
 #          authors: Nick Walton/Latitude
       presenters:
         - 
-          name: 
-          paper: 
-          authors: 
-          link: 
-          year: 
-          slides:    
+          name: Ray Groshan
+          paper:  Attention is All You Need
+          authors: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin
+          link: https://papers.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
+          year: 2017
+          slides: Groshan-Attention-is-all-you-need.pdf  
+        - 
+          name: Anupreet Singh
+          paper:  "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"
+          authors: Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, Shmargaret Shmitchell
+          link: https://dl.acm.org/doi/10.1145/3442188.3445922
+          year: 2021
+          slides:  Singh-Stochastic Parrots Presentation.pdf 
+        -
+          name: Krish Mehta
+          paper: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
+          authors: Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter, Fei Xia, Ed Chi, Quoc Le, Denny Zhou
+          link: https://papers.neurips.cc/paper_files/paper/2022/hash/9d5609613524ecf4f15af0f7b31abca4-Abstract-Conference.html
+          year: 2022
+          slides: 
       
   hw:
     -
@@ -321,12 +336,26 @@
       #slides: https://drive.google.com/file/d/1J5Z4Q7GwFD-T9R_amZOX6bxEq2oj0pxY/view?usp=sharing
       presenters:
         - 
-          name: 
-          paper: 
-          authors: 
-          link: 
-          year: 
+          name: Aakash Subedi
+          paper: "What do Large Language Models Learn about Scripts?"
+          authors: Abhilasha Sancheti, Rachel Rudinger
+          link: https://aclanthology.org/2022.starsem-1.1/
+          year: 2022
           slides:    
+        - 
+          name: Dylan Lang
+          paper: "BERALL: Generating Retrieval- augmented State-based Interactive Fiction Games"
+          authors: Rachel Chambers, Naomi Tack, Eliot Pearson, Lara J. Martin, Francis Ferraro
+          link: https://wordplay-workshop.github.io/wordplay2024/pdfs/21.pdf
+          year: 2024
+          slides:    
+        - 
+          name: Thanh Nam Tran
+          paper: "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
+          authors: Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin, Naman Goyal, Heinrich Küttler, Mike Lewis, Wen-tau Yih, Tim Rocktäschel, Sebastian Riedel, Douwe Kiela
+          link: https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html
+          year: 2020
+          slides:                        
 
   hw:
     -
@@ -529,12 +558,26 @@
 #          authors: William Wallace Cook 
       presenters:
         - 
+          name: Bhavya Sri Sangireddy
+          paper: On the Limit of Language Models as Planning Formalizers
+          authors: Cassie Huang, Li Zhang
+          link: https://aclanthology.org/2025.acl-long.242/
+          year: 2025
+          slides:           
+        - 
+          name: Maria Antonette Vanya
+          paper: Controllable Neural Story Plot Generation via Reward Shaping
+          authors: Pradyumna Tambwekar, Murtaza Dhuliawala, Lara J. Martin, Animesh Mehta, Brent Harrison, Mark O. Riedl
+          link: https://www.ijcai.org/Proceedings/2019/829
+          year: 2019
+          slides:   
+        - 
           name: 
           paper: 
           authors: 
           link: 
           year: 
-          slides:           
+          slides:                       
 
 
 -
@@ -690,12 +733,34 @@
       length:
       presenters:
         - 
-          name: 
-          paper: 
-          authors: 
-          link: 
+          name: Christopher Devoe
+          paper: "Interactive Fiction Games: A Colossal Adventure"
+          authors: Matthew Hausknecht, Prithviraj Ammanabrolu, Marc-Alexandre Côté, Xingdi Yuan
+          link: https://www.semanticscholar.org/paper/Interactive-Fiction-Games%3A-A-Colossal-Adventure-Hausknecht-Ammanabrolu/221d453c165aca6bc1a054289eb510e558a23dca
           year: 
           slides:    
+        - 
+          name: Marcus McAllister
+          paper: "ScienceWorld: Is your Agent Smarter than a 5th Grader?"
+          authors: Ruoyao Wang, Peter Jansen, Marc-Alexandre Côté, Prithviraj Ammanabrolu
+          link: https://aclanthology.org/2022.emnlp-main.775/
+          year: 2022
+          slides: 
+        - 
+          name: Vaishnavi Mukala
+          paper: "JECC: Commonsense Reasoning Tasks Derived from Interactive Fictions"
+          authors: Mo Yu, Yi Gu, Xiaoxiao Guo, Yufei Feng, Xiaodan Zhu, Michael Greenspan, Murray Campbell, Chuang Gan
+          link: https://aclanthology.org/2023.findings-acl.713/
+          year: 2023
+          slides:              
+        - 
+          name: Maddie Rippin
+          paper: Simple Contrastive Learning with Knowledge Graphs for Story Generation
+          authors: Yu Zhu, Rong Pan
+          link: https://ieeexplore.ieee.org/abstract/document/10889400
+          year: 2025
+          slides:  
+                             
                 
 
   hw:
@@ -822,12 +887,33 @@
       length:
       presenters:
         - 
-          name: 
-          paper: 
-          authors: 
-          link: 
-          year: 
+          name: Poojan Reddy Alla
+          paper: "I Cast Detect Thoughts: Learning to Converse and Guide with Intents and Theory-of-Mind in Dungeons and Dragons"
+          authors: Pei Zhou, Andrew Zhu, Jennifer Hu, Jay Pujara, Xiang Ren, Chris Callison-Burch, Yejin Choi, Prithviraj Ammanabrolu
+          link: https://aclanthology.org/2023.acl-long.624/
+          year: 2023
           slides:    
+        - 
+          name: Patibandla Bharath Narasimha
+          paper: "Co-Writing Screenplays and Theatre Scripts with Language Models: Evaluation by Industry Professionals"
+          authors: Piotr Mirowski, Kory W. Mathewson, Jaylen Pittman, Richard Evans
+          link: https://dl.acm.org/doi/full/10.1145/3544548.3581225
+          year: 2023
+          slides:    
+        - 
+          name: Bhargava Chowdary Maddipati
+          paper: "CALYPSO: LLMs as Dungeon Masters’ Assistants"
+          authors: Andrew Zhu, Lara J. Martin, Andrew Head, Chris Callison-Burch
+          link: https://ojs.aaai.org/index.php/AIIDE/article/view/27534
+          year: 2023
+          slides:    
+        - 
+          name: Kathy Vo
+          paper: "Persona Dynamics: Unveiling the Impact of Persona Traits on Agents in Text-Based Games"
+          authors: Seungwon Lim, Seungbeen Lee, Dongjun Min, Youngjae Yu
+          link: https://aclanthology.org/2025.acl-long.1515/
+          year: 2025
+          slides:                                  
 
 -
   module_number: 6
