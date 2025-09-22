@@ -390,11 +390,11 @@
           url: https://people.eecs.berkeley.edu/~russell/aima1e/chapter02.pdf
           authors: Stuart Russell and Peter Norvig      
         - 
-          title: "Artificial Intelligence: A Modern Approach, Chapter 3"
-          authors: Peter Norvig and Stuart J. Russell      
+          title: "Artificial Intelligence: A Modern Approach, Chapter 3: Solving Problems by Searching"
+          authors: Stuart Russell and Peter Norvig     
         - 
-          title: "Artificial Intelligence: A Modern Approach, Chapter 11"
-          authors: Peter Norvig and Stuart J. Russell
+          title: "Artificial Intelligence: A Modern Approach, Chapter 11: Automated Planning"
+          authors: Stuart Russell and Peter Norvig
         -
           title: Stanford Research Institute Problem Solver
           authors: Wikipedia
@@ -425,15 +425,15 @@
         -
           title: Planning Stories
           authors: Michael Lebowitz
-          url: https://cognitivesciencesociety.org/wp-content/uploads/2019/01/cogsci_9.pdf
+          url: https://cognitivesciencesociety.org/wp-content/uploads/2019/01/cogsci_9.pdf#page=254
         -
           title: "CPOCL: A Narrative Planner Supporting Conflict"
           authors: Stephen G. Ware, R. Michael Young
           url: https://ojs.aaai.org/index.php/AIIDE/article/view/12428        
         -
-          title: Open-world planning for story generation
+          title: Open-World Planning for Story Generation
           authors: Mark O. Riedl, R. Michael Young
-          url: https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.649.3076
+          url: https://www.ijcai.org/Proceedings/05/Papers/post-0020.pdf
         -
           title: "Plans and planning in narrative generation: a review of plan-based approaches to the generation of story, discourse and interactivity in narratives"
           authors: R. Michael Young, Stephen Ware, Brad Cassell, Justus Robertson
@@ -451,10 +451,6 @@
           authors: Stephen G. Ware, R. Michael Young
           url: https://ojs.aaai.org/index.php/AIIDE/article/view/12712       
         -
-          title: Narrative Plan Generation with Self-Supervised Learning
-          authors: Mihai Polceanu, Julie Porteous, Alan Lindsay, Marc Cavazza 
-          url: https://ojs.aaai.org/index.php/AAAI/article/view/16747     
-        -
           title: Integrating Plot, Character and Natural Language Processing in the Interactive Drama Façade
           authors: Michael Mateas, Andrew Stern
           url: https://www.semanticscholar.org/paper/Integrating-Plot%2C-Character-and-Natural-Language-in-Mateas-Stern/6c92ac4eb449b53ce9a7b0dd94316da17a394446
@@ -466,12 +462,21 @@
           title: "Multi-Agent Narrative Experience Management as Story Graph Pruning"
           authors: Stephen G. Ware, Edward T. Garcia, Alireza Shirvani, Rachelyn Farrell
           url: http://cs.uky.edu/~sgware/reading/papers/ware2019multi.pdf
+        -
+          title: "Automated narrative planning model extension"
+          url: https://link.springer.com/article/10.1007/s10458-021-09501-1
+          authors: Julie Porteous, João F. Ferreira, Alan Lindsay, Marc Cavazza 
+          
     -
       title: LLM-based Formal Planning
       guest_speaker: #Nisha Simon
       guest_url: #https://nisimon48.github.io/
       slides: #slides/Tell_Me_A_Story_LLM_NSimon_Oct152024.pdf
       readings:
+        -
+          title: Narrative Plan Generation with Self-Supervised Learning
+          authors: Mihai Polceanu, Julie Porteous, Alan Lindsay, Marc Cavazza 
+          url: https://ojs.aaai.org/index.php/AAAI/article/view/16747         
         -
           title: "Want To Choose Your Own Adventure? Then First Make a Plan."
           url: https://assets.pubpub.org/doldyzqc/CanadianAI2024_ChooseYourOwnAdventureStories_NSimon_Camera_Ready_Apr17-61716785652947.pdf
@@ -558,6 +563,13 @@
 #          authors: William Wallace Cook 
       presenters:
         - 
+          name: Ife Kayode
+          paper: "StoryVerse: Towards Co-authoring Dynamic Plot with LLM-based Character Simulation via Narrative Planning"
+          authors: Yi Wang, Qian Zhou, David Ledo
+          link: https://dl.acm.org/doi/10.1145/3649921.3656987
+          year: 2024
+          slides:         
+        - 
           name: Bhavya Sri Sangireddy
           paper: On the Limit of Language Models as Planning Formalizers
           authors: Cassie Huang, Li Zhang
@@ -571,13 +583,7 @@
           link: https://www.ijcai.org/Proceedings/2019/829
           year: 2019
           slides:   
-        - 
-          name: 
-          paper: 
-          authors: 
-          link: 
-          year: 
-          slides:                       
+                    
 
 
 -
