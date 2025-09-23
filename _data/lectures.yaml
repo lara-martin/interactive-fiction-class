@@ -89,20 +89,12 @@
   activities:
     -
       title: Make Your Own Mini Script
-      url: #script_making.html
+      url: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/test/_8002473_1?courseId=_96140_1&gradeitemView=details #script_making.html
 
 -
   date: 2025-09-25
   title: Understanding Procedures
-  
  
--
-  date: 2025-09-26
-  type: deadline
-  homework_due:   
-    -
-      title: Project Milestone 1&colon; Proposal
-      url: #project-proposal/project-proposal.html
 
 -
   date: 2025-09-30
@@ -146,7 +138,14 @@
   date: 2025-10-16
   title: LLM-based Formal Planning
   
-
+-
+  date: 2025-10-17
+  type: deadline
+  homework_due:   
+    -
+      title: Project Milestone 1&colon; Proposal
+      url: project-proposal/project-proposal.html
+      
 -
   date: 2025-10-21
   title: Reinforcement Learning

@@ -208,7 +208,7 @@
           authors: Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter, Fei Xia, Ed Chi, Quoc Le, Denny Zhou
           link: https://papers.neurips.cc/paper_files/paper/2022/hash/9d5609613524ecf4f15af0f7b31abca4-Abstract-Conference.html
           year: 2022
-          slides: 
+          slides: Mehta-Chain-of-Thought-Prompting-Elicits-Reasoning-in-Large-Language-Models.pdf
       
   hw:
     -
@@ -226,7 +226,7 @@
   lessons:
     - 
       title: Scripts and Events
-      slides: #slides/lecture-07-scripts.pdf
+      slides: slides/25-09-23_scripts.pdf #slides/lecture-07-scripts.pdf
       #slides: https://drive.google.com/file/d/15NY1bEg6ZZg5e3Ny0PIWvZNRpANAnInv/view?usp=sharing
       video: 
       length:
