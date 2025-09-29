@@ -285,8 +285,8 @@
           url: https://aclanthology.org/D18-1009/     
       
     - 
-      title: Plot-Guided Story Generation
-      slides: #slides/lecture-09_guided-story-generation.pdf
+      title: Guided Story Generation
+      slides: slides/25-09-30_guided-generation.pdf #slides/lecture-09_guided-story-generation.pdf
       #slides: https://drive.google.com/file/d/1UH23icbixj0fvwjPh7U99MS6CUriMAYy/view?usp=sharing
       video: 
       length:
