@@ -311,7 +311,8 @@
 
 
     -
-      title: Retrieval-Augmented Story Generation
+      title: Retrieval-Augmented Generation
+      slides: slides/25-10-02_RAG.pdf
       readings:
         -
           title: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks
