@@ -342,21 +342,21 @@
           authors: Abhilasha Sancheti, Rachel Rudinger
           link: https://aclanthology.org/2022.starsem-1.1/
           year: 2022
-          slides:    
+          slides:    Subedi_LLM-Scripts.pdf
         - 
           name: Dylan Lang
           paper: "BERALL: Generating Retrieval- augmented State-based Interactive Fiction Games"
           authors: Rachel Chambers, Naomi Tack, Eliot Pearson, Lara J. Martin, Francis Ferraro
           link: https://wordplay-workshop.github.io/wordplay2024/pdfs/21.pdf
           year: 2024
-          slides:    
+          slides:    Lang-BERALL.pdf
         - 
           name: Thanh Nam Tran
           paper: "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
           authors: Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin, Naman Goyal, Heinrich Küttler, Mike Lewis, Wen-tau Yih, Tim Rocktäschel, Sebastian Riedel, Douwe Kiela
           link: https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html
           year: 2020
-          slides:                        
+          slides:  Tran-RAG-for-Knowledge-Intensive-NLP.pdf                      
 
   hw:
     -
