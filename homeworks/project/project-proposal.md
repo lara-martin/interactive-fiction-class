@@ -40,7 +40,7 @@ This assignment is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{
 <br><br>
 Please reacquaint yourself with the <a href="https://laramartin.net/interactive-fiction-class/index.html#using-llms-or-generative-ai">course's text generation policy</a>.
 <br>
-And then <a href="{{submission_link}}">submit a pdf of your proposal here</a>.
+And then <a href="{{page.submission_link}}">submit a pdf of your proposal here</a>.
 </div>
 
 {% if page.materials %}
