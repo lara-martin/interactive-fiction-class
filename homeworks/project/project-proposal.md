@@ -103,6 +103,21 @@ Write a project proposal that includes the following sections:
 5. __Team members__: Give a list of the students who will participate in this project, and what contribution you expect each one to make to the project.
 6. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your proposal document (<a href="https://laramartin.net/interactive-fiction-class/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
 
+# FAQ
+* Is there a page limit?
+	* There is no page maximum or minimum. Just be sure you thoroughly go through all of the points above so that we can know what you're doing. You will be building off of this proposal, so the more details you have, the more you have to work with and the more we can give you feedback on.
+* How is the project graded?
+	* The first milestone is graded the most lax, as long as you fill out all of the requested information from above. Future milestones will be graded similarly, but you may also get points off for not incorporating feedback that the TA or instructor give on previous milestones.
+* Do we have to specify whether we are doing the demo or the paper track?
+	* Yes, please state somewhere at the top of your proposal what track you're choosing.
+* Does the proposal have to be in a particular format?
+	* For the first milestone (the proposal), no. The format will become stricter in future milestones. The paper will follow a particular publication format and the demo will require a video.
+* How do I scope the project?
+	* The instructor and TA can help with scoping, but as a rule of thumb it's better to come up with a "minimal viable product" and then come up with stretch goals that you'll try to reach if you have time.
+* Can we make a game based off an existing franchise?
+	* Yes, as long as you don't publish it or make money off of it.
+
+
 # What to Submit
 Submit to Blackboard:
 * `team#-proposal.pdf` which is your project proposal. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points as well.
