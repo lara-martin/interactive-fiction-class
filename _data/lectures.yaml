@@ -126,11 +126,8 @@
   activities:
     -
       title: Search Algorithms for Action Castle
-      url: #search/action-castle-search.html  
-  #activities:
-  #  -
-  #    title: Planning and PDDL
-  #    url: planning/planning-and-pddl.html
+      url: search/action-castle-search.html  
+
 
 -
   date: 2025-10-10
@@ -143,7 +140,10 @@
 -
   date: 2025-10-14
   title: "Classical Planning and Story/Game Planning"
-
+  #activities:
+  #  -
+  #    title: Planning and PDDL
+  #    url: planning/planning-and-pddl.html
 
               
 -

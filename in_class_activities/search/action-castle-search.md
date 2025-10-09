@@ -6,13 +6,13 @@ caption: DFS is not useful for all occasions
 title: Search Algorithms for Action Castle
 type: in-class
 active_tab: homework
-release_date: 2024-10-08
-due_date: 2024-10-15 23:59:00EST
+#release_date: 2024-10-08
+#due_date: 2024-10-15 23:59:00EST
 materials:
     - 
         name: Search Algorithms for Action Castle.ipynb
         url: https://colab.research.google.com/github/lara-martin/interactive-fiction-class/blob/master/in_class_activities/search/Search_Algorithms_for_Action_Castle.ipynb
-submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7149705_1?courseId=_82444_1&gradeitemView=details
+submission_link: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/Test/_8015951_1?courseId=_96140_1&gradeitemView=details&gradebookCategoryId=_24424743_1&assessmentSubtype=Assignment
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -65,7 +65,7 @@ In order to do so, we'll need to figure out:
 4. How to test whether we have reached __the goal__.
 
 
-We'll implement three functions that will allow us to use BFS to find the best sequence of commands in order to complete the game that we implemented in Homework 1.
+We'll implement three functions that will allow us to use BFS to find the best sequence of commands in order to complete the game that we implemented in Homework 0.
 
 ### What to do 
 
@@ -76,6 +76,6 @@ We'll implement three functions that will allow us to use BFS to find the best s
 * `get_available_actions`
 * `goal_test`
 
-4. Please submit your work to [Blackboard]({{page.submission_link}}) by {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
+4. Please submit your work to [Blackboard]({{page.submission_link}}). 
 
 
