@@ -381,7 +381,7 @@
     - 
       title: AI Agents and Search
       #slides: slides/Search-and-Planning.pdf
-      slides: #slides/lecture-11_search.pdf
+      slides: slides/25-10-09_agents-search.pdf #slides/lecture-11_search.pdf
       video: 
       length:
       readings:     
