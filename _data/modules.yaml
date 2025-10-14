@@ -408,7 +408,7 @@
       title: "Classical Planning and Story/Game Planning"
       video: 
       length:
-      slides: #slides/lecture-12_planning-combined.pdf
+      slides: slides/25-10-14_planning.pdf #slides/lecture-12_planning-combined.pdf
       optional:
         -
           title: Camelot Virtual Environment
