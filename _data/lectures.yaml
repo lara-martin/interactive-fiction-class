@@ -167,16 +167,18 @@
   date: 2025-10-23
   title: Module 3 Paper Presentations
 
+
 -
-  date: 2025-10-24
+  date: 2025-10-28
+  title: Commonsense Reasoning and Causality
+
+-
+  date: 2025-10-29
   type: deadline
   homework_due:
     -
       title: "HW2: Guided Generation"
-      url: #plan-and-write/plan-and-write.html 
--
-  date: 2025-10-28
-  title: Commonsense Reasoning and Causality
+      url: plan-and-write/plan-and-write.html 
 
 -
   date: 2025-10-30 

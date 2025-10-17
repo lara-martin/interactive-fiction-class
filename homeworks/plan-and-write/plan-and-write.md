@@ -12,7 +12,7 @@ materials:
    -
      name: hw2.ipynb
      url: https://laramartin.net/interactive-fiction-class/homeworks/plan-and-write/hw2.ipynb
-due_date: 2025-10-24 23:59:00EST
+due_date: 2025-10-29 23:59:00EST
 submission_link: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/test/_7963044_1?courseId=_96140_1&gradeitemView=details
 readings:
   -
@@ -86,7 +86,7 @@ For this assignment, we will check your ability to:
 
 ## What to do
 ### Getting Started
-Like in the last homework, you will be using a [Python notebook]({{page.materials[0].url}}), but instead of using OpenAI's suite of models, we're going to use Mistral AI's Mistral 7B model [via HuggingFace🤗](https://huggingface.co/docs/transformers/v4.57.1/model_doc/mistral). Again, you can run in your local environment or upload it to [Google Colab](https://colab.research.google.com/) or [DeepNote](https://deepnote.com/) to do the assignment online.
+Like in the last homework, you will be using a [Python notebook]({{page.materials[0].url}}), but instead of using OpenAI's suite of models, we're going to use Mistral AI's [Mistral 7B model](https://arxiv.org/abs/2310.06825). Again, you can run in your local environment or upload it to [Google Colab](https://colab.research.google.com/) or [DeepNote](https://deepnote.com/) to do the assignment online.
 
 <!--
 <div class="alert alert-info">
@@ -163,7 +163,7 @@ Please answer the following questions in a separate document and save it as a pd
 ## What to submit
 
 You should submit
-* your completed Jupyter Notebook, and 
+* your completed Python Notebook, and 
 * a pdf of your answers to the questions in part 3 (analysis)
 to [Blackboard]({{page.submission_link}}).  You can work in pairs.
 
