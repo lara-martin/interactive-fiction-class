@@ -563,27 +563,33 @@
 #          url: http://garykac.github.io/plotto/
 #          authors: William Wallace Cook 
       presenters:
+        -
+          name: Lyna Beraich
+          paper: Automated narrative planning model extension
+          link: https://link.springer.com/article/10.1007/s10458-021-09501-1
+          year: 2021
+          slides: Beraich-Automated-Narrative-Planning.pdf
         - 
           name: Ife Kayode
           paper: "StoryVerse: Towards Co-authoring Dynamic Plot with LLM-based Character Simulation via Narrative Planning"
           authors: Yi Wang, Qian Zhou, David Ledo
           link: https://dl.acm.org/doi/10.1145/3649921.3656987
           year: 2024
-          slides:         
+          slides:    Kayode-StoryVerse.pdf     
         - 
           name: Bhavya Sri Sangireddy
           paper: On the Limit of Language Models as Planning Formalizers
           authors: Cassie Huang, Li Zhang
           link: https://aclanthology.org/2025.acl-long.242/
           year: 2025
-          slides:           
+          slides:     Sangireddy_On-the-Limit-of-Language-Models-as-Planning-Formalizers.pdf      
         - 
           name: Maria Antonette Vanya
           paper: Controllable Neural Story Plot Generation via Reward Shaping
           authors: Pradyumna Tambwekar, Murtaza Dhuliawala, Lara J. Martin, Animesh Mehta, Brent Harrison, Mark O. Riedl
           link: https://www.ijcai.org/Proceedings/2019/829
           year: 2019
-          slides:   
+          slides:   Vanya-Controllable-Neural-Story-Plot.pdf
                     
 
 
