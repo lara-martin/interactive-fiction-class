@@ -610,11 +610,7 @@
         -
           title: "ConceptNet 5.5: An Open Multilingual Graph of General Knowledge"
           authors: Robyn Speer, Joshua Chin, Catherine Havasi
-          url: https://dl.acm.org/doi/10.5555/3298023.3298212
-        -
-          title: "VerbNet: Capturing English verb behavior, meaning and usage"
-          authors:  Martha Palmer, Claire Bonial, Jena Hwang
-          url: https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780199842193.001.0001/oxfordhb-9780199842193-e-15
+          url: https://dl.acm.org/doi/10.5555/3298023.3298212 
         -
           title: WordNet
           authors: Christiane Fellbaum
@@ -661,23 +657,20 @@
         -
           title: Fiction, Non-Factuals, and the Principle of Minimal Departure
           url: https://www.sciencedirect.com/science/article/pii/0304422X80900303
-          authors: Marie-Laure Ryan      
-        -
-          title: A Systematic Survey of Text Worlds as Embodied Natural Language Environments
-          url: https://aclanthology.org/2022.wordplay-1.1/
-          authors: Peter A. Jansen
-        -
-          title: "TextWorld: A Learning Environment for Text-based Games"
-          url: https://arxiv.org/abs/1806.11532
-          authors: Marc-Alexandre Côté, Ákos Kádár, Xingdi Yuan, Ben Kybartas, Tavian Barnes, Emery Fine, James Moore, Matthew Hausknecht, Ruo Yu Tao, Layla El Asri, Mahmoud Adada, Wendy Tay, and Adam Trischler
-        -
-          title: "Interactive Fiction Games: A Colossal Adventure"
-          url: https://ojs.aaai.org/index.php/AAAI/article/view/6297
-          authors: Matthew Hausknecht, Prithviraj Ammanabrolu, Marc-Alexandre Côté, Xingdi Yuan 
-        -
-          title: "STORY2GAME: Generating (Almost) Everything in an Interactive Fiction Game"
-          url: http://arxiv.org/abs/2505.03547
-          authors: Eric Zhou, Shreyas Basavatia, Moontashir Siam, Zexin Chen, Mark O. Riedl
+          authors: Marie-Laure Ryan    
+       -
+          title: "VerbNet: Capturing English verb behavior, meaning and usage"
+          authors:  Martha Palmer, Claire Bonial, Jena Hwang
+          url: https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780199842193.001.0001/oxfordhb-9780199842193-e-15    
+       -
+         title:  "FrameNet II: Extended Theory and Practice"
+         authors: Josef Ruppenhofer, Michael Ellsworth, Miriam R. L. Petruck, Christopher R. Johnson, Collin F. Baker, Jan Scheffczyk
+         url: https://akb89.github.io/myValencer/framenet_book.pdf
+      optional:
+       -
+         title: "OntoNotes Release 5.0"
+         url: https://catalog.ldc.upenn.edu/LDC2013T19
+         authors:  	Ralph Weischedel, et al.      
     -
       title: Neurosymbolic Knowledge Base Systems
       #slides: slides/CIS700-KnowledgeBases.pdf
@@ -737,7 +730,24 @@
         -
           title: Enhanced Story Representation by ConceptNet for Predicting Story Endings
           authors: Shanshan Huang, Kenny Q. Zhu, Qianzi Liao, Libin Shen, Yinggong Zhao
-          url: https://dl.acm.org/doi/pdf/10.1145/3340531.3417466                 
+          url: https://dl.acm.org/doi/pdf/10.1145/3340531.3417466  
+        -
+          title: A Systematic Survey of Text Worlds as Embodied Natural Language Environments
+          url: https://aclanthology.org/2022.wordplay-1.1/
+          authors: Peter A. Jansen
+        -
+          title: "TextWorld: A Learning Environment for Text-based Games"
+          url: https://arxiv.org/abs/1806.11532
+          authors: Marc-Alexandre Côté, Ákos Kádár, Xingdi Yuan, Ben Kybartas, Tavian Barnes, Emery Fine, James Moore, Matthew Hausknecht, Ruo Yu Tao, Layla El Asri, Mahmoud Adada, Wendy Tay, and Adam Trischler
+        -
+          title: "Interactive Fiction Games: A Colossal Adventure"
+          url: https://ojs.aaai.org/index.php/AAAI/article/view/6297
+          authors: Matthew Hausknecht, Prithviraj Ammanabrolu, Marc-Alexandre Côté, Xingdi Yuan 
+        -
+          title: "STORY2GAME: Generating (Almost) Everything in an Interactive Fiction Game"
+          url: http://arxiv.org/abs/2505.03547
+          authors: Eric Zhou, Shreyas Basavatia, Moontashir Siam, Zexin Chen, Mark O. Riedl
+                       
                
       
     -

@@ -7,15 +7,15 @@ title: Creating Sabre Problems
 type: Homework
 number: 4
 active_tab: homework
-release_date: 2024-11-02
-due_date: 2024-11-18 23:59:01EST
+release_date: 2025-10-29
+due_date: 2025-11-14 23:59:01EST
 materials:
     - 
         name: Jupyter Notebook for Running Sabre
         url: IF_HW4_Running_Sabre.ipynb
     - 
-        name: Homework 1 Notebook
-        url: hw1.ipynb
+        name: Homework 0 Notebook
+        url: hw0.ipynb
     -
         name: Sabre Technical Report
         url: sabre-report.pdf
@@ -35,7 +35,7 @@ readings:
         title: A Collection of Benchmark Problems for the Sabre Narrative Planner
         authors: Stephen G. Ware and Rachelyn Farrell
         url: sabre-report.pdf
-submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7156634_1?courseId=_82444_1&gradeitemView=details
+submission_link: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/test/_7963045_1?courseId=_96140_1&gradeitemView=details
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -95,7 +95,7 @@ Extra Credit:
 
 ## Introduction
 In this homework, we're going back to the beginning! 
-Primarily, you will be converting the Action Castle game from HW1 into [Sabre](http://cs.uky.edu/~sgware/projects/sabre/)'s syntax by hand.
+Primarily, you will be converting the Action Castle game from HW0 into [Sabre](http://cs.uky.edu/~sgware/projects/sabre/)'s syntax by hand.
 
 
 ## Working with Sabre
@@ -123,7 +123,7 @@ I've set up everything so that you just need to implement the parts in the strin
 To write a problem for Sabre, do the following:
 1. Download one or a couple of the problems from the list [https://github.com/sgware/sabre-benchmarks/tree/main/problems](https://github.com/sgware/sabre-benchmarks/tree/main/problems) 
 to use as reference.
-2. Find your HW1 notebook. If you can't find your notebook from when you did HW1, here is the empty one again: [Homework 1 Notebook]({{page.materials[1].url}}).
+2. Find your HW0 notebook. If you can't find your notebook from when you did HW0, here is the empty one again: [Homework 1 Notebook]({{page.materials[1].url}}).
 3. Note the syntax used in the example Sabre problems to make a planning problem for the first Action Castle game. You will implement the **Actions** from Action Castle in your plan. There are 11 of them in total.
 4. Download the [notebook for running Sabre]({{page.materials[0].url}}) and test your file. You can also run one of the example files to see what a successful plan looks like.
 5. Iterate until Sabre can *solve* your problem. **Tip: To debug your problem once your syntax bugs are fixed, you can try changing your utility to a smaller problem until you know the paths are available. For example, set your utility to `location(Player) == GardenPath` if you're trying to make sure your walk action works.**

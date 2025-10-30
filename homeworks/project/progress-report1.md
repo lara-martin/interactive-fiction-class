@@ -8,7 +8,7 @@ type: Project Milestone
 number: 2
 active_tab: homework
 release_date: 2025-10-29
-due_date: 2025-11-07 23:59:00EST
+due_date: 2025-11-14 23:59:00EST
 submission_link: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/_7963173_1/overview?courseId=_96140_1
 ---
 
@@ -61,7 +61,7 @@ For this milestone, you will describe your demo in more detail. The milestone af
 
 Write a report that includes the following sections:
 1. __Project Description__: What novel interactive experience do you propose to design? (This will collapse the __Project Description__ and __Related Work__ sections from your proposal into one section.)
-  - Do similar games/experiences exist to the one you propose to create? Give pointers to them and explain how you think they relate to your project idea. What were your inspirations?
+  - Do similar games/experiences exist to the one you propose to create? Give citations to them and explain how you think they relate to your project idea. What were your inspirations?
   - Include a repo link to your code (as it is so far) in this section.
 2. __Front End__: What will the user interact with?
   - Give an example mockup of what the user experience will look like. (Also consider: will there be any graphics or AI-generated images?)

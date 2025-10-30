@@ -197,35 +197,18 @@
 
     
 -
-  date: 2025-11-06
+  date: 2025-11-11
   title: Module 4 Paper Presentations
 
-
+     
 -
-  date: 2025-11-07
-  type: deadline
-  homework_due:
-    - 
-      title: Final Project Milestone 2&colon; Project Progress
-      url: project/progress-report1.html  
-
-      
--
-  date: 2025-11-11
+  date: 2025-11-13
   title: Task-Oriented Dialog Systems
 
   #activities:
   #  -
   #    title: Train GPT-3 to Perform Dialogue for NPCs
   #    url: dialogue/light-dialogue.html  
-  
--
-  date: 2025-11-13
-  title: Character-Based Generation
-  #activities:
-  #  -
-  #    title: Characters and Quests
-  #    url: dialogue-2/quests.html  
 
 -
   date: 2025-11-14
@@ -233,10 +216,23 @@
   homework_due:
     -
       title: "HW3: Creating Sabre Problems"
-      url: #planning/sabre.html  
+      url: planning/sabre.html
+    - 
+      title: Final Project Milestone 2&colon; Project Progress
+      url: project/progress-report1.html        
   
+
 -
   date: 2025-11-18
+  title: Character-Based Generation
+  #activities:
+  #  -
+  #    title: Characters and Quests
+  #    url: dialogue-2/quests.html  
+
+
+-
+  date: 2025-11-20
   title: Personas and Roleplaying
 
   
@@ -249,12 +245,6 @@
 #Visual Storytelling
 #Collaborative storytelling
 #RL for story generation
-
-
--
-  date: 2025-11-20
-  title: Interactive Storytelling
-
 -
   date: 2025-11-21
   type: deadline
@@ -264,12 +254,13 @@
       url: #project/rough-draft.html
     - 
       title: "HW4: COMET-ATOMIC Schema"
-      url: #knowledge-base/comet.html      
-
+      url: #knowledge-base/comet.html  
 
 -
   date: 2025-11-25
-  title: Module 5 Paper Presentations 
+  title: Interactive Storytelling
+
+    
 
 -
   date: 2025-11-27
@@ -278,18 +269,19 @@
 
 -
   date: 2025-12-02
+  title: Module 5 Paper Presentations 
+
+
+-
+  date: 2025-12-04
   title: Evaluation
   
 
 -
-  date: 2025-12-04
+  date: 2025-12-09
   title: Final Project In-Class Help
 
 
-
--
-  date: 2025-12-09
-  title: TBD
 
 -
   date: 2025-12-11
