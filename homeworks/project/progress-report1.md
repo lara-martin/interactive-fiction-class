@@ -7,9 +7,9 @@ title: Project Progress
 type: Project Milestone
 number: 2
 active_tab: homework
-release_date: 2024-10-08
-due_date: 2024-10-28 23:59:00EST
-submission_link: 
+release_date: 2025-10-29
+due_date: 2025-11-07 23:59:00EST
+submission_link: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/_7963173_1/overview?courseId=_96140_1
 ---
 
 <!-- Check whether the assignment is ready to release -->

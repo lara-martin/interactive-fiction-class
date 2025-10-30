@@ -653,8 +653,8 @@
           authors: David Gunning
           url: https://arxiv.org/abs/1810.07528                
     -
-      title: World Modeling
-      slides: 
+      title: Commonsense 2
+      slides: slides/25-10-30_commonsense.pdf
       video: 
       length:
       readings:
@@ -664,15 +664,15 @@
           authors: Marie-Laure Ryan      
         -
           title: A Systematic Survey of Text Worlds as Embodied Natural Language Environments
-          url: https://aclanthology.org/2022.wordplay-1.1.pdf
+          url: https://aclanthology.org/2022.wordplay-1.1/
           authors: Peter A. Jansen
         -
           title: "TextWorld: A Learning Environment for Text-based Games"
-          url: https://www.semanticscholar.org/paper/TextWorld%3A-A-Learning-Environment-for-Text-based-Côté-Kádár/89daae27e7df4a418b9610d307ce3df0e30fc8a2
+          url: https://arxiv.org/abs/1806.11532
           authors: Marc-Alexandre Côté, Ákos Kádár, Xingdi Yuan, Ben Kybartas, Tavian Barnes, Emery Fine, James Moore, Matthew Hausknecht, Ruo Yu Tao, Layla El Asri, Mahmoud Adada, Wendy Tay, and Adam Trischler
         -
           title: "Interactive Fiction Games: A Colossal Adventure"
-          url: https://www.semanticscholar.org/paper/Interactive-Fiction-Games%3A-A-Colossal-Adventure-Hausknecht-Ammanabrolu/221d453c165aca6bc1a054289eb510e558a23dca
+          url: https://ojs.aaai.org/index.php/AAAI/article/view/6297
           authors: Matthew Hausknecht, Prithviraj Ammanabrolu, Marc-Alexandre Côté, Xingdi Yuan 
         -
           title: "STORY2GAME: Generating (Almost) Everything in an Interactive Fiction Game"
@@ -706,7 +706,7 @@
           authors: Peter West, Ronan Bras, Taylor Sorensen, Bill Lin, Liwei Jiang, Ximing Lu, Khyathi Chandu, Jack Hessel, Ashutosh Baheti, Chandra Bhagavatula, Yejin Choi
           url: https://aclanthology.org/2023.findings-emnlp.80/
     -
-      title: Storytelling with Schemas
+      title: Storytelling with Schemas + World Modeling
       guest_speaker: 
       guest_url: 
       #slides: slides/CIS700-Recap-Ontologies.pdf

@@ -182,7 +182,7 @@
 
 -
   date: 2025-10-30 
-  title: World Modeling
+  title: Commonsense 2
 
 -
   date: 2025-11-04
@@ -193,9 +193,13 @@
   type: no_lecture    
 -
   date: 2025-11-06
-  title:  Storytelling with Schemas
+  title:  Storytelling with Schemas + World Modeling
 
-     
+    
+-
+  date: 2025-11-06
+  title: Module 4 Paper Presentations
+
 
 -
   date: 2025-11-07
@@ -203,38 +207,33 @@
   homework_due:
     - 
       title: Final Project Milestone 2&colon; Project Progress
-      url: #project/progress-report1.html
+      url: project/progress-report1.html  
 
-  #activities:
-  #  -
-  #    title: Train GPT-3 to Perform Dialogue for NPCs
-  #    url: dialogue/light-dialogue.html
-
--
-  date: 2025-11-06
-  title: Module 4 Paper Presentations
-  #activities:
-  #  -
-  #    title: Characters and Quests
-  #    url: dialogue-2/quests.html
-
--
-  date: 2025-11-07
-  type: deadline
-  homework_due:
-    -
-      title: "HW3: Creating Sabre Problems"
-      url: #planning/sabre.html
       
 -
   date: 2025-11-11
   title: Task-Oriented Dialog Systems
+
+  #activities:
+  #  -
+  #    title: Train GPT-3 to Perform Dialogue for NPCs
+  #    url: dialogue/light-dialogue.html  
   
 -
   date: 2025-11-13
   title: Character-Based Generation
+  #activities:
+  #  -
+  #    title: Characters and Quests
+  #    url: dialogue-2/quests.html  
 
-
+-
+  date: 2025-11-14
+  type: deadline
+  homework_due:
+    -
+      title: "HW3: Creating Sabre Problems"
+      url: #planning/sabre.html  
   
 -
   date: 2025-11-18
