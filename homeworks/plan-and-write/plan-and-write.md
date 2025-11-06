@@ -105,7 +105,7 @@ In the notebook, you are given a series of functions that will retrieve the stor
 * `load_data` will return a list of all of the data in the file.
 * `get_story` will return a list of the sentences in the story.
 * `get_title` will return the title of a story from a given line.
-* `get_keywords` will return the keywords of a story from a given line.
+* `get_keywords` will return the keywords of a story from a given line. Note that there may be more than one keyword per sentence!
 
 I have taken 20 stories from the original dataset for you to work with.
 
@@ -113,10 +113,10 @@ You will be generating stories for all 20 prompts in two ways (40 generated stor
 * Unconditioned: Given a title, generate a 5-sentence story
 * Conditioned: Given a title and keywords, generate a 5-sentence story where each keyword corresponds to a sentence in the story -- this will be similar to the method in the paper
 
-You are welcome to use any prompting techniques (e.g., zero-shot, few-shot, chain-of-thought). Like in HW2, it will be beneficial for you try multiple prompts until you get the best results, even if it's just changing the wording of the prompt. However, you are only required to show your final prompt for both conditioned and unconditioned generation.
+You are welcome to use any prompting techniques (e.g., zero-shot, few-shot, chain-of-thought). Like in HW1, it will be beneficial for you try multiple prompts until you get the best results, even if it's just changing the wording of the prompt. However, you are only required to show your final prompt for both conditioned and unconditioned generation.
 
 <div class="alert alert-info">
-Note: If you are using few-shot prompting, use a story from outside of the 20 stories I gave you to evaluate on. I get the 20 examples from <code class="language-plaintext highlighter-rouge">reader</code> in the <code class="language-plaintext highlighter-rouge">load_data()</code> function. You can use a story from any other index outside of <code class="language-plaintext highlighter-rouge">[1:21]</code> for your prompts.
+Note: If you are using few-shot prompting, use a story from outside of the 20 stories I gave you to evaluate on. I get the 20 examples from <code class="language-plaintext highlighter-rouge">reader</code> in the <code class="language-plaintext highlighter-rouge">load_data()</code> function. You can use a story from any other index outside of <code class="language-plaintext highlighter-rouge">[:20]</code> for your prompts.
 </div>
 
 ### 2) Evaluate stories
