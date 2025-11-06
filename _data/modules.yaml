@@ -699,11 +699,11 @@
           authors: Peter West, Ronan Bras, Taylor Sorensen, Bill Lin, Liwei Jiang, Ximing Lu, Khyathi Chandu, Jack Hessel, Ashutosh Baheti, Chandra Bhagavatula, Yejin Choi
           url: https://aclanthology.org/2023.findings-emnlp.80/
     -
-      title: Storytelling with Schemas + World Modeling
+      title: Ontologies + World Modeling
       guest_speaker: 
       guest_url: 
       #slides: slides/CIS700-Recap-Ontologies.pdf
-      slides: #slides/lecture-17_ontologies-recap.pdf
+      slides: slides/25-11-06_ontologies.pdf #slides/lecture-17_ontologies-recap.pdf
       video: 
       length:
       readings:
