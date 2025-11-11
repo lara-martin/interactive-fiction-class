@@ -699,7 +699,7 @@
           authors: Peter West, Ronan Bras, Taylor Sorensen, Bill Lin, Liwei Jiang, Ximing Lu, Khyathi Chandu, Jack Hessel, Ashutosh Baheti, Chandra Bhagavatula, Yejin Choi
           url: https://aclanthology.org/2023.findings-emnlp.80/
     -
-      title: Ontologies + World Modeling
+      title: Ontologies
       guest_speaker: 
       guest_url: 
       #slides: slides/CIS700-Recap-Ontologies.pdf
@@ -751,7 +751,8 @@
                
       
     -
-      title: Module 4 Paper Presentations
+      title: Module 4 Paper Presentations + World Modeling
+      slides: slides/25-11-11_world-modeling.pdf
       video: 
       length:
       presenters:
@@ -761,14 +762,14 @@
           authors: Matthew Hausknecht, Prithviraj Ammanabrolu, Marc-Alexandre Côté, Xingdi Yuan
           link: https://www.semanticscholar.org/paper/Interactive-Fiction-Games%3A-A-Colossal-Adventure-Hausknecht-Ammanabrolu/221d453c165aca6bc1a054289eb510e558a23dca
           year: 
-          slides:    
+          slides: Devoe_Interactive-Fiction-Games.pdf
         - 
           name: Marcus McAllister
           paper: "ScienceWorld: Is your Agent Smarter than a 5th Grader?"
           authors: Ruoyao Wang, Peter Jansen, Marc-Alexandre Côté, Prithviraj Ammanabrolu
           link: https://aclanthology.org/2022.emnlp-main.775/
           year: 2022
-          slides: 
+          slides: McAllister_ScienceWorld.pdf
         - 
           name: Vaishnavi Mukala
           paper: "JECC: Commonsense Reasoning Tasks Derived from Interactive Fictions"
@@ -782,7 +783,7 @@
           authors: Yu Zhu, Rong Pan
           link: https://ieeexplore.ieee.org/abstract/document/10889400
           year: 2025
-          slides:  
+          slides:  Rippin_Simple-Contrastive-Learning.pdf
                              
                 
 
