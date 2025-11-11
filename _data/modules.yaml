@@ -776,7 +776,7 @@
           authors: Mo Yu, Yi Gu, Xiaoxiao Guo, Yufei Feng, Xiaodan Zhu, Michael Greenspan, Murray Campbell, Chuang Gan
           link: https://aclanthology.org/2023.findings-acl.713/
           year: 2023
-          slides:              
+          slides:      https://www.canva.com/design/DAG2ixdcZfY/v5EYGJsrQy7uw1D4WSXA6w/view?utm_content=DAG2ixdcZfY&utm_campaign=designshare&utm_medium=link&utm_source=viewer        
         - 
           name: Maddie Rippin
           paper: Simple Contrastive Learning with Knowledge Graphs for Story Generation
