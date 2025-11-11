@@ -155,12 +155,12 @@ and run that and collect that plan.
 	* Copy and paste each plan that you get (printed at the end of the output when you run the Java command) into a word document.
 	
 2. (2 pts) Do the above plans differ a lot from the actions someone would take when playing the interactive fiction version of Action Castle? (1-3 sentences)
-3. ~~(2 pts) Give the characters their own utility that is consistent with their attributes/personality in the game.~~ 2 free points
-	* ~~Copy and paste what your utilities are and what the resulting plan is into your word document.~~
 4. (2 pts) Change the `walk()` action to allow all characters to walk around, not just the Player.
-	* Copy and paste the resulting plan & share your impressions on how the story has changed.
-4. (2 pts) Does allowing the other characters to walk around result in a more interesting story? If so, why? If not, why not? (2-3 sentences)
-5. (2 pts) Traditional planners require a *pre-specified goal* that the system tries to find a path toward. How does Sabre compare to more traditional planners? (1-3 sentences)
+	* Copy and paste the 2 resulting plans & share your impressions on how the story has changed.
+5. (2 pts) Does allowing the other characters to walk around result in a more interesting story? If so, why? If not, why not? (2-3 sentences)
+6. (2 pts) In addition to your new `walk()` action, change the `utility()` functions from 2.1 to be for any character, not just the Player.
+  * Copy and paste the 2 resulting plans & share your impressions on how the story has changed.
+7. (2 pts) Traditional planners require a *pre-specified goal* that the system tries to find a path toward. How does Sabre compare to more traditional planners? (1-3 sentences)
 
 
 
