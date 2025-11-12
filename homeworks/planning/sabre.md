@@ -5,14 +5,14 @@ img_link: https://xkcd.com/1503/
 caption: Squirrel Plan 
 title: Creating Sabre Problems
 type: Homework
-number: 4
+number: 3
 active_tab: homework
 release_date: 2025-10-29
 due_date: 2025-11-14 23:59:01EST
 materials:
     - 
         name: Jupyter Notebook for Running Sabre
-        url: IF_HW4_Running_Sabre.ipynb
+        url: IF_HW3_Running_Sabre.ipynb
     - 
         name: Homework 0 Notebook
         url: hw0.ipynb
