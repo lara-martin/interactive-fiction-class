@@ -203,12 +203,9 @@
      
 -
   date: 2025-11-13
-  title: Task-Oriented Dialog Systems
+  title: Dialog Systems
 
-  #activities:
-  #  -
-  #    title: Train GPT-3 to Perform Dialogue for NPCs
-  #    url: dialogue/light-dialogue.html  
+
 
 -
   date: 2025-11-14
@@ -235,7 +232,10 @@
   date: 2025-11-20
   title: Personas and Roleplaying
 
-  
+   #activities:
+  #  -
+  #    title: Train GPT-3 to Perform Dialogue for NPCs
+  #    url: dialogue/light-dialogue.html   
 
 
 #Reinforcement Learning for Playing Interactive Fiction

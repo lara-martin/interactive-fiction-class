@@ -801,7 +801,8 @@
   description: 
   lessons:
     -
-      title: Task-Oriented Dialog Systems
+      title: Dialog Systems
+      slides: slides/25-11-13_Dialog.pdf
       readings: 
         -
           title: "An agenda-based dialog management architecture for spoken language systems"
