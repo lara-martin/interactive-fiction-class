@@ -7,13 +7,13 @@ title: COMET-ATOMIC Schema
 type: Homework
 number: 4
 active_tab: homework
-release_date: 2024-11-18
+release_date: 2025-11-17
 due_date: 2024-12-09 23:59:00EST
 materials:
     - 
         name: HW 4 Python Notebook
         url: hw4.ipynb
-submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7156635_1?courseId=_82444_1&gradeitemView=details
+submission_link: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/test/_7963046_1?courseId=_96140_1&gradeitemView=details
 readings:
     -
       title: "(COMET-)ATOMIC-2020: On Symbolic and Neural Commonsense Knowledge Graphs"
@@ -67,7 +67,7 @@ You can download the materials for this assignment here:
 </div>
 {% endif %}
 
-<!--TODO!!!! 1) Add a diagram of the flow of the code. 2) Give examples of fuzzy matches for those who aren't familiar with NLP tools. 3) Get rid of the punctuation for the sentence that's stored initially in the state.-->
+<!--Done! ~~TODO!!!!~~ 1) Add a diagram of the flow of the code. 2) Give examples of fuzzy matches for those who aren't familiar with NLP tools. 3) Get rid of the punctuation for the sentence that's stored initially in the state.-->
 
 
 
@@ -90,6 +90,11 @@ You will be filling in 4 methods in the code:
 * **getPreconditions**: query COMET to get relevant pre-conditions for a given event
 * **getEffects**: query COMET to get relevant effects for a given event
 * **updateSchema**: update the story state to reflect these new pre-conditions & effects
+
+Here is a diagram of how the methods relate to each other. More details can be found in the ipynb file.
+![Code flow diagram](comet-schema-code-diagram.png)
+
+Once you have implemented those parts, answer the following questions:
 
 1. (3 pts) Explain how you made your schema. (e.g., Why did you decide to design it the way you did? What are your inputs and outputs?) (1 paragraph)
 You can test how your schema does on the "testing call". **Once your schema is finalized, uncomment out the 5 story blocks**, and then answer the following questions for each story:
@@ -114,7 +119,7 @@ Submissions should be done on [Blackboard]({{page.submission_link}}).
 
 ## Grading
 <div class="alert alert-warning" markdown="1">
-* Code - 4 points + 2 points extra credit
+* Code - 4 points + 1 point extra credit
 * Schema Explanation - 3 points
 * Story Tracking Questions - 5 points
 * COMET-ATOMIC Questions - 8 points
