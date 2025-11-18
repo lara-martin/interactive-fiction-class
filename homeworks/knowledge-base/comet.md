@@ -92,7 +92,7 @@ You will be filling in 4 methods in the code:
 * **updateSchema**: update the story state to reflect these new pre-conditions & effects
 
 Here is a diagram of how the methods relate to each other. More details can be found in the ipynb file.
-![Code flow diagram](comet-schema-code-diagram.png)
+![Code flow diagram](comet-schema-code-diagram.png){: width="900" }
 
 Once you have implemented those parts, answer the following questions:
 
