@@ -112,7 +112,7 @@ Answer each of the following with a couple of sentences:
 
 ## What to Submit
 
-1. An iPython notebook called `hw5.ipynb` that runs your COMET-ATOMIC schema. **Important: Save the output for the Story Tracking Questions!**
+1. An iPython notebook called `hw4.ipynb` that runs your COMET-ATOMIC schema. **Important: Save the output for the Story Tracking Questions!**
 2. A pdf that has **your schema explanation and the answers to the COMET-ATOMIC questions** (Parts 1 & 2 above).
 
 Submissions should be done on [Blackboard]({{page.submission_link}}).
