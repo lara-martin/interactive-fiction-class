@@ -245,16 +245,8 @@
 #Visual Storytelling
 #Collaborative storytelling
 #RL for story generation
--
-  date: 2025-11-21
-  type: deadline
-  homework_due:
-    - 
-      title: Project Milestone 3&colon; Rough Draft
-      url: #project/rough-draft.html
-    - 
-      title: "HW4: COMET-ATOMIC Schema"
-      url: #knowledge-base/comet.html  
+
+
 
 -
   date: 2025-11-25
@@ -271,7 +263,14 @@
   date: 2025-12-02
   title: Module 5 Paper Presentations 
 
-
+-
+  date: 2025-12-03
+  type: deadline
+  homework_due:
+    - 
+      title: Project Milestone 3&colon; Rough Draft
+      url: #project/rough-draft.html
+      
 -
   date: 2025-12-04
   title: Evaluation
@@ -280,6 +279,11 @@
 -
   date: 2025-12-09
   title: Final Project In-Class Help
+  type: deadline
+  homework_due:
+    - 
+      title: "HW4: COMET-ATOMIC Schema"
+      url: knowledge-base/comet.html  
 
 
 
