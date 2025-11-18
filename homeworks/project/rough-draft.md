@@ -7,9 +7,9 @@ title: Rough Draft
 type: Project Milestone
 number: 3
 active_tab: homework
-release_date: 2024-11-16
-due_date: 2024-11-25 23:59:00EST
-submission_link: https://blackboard.umbc.edu/ultra/courses/_82444_1/outline/assessment/test/_7180658_1?courseId=_82444_1&gradeitemView=details
+release_date: 2025-11-17
+due_date: 2025-12-03 23:59:00EST
+submission_link: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/_7963174_1/overview?courseId=_96140_1
 ---
 
 <!-- Check whether the assignment is ready to release -->

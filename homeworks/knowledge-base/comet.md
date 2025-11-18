@@ -8,7 +8,7 @@ type: Homework
 number: 4
 active_tab: homework
 release_date: 2025-11-17
-due_date: 2024-12-09 23:59:00EST
+due_date: 2025-12-09 23:59:00EST
 materials:
     - 
         name: HW 4 Python Notebook
