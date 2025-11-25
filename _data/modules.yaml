@@ -796,7 +796,7 @@
 -
   module_number: 5
   start_date: 2025-11-11
-  end_date: 2025-11-25
+  end_date: 2025-12-04
   title: Dialog, Interaction, and Characters
   description: 
   lessons:
@@ -855,7 +855,7 @@
           authors: Anvesh Rao Vijjini, Faeze Brahman, Snigdha Chaturvedi
           url: https://aclanthology.org/2022.emnlp-main.613
     -
-      title: Personas and Roleplaying
+      title: Personas, Roleplaying, and Interactive Storytelling
       readings:
         -
           title: Enhancing Persona Consistency for LLMs' Role-Playing using Persona-Aware Contrastive Learning
@@ -877,9 +877,6 @@
           title: "Is this the real life? Is this just fantasy? The Misleading Success of Simulating Social Interactions With LLMs"
           authors: Xuhui Zhou, Zhe Su, Tiwalayo Eisape, Hyunwoo Kim, Maarten Sap
           url: https://aclanthology.org/2024.emnlp-main.1208/          
-    -
-      title: Interactive Storytelling
-      readings:
         -
           title: Improvisational Computational Storytelling in Open Worlds
           url: https://laramartin.net/lab/pub/Martin_ICIDS2016.pdf
@@ -951,13 +948,13 @@
       title: Evaluation
       guest_speaker: 
       guest_url: 
-      slides: 
+      slides: slides/25-11-25_evaluation.pdf
       video:
       readings:
         -
           title: A Corpus and Cloze Evaluation for Deeper Understanding of Commonsense Stories
           authors: Nasrin Mostafazadeh, Nathanael Chambers, Xiaodong He, Devi Parikh, Dhruv Batra, Lucy Vanderwende, Pushmeet Kohli, James Allen
-          url: https://aclanthology.org/N16-1098/             
+          url: https://aclanthology.org/N16-1098/            
         -
           title: "What Matters in Evaluating Book-Length Stories? A Systematic Study of Long Story Evaluation"
           url: https://aclanthology.org/2025.acl-long.799/
@@ -970,6 +967,30 @@
           title: "Help Me Write a Story: Evaluating LLMs’ Ability to Generate Writing Feedback"
           url: https://aclanthology.org/2025.acl-long.1254/
           authors: Hannah Rashkin, Elizabeth Clark, Fantine Huot, Mirella Lapata
+        -
+          title: "Do Massively Pretrained Language Models Make Better Storytellers?"
+          url: https://aclanthology.org/K19-1079/
+          authors: Abigail See, Aneesh Pappu, Rohun Saxena, Akhila Yerukola, Christopher D. Manning
+        -
+          title: "UNION: An Unreferenced Metric for Evaluating Open-ended Story Generation"
+          url: https://aclanthology.org/2020.emnlp-main.736/
+          authors: Jian Guan, Minlie Huang
+        -
+          title: Creativity in a Nutshell
+          url: https://www.cambridge.org/core/journals/think/article/creativity-in-a-nutshell/E74A8FA0906C3AA5A1813FFBD56860F9
+          authors: Margaret A. Boden
+        -
+          title: "All That’s ‘Human’ Is Not Gold: Evaluating Human Evaluation of Generated Text"
+          url: https://aclanthology.org/2021.acl-long.565/
+          authors: Elizabeth Clark, Tal August, Sofia Serrano, Nikita Haduong, Suchin Gururangan, Noah A. Smith
+        -
+          title: "People who frequently use ChatGPT for writing tasks are accurate and robust detectors of AI-generated text"
+          url: https://aclanthology.org/2025.acl-long.267/
+          authors: Jenna Russell, Marzena Karpinska, Mohit Iyyer
+        -
+          title: "Choose Your Own Adventure: Paired Suggestions in Collaborative Writing for Evaluating Story Generation Models"
+          url: https://aclanthology.org/2021.naacl-main.279/
+          authors: Elizabeth Clark, Noah A. Smith
     -
       title: TBD
       guest_speaker: 
