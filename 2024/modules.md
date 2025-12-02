@@ -8,10 +8,10 @@ active_tab: modules
 {% assign now = now | plus: 0 %}
 <!-- End create a HTML anchor for the most recent module -->
 
-{% for module in site.data.modules %}<a href="#module{{module.module_number}}">[Module {{module.module_number}}]</a> {% endfor %}
+{% for module in site.data.2024.modules %}<a href="#module{{module.module_number}}">[Module {{module.module_number}}]</a> {% endfor %}
 
 
-{% for module in site.data.modules %}
+{% for module in site.data.2024.modules %}
 
 
 <!-- Create a HTML anchor for the most recent module -->

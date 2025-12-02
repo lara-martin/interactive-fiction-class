@@ -27,7 +27,7 @@ The lecture schedule will be updated as the term progresses. You can find more d
     </tr>
   </thead>
   <tbody>
-    {% for lecture in site.data.lectures %}
+    {% for lecture in site.data.2024.lectures %}
 	    {% assign required = nil %}
 	    {% assign optional = nil %}
 	    {% assign mod_num = nil %}
@@ -37,7 +37,7 @@ The lecture schedule will be updated as the term progresses. You can find more d
 	    {% assign speaker_url = nil%}
 
 	    <!-- Find matching section in modules -->
-	    {% for module in site.data.modules %}
+	    {% for module in site.data.2024.modules %}
 		    {% for lesson in module.lessons %}
 			    {% if lecture.title == lesson.title %}
 				    {% assign mod_num = module.module_number %}
