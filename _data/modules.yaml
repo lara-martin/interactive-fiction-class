@@ -914,28 +914,28 @@
           authors: Pei Zhou, Andrew Zhu, Jennifer Hu, Jay Pujara, Xiang Ren, Chris Callison-Burch, Yejin Choi, Prithviraj Ammanabrolu
           link: https://aclanthology.org/2023.acl-long.624/
           year: 2023
-          slides:    
+          slides:    Reddy-Alla_I-Cast-Detect-Thoughts.pdf
         - 
           name: Patibandla Bharath Narasimha
           paper: "Co-Writing Screenplays and Theatre Scripts with Language Models: Evaluation by Industry Professionals"
           authors: Piotr Mirowski, Kory W. Mathewson, Jaylen Pittman, Richard Evans
           link: https://dl.acm.org/doi/full/10.1145/3544548.3581225
           year: 2023
-          slides:    
+          slides:    Narasimha-Dramatron.pdf
         - 
           name: Bhargava Chowdary Maddipati
           paper: "CALYPSO: LLMs as Dungeon Masters’ Assistants"
           authors: Andrew Zhu, Lara J. Martin, Andrew Head, Chris Callison-Burch
           link: https://ojs.aaai.org/index.php/AIIDE/article/view/27534
           year: 2023
-          slides:    
+          slides:    Maddipati-CALYPSO.pdf
         - 
           name: Kathy Vo
           paper: "Persona Dynamics: Unveiling the Impact of Persona Traits on Agents in Text-Based Games"
           authors: Seungwon Lim, Seungbeen Lee, Dongjun Min, Youngjae Yu
           link: https://aclanthology.org/2025.acl-long.1515/
           year: 2025
-          slides:                                  
+          slides:    Vo_Persona-Dynamics.pdf                              
 
 -
   module_number: 6
