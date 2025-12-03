@@ -31,7 +31,7 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 <div class="alert alert-info">
 This assignment is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. <br>
 The presentation day will be on December 11, 2025 from 10:30am - 12:30pm in Interdisciplinary Life Sciences 116A (our regular classroom).
-Posters must be submitted by December 10th at 12pm or earlier to <a href="mailto:gweiss@csee.umbc.edu">Geoff Weiss</a> and <a href="mailto:skyejonke@umbc.edu">Skye Jonke</a>.
+Posters must be submitted by December 10th at 12pm or earlier to <a href="mailto:gweiss@csee.umbc.edu,skyejonke@umbc.edu">Geoff Weiss and Skye Jonke</a>.
 </div>
 
 {% if page.materials %}
@@ -59,7 +59,7 @@ Here are the requirements for the final submission of your project. Please refer
 	* I have provided a Powerpoint [poster template]({{page.materials[0].url}}) for you to use. You're welcome to adapt it as much as you like except make sure to keep it 22 x 34 (or 34 x 22). It's currently set to 22 x 34.
 	* You are not required to use the template at all, but make sure it's the correct size. You can also make a poster in LaTeX, if you prefer.
 	* If you want Dr. Martin to look at your poster before you print it, be sure to give them a couple days before you want to print it.
-	* Please email your poster to [Geoff Weiss](mailto:gweiss@csee.umbc.edu) and [Skye Jonke](mailto:skyejonke@umbc.edu) by **noon** on **December 10**.
+	* Please email your poster to [Geoff Weiss and Skye Jonke](mailto:gweiss@csee.umbc.edu,skyejonke@umbc.edu) by **noon** on **December 10**.
 	* Save your poster as a **pdf** before sending it to Geoff & Skye.
 	* In addition to emailing the poster to print, please submit the pdf on Blackboard.
 	* Your poster will be ready by 5:30pm on December 10th in ITE 325 by the front desk. It will need to be trimmed. **Please pick up your poster and trim it** before coming to the presentation day on December 11th. Please let Lara know if you can't pick the poster up during business hours (9am-5pm) so she can get it for you.
