@@ -856,6 +856,7 @@
           url: https://aclanthology.org/2022.emnlp-main.613
     -
       title: Personas, Roleplaying, and Interactive Storytelling
+      slides: slides/25-12-04_roleplay.pdf
       readings:
         -
           title: Enhancing Persona Consistency for LLMs' Role-Playing using Persona-Aware Contrastive Learning
@@ -900,7 +901,11 @@
         -
           title: "Bad News: An Experiment in Computationally Assisted Performance"
           authors: Ben Samuel, James Ryan, Adam J. Summerville, Michael Mateas, Noah Wardrip-Fruin 
-          url: https://link.springer.com/chapter/10.1007/978-3-319-48279-8_10          
+          url: https://link.springer.com/chapter/10.1007/978-3-319-48279-8_10      
+        -
+          title: "Façade: An Experiment in Building a Fully-Realized Interactive Drama"
+          authors: Michael Mateas and Andrew Stern
+          url: assets/readings/Mateas_Stern-Facade.pdf    
           
       
     -
