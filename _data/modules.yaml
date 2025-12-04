@@ -857,6 +857,11 @@
     -
       title: Personas, Roleplaying, and Interactive Storytelling
       slides: slides/25-12-04_roleplay.pdf
+      optional:
+        -
+          title: Façade (download)
+          url: https://games.softpedia.com/get/Freeware-Games/Facade.shtml
+          authors: Michael Mateas and Andrew Stern
       readings:
         -
           title: Enhancing Persona Consistency for LLMs' Role-Playing using Persona-Aware Contrastive Learning
